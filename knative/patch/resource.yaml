@@ -1,0 +1,20 @@
+spec:
+  template:
+    spec:
+      containers:
+      - envFrom:
+        - configMapRef:
+            name: params
+        image: docker.io/chiuchienhao/ml-param-tune:latest
+        name: user-container
+        readinessProbe:
+          successThreshold: 1
+          tcpSocket:
+            port: 0
+        resources: 
+          requests:
+            memory: "500Mi"
+            cpu: "1"
+          limits:
+            memory: "1Gi"
+            cpu: "2"

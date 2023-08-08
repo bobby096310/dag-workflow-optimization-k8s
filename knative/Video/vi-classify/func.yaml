@@ -1,0 +1,10 @@
+specVersion: 0.35.0
+name: vi-classify
+runtime: python
+registry: docker.io/chiuchienhao
+image: docker.io/chiuchienhao/vi-classify:latest
+imageDigest: sha256:dda3f01e765d607b609aa2dfef0974f3c2ba5857404e133436fde65c6d7c9178
+created: 2023-07-10T13:02:05.552169891Z
+build:
+  builder: pack
+  pvcSize: 256Mi

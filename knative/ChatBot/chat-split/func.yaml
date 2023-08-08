@@ -1,0 +1,10 @@
+specVersion: 0.35.0
+name: chat-split
+runtime: python
+registry: chiuchienhao
+image: chiuchienhao/chat-split:latest
+imageDigest: sha256:42233a87417a922d7bd22ebb0bf2daa06474e4cbd628bc1f693a775d7419a586
+created: 2023-07-01T13:50:28.986439518Z
+build:
+  builder: pack
+  pvcSize: 256Mi

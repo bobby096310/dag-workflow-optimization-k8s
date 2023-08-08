@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: params
+data:
+  minio_user: ${MINIO_USER}
+  minio_password: ${MINIO_PW}
+  minio_url: ${MINIO_IP}
+  bucketName: "bucket1"

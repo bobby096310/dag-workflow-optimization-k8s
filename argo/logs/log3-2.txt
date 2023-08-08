@@ -1,0 +1,37 @@
+Download duration - 7: 78.91650390625
+Download duration - 21: 51.23046875
+Upload duration - 21: 21.964599609375
+duration: 18350.9931640625
+Upload duration - 7: 58.21875
+duration: 18649.6787109375
+Download duration - 19: 55.693359375
+Upload duration - 19: 9.65234375
+duration: 19521.517822265625
+Download duration - 16: 47.531005859375
+Upload duration - 16: 8.145263671875
+duration: 20943.37451171875
+Download duration - 8: 73.812744140625
+Download duration - 11: 51.818115234375
+Download duration - 15: 66.79248046875
+Upload duration - 8: 176.89453125
+duration: 43443.084228515625
+Download duration - 29: 58.75634765625
+Upload duration - 15: 517.400634765625
+duration: 50620.93603515625
+Upload duration - 11: 318.8251953125
+duration: 50816.04345703125
+Download duration - 22: 88.274169921875
+Upload duration - 22: 21.4208984375
+Download duration - 0: 59.20263671875
+Upload duration - 0: 9.688232421875
+Download duration - 12: 55.11083984375
+Upload duration - 29: 181.267578125
+Download duration - 20: 70.51513671875
+Upload duration - 20: 68.991455078125
+Upload duration - 12: 122.525146484375
+Download duration - 5: 68.3740234375
+Upload duration - 5: 9.7236328125
+Download duration - 27: 68.280517578125
+Download duration - 28: 78.363037109375
+Upload duration - 27: 205.39208984375
+Upload duration - 28: 126.144287109375

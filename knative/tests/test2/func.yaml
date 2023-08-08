@@ -1,0 +1,9 @@
+specVersion: 0.35.0
+name: test2
+runtime: python
+registry: chiuchienhao
+image: docker.io/chiuchienhao/test2:latest
+created: 2023-07-04T09:19:08.580848052Z
+build:
+  builder: pack
+  pvcSize: 256Mi

@@ -1,0 +1,83 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+    generateName: dag-video-
+spec:
+    entrypoint: dag
+    arguments:
+      parameters:
+      - name: knative_url
+    templates:
+    - name: curl
+      inputs:
+          parameters:
+          - name: url
+          - name: func
+          - name: data
+      container:
+          image: curlimages/curl
+          command: [ curl ]
+          args: ["{{inputs.parameters.url}}",
+          "-H", "Host: {{inputs.parameters.func}}.default.svc.cluster.local",
+          "-H", "Content-Type: application/json",
+          "-X", "POST", "-d", "{{inputs.parameters.data}}"
+          ]
+          #  activeDeadlineSeconds: 120
+          #  retryStrategy:
+          #    limit: 5
+          #    retryPolicy: "Always"
+
+    - name: dag
+      inputs:
+        parameters:
+          - name: knative_url
+      dag:
+          tasks:
+          - name: split
+            template: curl
+            arguments:
+                    parameters: [
+                        {name: url, value: "{{inputs.parameters.knative_url}}"},
+                        {name: func, value: vi-split},
+                        {name: data, value: '{"src_name": "0", "DOP": "30", "detect_prob": 2}'}
+                    ]
+                    
+          - name: extract
+            dependencies: [split]
+            template: curl
+            arguments:
+                    parameters: [
+                        {name: url, value: "{{inputs.parameters.knative_url}}"},
+                        {name: func, value: vi-extract},
+                        {name: data, value: "{{item}}" }
+                    ]
+            withParam: "{{=toJson(jsonpath(tasks['split'].outputs.result, '$.Result.detail.indeces'))}}"
+            
+          - name: shuffle
+            dependencies: [extract]
+            template: curl
+            arguments:
+                    parameters: [
+                        {name: url, value: "{{inputs.parameters.knative_url}}"},
+                        {name: func, value: vi-shuffle},
+                        {name: data, value: "{{=toJson(jsonpath(tasks['extract'].outputs.result, '$.Result'))}}" }
+                    ]
+                    #- name: classify-prewarm
+                    #  dependencies: [extract]
+                    #  template: curl
+                    #  arguments:
+                    #          parameters: [
+                    #              {name: url, value: "{{inputs.parameters.knative_url}}"},
+                    #              {name: func, value: vi-shuffle},
+                    #              {name: data, value: "{'dummy': 1}" }
+                    #          ]  
+          - name: classify
+            dependencies: [shuffle]
+            template: curl
+            arguments:
+                    parameters: [
+                        {name: url, value: "{{inputs.parameters.knative_url}}"},
+                        {name: func, value: vi-classify},
+                        {name: data, value: "{{item}}" }
+                    ]
+            withParam: "{{=toJson(jsonpath(tasks['shuffle'].outputs.result, '$.Result.detail.indeces'))}}"

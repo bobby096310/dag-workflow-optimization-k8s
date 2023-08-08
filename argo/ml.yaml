@@ -1,0 +1,81 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+    generateName: dag-ml-
+spec:
+    entrypoint: dag2
+    arguments:
+      parameters:
+      - name: knative_url
+    templates:
+    - name: curl
+      inputs:
+          parameters:
+          - name: url
+          - name: func
+          - name: data
+      container:
+          image: curlimages/curl
+          command: [ curl ]
+          args: ["{{inputs.parameters.url}}",
+          "-H", "Host: {{inputs.parameters.func}}.default.svc.cluster.local",
+          "-H", "Content-Type: application/json",
+          "-X", "POST", "-d", "{{inputs.parameters.data}}",
+          "-f"
+          ]
+      retryStrategy:
+        limit: 10
+        retryPolicy: "Always"
+
+
+    - name: fan-in
+      inputs:
+        parameters:
+        - name: messages
+      container:
+        image: alpine:latest
+        command: [sh, -c]
+        args: ["echo received {{inputs.parameters.messages}}"]
+
+
+    - name: dag2
+      inputs:
+        parameters:
+          - name: knative_url
+      dag:
+          tasks:
+          - name: p-c-a
+            template: curl
+            arguments:
+                    parameters: [
+                        {name: url, value: "{{inputs.parameters.knative_url}}"}, 
+                        {name: func, value: ml-pca}, 
+                        {name: data, value: '{"bundle_size": 8, "key1": "300"}'}
+                    ]
+          - name: param-tune
+            dependencies: [p-c-a]
+            template: curl
+            arguments:
+                    parameters: [
+                        {name: url, value: "{{inputs.parameters.knative_url}}"}, 
+                        {name: func, value: ml-param-tune}, 
+                        {name: data, value: "{{item}}"}
+                    ]
+            withParam: "{{=toJson(jsonpath(tasks['p-c-a'].outputs.result, '$.Result.detail.indeces'))}}"
+
+            #- name: after-param-tune
+            #dependencies: [param-tune]
+            #template: fan-in
+            #arguments:
+            #        parameters: [{name: messages, value: "{{=toJson(jsonpath(tasks['param-tune'].outputs.result, '$.Result'))}}"}]
+          - name: combine-models
+            dependencies: [param-tune]
+            template: curl
+            arguments:
+                   parameters: [
+                       {name: url, value: "{{inputs.parameters.knative_url}}"},
+                       {name: func, value: ml-combine},
+                       {name: data, value: "{{=toJson(jsonpath(tasks['param-tune'].outputs.result, '$.Result'))}}"}
+                   ] 
+            
+

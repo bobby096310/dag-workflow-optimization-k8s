@@ -1,0 +1,10 @@
+specVersion: 0.35.0
+name: ml-combine
+runtime: python
+registry: docker.io/chiuchienhao
+image: docker.io/chiuchienhao/ml-combine:latest
+imageDigest: sha256:9b1ffadadd3c2ebb92901f404e28b71c336ea0073feceeee4761ef3fc5d42801
+created: 2023-07-05T10:59:38.498889851Z
+build:
+  builder: pack
+  pvcSize: 256Mi

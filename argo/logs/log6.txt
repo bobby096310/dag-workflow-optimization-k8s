@@ -1,0 +1,1948 @@
+[2023-08-06 16:44:11 +0000] [1] [INFO] Starting gunicorn 21.2.0
+[2023-08-06 16:44:11 +0000] [1] [INFO] Listening at: http://0.0.0.0:8080 (1)
+[2023-08-06 16:44:11 +0000] [1] [INFO] Using worker: gthread
+[2023-08-06 16:44:11 +0000] [9] [INFO] Booting worker with pid: 9
+2023-08-06 16:44:12.671036: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:12.671070: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Received request
+POST http://vi-classify.default.svc.cluster.local/ vi-classify.default.svc.cluster.local
+  Host: vi-classify.default.svc.cluster.local
+  User-Agent: curl/8.2.1
+  Content-Length: 205
+  Accept: */*
+  Content-Type: application/json
+  Forwarded: for=10.244.2.191;proto=http
+  K-Proxy-Request: activator
+  X-Forwarded-For: 10.244.2.191, 10.244.2.189
+  X-Forwarded-Proto: http
+  X-Request-Id: 179e4b5b-1067-4d60-a990-dcd0feb010ee
+Request body:
+  {"body": "\"Download/Split/Upload Successful!\"", "counter": 2, "detect_prob": 2, "millis1": [1691340209459, 1691340209834], "millis2": [1691340223590, 1691340223530], "source_id": "0", "statusCode": 200, "values": [1, 16]}
+
+
+Received request
+POST http://vi-classify.default.svc.cluster.local/ vi-classify.default.svc.cluster.local
+  Host: vi-classify.default.svc.cluster.local
+  User-Agent: curl/8.2.1
+  Content-Length: 205
+  Accept: */*
+  Content-Type: application/json
+  Forwarded: for=10.244.2.191;proto=http
+  K-Proxy-Request: activator
+  X-Forwarded-For: 10.244.2.191, 10.244.2.189
+  X-Forwarded-Proto: http
+  X-Request-Id: 254d081c-cd7f-4ad2-93f3-163be8c8a456
+Request body:
+  {"body": "\"Download/Split/Upload Successful!\"", "counter": 2, "detect_prob": 2, "millis1": [1691340209646, 1691340210084], "millis2": [1691340223598, 1691340223659], "source_id": "0", "statusCode": 200, "values": [9, 24]}
+
+
+{'body': '"Download/Split/Upload Successful!"', 'counter': 2, 'detect_prob': 2, 'millis1': [1691340209459, 1691340209834], 'millis2': [1691340223590, 1691340223530], 'source_id': '0', 'statusCode': 200, 'values': [1, 16]}
+1
+Received request
+POST http://vi-classify.default.svc.cluster.local/ vi-classify.default.svc.cluster.local
+  Host: vi-classify.default.svc.cluster.local
+  User-Agent: curl/8.2.1
+  Content-Length: 206
+  Accept: */*
+  Content-Type: application/json
+  Forwarded: for=10.244.2.191;proto=http
+  K-Proxy-Request: activator
+  X-Forwarded-For: 10.244.2.191, 10.244.2.189
+  X-Forwarded-Proto: http
+  X-Request-Id: f5f58493-8216-4daa-8075-13a1d7b89dfb
+Request body:
+  {"body": "\"Download/Split/Upload Successful!\"", "counter": 2, "detect_prob": 2, "millis1": [1691340209749, 1691340210212], "millis2": [1691340225655, 1691340227227], "source_id": "0", "statusCode": 200, "values": [13, 28]}
+
+
+{'body': '"Download/Split/Upload Successful!"', 'counter': 2, 'detect_prob': 2, 'millis1': [1691340209646, 1691340210084], 'millis2': [1691340223598, 1691340223659], 'source_id': '0', 'statusCode': 200, 'values': [9, 24]}
+9
+{'body': '"Download/Split/Upload Successful!"', 'counter': 2, 'detect_prob': 2, 'millis1': [1691340209749, 1691340210212], 'millis2': [1691340225655, 1691340227227], 'source_id': '0', 'statusCode': 200, 'values': [13, 28]}
+13
+Received request
+POST http://vi-classify.default.svc.cluster.local/ vi-classify.default.svc.cluster.local
+  Host: vi-classify.default.svc.cluster.local
+  User-Agent: curl/8.2.1
+  Content-Length: 205
+  Accept: */*
+  Content-Type: application/json
+  Forwarded: for=10.244.2.191;proto=http
+  K-Proxy-Request: activator
+  X-Forwarded-For: 10.244.2.191, 10.244.2.189
+  X-Forwarded-Proto: http
+  X-Request-Id: 7f2d0945-e79c-4748-abf6-9b0ff5e24467
+Request body:
+  {"body": "\"Download/Split/Upload Successful!\"", "counter": 2, "detect_prob": 2, "millis1": [1691340209438, 1691340209805], "millis2": [1691340223526, 1691340223606], "source_id": "0", "statusCode": 200, "values": [0, 15]}
+
+
+{'body': '"Download/Split/Upload Successful!"', 'counter': 2, 'detect_prob': 2, 'millis1': [1691340209438, 1691340209805], 'millis2': [1691340223526, 1691340223606], 'source_id': '0', 'statusCode': 200, 'values': [0, 15]}
+0
+Received request
+POST http://vi-classify.default.svc.cluster.local/ vi-classify.default.svc.cluster.local
+  Host: vi-classify.default.svc.cluster.local
+  User-Agent: curl/8.2.1
+  Content-Length: 205
+  Accept: */*
+  Content-Type: application/json
+  Forwarded: for=10.244.2.191;proto=http
+  K-Proxy-Request: activator
+  X-Forwarded-For: 10.244.2.191, 10.244.2.189
+  X-Forwarded-Proto: http
+  X-Request-Id: 3aefefe4-5703-4321-8077-6d3e67b62065
+Request body:
+  {"body": "\"Download/Split/Upload Successful!\"", "counter": 2, "detect_prob": 2, "millis1": [1691340209593, 1691340210016], "millis2": [1691340224520, 1691340223737], "source_id": "0", "statusCode": 200, "values": [7, 22]}
+
+
+{'body': '"Download/Split/Upload Successful!"', 'counter': 2, 'detect_prob': 2, 'millis1': [1691340209593, 1691340210016], 'millis2': [1691340224520, 1691340223737], 'source_id': '0', 'statusCode': 200, 'values': [7, 22]}
+7
+Received request
+POST http://vi-classify.default.svc.cluster.local/ vi-classify.default.svc.cluster.local
+  Host: vi-classify.default.svc.cluster.local
+  User-Agent: curl/8.2.1
+  Content-Length: 206
+  Accept: */*
+  Content-Type: application/json
+  Forwarded: for=10.244.2.191;proto=http
+  K-Proxy-Request: activator
+  X-Forwarded-For: 10.244.2.191, 10.244.2.189
+  X-Forwarded-Proto: http
+  X-Request-Id: e7b56bf0-15c6-4473-b4f0-871980523220
+Request body:
+  {"body": "\"Download/Split/Upload Successful!\"", "counter": 2, "detect_prob": 2, "millis1": [1691340209720, 1691340210176], "millis2": [1691340225574, 1691340223714], "source_id": "0", "statusCode": 200, "values": [12, 27]}
+
+
+{'body': '"Download/Split/Upload Successful!"', 'counter': 2, 'detect_prob': 2, 'millis1': [1691340209720, 1691340210176], 'millis2': [1691340225574, 1691340223714], 'source_id': '0', 'statusCode': 200, 'values': [12, 27]}
+12
+Received request
+POST http://vi-classify.default.svc.cluster.local/ vi-classify.default.svc.cluster.local
+  Host: vi-classify.default.svc.cluster.local
+  User-Agent: curl/8.2.1
+  Content-Length: 206
+  Accept: */*
+  Content-Type: application/json
+  Forwarded: for=10.244.2.191;proto=http
+  K-Proxy-Request: activator
+  X-Forwarded-For: 10.244.2.191, 10.244.2.189
+  X-Forwarded-Proto: http
+  X-Request-Id: fc318499-d5ea-47cb-bfab-c3e4af896e46
+Request body:
+  {"body": "\"Download/Split/Upload Successful!\"", "counter": 2, "detect_prob": 2, "millis1": [1691340209692, 1691340210145], "millis2": [1691340224206, 1691340223638], "source_id": "0", "statusCode": 200, "values": [11, 26]}
+
+
+{'body': '"Download/Split/Upload Successful!"', 'counter': 2, 'detect_prob': 2, 'millis1': [1691340209692, 1691340210145], 'millis2': [1691340224206, 1691340223638], 'source_id': '0', 'statusCode': 200, 'values': [11, 26]}
+11
+Received request
+POST http://vi-classify.default.svc.cluster.local/ vi-classify.default.svc.cluster.local
+  Host: vi-classify.default.svc.cluster.local
+  User-Agent: curl/8.2.1
+  Content-Length: 205
+  Accept: */*
+  Content-Type: application/json
+  Forwarded: for=10.244.2.191;proto=http
+  K-Proxy-Request: activator
+  X-Forwarded-For: 10.244.2.191, 10.244.2.189
+  X-Forwarded-Proto: http
+  X-Request-Id: 56b9587c-b087-4795-8733-0f9e50daa5c4
+Request body:
+  {"body": "\"Download/Split/Upload Successful!\"", "counter": 2, "detect_prob": 2, "millis1": [1691340209518, 1691340209921], "millis2": [1691340224852, 1691340226572], "source_id": "0", "statusCode": 200, "values": [4, 19]}
+
+
+{'body': '"Download/Split/Upload Successful!"', 'counter': 2, 'detect_prob': 2, 'millis1': [1691340209518, 1691340209921], 'millis2': [1691340224852, 1691340226572], 'source_id': '0', 'statusCode': 200, 'values': [4, 19]}
+4
+0 start: Sun Aug  6 16:44:14 2023
+0 start: Sun Aug  6 16:44:14 2023
+0 start: Sun Aug  6 16:44:14 2023
+0 start: Sun Aug  6 16:44:14 2023
+0 start: Sun Aug  6 16:44:14 2023
+2023-08-06 16:44:14.615870: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.616836: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:14.616913: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:14.616973: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:14.619008: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.621062: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.622051: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:14.622110: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:14.622160: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:14.624076: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+0 start: Sun Aug  6 16:44:14 2023
+0 start: Sun Aug  6 16:44:14 2023
+0 start: Sun Aug  6 16:44:14 2023
+1 start: Sun Aug  6 16:44:14 2023
+2023-08-06 16:44:14.635788: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.636660: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:14.636717: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:14.636771: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:14.639186: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.647811: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.648753: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:14.648795: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:14.648848: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:14.650506: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.659442: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.660323: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:14.660375: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:14.660428: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:14.662305: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.665110: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.665981: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:14.666035: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:14.666088: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:14.668195: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.668726: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.669577: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:14.669616: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:14.669665: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:14.670202: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.670999: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:14.671072: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:14.671123: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:14.671465: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.673115: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.680428: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.681330: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:14.681382: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:14.681431: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:14.682535: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.683444: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:14.683655: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:14.683724: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:14.683775: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.685192: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.702939: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.704063: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:14.704125: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:14.704206: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:14.705921: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.709021: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.709894: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:14.709948: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:14.710014: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:14.711340: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.722650: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.723506: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:14.723559: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:14.723629: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:14.725584: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.731553: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.732451: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:14.732506: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:14.732557: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:14.733853: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.736138: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.737125: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:14.737173: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:14.737247: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:14.738597: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.756215: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:14.757228: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:14.757282: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:14.757335: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:14.759622: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:15.831400: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:15.832687: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:15.847957: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:15.848912: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:15.870139: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:15.870139: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:15.871072: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:15.871085: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:15.949140: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:15.949973: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:15.954276: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:15.955279: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:15.955714: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:15.956428: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:15.957280: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:15.958067: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:15.967883: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:15.968643: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:15.971469: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:15.972448: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:16.011648: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:16.012480: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:16.035974: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:16.036760: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:16.052705: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:16.053558: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:16.074418: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:16.075441: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:16.128641: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:16.129540: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:16.268181: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:16.269137: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+0 start: Sun Aug  6 16:44:14 2023
+0 start: Sun Aug  6 16:44:14 2023
+Download duration - 4: 29.399658203125
+file uploaded detected_images_0_4_1691340209518_1691340224852_1691340266772.zip
+Upload duration - 4: 10.564453125
+1 start: Sun Aug  6 16:44:14 2023
+1 start: Sun Aug  6 16:44:14 2023
+1 start: Sun Aug  6 16:44:14 2023
+Download duration - 19: 36.932373046875
+file uploaded detected_images_0_19_1691340209518_1691340224852_1691340267337.zip
+Upload duration - 19: 7.4921875
+1 start: Sun Aug  6 16:44:14 2023
+1 start: Sun Aug  6 16:44:14 2023
+1 start: Sun Aug  6 16:44:14 2023
+1 start: Sun Aug  6 16:44:14 2023
+1 start: Sun Aug  6 16:44:14 2023
+1 start: Sun Aug  6 16:44:14 2023
+1 start: Sun Aug  6 16:44:14 2023
+0 finish: Sun Aug  6 16:44:26 2023
+1 finish: Sun Aug  6 16:44:27 2023
+duration: 12824.181640625
+Received request
+POST http://vi-classify.default.svc.cluster.local/ vi-classify.default.svc.cluster.local
+  Host: vi-classify.default.svc.cluster.local
+  User-Agent: curl/8.2.1
+  Content-Length: 205
+  Accept: */*
+  Content-Type: application/json
+  Forwarded: for=10.244.2.191;proto=http
+  K-Proxy-Request: activator
+  X-Forwarded-For: 10.244.2.191, 10.244.2.189
+  X-Forwarded-Proto: http
+  X-Request-Id: 10075cb9-a576-4345-9a54-c83b0ac04f9d
+Request body:
+  {"body": "\"Download/Split/Upload Successful!\"", "counter": 2, "detect_prob": 2, "millis1": [1691340209560, 1691340209983], "millis2": [1691340224432, 1691340225883], "source_id": "0", "statusCode": 200, "values": [6, 21]}
+
+
+{'body': '"Download/Split/Upload Successful!"', 'counter': 2, 'detect_prob': 2, 'millis1': [1691340209560, 1691340209983], 'millis2': [1691340224432, 1691340225883], 'source_id': '0', 'statusCode': 200, 'values': [6, 21]}
+6
+0 start: Sun Aug  6 16:44:27 2023
+2023-08-06 16:44:27.462599: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:27.463658: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:27.463764: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:27.463870: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:27.465944: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:27.467695: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:27.468483: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:27.468583: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:27.468655: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:27.470574: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:28.397565: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:28.398357: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:28.401171: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:28.402014: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+Download duration - 12: 35.22705078125
+{'name': 'car', 'percentage_probability': 2.1901601925492287, 'box_points': [450, 74, 566, 110]}
+{'name': 'car', 'percentage_probability': 13.20454329252243, 'box_points': [499, 73, 603, 116]}
+{'name': 'truck', 'percentage_probability': 2.684790827333927, 'box_points': [499, 73, 603, 116]}
+{'name': 'person', 'percentage_probability': 3.987085446715355, 'box_points': [0, 35, 314, 160]}
+{'name': 'person', 'percentage_probability': 6.380118429660797, 'box_points': [55, 31, 457, 173]}
+{'name': 'person', 'percentage_probability': 2.30263601988554, 'box_points': [199, 48, 561, 167]}
+{'name': 'car', 'percentage_probability': 36.068540811538696, 'box_points': [456, 96, 553, 133]}
+{'name': 'car', 'percentage_probability': 6.7604802548885345, 'box_points': [517, 59, 649, 153]}
+{'name': 'truck', 'percentage_probability': 12.729349732398987, 'box_points': [517, 59, 649, 153]}
+{'name': 'bus', 'percentage_probability': 79.63966727256775, 'box_points': [538, 58, 647, 156]}
+{'name': 'person', 'percentage_probability': 3.0832668766379356, 'box_points': [116, 64, 493, 242]}
+{'name': 'car', 'percentage_probability': 91.88240766525269, 'box_points': [324, 135, 481, 194]}
+{'name': 'person', 'percentage_probability': 10.64377948641777, 'box_points': [502, 265, 565, 361]}
+{'name': 'person', 'percentage_probability': 13.316574692726135, 'box_points': [525, 291, 591, 375]}
+{'name': 'person', 'percentage_probability': 2.433532290160656, 'box_points': [568, 309, 643, 374]}
+{'name': 'person', 'percentage_probability': 6.1874378472566605, 'box_points': [561, 340, 636, 381]}
+{'name': 'traffic light', 'percentage_probability': 2.925274521112442, 'box_points': [45, 37, 67, 71]}
+{'name': 'person', 'percentage_probability': 2.3261724039912224, 'box_points': [330, 29, 348, 82]}
+{'name': 'person', 'percentage_probability': 3.3563733100891113, 'box_points': [339, 27, 356, 89]}
+{'name': 'person', 'percentage_probability': 2.1266529336571693, 'box_points': [363, 22, 379, 89]}
+{'name': 'person', 'percentage_probability': 3.1972501426935196, 'box_points': [417, 27, 432, 87]}
+{'name': 'person', 'percentage_probability': 5.757442489266396, 'box_points': [558, 37, 584, 78]}
+{'name': 'person', 'percentage_probability': 3.0481480062007904, 'box_points': [266, 43, 287, 91]}
+{'name': 'car', 'percentage_probability': 2.7989545837044716, 'box_points': [526, 56, 567, 88]}
+{'name': 'car', 'percentage_probability': 3.699510544538498, 'box_points': [472, 69, 497, 102]}
+{'name': 'car', 'percentage_probability': 56.64035081863403, 'box_points': [491, 71, 573, 93]}
+{'name': 'truck', 'percentage_probability': 6.5691836178302765, 'box_points': [491, 71, 573, 93]}
+{'name': 'car', 'percentage_probability': 20.045506954193115, 'box_points': [514, 59, 557, 110]}
+{'name': 'truck', 'percentage_probability': 5.4555196315050125, 'box_points': [514, 59, 557, 110]}
+{'name': 'person', 'percentage_probability': 2.239895612001419, 'box_points': [230, 68, 247, 119]}
+{'name': 'car', 'percentage_probability': 3.7724435329437256, 'box_points': [482, 74, 535, 125]}
+{'name': 'car', 'percentage_probability': 2.2201180458068848, 'box_points': [543, 55, 602, 137]}
+{'name': 'person', 'percentage_probability': 3.61044704914093, 'box_points': [0, 64, 12, 132]}
+{'name': 'person', 'percentage_probability': 2.4828996509313583, 'box_points': [20, 77, 40, 126]}
+{'name': 'person', 'percentage_probability': 18.224850296974182, 'box_points': [32, 74, 52, 128]}
+{'name': 'person', 'percentage_probability': 9.967274218797684, 'box_points': [47, 73, 64, 129]}
+{'name': 'person', 'percentage_probability': 8.63478034734726, 'box_points': [59, 77, 75, 129]}
+{'name': 'person', 'percentage_probability': 9.532928466796875, 'box_points': [71, 72, 87, 134]}
+{'name': 'person', 'percentage_probability': 5.98740354180336, 'box_points': [89, 88, 116, 121]}
+{'name': 'person', 'percentage_probability': 3.0201392248272896, 'box_points': [252, 86, 281, 123]}
+{'name': 'person', 'percentage_probability': 4.411906749010086, 'box_points': [342, 62, 353, 155]}
+{'name': 'person', 'percentage_probability': 10.34061312675476, 'box_points': [338, 84, 358, 125]}
+{'name': 'person', 'percentage_probability': 5.900295451283455, 'box_points': [351, 86, 378, 122]}
+{'name': 'person', 'percentage_probability': 15.813601016998291, 'box_points': [364, 65, 377, 144]}
+{'name': 'person', 'percentage_probability': 3.0320964753627777, 'box_points': [413, 78, 431, 132]}
+{'name': 'person', 'percentage_probability': 15.237432718276978, 'box_points': [14, 76, 30, 145]}
+{'name': 'person', 'percentage_probability': 8.155171573162079, 'box_points': [20, 97, 65, 125]}
+{'name': 'person', 'percentage_probability': 18.0444598197937, 'box_points': [84, 78, 101, 143]}
+{'name': 'person', 'percentage_probability': 16.909365355968475, 'box_points': [95, 76, 113, 144]}
+{'name': 'person', 'percentage_probability': 5.973030254244804, 'box_points': [108, 80, 124, 140]}
+{'name': 'person', 'percentage_probability': 6.471937149763107, 'box_points': [123, 81, 138, 147]}
+{'name': 'person', 'percentage_probability': 5.802880227565765, 'box_points': [131, 80, 148, 151]}
+{'name': 'person', 'percentage_probability': 19.943667948246002, 'box_points': [125, 97, 151, 133]}
+{'name': 'person', 'percentage_probability': 4.515830799937248, 'box_points': [148, 81, 163, 142]}
+{'name': 'person', 'percentage_probability': 2.548760734498501, 'box_points': [157, 82, 172, 142]}
+{'name': 'person', 'percentage_probability': 15.357956290245056, 'box_points': [171, 84, 189, 144]}
+{'name': 'person', 'percentage_probability': 2.8837986290454865, 'box_points': [163, 99, 196, 128]}
+{'name': 'person', 'percentage_probability': 3.0240360647439957, 'box_points': [183, 82, 198, 144]}
+{'name': 'person', 'percentage_probability': 6.677146255970001, 'box_points': [193, 78, 208, 151]}
+{'name': 'person', 'percentage_probability': 2.7490679174661636, 'box_points': [189, 96, 213, 132]}
+{'name': 'person', 'percentage_probability': 6.20068684220314, 'box_points': [219, 91, 238, 144]}
+{'name': 'person', 'percentage_probability': 3.4900937229394913, 'box_points': [230, 93, 249, 144]}
+{'name': 'person', 'percentage_probability': 4.8546187579631805, 'box_points': [241, 90, 259, 145]}
+{'name': 'person', 'percentage_probability': 2.1986356005072594, 'box_points': [268, 86, 285, 143]}
+{'name': 'person', 'percentage_probability': 4.425576329231262, 'box_points': [280, 91, 299, 143]}
+{'name': 'person', 'percentage_probability': 14.87007588148117, 'box_points': [293, 89, 311, 145]}
+{'name': 'person', 'percentage_probability': 15.434764325618744, 'box_points': [304, 94, 321, 146]}
+{'name': 'person', 'percentage_probability': 5.91682642698288, 'box_points': [316, 95, 334, 142]}
+{'name': 'person', 'percentage_probability': 5.351812765002251, 'box_points': [330, 93, 348, 141]}
+{'name': 'car', 'percentage_probability': 82.06273913383484, 'box_points': [362, 116, 440, 199]}
+{'name': 'stop sign', 'percentage_probability': 18.69870275259018, 'box_points': [155, 248, 185, 285]}
+{'name': 'frisbee', 'percentage_probability': 2.7314087375998497, 'box_points': [155, 248, 185, 285]}
+{'name': 'sports ball', 'percentage_probability': 26.247692108154297, 'box_points': [155, 248, 185, 285]}
+{'name': 'bird', 'percentage_probability': 3.9485491812229156, 'box_points': [509, 262, 563, 286]}
+{'name': 'person', 'percentage_probability': 4.0945447981357574, 'box_points': [513, 280, 563, 333]}
+{'name': 'person', 'percentage_probability': 8.188023418188095, 'box_points': [520, 239, 552, 371]}
+{'name': 'person', 'percentage_probability': 2.237537130713463, 'box_points': [622, 285, 642, 335]}
+{'name': 'person', 'percentage_probability': 3.4620575606822968, 'box_points': [358, 310, 382, 353]}
+{'name': 'person', 'percentage_probability': 3.717179596424103, 'box_points': [414, 315, 460, 346]}
+{'name': 'person', 'percentage_probability': 61.95002794265747, 'box_points': [457, 313, 511, 350]}
+{'name': 'person', 'percentage_probability': 19.237518310546875, 'box_points': [465, 295, 501, 368]}
+{'name': 'person', 'percentage_probability': 4.934036359190941, 'box_points': [491, 311, 531, 350]}
+{'name': 'person', 'percentage_probability': 29.4423907995224, 'box_points': [546, 305, 590, 356]}
+{'name': 'person', 'percentage_probability': 3.4413758665323257, 'box_points': [555, 280, 586, 380]}
+{'name': 'person', 'percentage_probability': 3.130645304918289, 'box_points': [606, 285, 636, 379]}
+{'name': 'person', 'percentage_probability': 30.899786949157715, 'box_points': [610, 308, 647, 355]}
+{'name': 'person', 'percentage_probability': 86.43460273742676, 'box_points': [266, 317, 334, 358]}
+{'name': 'person', 'percentage_probability': 69.08351182937622, 'box_points': [289, 297, 315, 378]}
+{'name': 'person', 'percentage_probability': 28.101497888565063, 'box_points': [333, 325, 397, 359]}
+{'name': 'person', 'percentage_probability': 10.43633446097374, 'box_points': [342, 308, 383, 378]}
+{'name': 'person', 'percentage_probability': 14.435161650180817, 'box_points': [400, 320, 424, 366]}
+{'name': 'person', 'percentage_probability': 4.4363342225551605, 'box_points': [547, 319, 570, 374]}
+{'name': 'person', 'percentage_probability': 4.154561087489128, 'box_points': [537, 330, 583, 360]}
+{'name': 'person', 'percentage_probability': 2.566942013800144, 'box_points': [570, 314, 596, 380]}
+{'name': 'person', 'percentage_probability': 81.6563367843628, 'box_points': [564, 327, 630, 358]}
+{'name': 'person', 'percentage_probability': 13.979265093803406, 'box_points': [580, 315, 615, 372]}
+{'name': 'chair', 'percentage_probability': 2.0412208512425423, 'box_points': [329, 336, 400, 362]}
+{'name': 'person', 'percentage_probability': 5.226299166679382, 'box_points': [386, 337, 438, 365]}
+{'name': 'person', 'percentage_probability': 6.13429918885231, 'box_points': [521, 330, 548, 379]}
+{'name': 'person', 'percentage_probability': 8.135455846786499, 'box_points': [530, 332, 564, 377]}
+{'name': 'person', 'percentage_probability': 10.068965703248978, 'box_points': [517, 342, 576, 365]}
+{'name': 'chair', 'percentage_probability': 3.964700922369957, 'box_points': [595, 339, 619, 375]}
+102
+0 start: Sun Aug  6 16:44:14 2023
+Download duration - 13: 28.951904296875
+{'name': 'car', 'percentage_probability': 13.627591729164124, 'box_points': [103, 59, 218, 98]}
+{'name': 'umbrella', 'percentage_probability': 17.297208309173584, 'box_points': [103, 59, 218, 98]}
+{'name': 'car', 'percentage_probability': 3.2217077910900116, 'box_points': [159, 49, 319, 101]}
+{'name': 'person', 'percentage_probability': 17.6651731133461, 'box_points': [424, 41, 494, 129]}
+{'name': 'person', 'percentage_probability': 2.416791580617428, 'box_points': [0, 57, 47, 136]}
+{'name': 'person', 'percentage_probability': 2.0545149222016335, 'box_points': [112, 66, 209, 129]}
+{'name': 'car', 'percentage_probability': 9.14309173822403, 'box_points': [112, 66, 209, 129]}
+{'name': 'car', 'percentage_probability': 2.188549190759659, 'box_points': [78, 56, 242, 146]}
+{'name': 'person', 'percentage_probability': 2.1929217502474785, 'box_points': [160, 66, 251, 136]}
+{'name': 'car', 'percentage_probability': 2.1988695487380028, 'box_points': [160, 42, 313, 166]}
+{'name': 'truck', 'percentage_probability': 2.8402484953403473, 'box_points': [160, 42, 313, 166]}
+{'name': 'person', 'percentage_probability': 6.618174165487289, 'box_points': [346, 71, 409, 149]}
+{'name': 'person', 'percentage_probability': 9.797725081443787, 'box_points': [500, 65, 560, 161]}
+{'name': 'person', 'percentage_probability': 4.165938124060631, 'box_points': [596, 58, 646, 179]}
+{'name': 'car', 'percentage_probability': 2.648286893963814, 'box_points': [121, 82, 195, 156]}
+{'name': 'person', 'percentage_probability': 9.75174605846405, 'box_points': [155, 81, 219, 166]}
+{'name': 'person', 'percentage_probability': 10.518398880958557, 'box_points': [202, 80, 266, 182]}
+{'name': 'person', 'percentage_probability': 2.5449465960264206, 'box_points': [180, 51, 288, 202]}
+{'name': 'person', 'percentage_probability': 9.265196323394775, 'box_points': [228, 76, 290, 188]}
+{'name': 'person', 'percentage_probability': 2.6730766519904137, 'box_points': [333, 79, 391, 172]}
+{'name': 'person', 'percentage_probability': 4.532083496451378, 'box_points': [398, 86, 465, 177]}
+{'name': 'person', 'percentage_probability': 3.827301785349846, 'box_points': [545, 98, 615, 180]}
+{'name': 'person', 'percentage_probability': 2.437466010451317, 'box_points': [70, 50, 442, 255]}
+{'name': 'person', 'percentage_probability': 3.4833483397960663, 'box_points': [253, 79, 303, 219]}
+{'name': 'person', 'percentage_probability': 3.081323206424713, 'box_points': [218, 26, 540, 289]}
+{'name': 'backpack', 'percentage_probability': 4.93488721549511, 'box_points': [1, 127, 63, 212]}
+{'name': 'handbag', 'percentage_probability': 10.586608946323395, 'box_points': [1, 127, 63, 212]}
+{'name': 'handbag', 'percentage_probability': 2.609485946595669, 'box_points': [397, 140, 468, 233]}
+{'name': 'backpack', 'percentage_probability': 5.276354029774666, 'box_points': [445, 145, 510, 236]}
+{'name': 'handbag', 'percentage_probability': 21.144336462020874, 'box_points': [445, 145, 510, 236]}
+{'name': 'handbag', 'percentage_probability': 3.9274945855140686, 'box_points': [545, 142, 616, 240]}
+{'name': 'person', 'percentage_probability': 2.119547687470913, 'box_points': [595, 129, 648, 250]}
+{'name': 'person', 'percentage_probability': 2.9681194573640823, 'box_points': [34, 62, 92, 329]}
+{'name': 'person', 'percentage_probability': 6.273476034402847, 'box_points': [59, 62, 109, 326]}
+{'name': 'person', 'percentage_probability': 64.2377257347107, 'box_points': [71, 41, 160, 354]}
+{'name': 'handbag', 'percentage_probability': 3.9492305368185043, 'box_points': [132, 146, 190, 251]}
+{'name': 'person', 'percentage_probability': 2.387448213994503, 'box_points': [131, 64, 185, 336]}
+{'name': 'person', 'percentage_probability': 10.664273053407669, 'box_points': [235, 83, 284, 321]}
+{'name': 'handbag', 'percentage_probability': 9.532814472913742, 'box_points': [235, 83, 284, 321]}
+{'name': 'person', 'percentage_probability': 29.641908407211304, 'box_points': [259, 68, 310, 332]}
+{'name': 'handbag', 'percentage_probability': 2.8110122308135033, 'box_points': [425, 163, 489, 248]}
+{'name': 'handbag', 'percentage_probability': 9.231070429086685, 'box_points': [498, 152, 554, 265]}
+{'name': 'handbag', 'percentage_probability': 4.071098938584328, 'box_points': [513, 177, 595, 246]}
+{'name': 'handbag', 'percentage_probability': 2.673628367483616, 'box_points': [575, 160, 637, 267]}
+{'name': 'person', 'percentage_probability': 57.77027606964111, 'box_points': [603, 71, 642, 366]}
+{'name': 'person', 'percentage_probability': 75.83043575286865, 'box_points': [0, 65, 72, 358]}
+{'name': 'person', 'percentage_probability': 5.554565787315369, 'box_points': [154, 105, 218, 343]}
+{'name': 'person', 'percentage_probability': 80.86221218109131, 'box_points': [157, 54, 266, 401]}
+{'name': 'handbag', 'percentage_probability': 50.802189111709595, 'box_points': [219, 185, 293, 270]}
+{'name': 'person', 'percentage_probability': 15.60153216123581, 'box_points': [286, 87, 329, 361]}
+{'name': 'person', 'percentage_probability': 89.30952548980713, 'box_points': [288, 70, 381, 387]}
+{'name': 'person', 'percentage_probability': 28.10291051864624, 'box_points': [347, 93, 417, 366]}
+{'name': 'person', 'percentage_probability': 57.11066126823425, 'box_points': [390, 105, 466, 361]}
+{'name': 'person', 'percentage_probability': 92.52804517745972, 'box_points': [443, 97, 509, 375]}
+{'name': 'person', 'percentage_probability': 4.569196701049805, 'box_points': [504, 104, 553, 367]}
+{'name': 'person', 'percentage_probability': 91.27739071846008, 'box_points': [514, 85, 603, 385]}
+{'name': 'handbag', 'percentage_probability': 4.5827556401491165, 'box_points': [581, 110, 636, 366]}
+{'name': 'person', 'percentage_probability': 2.10280641913414, 'box_points': [596, 180, 646, 305]}
+{'name': 'handbag', 'percentage_probability': 5.578115954995155, 'box_points': [596, 180, 646, 305]}
+{'name': 'handbag', 'percentage_probability': 3.1269043684005737, 'box_points': [280, 149, 336, 355]}
+{'name': 'person', 'percentage_probability': 10.050162672996521, 'box_points': [372, 145, 438, 357]}
+{'name': 'person', 'percentage_probability': 7.655355334281921, 'box_points': [578, 152, 639, 371]}
+{'name': 'person', 'percentage_probability': 2.8238363564014435, 'box_points': [195, 172, 272, 366]}
+{'name': 'handbag', 'percentage_probability': 27.053728699684143, 'box_points': [274, 222, 329, 322]}
+{'name': 'person', 'percentage_probability': 3.496241942048073, 'box_points': [304, 26, 324, 81]}
+{'name': 'person', 'percentage_probability': 12.9574254155159, 'box_points': [313, 21, 336, 87]}
+{'name': 'person', 'percentage_probability': 11.786574870347977, 'box_points': [306, 42, 347, 70]}
+{'name': 'person', 'percentage_probability': 6.785827875137329, 'box_points': [330, 24, 350, 88]}
+{'name': 'person', 'percentage_probability': 7.260338217020035, 'box_points': [339, 25, 357, 88]}
+{'name': 'person', 'percentage_probability': 11.420062184333801, 'box_points': [353, 30, 374, 86]}
+{'name': 'person', 'percentage_probability': 5.672875419259071, 'box_points': [2, 33, 27, 90]}
+{'name': 'person', 'percentage_probability': 9.487661719322205, 'box_points': [315, 49, 361, 84]}
+{'name': 'person', 'percentage_probability': 9.376198798418045, 'box_points': [344, 52, 380, 87]}
+{'name': 'person', 'percentage_probability': 2.8631431981921196, 'box_points': [385, 49, 420, 93]}
+{'name': 'person', 'percentage_probability': 5.148471146821976, 'box_points': [427, 36, 445, 108]}
+{'name': 'person', 'percentage_probability': 10.301471501588821, 'box_points': [421, 55, 457, 90]}
+{'name': 'person', 'percentage_probability': 2.90992334485054, 'box_points': [435, 24, 468, 119]}
+{'name': 'person', 'percentage_probability': 2.542276494204998, 'box_points': [0, 29, 12, 120]}
+{'name': 'person', 'percentage_probability': 4.922958090901375, 'box_points': [0, 50, 19, 99]}
+{'name': 'person', 'percentage_probability': 2.168133668601513, 'box_points': [6, 51, 34, 100]}
+{'name': 'person', 'percentage_probability': 13.706858456134796, 'box_points': [0, 57, 42, 90]}
+{'name': 'car', 'percentage_probability': 5.923199653625488, 'box_points': [126, 49, 186, 110]}
+{'name': 'umbrella', 'percentage_probability': 6.141652539372444, 'box_points': [126, 49, 186, 110]}
+{'name': 'person', 'percentage_probability': 2.674410305917263, 'box_points': [428, 59, 466, 107]}
+{'name': 'person', 'percentage_probability': 4.014507681131363, 'box_points': [445, 24, 481, 142]}
+{'name': 'person', 'percentage_probability': 8.884306252002716, 'box_points': [495, 66, 531, 107]}
+{'name': 'person', 'percentage_probability': 7.707390934228897, 'box_points': [337, 71, 385, 120]}
+{'name': 'person', 'percentage_probability': 6.715420633554459, 'box_points': [511, 76, 557, 116]}
+{'name': 'person', 'percentage_probability': 2.958095818758011, 'box_points': [518, 51, 553, 145]}
+{'name': 'person', 'percentage_probability': 3.9567116647958755, 'box_points': [0, 73, 22, 127]}
+{'name': 'person', 'percentage_probability': 8.311353623867035, 'box_points': [155, 82, 206, 124]}
+{'name': 'person', 'percentage_probability': 3.220149129629135, 'box_points': [162, 55, 195, 150]}
+{'name': 'person', 'percentage_probability': 4.566162079572678, 'box_points': [208, 87, 250, 123]}
+{'name': 'person', 'percentage_probability': 4.25337478518486, 'box_points': [350, 46, 380, 165]}
+{'name': 'person', 'percentage_probability': 2.593865990638733, 'box_points': [362, 85, 410, 127]}
+{'name': 'person', 'percentage_probability': 3.9665278047323227, 'box_points': [410, 88, 459, 129]}
+{'name': 'person', 'percentage_probability': 2.0146477967500687, 'box_points': [418, 54, 453, 164]}
+{'name': 'person', 'percentage_probability': 3.154918923974037, 'box_points': [558, 95, 609, 127]}
+{'name': 'person', 'percentage_probability': 3.767188638448715, 'box_points': [590, 89, 630, 134]}
+{'name': 'person', 'percentage_probability': 3.1519360840320587, 'box_points': [0, 81, 14, 145]}
+{'name': 'person', 'percentage_probability': 3.753921017050743, 'box_points': [600, 96, 649, 152]}
+{'name': 'chair', 'percentage_probability': 3.680509328842163, 'box_points': [155, 105, 180, 153]}
+{'name': 'person', 'percentage_probability': 2.7271008118987083, 'box_points': [174, 60, 208, 195]}
+{'name': 'person', 'percentage_probability': 4.751033708453178, 'box_points': [224, 53, 257, 205]}
+{'name': 'person', 'percentage_probability': 3.418312221765518, 'box_points': [248, 49, 282, 212]}
+{'name': 'cell phone', 'percentage_probability': 2.1030139178037643, 'box_points': [442, 102, 460, 163]}
+{'name': 'cell phone', 'percentage_probability': 3.6986153572797775, 'box_points': [449, 106, 469, 156]}
+{'name': 'person', 'percentage_probability': 5.31555600464344, 'box_points': [0, 99, 19, 175]}
+{'name': 'person', 'percentage_probability': 7.5637467205524445, 'box_points': [236, 61, 267, 219]}
+{'name': 'person', 'percentage_probability': 3.0565695837140083, 'box_points': [259, 110, 295, 175]}
+{'name': 'person', 'percentage_probability': 2.1799199283123016, 'box_points': [600, 124, 648, 172]}
+{'name': 'person', 'percentage_probability': 2.9404202476143837, 'box_points': [608, 88, 634, 234]}
+{'name': 'handbag', 'percentage_probability': 3.0384596437215805, 'box_points': [0, 137, 38, 186]}
+{'name': 'person', 'percentage_probability': 4.880871996283531, 'box_points': [603, 144, 644, 202]}
+{'name': 'person', 'percentage_probability': 2.9822511598467827, 'box_points': [621, 121, 642, 224]}
+{'name': 'handbag', 'percentage_probability': 2.768305316567421, 'box_points': [137, 142, 174, 211]}
+{'name': 'handbag', 'percentage_probability': 2.142598293721676, 'box_points': [432, 109, 463, 255]}
+{'name': 'handbag', 'percentage_probability': 3.163185715675354, 'box_points': [446, 116, 478, 250]}
+{'name': 'backpack', 'percentage_probability': 2.528586983680725, 'box_points': [460, 121, 491, 247]}
+{'name': 'handbag', 'percentage_probability': 17.501045763492584, 'box_points': [460, 121, 491, 247]}
+{'name': 'handbag', 'percentage_probability': 3.943685069680214, 'box_points': [482, 156, 515, 209]}
+{'name': 'person', 'percentage_probability': 5.016391724348068, 'box_points': [0, 120, 16, 251]}
+{'name': 'handbag', 'percentage_probability': 2.3161934688687325, 'box_points': [146, 161, 187, 217]}
+{'name': 'handbag', 'percentage_probability': 3.073285147547722, 'box_points': [388, 173, 437, 215]}
+{'name': 'handbag', 'percentage_probability': 10.103674232959747, 'box_points': [449, 169, 497, 218]}
+{'name': 'handbag', 'percentage_probability': 4.2709581553936005, 'box_points': [496, 164, 528, 224]}
+{'name': 'handbag', 'percentage_probability': 3.212423250079155, 'box_points': [537, 146, 581, 246]}
+{'name': 'handbag', 'percentage_probability': 5.172235146164894, 'box_points': [574, 163, 619, 230]}
+{'name': 'handbag', 'percentage_probability': 2.7082467451691628, 'box_points': [414, 185, 461, 225]}
+{'name': 'handbag', 'percentage_probability': 3.134477883577347, 'box_points': [442, 178, 483, 232]}
+{'name': 'handbag', 'percentage_probability': 3.1852856278419495, 'box_points': [468, 137, 499, 274]}
+{'name': 'handbag', 'percentage_probability': 6.6005706787109375, 'box_points': [479, 178, 516, 235]}
+{'name': 'handbag', 'percentage_probability': 24.182675778865814, 'box_points': [501, 179, 545, 236]}
+{'name': 'handbag', 'percentage_probability': 3.5581525415182114, 'box_points': [510, 144, 536, 270]}
+{'name': 'handbag', 'percentage_probability': 8.705902099609375, 'box_points': [601, 191, 641, 252]}
+{'name': 'handbag', 'percentage_probability': 6.780520081520081, 'box_points': [219, 198, 259, 254]}
+{'name': 'handbag', 'percentage_probability': 11.006934195756912, 'box_points': [245, 162, 279, 290]}
+{'name': 'suitcase', 'percentage_probability': 2.950105257332325, 'box_points': [245, 162, 279, 290]}
+{'name': 'handbag', 'percentage_probability': 4.150770604610443, 'box_points': [607, 149, 631, 319]}
+{'name': 'person', 'percentage_probability': 2.554943785071373, 'box_points': [625, 172, 643, 296]}
+{'name': 'handbag', 'percentage_probability': 7.776781916618347, 'box_points': [574, 223, 623, 269]}
+{'name': 'handbag', 'percentage_probability': 3.1060220673680305, 'box_points': [277, 226, 322, 280]}
+{'name': 'handbag', 'percentage_probability': 2.6851553469896317, 'box_points': [579, 240, 633, 279]}
+{'name': 'handbag', 'percentage_probability': 15.108838677406311, 'box_points': [287, 199, 314, 331]}
+{'name': 'handbag', 'percentage_probability': 8.318332582712173, 'box_points': [272, 254, 312, 299]}
+{'name': 'handbag', 'percentage_probability': 8.582592010498047, 'box_points': [289, 254, 331, 305]}
+1 start: Sun Aug  6 16:44:14 2023
+1 start: Sun Aug  6 16:44:14 2023
+Download duration - 26: 39.921630859375
+{'name': 'bus', 'percentage_probability': 2.700764313340187, 'box_points': [557, 38, 648, 100]}
+{'name': 'car', 'percentage_probability': 14.593148231506348, 'box_points': [502, 80, 595, 120]}
+{'name': 'car', 'percentage_probability': 3.2607555389404297, 'box_points': [561, 67, 643, 111]}
+{'name': 'person', 'percentage_probability': 7.796274870634079, 'box_points': [0, 41, 365, 158]}
+{'name': 'car', 'percentage_probability': 2.8724094852805138, 'box_points': [591, 77, 649, 157]}
+{'name': 'truck', 'percentage_probability': 2.2790929302573204, 'box_points': [0, 103, 66, 140]}
+{'name': 'person', 'percentage_probability': 6.852848827838898, 'box_points': [78, 53, 482, 199]}
+{'name': 'person', 'percentage_probability': 2.1911155432462692, 'box_points': [187, 61, 523, 297]}
+{'name': 'person', 'percentage_probability': 3.326721489429474, 'box_points': [402, 290, 473, 370]}
+{'name': 'bird', 'percentage_probability': 6.80440291762352, 'box_points': [412, 290, 484, 371]}
+{'name': 'person', 'percentage_probability': 48.21319580078125, 'box_points': [508, 278, 568, 380]}
+{'name': 'person', 'percentage_probability': 16.00067764520645, 'box_points': [348, 325, 430, 373]}
+{'name': 'person', 'percentage_probability': 4.625047370791435, 'box_points': [427, 345, 529, 379]}
+{'name': 'car', 'percentage_probability': 2.603277936577797, 'box_points': [427, 345, 529, 379]}
+{'name': 'bird', 'percentage_probability': 2.491339109838009, 'box_points': [427, 345, 529, 379]}
+{'name': 'traffic light', 'percentage_probability': 4.7161731868982315, 'box_points': [155, 9, 178, 52]}
+{'name': 'bottle', 'percentage_probability': 2.700044959783554, 'box_points': [196, 6, 211, 74]}
+{'name': 'potted plant', 'percentage_probability': 3.38842049241066, 'box_points': [404, 27, 444, 70]}
+{'name': 'person', 'percentage_probability': 2.468142658472061, 'box_points': [117, 46, 136, 91]}
+{'name': 'person', 'percentage_probability': 3.473406657576561, 'box_points': [253, 43, 273, 95]}
+{'name': 'person', 'percentage_probability': 4.818121716380119, 'box_points': [268, 46, 287, 95]}
+{'name': 'person', 'percentage_probability': 3.212331235408783, 'box_points': [415, 45, 431, 92]}
+{'name': 'vase', 'percentage_probability': 2.193811722099781, 'box_points': [415, 45, 431, 92]}
+{'name': 'person', 'percentage_probability': 2.4019015952944756, 'box_points': [426, 51, 447, 93]}
+{'name': 'person', 'percentage_probability': 11.781538277864456, 'box_points': [442, 43, 459, 99]}
+{'name': 'person', 'percentage_probability': 9.251933544874191, 'box_points': [450, 36, 466, 104]}
+{'name': 'person', 'percentage_probability': 3.49372960627079, 'box_points': [536, 56, 557, 89]}
+{'name': 'car', 'percentage_probability': 2.1762747317552567, 'box_points': [536, 56, 557, 89]}
+{'name': 'person', 'percentage_probability': 2.663865312933922, 'box_points': [550, 53, 569, 92]}
+{'name': 'person', 'percentage_probability': 2.712092362344265, 'box_points': [562, 49, 583, 97]}
+{'name': 'car', 'percentage_probability': 6.947927176952362, 'box_points': [568, 47, 599, 99]}
+{'name': 'car', 'percentage_probability': 28.962767124176025, 'box_points': [554, 64, 633, 87]}
+{'name': 'bus', 'percentage_probability': 6.957601755857468, 'box_points': [554, 64, 633, 87]}
+{'name': 'truck', 'percentage_probability': 13.122735917568207, 'box_points': [554, 64, 633, 87]}
+{'name': 'car', 'percentage_probability': 10.57676374912262, 'box_points': [594, 56, 620, 99]}
+{'name': 'person', 'percentage_probability': 2.9500318691134453, 'box_points': [610, 52, 633, 96]}
+{'name': 'car', 'percentage_probability': 15.525369346141815, 'box_points': [610, 52, 633, 96]}
+{'name': 'car', 'percentage_probability': 9.013964980840683, 'box_points': [626, 41, 640, 105]}
+{'name': 'person', 'percentage_probability': 2.061584033071995, 'box_points': [134, 50, 150, 104]}
+{'name': 'person', 'percentage_probability': 2.4529393762350082, 'box_points': [143, 53, 162, 102]}
+{'name': 'person', 'percentage_probability': 3.4326549619436264, 'box_points': [454, 57, 470, 111]}
+{'name': 'person', 'percentage_probability': 9.343525767326355, 'box_points': [465, 56, 480, 116]}
+{'name': 'person', 'percentage_probability': 5.408552289009094, 'box_points': [489, 55, 507, 118]}
+{'name': 'person', 'percentage_probability': 2.1709319204092026, 'box_points': [501, 51, 517, 119]}
+{'name': 'car', 'percentage_probability': 4.840203747153282, 'box_points': [501, 51, 517, 119]}
+{'name': 'car', 'percentage_probability': 37.49362528324127, 'box_points': [498, 78, 574, 102]}
+{'name': 'car', 'percentage_probability': 33.558160066604614, 'box_points': [521, 68, 570, 111]}
+{'name': 'truck', 'percentage_probability': 2.6346899569034576, 'box_points': [521, 68, 570, 111]}
+{'name': 'person', 'percentage_probability': 12.657192349433899, 'box_points': [475, 61, 492, 126]}
+{'name': 'car', 'percentage_probability': 3.652713820338249, 'box_points': [628, 58, 641, 142]}
+{'name': 'person', 'percentage_probability': 9.873898327350616, 'box_points': [50, 68, 64, 136]}
+{'name': 'person', 'percentage_probability': 4.54753004014492, 'box_points': [415, 78, 431, 144]}
+{'name': 'car', 'percentage_probability': 19.515331089496613, 'box_points': [601, 92, 651, 129]}
+{'name': 'car', 'percentage_probability': 17.659857869148254, 'box_points': [618, 85, 643, 136]}
+{'name': 'person', 'percentage_probability': 3.954821452498436, 'box_points': [60, 79, 76, 146]}
+{'name': 'person', 'percentage_probability': 3.3463045954704285, 'box_points': [72, 80, 86, 147]}
+{'name': 'person', 'percentage_probability': 6.596825271844864, 'box_points': [82, 75, 101, 152]}
+{'name': 'person', 'percentage_probability': 10.416150838136673, 'box_points': [75, 96, 108, 128]}
+{'name': 'person', 'percentage_probability': 4.710587859153748, 'box_points': [97, 80, 112, 146]}
+{'name': 'person', 'percentage_probability': 5.494106188416481, 'box_points': [109, 84, 124, 143]}
+{'name': 'person', 'percentage_probability': 2.1718978881835938, 'box_points': [117, 85, 135, 144]}
+{'name': 'person', 'percentage_probability': 2.1107107400894165, 'box_points': [134, 84, 151, 145]}
+{'name': 'person', 'percentage_probability': 2.6034561917185783, 'box_points': [146, 86, 164, 143]}
+{'name': 'person', 'percentage_probability': 2.8474468737840652, 'box_points': [140, 98, 172, 133]}
+{'name': 'person', 'percentage_probability': 8.547016233205795, 'box_points': [193, 86, 208, 151]}
+{'name': 'person', 'percentage_probability': 2.1829232573509216, 'box_points': [188, 99, 215, 134]}
+{'name': 'person', 'percentage_probability': 7.630886882543564, 'box_points': [200, 99, 233, 135]}
+{'name': 'person', 'percentage_probability': 3.167496994137764, 'box_points': [220, 83, 236, 150]}
+{'name': 'person', 'percentage_probability': 10.267447680234909, 'box_points': [232, 79, 246, 154]}
+{'name': 'person', 'percentage_probability': 2.404099330306053, 'box_points': [223, 100, 255, 134]}
+{'name': 'person', 'percentage_probability': 10.249407589435577, 'box_points': [245, 80, 259, 155]}
+{'name': 'person', 'percentage_probability': 3.986126556992531, 'box_points': [237, 99, 267, 134]}
+{'name': 'person', 'percentage_probability': 9.875784814357758, 'box_points': [256, 78, 273, 156]}
+{'name': 'person', 'percentage_probability': 4.807895794510841, 'box_points': [267, 82, 285, 156]}
+{'name': 'person', 'percentage_probability': 42.67037212848663, 'box_points': [257, 99, 290, 136]}
+{'name': 'person', 'percentage_probability': 2.222418040037155, 'box_points': [302, 96, 321, 148]}
+{'name': 'person', 'percentage_probability': 14.581748843193054, 'box_points': [367, 78, 381, 157]}
+{'name': 'person', 'percentage_probability': 2.1193286404013634, 'box_points': [360, 100, 385, 133]}
+{'name': 'person', 'percentage_probability': 2.1755725145339966, 'box_points': [381, 87, 396, 154]}
+{'name': 'car', 'percentage_probability': 2.3795269429683685, 'box_points': [0, 92, 17, 155]}
+{'name': 'car', 'percentage_probability': 23.231616616249084, 'box_points': [0, 109, 50, 135]}
+{'name': 'car', 'percentage_probability': 6.235991790890694, 'box_points': [9, 96, 49, 150]}
+{'name': 'car', 'percentage_probability': 2.876933664083481, 'box_points': [23, 105, 58, 144]}
+{'name': 'person', 'percentage_probability': 7.942681014537811, 'box_points': [154, 105, 175, 148]}
+{'name': 'person', 'percentage_probability': 6.098851561546326, 'box_points': [169, 102, 190, 149]}
+{'name': 'person', 'percentage_probability': 4.736959561705589, 'box_points': [180, 104, 199, 148]}
+{'name': 'person', 'percentage_probability': 7.5408391654491425, 'box_points': [206, 102, 224, 155]}
+{'name': 'person', 'percentage_probability': 10.701776295900345, 'box_points': [293, 97, 311, 154]}
+{'name': 'person', 'percentage_probability': 8.982518315315247, 'box_points': [352, 108, 370, 147]}
+{'name': 'bird', 'percentage_probability': 3.3826053142547607, 'box_points': [509, 273, 563, 296]}
+{'name': 'person', 'percentage_probability': 2.666390873491764, 'box_points': [428, 265, 465, 373]}
+{'name': 'traffic light', 'percentage_probability': 10.607059299945831, 'box_points': [514, 290, 564, 348]}
+{'name': 'person', 'percentage_probability': 53.663086891174316, 'box_points': [523, 250, 553, 386]}
+{'name': 'traffic light', 'percentage_probability': 4.51078973710537, 'box_points': [523, 250, 553, 386]}
+{'name': 'bird', 'percentage_probability': 5.889378488063812, 'box_points': [424, 307, 475, 351]}
+{'name': 'bird', 'percentage_probability': 3.539644554257393, 'box_points': [429, 276, 463, 380]}
+{'name': 'person', 'percentage_probability': 33.50209593772888, 'box_points': [353, 317, 376, 374]}
+{'name': 'backpack', 'percentage_probability': 2.107812836766243, 'box_points': [353, 317, 376, 374]}
+{'name': 'person', 'percentage_probability': 43.45003962516785, 'box_points': [363, 320, 416, 355]}
+{'name': 'person', 'percentage_probability': 19.528724253177643, 'box_points': [376, 304, 419, 375]}
+{'name': 'bird', 'percentage_probability': 7.061044126749039, 'box_points': [434, 315, 463, 368]}
+{'name': 'bird', 'percentage_probability': 16.60262644290924, 'box_points': [421, 330, 473, 358]}
+{'name': 'person', 'percentage_probability': 6.208476051688194, 'box_points': [476, 319, 501, 369]}
+{'name': 'person', 'percentage_probability': 5.784590542316437, 'box_points': [553, 309, 572, 382]}
+{'name': 'person', 'percentage_probability': 10.746420919895172, 'box_points': [544, 332, 578, 364]}
+{'name': 'backpack', 'percentage_probability': 2.338332124054432, 'box_points': [571, 329, 593, 371]}
+{'name': 'person', 'percentage_probability': 37.109869718551636, 'box_points': [586, 320, 649, 365]}
+{'name': 'person', 'percentage_probability': 39.159995317459106, 'box_points': [603, 300, 630, 385]}
+{'name': 'person', 'percentage_probability': 3.046291321516037, 'box_points': [330, 329, 353, 381]}
+{'name': 'person', 'percentage_probability': 2.409556321799755, 'box_points': [336, 333, 367, 375]}
+{'name': 'person', 'percentage_probability': 39.72155153751373, 'box_points': [335, 337, 388, 361]}
+{'name': 'bird', 'percentage_probability': 5.0718799233436584, 'box_points': [422, 334, 446, 380]}
+{'name': 'bird', 'percentage_probability': 4.199548438191414, 'box_points': [411, 337, 462, 364]}
+{'name': 'person', 'percentage_probability': 19.665151834487915, 'box_points': [463, 338, 512, 363]}
+{'name': 'person', 'percentage_probability': 13.003940880298615, 'box_points': [482, 336, 509, 380]}
+{'name': 'person', 'percentage_probability': 3.290070593357086, 'box_points': [512, 325, 530, 387]}
+{'name': 'person', 'percentage_probability': 16.445037722587585, 'box_points': [567, 324, 595, 380]}
+{'name': 'person', 'percentage_probability': 61.213189363479614, 'box_points': [555, 343, 605, 368]}
+{'name': 'person', 'percentage_probability': 6.835655868053436, 'box_points': [590, 342, 649, 369]}
+{'name': 'person', 'percentage_probability': 4.0908146649599075, 'box_points': [310, 348, 335, 374]}
+{'name': 'person', 'percentage_probability': 4.2676519602537155, 'box_points': [512, 349, 535, 379]}
+{'name': 'person', 'percentage_probability': 2.4977145716547966, 'box_points': [523, 346, 546, 380]}
+102
+102
+102
+102
+1 start: Sun Aug  6 16:44:14 2023
+1 start: Sun Aug  6 16:44:14 2023
+1 start: Sun Aug  6 16:44:14 2023
+1 start: Sun Aug  6 16:44:14 2023
+1 start: Sun Aug  6 16:44:14 2023
+1 start: Sun Aug  6 16:44:14 2023
+Download duration - 27: 54.70068359375
+{'name': 'car', 'percentage_probability': 4.619621858000755, 'box_points': [426, 39, 519, 92]}
+{'name': 'car', 'percentage_probability': 2.639216184616089, 'box_points': [102, 66, 216, 96]}
+{'name': 'person', 'percentage_probability': 11.599861830472946, 'box_points': [436, 45, 511, 131]}
+{'name': 'car', 'percentage_probability': 2.976715564727783, 'box_points': [436, 45, 511, 131]}
+{'name': 'car', 'percentage_probability': 5.622495710849762, 'box_points': [509, 62, 603, 114]}
+{'name': 'person', 'percentage_probability': 6.8555280566215515, 'box_points': [157, 65, 221, 136]}
+{'name': 'person', 'percentage_probability': 2.148168347775936, 'box_points': [275, 67, 336, 150]}
+{'name': 'person', 'percentage_probability': 4.681123048067093, 'box_points': [346, 60, 405, 148]}
+{'name': 'person', 'percentage_probability': 3.654211387038231, 'box_points': [474, 68, 539, 155]}
+{'name': 'person', 'percentage_probability': 4.18335348367691, 'box_points': [515, 82, 591, 148]}
+{'name': 'person', 'percentage_probability': 11.307290196418762, 'box_points': [595, 61, 648, 176]}
+{'name': 'person', 'percentage_probability': 2.9373006895184517, 'box_points': [130, 84, 191, 161]}
+{'name': 'person', 'percentage_probability': 10.314066708087921, 'box_points': [207, 77, 272, 178]}
+{'name': 'person', 'percentage_probability': 3.2033517956733704, 'box_points': [246, 88, 313, 170]}
+{'name': 'person', 'percentage_probability': 2.640056610107422, 'box_points': [189, 50, 618, 215]}
+{'name': 'person', 'percentage_probability': 3.727014735341072, 'box_points': [405, 84, 467, 174]}
+{'name': 'person', 'percentage_probability': 3.5420097410678864, 'box_points': [437, 62, 526, 218]}
+{'name': 'person', 'percentage_probability': 3.3913731575012207, 'box_points': [542, 98, 623, 179]}
+{'name': 'person', 'percentage_probability': 2.557678520679474, 'box_points': [12, 30, 353, 266]}
+{'name': 'handbag', 'percentage_probability': 4.120609164237976, 'box_points': [395, 146, 468, 233]}
+{'name': 'handbag', 'percentage_probability': 3.784334659576416, 'box_points': [452, 138, 519, 228]}
+{'name': 'backpack', 'percentage_probability': 3.133700042963028, 'box_points': [549, 142, 617, 241]}
+{'name': 'handbag', 'percentage_probability': 11.420610547065735, 'box_points': [549, 142, 617, 241]}
+{'name': 'person', 'percentage_probability': 2.7382906526327133, 'box_points': [58, 73, 117, 320]}
+{'name': 'person', 'percentage_probability': 92.3882246017456, 'box_points': [68, 62, 160, 339]}
+{'name': 'handbag', 'percentage_probability': 6.835723668336868, 'box_points': [143, 149, 224, 249]}
+{'name': 'handbag', 'percentage_probability': 8.732565492391586, 'box_points': [180, 140, 239, 259]}
+{'name': 'person', 'percentage_probability': 7.792790979146957, 'box_points': [283, 77, 338, 340]}
+{'name': 'person', 'percentage_probability': 11.087372153997421, 'box_points': [325, 74, 388, 343]}
+{'name': 'person', 'percentage_probability': 18.21303218603134, 'box_points': [430, 81, 477, 338]}
+{'name': 'person', 'percentage_probability': 87.80127167701721, 'box_points': [450, 69, 516, 350]}
+{'name': 'handbag', 'percentage_probability': 15.20666629076004, 'box_points': [495, 166, 560, 261]}
+{'name': 'handbag', 'percentage_probability': 2.6346225291490555, 'box_points': [542, 96, 614, 339]}
+{'name': 'handbag', 'percentage_probability': 2.3181695491075516, 'box_points': [572, 161, 637, 265]}
+{'name': 'person', 'percentage_probability': 66.17858409881592, 'box_points': [1, 74, 74, 347]}
+{'name': 'person', 'percentage_probability': 46.59320414066315, 'box_points': [137, 80, 236, 362]}
+{'name': 'person', 'percentage_probability': 40.329521894454956, 'box_points': [202, 92, 271, 357]}
+{'name': 'person', 'percentage_probability': 72.86691069602966, 'box_points': [254, 86, 307, 368]}
+{'name': 'person', 'percentage_probability': 80.20572066307068, 'box_points': [284, 66, 381, 397]}
+{'name': 'person', 'percentage_probability': 8.6520716547966, 'box_points': [355, 89, 405, 362]}
+{'name': 'person', 'percentage_probability': 93.53548288345337, 'box_points': [368, 83, 457, 365]}
+{'name': 'person', 'percentage_probability': 14.817465841770172, 'box_points': [477, 117, 534, 347]}
+{'name': 'person', 'percentage_probability': 9.685133397579193, 'box_points': [497, 110, 555, 360]}
+{'name': 'person', 'percentage_probability': 62.33101487159729, 'box_points': [534, 96, 618, 378]}
+{'name': 'person', 'percentage_probability': 16.59366488456726, 'box_points': [602, 107, 641, 369]}
+{'name': 'handbag', 'percentage_probability': 8.977369219064713, 'box_points': [276, 237, 340, 314]}
+{'name': 'suitcase', 'percentage_probability': 3.5302869975566864, 'box_points': [276, 237, 340, 314]}
+{'name': 'skateboard', 'percentage_probability': 2.2505933418869972, 'box_points': [426, 237, 496, 328]}
+{'name': 'person', 'percentage_probability': 3.1537823379039764, 'box_points': [313, 25, 342, 65]}
+{'name': 'bottle', 'percentage_probability': 15.409092605113983, 'box_points': [313, 25, 342, 65]}
+{'name': 'person', 'percentage_probability': 4.346254467964172, 'box_points': [190, 41, 215, 77]}
+{'name': 'person', 'percentage_probability': 7.509129494428635, 'box_points': [435, 40, 482, 79]}
+{'name': 'person', 'percentage_probability': 2.393721789121628, 'box_points': [0, 43, 30, 87]}
+{'name': 'person', 'percentage_probability': 3.454926609992981, 'box_points': [18, 44, 46, 89]}
+{'name': 'person', 'percentage_probability': 20.044967532157898, 'box_points': [108, 40, 127, 95]}
+{'name': 'person', 'percentage_probability': 5.665929615497589, 'box_points': [118, 42, 142, 90]}
+{'name': 'person', 'percentage_probability': 5.088341236114502, 'box_points': [129, 43, 150, 87]}
+{'name': 'person', 'percentage_probability': 25.053423643112183, 'box_points': [148, 42, 178, 82]}
+{'name': 'car', 'percentage_probability': 4.985467344522476, 'box_points': [163, 51, 195, 79]}
+{'name': 'person', 'percentage_probability': 3.3413004130125046, 'box_points': [173, 43, 202, 86]}
+{'name': 'person', 'percentage_probability': 3.4774165600538254, 'box_points': [232, 48, 265, 89]}
+{'name': 'person', 'percentage_probability': 5.631018429994583, 'box_points': [252, 46, 279, 91]}
+{'name': 'person', 'percentage_probability': 3.546043485403061, 'box_points': [354, 52, 399, 93]}
+{'name': 'person', 'percentage_probability': 2.541312947869301, 'box_points': [435, 18, 468, 126]}
+{'name': 'person', 'percentage_probability': 9.569250792264938, 'box_points': [0, 59, 41, 88]}
+{'name': 'person', 'percentage_probability': 3.3144913613796234, 'box_points': [361, 26, 393, 138]}
+{'name': 'person', 'percentage_probability': 7.071971893310547, 'box_points': [456, 24, 490, 142]}
+{'name': 'person', 'percentage_probability': 3.996456041932106, 'box_points': [494, 67, 532, 106]}
+{'name': 'chair', 'percentage_probability': 2.1945325657725334, 'box_points': [494, 67, 532, 106]}
+{'name': 'person', 'percentage_probability': 3.5660449415445328, 'box_points': [599, 62, 646, 111]}
+{'name': 'chair', 'percentage_probability': 4.41199503839016, 'box_points': [70, 67, 93, 112]}
+{'name': 'chair', 'percentage_probability': 2.7691559866070747, 'box_points': [203, 67, 227, 111]}
+{'name': 'person', 'percentage_probability': 3.946303576231003, 'box_points': [341, 70, 377, 113]}
+{'name': 'person', 'percentage_probability': 2.070975862443447, 'box_points': [355, 69, 401, 114]}
+{'name': 'person', 'percentage_probability': 2.429838478565216, 'box_points': [400, 84, 451, 112]}
+{'name': 'person', 'percentage_probability': 2.0040012896060944, 'box_points': [495, 43, 526, 152]}
+{'name': 'person', 'percentage_probability': 2.3827970027923584, 'box_points': [500, 78, 543, 116]}
+{'name': 'person', 'percentage_probability': 11.586826294660568, 'box_points': [521, 81, 572, 112]}
+{'name': 'person', 'percentage_probability': 2.039816975593567, 'box_points': [0, 72, 22, 130]}
+{'name': 'chair', 'percentage_probability': 3.0780067667365074, 'box_points': [140, 85, 166, 122]}
+{'name': 'person', 'percentage_probability': 3.919501230120659, 'box_points': [174, 48, 209, 156]}
+{'name': 'chair', 'percentage_probability': 2.601448819041252, 'box_points': [512, 80, 533, 137]}
+{'name': 'chair', 'percentage_probability': 2.080860733985901, 'box_points': [500, 91, 544, 127]}
+{'name': 'person', 'percentage_probability': 2.5673922151327133, 'box_points': [519, 90, 575, 129]}
+{'name': 'person', 'percentage_probability': 5.4708778858184814, 'box_points': [549, 90, 597, 131]}
+{'name': 'person', 'percentage_probability': 2.4127308279275894, 'box_points': [607, 35, 635, 188]}
+{'name': 'person', 'percentage_probability': 2.4076059460639954, 'box_points': [146, 97, 189, 134]}
+{'name': 'person', 'percentage_probability': 2.0403845235705376, 'box_points': [275, 99, 324, 137]}
+{'name': 'person', 'percentage_probability': 10.580842941999435, 'box_points': [422, 59, 452, 183]}
+{'name': 'person', 'percentage_probability': 10.62687635421753, 'box_points': [0, 79, 18, 169]}
+{'name': 'person', 'percentage_probability': 7.567540556192398, 'box_points': [224, 45, 258, 209]}
+{'name': 'person', 'percentage_probability': 2.2041112184524536, 'box_points': [262, 61, 294, 196]}
+{'name': 'person', 'percentage_probability': 3.0491353943943977, 'box_points': [618, 112, 643, 184]}
+{'name': 'tie', 'percentage_probability': 8.261087536811829, 'box_points': [90, 135, 144, 169]}
+{'name': 'handbag', 'percentage_probability': 3.191215544939041, 'box_points': [480, 143, 520, 177]}
+{'name': 'person', 'percentage_probability': 2.5514639914035797, 'box_points': [602, 134, 647, 188]}
+{'name': 'person', 'percentage_probability': 7.6863788068294525, 'box_points': [600, 148, 648, 222]}
+{'name': 'person', 'percentage_probability': 5.0823163241147995, 'box_points': [610, 100, 633, 272]}
+{'name': 'person', 'percentage_probability': 2.572406269609928, 'box_points': [618, 133, 643, 239]}
+{'name': 'person', 'percentage_probability': 6.367494910955429, 'box_points': [0, 109, 17, 262]}
+{'name': 'handbag', 'percentage_probability': 5.294777080416679, 'box_points': [600, 160, 646, 235]}
+{'name': 'handbag', 'percentage_probability': 12.794284522533417, 'box_points': [510, 144, 537, 271]}
+{'name': 'handbag', 'percentage_probability': 3.8426026701927185, 'box_points': [592, 188, 633, 231]}
+{'name': 'handbag', 'percentage_probability': 2.484617196023464, 'box_points': [207, 185, 251, 243]}
+{'name': 'handbag', 'percentage_probability': 3.086775355041027, 'box_points': [344, 190, 381, 249]}
+{'name': 'handbag', 'percentage_probability': 24.245524406433105, 'box_points': [601, 195, 641, 248]}
+{'name': 'person', 'percentage_probability': 2.078818529844284, 'box_points': [0, 183, 16, 284]}
+{'name': 'sports ball', 'percentage_probability': 2.3317482322454453, 'box_points': [0, 217, 13, 276]}
+{'name': 'handbag', 'percentage_probability': 3.4468580037355423, 'box_points': [281, 228, 323, 277]}
+{'name': 'skateboard', 'percentage_probability': 2.9336923733353615, 'box_points': [438, 244, 483, 294]}
+{'name': 'chair', 'percentage_probability': 2.1591443568468094, 'box_points': [505, 244, 543, 293]}
+{'name': 'handbag', 'percentage_probability': 34.19586718082428, 'box_points': [279, 259, 324, 297]}
+{'name': 'suitcase', 'percentage_probability': 2.8803763911128044, 'box_points': [279, 259, 324, 297]}
+{'name': 'skateboard', 'percentage_probability': 2.009633742272854, 'box_points': [446, 296, 474, 342]}
+102
+102
+122
+146
+102
+122
+114
+146
+122
+102
+102
+114
+146
+114
+114
+146
+146
+122
+146
+114
+146
+122
+114
+146
+146
+file uploaded detected_images_0_12_1691340209720_1691340225574_1691340276604.zip
+Upload duration - 12: 159.589599609375
+114
+122
+114
+122
+114
+146
+122
+114
+122
+122
+Download duration - 6: 34.477294921875
+{'name': 'stop sign', 'percentage_probability': 2.773738279938698, 'box_points': [359, 20, 505, 64]}
+{'name': 'potted plant', 'percentage_probability': 2.087656408548355, 'box_points': [18, 0, 98, 88]}
+{'name': 'person', 'percentage_probability': 20.32821774482727, 'box_points': [241, 49, 373, 357]}
+{'name': 'stop sign', 'percentage_probability': 2.066325396299362, 'box_points': [399, 7, 471, 65]}
+{'name': 'vase', 'percentage_probability': 3.172428533434868, 'box_points': [64, 1, 76, 80]}
+{'name': 'traffic light', 'percentage_probability': 2.631983160972595, 'box_points': [31, 230, 50, 274]}
+{'name': 'car', 'percentage_probability': 2.1666986867785454, 'box_points': [385, 243, 413, 272]}
+{'name': 'sheep', 'percentage_probability': 13.328608870506287, 'box_points': [618, 344, 643, 389]}
+file uploaded detected_images_0_6_1691340209560_1691340224432_1691340278809.zip
+Upload duration - 6: 10.59130859375
+file uploaded detected_images_0_27_1691340209720_1691340225574_1691340278298.zip
+Upload duration - 27: 107.718994140625
+Download duration - 21: 32.77490234375
+{'name': 'broccoli', 'percentage_probability': 4.895089566707611, 'box_points': [0, 2, 86, 44]}
+{'name': 'traffic light', 'percentage_probability': 8.015093207359314, 'box_points': [277, 136, 365, 213]}
+{'name': 'traffic light', 'percentage_probability': 43.27362775802612, 'box_points': [270, 102, 376, 318]}
+{'name': 'traffic light', 'percentage_probability': 2.1609535440802574, 'box_points': [267, 219, 363, 296]}
+{'name': 'chair', 'percentage_probability': 2.296038903295994, 'box_points': [19, 238, 106, 294]}
+{'name': 'broccoli', 'percentage_probability': 4.200111702084541, 'box_points': [17, 0, 67, 58]}
+{'name': 'traffic light', 'percentage_probability': 5.517972260713577, 'box_points': [300, 111, 346, 226]}
+{'name': 'cell phone', 'percentage_probability': 2.2519273683428764, 'box_points': [295, 200, 350, 310]}
+file uploaded detected_images_0_21_1691340209560_1691340224432_1691340278850.zip
+Upload duration - 21: 9.24560546875
+1 start: Sun Aug  6 16:44:27 2023
+0 finish: Sun Aug  6 16:44:37 2023
+0 finish: Sun Aug  6 16:44:38 2023
+1 finish: Sun Aug  6 16:44:38 2023
+duration: 24333.541015625
+Received request
+POST http://vi-classify.default.svc.cluster.local/ vi-classify.default.svc.cluster.local
+  Host: vi-classify.default.svc.cluster.local
+  User-Agent: curl/8.2.1
+  Content-Length: 205
+  Accept: */*
+  Content-Type: application/json
+  Forwarded: for=10.244.2.191;proto=http
+  K-Proxy-Request: activator
+  X-Forwarded-For: 10.244.2.191, 10.244.2.189
+  X-Forwarded-Proto: http
+  X-Request-Id: d0c4b7cc-2cda-4bb0-aa24-0db387930a27
+Request body:
+  {"body": "\"Download/Split/Upload Successful!\"", "counter": 2, "detect_prob": 2, "millis1": [1691340209478, 1691340209859], "millis2": [1691340225115, 1691340223560], "source_id": "0", "statusCode": 200, "values": [2, 17]}
+
+
+{'body': '"Download/Split/Upload Successful!"', 'counter': 2, 'detect_prob': 2, 'millis1': [1691340209478, 1691340209859], 'millis2': [1691340225115, 1691340223560], 'source_id': '0', 'statusCode': 200, 'values': [2, 17]}
+2
+0 start: Sun Aug  6 16:44:38 2023
+1 start: Sun Aug  6 16:44:38 2023
+1 finish: Sun Aug  6 16:44:38 2023
+duration: 11513.805419921875
+Received request
+POST http://vi-classify.default.svc.cluster.local/ vi-classify.default.svc.cluster.local
+  Host: vi-classify.default.svc.cluster.local
+  User-Agent: curl/8.2.1
+  Content-Length: 205
+  Accept: */*
+  Content-Type: application/json
+  Forwarded: for=10.244.2.191;proto=http
+  K-Proxy-Request: activator
+  X-Forwarded-For: 10.244.2.191, 10.244.2.189
+  X-Forwarded-Proto: http
+  X-Request-Id: 82bb2cd1-bd6b-4d69-91e7-39128de7e115
+Request body:
+  {"body": "\"Download/Split/Upload Successful!\"", "counter": 2, "detect_prob": 2, "millis1": [1691340209498, 1691340209890], "millis2": [1691340225179, 1691340226508], "source_id": "0", "statusCode": 200, "values": [3, 18]}
+
+
+{'body': '"Download/Split/Upload Successful!"', 'counter': 2, 'detect_prob': 2, 'millis1': [1691340209498, 1691340209890], 'millis2': [1691340225179, 1691340226508], 'source_id': '0', 'statusCode': 200, 'values': [3, 18]}
+3
+0 start: Sun Aug  6 16:44:38 2023
+file uploaded detected_images_0_13_1691340209749_1691340225655_1691340278237.zip
+Upload duration - 13: 107.83935546875
+2023-08-06 16:44:38.938014: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:38.938764: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:38.938802: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:38.938838: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:38.940616: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:38.946173: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:38.946851: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:38.946885: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:38.946920: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:38.948624: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:38.957507: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:38.958208: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:38.958240: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:38.958276: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:38.960419: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:38.974501: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:38.975180: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:38.975211: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:38.975247: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:38.976917: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+file uploaded detected_images_0_26_1691340209692_1691340224206_1691340278589.zip
+Upload duration - 26: 112.948486328125
+2023-08-06 16:44:39.621617: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:39.622302: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:39.623488: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:39.624118: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:39.641168: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:39.641825: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:39.654926: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:39.655620: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+Download duration - 2: 22.6640625
+file uploaded detected_images_0_2_1691340209478_1691340225115_1691340284659.zip
+Upload duration - 2: 8.829833984375
+Download duration - 3: 23.25830078125
+{'name': 'bicycle', 'percentage_probability': 2.492637187242508, 'box_points': [309, 150, 404, 201]}
+file uploaded detected_images_0_3_1691340209498_1691340225179_1691340284722.zip
+Upload duration - 3: 7.36669921875
+Download duration - 17: 25.34423828125
+{'name': 'traffic light', 'percentage_probability': 10.390772670507431, 'box_points': [211, 63, 299, 130]}
+{'name': 'stop sign', 'percentage_probability': 2.594117820262909, 'box_points': [23, 55, 156, 189]}
+{'name': 'traffic light', 'percentage_probability': 21.77572250366211, 'box_points': [243, 134, 335, 208]}
+{'name': 'traffic light', 'percentage_probability': 40.53141176700592, 'box_points': [239, 87, 337, 328]}
+{'name': 'traffic light', 'percentage_probability': 5.1784697920084, 'box_points': [241, 212, 332, 300]}
+{'name': 'traffic light', 'percentage_probability': 7.844100147485733, 'box_points': [269, 105, 310, 227]}
+{'name': 'traffic light', 'percentage_probability': 3.33908349275589, 'box_points': [249, 226, 277, 272]}
+{'name': 'cell phone', 'percentage_probability': 5.229692906141281, 'box_points': [265, 202, 312, 303]}
+file uploaded detected_images_0_17_1691340209478_1691340225115_1691340284913.zip
+Upload duration - 17: 8.824462890625
+1 start: Sun Aug  6 16:44:38 2023
+0 finish: Sun Aug  6 16:44:38 2023
+0 finish: Sun Aug  6 16:44:44 2023
+0 finish: Sun Aug  6 16:44:44 2023
+1 finish: Sun Aug  6 16:44:44 2023
+duration: 6075.13818359375
+Received request
+POST http://vi-classify.default.svc.cluster.local/ vi-classify.default.svc.cluster.local
+  Host: vi-classify.default.svc.cluster.local
+  User-Agent: curl/8.2.1
+  Content-Length: 206
+  Accept: */*
+  Content-Type: application/json
+  Forwarded: for=10.244.2.191;proto=http
+  K-Proxy-Request: activator
+  X-Forwarded-For: 10.244.2.191, 10.244.2.189
+  X-Forwarded-Proto: http
+  X-Request-Id: f49ddb99-93ab-407f-a79a-6d17a0d380d7
+Request body:
+  {"body": "\"Download/Split/Upload Successful!\"", "counter": 2, "detect_prob": 2, "millis1": [1691340209670, 1691340210115], "millis2": [1691340224179, 1691340223725], "source_id": "0", "statusCode": 200, "values": [10, 25]}
+
+
+{'body': '"Download/Split/Upload Successful!"', 'counter': 2, 'detect_prob': 2, 'millis1': [1691340209670, 1691340210115], 'millis2': [1691340224179, 1691340223725], 'source_id': '0', 'statusCode': 200, 'values': [10, 25]}
+10
+0 start: Sun Aug  6 16:44:44 2023
+2023-08-06 16:44:45.017156: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:45.017860: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:45.017891: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:45.017928: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:45.019853: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:45.024974: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:45.025689: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:45.025723: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:45.025759: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:45.027558: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:45.674748: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:45.675329: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:45.723894: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:45.724499: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+Download duration - 18: 32.56787109375
+{'name': 'tv', 'percentage_probability': 2.4836333468556404, 'box_points': [119, 12, 239, 187]}
+{'name': 'bus', 'percentage_probability': 2.2164037451148033, 'box_points': [124, 18, 235, 234]}
+{'name': 'person', 'percentage_probability': 3.2516803592443466, 'box_points': [44, 167, 468, 286]}
+{'name': 'bus', 'percentage_probability': 25.506487488746643, 'box_points': [377, 184, 622, 277]}
+{'name': 'train', 'percentage_probability': 2.7236387133598328, 'box_points': [377, 184, 622, 277]}
+{'name': 'truck', 'percentage_probability': 22.28681594133377, 'box_points': [377, 184, 622, 277]}
+{'name': 'traffic light', 'percentage_probability': 2.482510544359684, 'box_points': [9, 11, 25, 70]}
+{'name': 'person', 'percentage_probability': 5.498324707150459, 'box_points': [143, 44, 161, 108]}
+{'name': 'person', 'percentage_probability': 5.347398668527603, 'box_points': [155, 46, 177, 105]}
+{'name': 'person', 'percentage_probability': 2.3734984919428825, 'box_points': [143, 64, 189, 91]}
+{'name': 'person', 'percentage_probability': 8.29845741391182, 'box_points': [166, 50, 190, 101]}
+{'name': 'person', 'percentage_probability': 4.144475981593132, 'box_points': [176, 47, 202, 103]}
+{'name': 'person', 'percentage_probability': 4.270109534263611, 'box_points': [166, 66, 211, 91]}
+{'name': 'person', 'percentage_probability': 7.1436770260334015, 'box_points': [202, 70, 218, 120]}
+{'name': 'person', 'percentage_probability': 2.8089111670851707, 'box_points': [168, 125, 215, 162]}
+{'name': 'person', 'percentage_probability': 14.422865211963654, 'box_points': [154, 135, 202, 168]}
+{'name': 'person', 'percentage_probability': 7.910451292991638, 'box_points': [181, 134, 220, 173]}
+{'name': 'traffic light', 'percentage_probability': 6.260836869478226, 'box_points': [275, 154, 301, 201]}
+{'name': 'traffic light', 'percentage_probability': 2.142465114593506, 'box_points': [265, 164, 312, 190]}
+{'name': 'traffic light', 'percentage_probability': 3.2754752784967422, 'box_points': [353, 181, 369, 226]}
+{'name': 'person', 'percentage_probability': 3.879610449075699, 'box_points': [554, 182, 569, 258]}
+{'name': 'bus', 'percentage_probability': 6.049174442887306, 'box_points': [586, 208, 657, 242]}
+{'name': 'train', 'percentage_probability': 3.4164506942033768, 'box_points': [586, 208, 657, 242]}
+{'name': 'truck', 'percentage_probability': 6.807365268468857, 'box_points': [586, 208, 657, 242]}
+{'name': 'microwave', 'percentage_probability': 4.845839366316795, 'box_points': [586, 208, 657, 242]}
+{'name': 'bus', 'percentage_probability': 3.0578313395380974, 'box_points': [601, 183, 636, 266]}
+{'name': 'train', 'percentage_probability': 3.2690249383449554, 'box_points': [601, 183, 636, 266]}
+{'name': 'truck', 'percentage_probability': 5.891432240605354, 'box_points': [601, 183, 636, 266]}
+{'name': 'car', 'percentage_probability': 38.96256387233734, 'box_points': [9, 214, 29, 256]}
+{'name': 'truck', 'percentage_probability': 2.2409500554203987, 'box_points': [9, 214, 29, 256]}
+{'name': 'car', 'percentage_probability': 48.75761568546295, 'box_points': [17, 216, 48, 256]}
+{'name': 'truck', 'percentage_probability': 3.030543029308319, 'box_points': [17, 216, 48, 256]}
+{'name': 'car', 'percentage_probability': 4.95966337621212, 'box_points': [4, 223, 59, 242]}
+{'name': 'person', 'percentage_probability': 5.631642043590546, 'box_points': [49, 207, 64, 259]}
+{'name': 'person', 'percentage_probability': 4.498187080025673, 'box_points': [73, 209, 88, 258]}
+{'name': 'person', 'percentage_probability': 7.19270184636116, 'box_points': [85, 208, 99, 262]}
+{'name': 'person', 'percentage_probability': 5.573289841413498, 'box_points': [99, 207, 111, 261]}
+{'name': 'person', 'percentage_probability': 5.942099541425705, 'box_points': [109, 207, 123, 262]}
+{'name': 'person', 'percentage_probability': 2.2737503051757812, 'box_points': [121, 212, 135, 263]}
+{'name': 'person', 'percentage_probability': 3.0890386551618576, 'box_points': [158, 212, 172, 266]}
+{'name': 'person', 'percentage_probability': 3.8007188588380814, 'box_points': [171, 206, 185, 269]}
+{'name': 'person', 'percentage_probability': 4.7016676515340805, 'box_points': [182, 206, 197, 269]}
+{'name': 'person', 'percentage_probability': 2.366325445473194, 'box_points': [196, 205, 211, 272]}
+{'name': 'person', 'percentage_probability': 6.3125379383563995, 'box_points': [207, 211, 223, 268]}
+{'name': 'horse', 'percentage_probability': 2.9575739055871964, 'box_points': [207, 211, 223, 268]}
+{'name': 'person', 'percentage_probability': 21.470189094543457, 'box_points': [220, 212, 235, 269]}
+{'name': 'horse', 'percentage_probability': 3.5530518740415573, 'box_points': [220, 212, 235, 269]}
+{'name': 'person', 'percentage_probability': 7.40254744887352, 'box_points': [232, 212, 246, 266]}
+{'name': 'person', 'percentage_probability': 15.012556314468384, 'box_points': [243, 212, 259, 268]}
+{'name': 'person', 'percentage_probability': 3.4671418368816376, 'box_points': [256, 215, 272, 265]}
+{'name': 'person', 'percentage_probability': 5.191315338015556, 'box_points': [269, 217, 286, 266]}
+{'name': 'horse', 'percentage_probability': 4.047779738903046, 'box_points': [269, 217, 286, 266]}
+{'name': 'person', 'percentage_probability': 6.294702738523483, 'box_points': [280, 216, 296, 267]}
+{'name': 'horse', 'percentage_probability': 6.452523171901703, 'box_points': [280, 216, 296, 267]}
+{'name': 'person', 'percentage_probability': 17.402641475200653, 'box_points': [294, 216, 310, 268]}
+{'name': 'horse', 'percentage_probability': 10.894658416509628, 'box_points': [294, 216, 310, 268]}
+{'name': 'person', 'percentage_probability': 7.925741374492645, 'box_points': [306, 217, 321, 267]}
+{'name': 'horse', 'percentage_probability': 4.903906583786011, 'box_points': [306, 217, 321, 267]}
+{'name': 'person', 'percentage_probability': 15.474757552146912, 'box_points': [317, 216, 333, 267]}
+{'name': 'horse', 'percentage_probability': 7.467816770076752, 'box_points': [317, 216, 333, 267]}
+{'name': 'person', 'percentage_probability': 38.301753997802734, 'box_points': [331, 214, 346, 270]}
+{'name': 'horse', 'percentage_probability': 5.405089259147644, 'box_points': [331, 214, 346, 270]}
+{'name': 'person', 'percentage_probability': 50.03980994224548, 'box_points': [343, 209, 356, 271]}
+{'name': 'person', 'percentage_probability': 43.24072599411011, 'box_points': [357, 204, 370, 274]}
+{'name': 'person', 'percentage_probability': 42.004019021987915, 'box_points': [368, 201, 381, 276]}
+{'name': 'person', 'percentage_probability': 5.170993134379387, 'box_points': [378, 204, 390, 274]}
+66
+66
+66
+66
+66
+66
+66
+66
+66
+66
+file uploaded detected_images_0_18_1691340209498_1691340225179_1691340287962.zip
+Upload duration - 18: 60.40478515625
+1 start: Sun Aug  6 16:44:44 2023
+1 finish: Sun Aug  6 16:44:48 2023
+duration: 9391.039306640625
+Received request
+POST http://vi-classify.default.svc.cluster.local/ vi-classify.default.svc.cluster.local
+  Host: vi-classify.default.svc.cluster.local
+  User-Agent: curl/8.2.1
+  Content-Length: 206
+  Accept: */*
+  Content-Type: application/json
+  Forwarded: for=10.244.2.191;proto=http
+  K-Proxy-Request: activator
+  X-Forwarded-For: 10.244.2.191, 10.244.2.189
+  X-Forwarded-Proto: http
+  X-Request-Id: 9ede276e-1ed7-4d93-9d0c-6e23bddfd1c0
+Request body:
+  {"body": "\"Download/Split/Upload Successful!\"", "counter": 2, "detect_prob": 2, "millis1": [1691340209778, 1691340210248], "millis2": [1691340223531, 1691340227306], "source_id": "0", "statusCode": 200, "values": [14, 29]}
+
+
+{'body': '"Download/Split/Upload Successful!"', 'counter': 2, 'detect_prob': 2, 'millis1': [1691340209778, 1691340210248], 'millis2': [1691340223531, 1691340227306], 'source_id': '0', 'statusCode': 200, 'values': [14, 29]}
+14
+0 start: Sun Aug  6 16:44:48 2023
+2023-08-06 16:44:48.358570: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:48.359381: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:48.359416: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:48.359457: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:48.361538: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:48.363143: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:48.363836: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:48.363868: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:48.363909: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:48.365663: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:49.008772: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:49.009373: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:49.021223: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:49.021812: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+Download duration - 10: 23.953125
+file uploaded detected_images_0_10_1691340209670_1691340224179_1691340290927.zip
+Upload duration - 10: 7.6396484375
+Download duration - 25: 25.234619140625
+{'name': 'bus', 'percentage_probability': 4.393569752573967, 'box_points': [181, 26, 284, 86]}
+{'name': 'truck', 'percentage_probability': 2.7924492955207825, 'box_points': [181, 26, 284, 86]}
+{'name': 'elephant', 'percentage_probability': 3.8167230784893036, 'box_points': [560, 48, 655, 93]}
+{'name': 'car', 'percentage_probability': 5.314841493964195, 'box_points': [303, 62, 409, 100]}
+{'name': 'person', 'percentage_probability': 6.491272896528244, 'box_points': [150, 68, 229, 127]}
+{'name': 'person', 'percentage_probability': 8.057264983654022, 'box_points': [219, 72, 292, 137]}
+{'name': 'person', 'percentage_probability': 11.586730182170868, 'box_points': [274, 90, 340, 175]}
+{'name': 'person', 'percentage_probability': 32.60849714279175, 'box_points': [344, 81, 412, 175]}
+{'name': 'cow', 'percentage_probability': 4.979825019836426, 'box_points': [472, 8, 644, 278]}
+{'name': 'person', 'percentage_probability': 7.039584219455719, 'box_points': [0, 0, 175, 302]}
+{'name': 'person', 'percentage_probability': 2.302362211048603, 'box_points': [100, 89, 163, 202]}
+{'name': 'person', 'percentage_probability': 2.7022024616599083, 'box_points': [17, 47, 348, 256]}
+{'name': 'person', 'percentage_probability': 2.4492457509040833, 'box_points': [171, 97, 238, 201]}
+{'name': 'person', 'percentage_probability': 2.020406723022461, 'box_points': [254, 98, 324, 198]}
+{'name': 'person', 'percentage_probability': 23.687942326068878, 'box_points': [474, 22, 640, 302]}
+{'name': 'horse', 'percentage_probability': 5.386830121278763, 'box_points': [474, 22, 640, 302]}
+{'name': 'person', 'percentage_probability': 11.010776460170746, 'box_points': [92, 67, 179, 268]}
+{'name': 'person', 'percentage_probability': 38.58741223812103, 'box_points': [149, 62, 224, 276]}
+{'name': 'person', 'percentage_probability': 28.716883063316345, 'box_points': [204, 92, 311, 260]}
+{'name': 'person', 'percentage_probability': 18.2075634598732, 'box_points': [273, 82, 337, 269]}
+{'name': 'person', 'percentage_probability': 4.672032222151756, 'box_points': [309, 60, 415, 311]}
+{'name': 'person', 'percentage_probability': 39.29426372051239, 'box_points': [396, 35, 505, 341]}
+{'name': 'person', 'percentage_probability': 2.716134861111641, 'box_points': [291, 50, 522, 413]}
+{'name': 'cell phone', 'percentage_probability': 2.6368293911218643, 'box_points': [74, 227, 190, 275]}
+{'name': 'person', 'percentage_probability': 20.19520103931427, 'box_points': [161, 107, 353, 390]}
+{'name': 'person', 'percentage_probability': 72.17506766319275, 'box_points': [290, 127, 434, 386]}
+{'name': 'person', 'percentage_probability': 9.533565491437912, 'box_points': [458, 117, 655, 402]}
+{'name': 'person', 'percentage_probability': 2.209707163274288, 'box_points': [216, 189, 337, 366]}
+{'name': 'person', 'percentage_probability': 9.678462892770767, 'box_points': [382, 184, 489, 380]}
+{'name': 'handbag', 'percentage_probability': 2.7931272983551025, 'box_points': [370, 287, 438, 378]}
+{'name': 'traffic light', 'percentage_probability': 2.2920986637473106, 'box_points': [464, 0, 479, 61]}
+{'name': 'bottle', 'percentage_probability': 2.9547780752182007, 'box_points': [612, 0, 631, 49]}
+{'name': 'traffic light', 'percentage_probability': 22.05735445022583, 'box_points': [131, 0, 145, 60]}
+{'name': 'traffic light', 'percentage_probability': 2.4887725710868835, 'box_points': [352, 3, 373, 62]}
+{'name': 'tv', 'percentage_probability': 2.6909874752163887, 'box_points': [156, 16, 182, 65]}
+{'name': 'bus', 'percentage_probability': 2.2005587816238403, 'box_points': [206, 13, 254, 98]}
+{'name': 'person', 'percentage_probability': 2.5551827624440193, 'box_points': [160, 48, 194, 89]}
+{'name': 'person', 'percentage_probability': 2.1485967561602592, 'box_points': [264, 37, 285, 99]}
+{'name': 'person', 'percentage_probability': 3.1722739338874817, 'box_points': [257, 51, 292, 85]}
+{'name': 'car', 'percentage_probability': 2.3634709417819977, 'box_points': [307, 34, 369, 106]}
+{'name': 'person', 'percentage_probability': 9.791208803653717, 'box_points': [182, 51, 204, 110]}
+{'name': 'person', 'percentage_probability': 5.118034407496452, 'box_points': [167, 70, 214, 95]}
+{'name': 'person', 'percentage_probability': 3.0011842027306557, 'box_points': [280, 59, 301, 107]}
+{'name': 'car', 'percentage_probability': 5.312006548047066, 'box_points': [351, 62, 379, 100]}
+{'name': 'car', 'percentage_probability': 6.731758266687393, 'box_points': [359, 70, 418, 95]}
+{'name': 'car', 'percentage_probability': 28.764033317565918, 'box_points': [479, 68, 511, 102]}
+{'name': 'car', 'percentage_probability': 2.1060604602098465, 'box_points': [496, 61, 520, 107]}
+{'name': 'person', 'percentage_probability': 14.722833037376404, 'box_points': [194, 62, 216, 115]}
+{'name': 'person', 'percentage_probability': 3.1230242922902107, 'box_points': [178, 78, 227, 101]}
+{'name': 'person', 'percentage_probability': 8.563189208507538, 'box_points': [203, 67, 225, 116]}
+{'name': 'person', 'percentage_probability': 3.9954017847776413, 'box_points': [217, 62, 236, 122]}
+{'name': 'person', 'percentage_probability': 3.7877947092056274, 'box_points': [293, 75, 327, 114]}
+{'name': 'person', 'percentage_probability': 4.677484557032585, 'box_points': [378, 75, 419, 112]}
+{'name': 'car', 'percentage_probability': 9.404660016298294, 'box_points': [475, 71, 497, 123]}
+{'name': 'motorcycle', 'percentage_probability': 2.6347097009420395, 'box_points': [475, 71, 497, 123]}
+{'name': 'car', 'percentage_probability': 5.774195492267609, 'box_points': [464, 82, 509, 110]}
+{'name': 'person', 'percentage_probability': 3.419410064816475, 'box_points': [207, 87, 244, 119]}
+{'name': 'person', 'percentage_probability': 3.7113726139068604, 'box_points': [368, 51, 403, 167]}
+{'name': 'car', 'percentage_probability': 10.112157464027405, 'box_points': [456, 90, 488, 128]}
+{'name': 'person', 'percentage_probability': 2.8150495141744614, 'box_points': [256, 99, 319, 132]}
+{'name': 'person', 'percentage_probability': 5.769803375005722, 'box_points': [272, 77, 308, 183]}
+{'name': 'person', 'percentage_probability': 2.859032526612282, 'box_points': [277, 109, 326, 152]}
+{'name': 'person', 'percentage_probability': 12.620986998081207, 'box_points': [301, 103, 357, 156]}
+{'name': 'person', 'percentage_probability': 26.855823397636414, 'box_points': [312, 71, 343, 192]}
+{'name': 'person', 'percentage_probability': 13.3832186460495, 'box_points': [285, 74, 319, 208]}
+{'name': 'person', 'percentage_probability': 2.6589248329401016, 'box_points': [608, 127, 634, 293]}
+{'name': 'person', 'percentage_probability': 3.066757693886757, 'box_points': [466, 208, 499, 255]}
+{'name': 'person', 'percentage_probability': 3.241068497300148, 'box_points': [281, 222, 327, 259]}
+{'name': 'cell phone', 'percentage_probability': 2.6831477880477905, 'box_points': [97, 213, 161, 286]}
+69
+69
+69
+69
+69
+69
+69
+69
+69
+69
+file uploaded detected_images_0_25_1691340209670_1691340224179_1691340294245.zip
+Upload duration - 25: 73.2783203125
+1 start: Sun Aug  6 16:44:48 2023
+0 finish: Sun Aug  6 16:44:50 2023
+1 finish: Sun Aug  6 16:44:54 2023
+duration: 9653.900390625
+Received request
+POST http://vi-classify.default.svc.cluster.local/ vi-classify.default.svc.cluster.local
+  Host: vi-classify.default.svc.cluster.local
+  User-Agent: curl/8.2.1
+  Content-Length: 205
+  Accept: */*
+  Content-Type: application/json
+  Forwarded: for=10.244.2.191;proto=http
+  K-Proxy-Request: activator
+  X-Forwarded-For: 10.244.2.191, 10.244.2.189
+  X-Forwarded-Proto: http
+  X-Request-Id: 759a8f1c-ec43-4884-b58e-dff623d006b9
+Request body:
+  {"body": "\"Download/Split/Upload Successful!\"", "counter": 2, "detect_prob": 2, "millis1": [1691340209623, 1691340210050], "millis2": [1691340223529, 1691340223812], "source_id": "0", "statusCode": 200, "values": [8, 23]}
+
+
+{'body': '"Download/Split/Upload Successful!"', 'counter': 2, 'detect_prob': 2, 'millis1': [1691340209623, 1691340210050], 'millis2': [1691340223529, 1691340223812], 'source_id': '0', 'statusCode': 200, 'values': [8, 23]}
+8
+0 start: Sun Aug  6 16:44:54 2023
+2023-08-06 16:44:54.678304: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:54.679022: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:54.679057: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:54.679095: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:54.681088: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:54.685241: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:54.686008: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:44:54.686082: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:44:54.686141: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:44:54.688349: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:44:55.343756: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:55.344340: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:44:55.366177: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:44:55.366872: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+Download duration - 14: 27.62890625
+{'name': 'umbrella', 'percentage_probability': 22.13030457496643, 'box_points': [0, 38, 179, 67]}
+{'name': 'person', 'percentage_probability': 10.391978919506073, 'box_points': [22, 46, 101, 101]}
+{'name': 'truck', 'percentage_probability': 2.4324344471096992, 'box_points': [46, 43, 171, 83]}
+{'name': 'person', 'percentage_probability': 4.676784947514534, 'box_points': [73, 49, 193, 92]}
+{'name': 'car', 'percentage_probability': 2.127440646290779, 'box_points': [461, 69, 541, 119]}
+{'name': 'truck', 'percentage_probability': 4.871261864900589, 'box_points': [461, 69, 541, 119]}
+{'name': 'person', 'percentage_probability': 8.862118422985077, 'box_points': [85, 70, 184, 128]}
+{'name': 'person', 'percentage_probability': 5.7990871369838715, 'box_points': [152, 55, 221, 140]}
+{'name': 'person', 'percentage_probability': 10.590719431638718, 'box_points': [178, 53, 248, 152]}
+{'name': 'person', 'percentage_probability': 8.132939040660858, 'box_points': [250, 68, 320, 145]}
+{'name': 'person', 'percentage_probability': 27.4583637714386, 'box_points': [325, 64, 392, 138]}
+{'name': 'car', 'percentage_probability': 7.445794343948364, 'box_points': [486, 84, 560, 129]}
+{'name': 'person', 'percentage_probability': 4.257441312074661, 'box_points': [0, 63, 46, 165]}
+{'name': 'person', 'percentage_probability': 27.916279435157776, 'box_points': [18, 84, 104, 157]}
+{'name': 'person', 'percentage_probability': 2.056357264518738, 'box_points': [138, 32, 235, 216]}
+{'name': 'person', 'percentage_probability': 6.059634685516357, 'box_points': [200, 76, 262, 174]}
+{'name': 'person', 'percentage_probability': 2.398376725614071, 'box_points': [185, 41, 271, 208]}
+{'name': 'person', 'percentage_probability': 4.629098623991013, 'box_points': [274, 82, 336, 167]}
+{'name': 'person', 'percentage_probability': 6.723075360059738, 'box_points': [373, 29, 486, 241]}
+{'name': 'person', 'percentage_probability': 3.930831700563431, 'box_points': [530, 43, 644, 240]}
+{'name': 'backpack', 'percentage_probability': 3.7306953221559525, 'box_points': [538, 57, 647, 222]}
+{'name': 'person', 'percentage_probability': 2.4168837815523148, 'box_points': [0, 103, 82, 171]}
+{'name': 'person', 'percentage_probability': 15.287259221076965, 'box_points': [88, 68, 182, 221]}
+{'name': 'person', 'percentage_probability': 2.024705894291401, 'box_points': [81, 8, 381, 296]}
+{'name': 'person', 'percentage_probability': 5.255124717950821, 'box_points': [222, 105, 304, 197]}
+{'name': 'person', 'percentage_probability': 2.678239531815052, 'box_points': [0, 32, 71, 304]}
+{'name': 'chair', 'percentage_probability': 4.772849008440971, 'box_points': [124, 115, 208, 218]}
+{'name': 'person', 'percentage_probability': 15.820178389549255, 'box_points': [112, 93, 214, 253]}
+{'name': 'person', 'percentage_probability': 4.254627227783203, 'box_points': [143, 121, 224, 226]}
+{'name': 'person', 'percentage_probability': 17.43112951517105, 'box_points': [371, 68, 443, 295]}
+{'name': 'person', 'percentage_probability': 2.2736351937055588, 'box_points': [439, 81, 515, 291]}
+{'name': 'person', 'percentage_probability': 12.75993436574936, 'box_points': [7, 103, 148, 290]}
+{'name': 'person', 'percentage_probability': 5.959399417042732, 'box_points': [166, 90, 246, 303]}
+{'name': 'person', 'percentage_probability': 46.50599956512451, 'box_points': [213, 94, 301, 301]}
+{'name': 'person', 'percentage_probability': 6.985631585121155, 'box_points': [274, 87, 396, 324]}
+{'name': 'person', 'percentage_probability': 4.052859917283058, 'box_points': [199, 174, 272, 275]}
+{'name': 'person', 'percentage_probability': 56.41673803329468, 'box_points': [399, 103, 507, 366]}
+{'name': 'person', 'percentage_probability': 2.182340808212757, 'box_points': [0, 124, 39, 360]}
+{'name': 'person', 'percentage_probability': 4.189116880297661, 'box_points': [0, 100, 294, 393]}
+{'name': 'person', 'percentage_probability': 5.306558310985565, 'box_points': [108, 159, 223, 331]}
+{'name': 'person', 'percentage_probability': 5.937144160270691, 'box_points': [193, 129, 276, 366]}
+{'name': 'person', 'percentage_probability': 3.0304402112960815, 'box_points': [244, 127, 324, 377]}
+{'name': 'person', 'percentage_probability': 3.6383144557476044, 'box_points': [239, 114, 470, 394]}
+{'name': 'person', 'percentage_probability': 29.412832856178284, 'box_points': [443, 115, 658, 403]}
+{'name': 'backpack', 'percentage_probability': 3.1614501029253006, 'box_points': [272, 177, 338, 379]}
+{'name': 'handbag', 'percentage_probability': 5.696841701865196, 'box_points': [272, 177, 338, 379]}
+{'name': 'chair', 'percentage_probability': 2.1307481452822685, 'box_points': [403, 176, 500, 381]}
+{'name': 'handbag', 'percentage_probability': 2.3248817771673203, 'box_points': [242, 218, 322, 384]}
+{'name': 'baseball bat', 'percentage_probability': 3.5626597702503204, 'box_points': [242, 218, 322, 384]}
+{'name': 'person', 'percentage_probability': 7.524476200342178, 'box_points': [281, 213, 425, 385]}
+{'name': 'chair', 'percentage_probability': 2.9335783794522285, 'box_points': [422, 286, 486, 378]}
+{'name': 'traffic light', 'percentage_probability': 13.54835331439972, 'box_points': [18, 0, 39, 38]}
+{'name': 'tv', 'percentage_probability': 2.4744780734181404, 'box_points': [141, 0, 212, 61]}
+{'name': 'cell phone', 'percentage_probability': 4.057545214891434, 'box_points': [208, 0, 224, 65]}
+{'name': 'umbrella', 'percentage_probability': 3.1826328486204147, 'box_points': [50, 22, 136, 83]}
+{'name': 'person', 'percentage_probability': 4.392905160784721, 'box_points': [4, 41, 31, 87]}
+{'name': 'person', 'percentage_probability': 2.4398155510425568, 'box_points': [0, 51, 43, 79]}
+{'name': 'person', 'percentage_probability': 5.198416113853455, 'box_points': [21, 35, 40, 89]}
+{'name': 'person', 'percentage_probability': 3.932151198387146, 'box_points': [51, 39, 80, 86]}
+{'name': 'person', 'percentage_probability': 6.8924568593502045, 'box_points': [36, 52, 93, 76]}
+{'name': 'person', 'percentage_probability': 3.632413223385811, 'box_points': [72, 36, 90, 91]}
+{'name': 'person', 'percentage_probability': 3.4737199544906616, 'box_points': [152, 44, 177, 86]}
+{'name': 'person', 'percentage_probability': 5.078836902976036, 'box_points': [266, 56, 315, 81]}
+{'name': 'car', 'percentage_probability': 2.5954289361834526, 'box_points': [513, 55, 536, 93]}
+{'name': 'car', 'percentage_probability': 3.8955826312303543, 'box_points': [522, 60, 547, 91]}
+{'name': 'person', 'percentage_probability': 4.5327648520469666, 'box_points': [43, 35, 87, 119]}
+{'name': 'person', 'percentage_probability': 2.702232636511326, 'box_points': [92, 53, 112, 103]}
+{'name': 'person', 'percentage_probability': 6.55440166592598, 'box_points': [127, 62, 185, 90]}
+{'name': 'person', 'percentage_probability': 2.5285396724939346, 'box_points': [132, 41, 176, 116]}
+{'name': 'person', 'percentage_probability': 4.124583676457405, 'box_points': [240, 56, 261, 107]}
+{'name': 'person', 'percentage_probability': 2.8184613212943077, 'box_points': [288, 54, 314, 103]}
+{'name': 'person', 'percentage_probability': 3.8679614663124084, 'box_points': [272, 68, 327, 96]}
+{'name': 'person', 'percentage_probability': 3.1286947429180145, 'box_points': [302, 56, 325, 102]}
+{'name': 'car', 'percentage_probability': 10.757351666688919, 'box_points': [460, 64, 516, 102]}
+{'name': 'truck', 'percentage_probability': 37.26382851600647, 'box_points': [460, 64, 516, 102]}
+{'name': 'truck', 'percentage_probability': 6.007562950253487, 'box_points': [468, 46, 503, 119]}
+{'name': 'car', 'percentage_probability': 7.301929593086243, 'box_points': [537, 63, 557, 104]}
+{'name': 'person', 'percentage_probability': 5.8052074164152145, 'box_points': [0, 66, 38, 108]}
+{'name': 'person', 'percentage_probability': 4.5323967933654785, 'box_points': [166, 68, 213, 111]}
+{'name': 'person', 'percentage_probability': 2.8333112597465515, 'box_points': [174, 36, 209, 146]}
+{'name': 'person', 'percentage_probability': 4.207365587353706, 'box_points': [232, 75, 269, 110]}
+{'name': 'person', 'percentage_probability': 3.1600430607795715, 'box_points': [283, 77, 339, 108]}
+{'name': 'person', 'percentage_probability': 7.141707092523575, 'box_points': [322, 75, 382, 109]}
+{'name': 'person', 'percentage_probability': 13.246406614780426, 'box_points': [343, 43, 377, 145]}
+{'name': 'car', 'percentage_probability': 5.18103651702404, 'box_points': [491, 78, 536, 109]}
+{'name': 'car', 'percentage_probability': 6.825336068868637, 'box_points': [506, 71, 542, 121]}
+{'name': 'car', 'percentage_probability': 82.43208527565002, 'box_points': [503, 86, 563, 112]}
+{'name': 'person', 'percentage_probability': 2.5110870599746704, 'box_points': [5, 28, 33, 173]}
+{'name': 'person', 'percentage_probability': 3.841571882367134, 'box_points': [186, 39, 218, 167]}
+{'name': 'person', 'percentage_probability': 6.028345599770546, 'box_points': [245, 84, 304, 121]}
+{'name': 'person', 'percentage_probability': 5.137418955564499, 'box_points': [276, 88, 331, 125]}
+{'name': 'person', 'percentage_probability': 6.486469507217407, 'box_points': [285, 56, 319, 155]}
+{'name': 'person', 'percentage_probability': 6.944040209054947, 'box_points': [46, 69, 88, 160]}
+{'name': 'apple', 'percentage_probability': 2.1846698597073555, 'box_points': [46, 69, 88, 160]}
+{'name': 'person', 'percentage_probability': 2.492263540625572, 'box_points': [109, 59, 152, 173]}
+{'name': 'person', 'percentage_probability': 6.19388110935688, 'box_points': [212, 43, 243, 188]}
+{'name': 'person', 'percentage_probability': 8.2732655107975, 'box_points': [258, 54, 290, 180]}
+{'name': 'person', 'percentage_probability': 10.071520507335663, 'box_points': [0, 96, 18, 155]}
+{'name': 'person', 'percentage_probability': 2.657906897366047, 'box_points': [3, 105, 53, 143]}
+{'name': 'cell phone', 'percentage_probability': 2.229917235672474, 'box_points': [459, 114, 487, 151]}
+{'name': 'person', 'percentage_probability': 3.9840418845415115, 'box_points': [466, 189, 506, 226]}
+{'name': 'remote', 'percentage_probability': 3.095228224992752, 'box_points': [246, 254, 277, 292]}
+{'name': 'cell phone', 'percentage_probability': 3.480520471930504, 'box_points': [246, 254, 277, 292]}
+103
+103
+103
+103
+103
+103
+103
+103
+103
+103
+Download duration - 29: 25.5498046875
+{'name': 'bus', 'percentage_probability': 4.105561599135399, 'box_points': [527, 44, 637, 93]}
+{'name': 'truck', 'percentage_probability': 2.3183973506093025, 'box_points': [527, 44, 637, 93]}
+{'name': 'truck', 'percentage_probability': 11.401544511318207, 'box_points': [489, 75, 585, 114]}
+{'name': 'car', 'percentage_probability': 47.77207970619202, 'box_points': [494, 75, 598, 113]}
+{'name': 'person', 'percentage_probability': 11.21271550655365, 'box_points': [38, 35, 424, 167]}
+{'name': 'person', 'percentage_probability': 2.381257154047489, 'box_points': [222, 40, 584, 174]}
+{'name': 'person', 'percentage_probability': 2.0592113956809044, 'box_points': [0, 38, 310, 202]}
+{'name': 'person', 'percentage_probability': 2.3749105632305145, 'box_points': [178, 90, 482, 168]}
+{'name': 'person', 'percentage_probability': 6.400885432958603, 'box_points': [185, 62, 523, 248]}
+{'name': 'bench', 'percentage_probability': 3.1734447926282883, 'box_points': [292, 223, 522, 243]}
+{'name': 'person', 'percentage_probability': 4.709269106388092, 'box_points': [416, 243, 499, 324]}
+{'name': 'person', 'percentage_probability': 17.95484870672226, 'box_points': [519, 243, 580, 335]}
+{'name': 'person', 'percentage_probability': 11.978873610496521, 'box_points': [410, 266, 467, 354]}
+{'name': 'person', 'percentage_probability': 4.339998960494995, 'box_points': [443, 265, 510, 356]}
+{'name': 'person', 'percentage_probability': 3.9735548198223114, 'box_points': [505, 266, 570, 363]}
+{'name': 'person', 'percentage_probability': 14.241378009319305, 'box_points': [591, 271, 648, 358]}
+{'name': 'person', 'percentage_probability': 85.6425404548645, 'box_points': [154, 289, 225, 371]}
+{'name': 'person', 'percentage_probability': 25.573909282684326, 'box_points': [190, 284, 264, 371]}
+{'name': 'person', 'percentage_probability': 6.452389806509018, 'box_points': [280, 296, 343, 373]}
+{'name': 'person', 'percentage_probability': 5.3332798182964325, 'box_points': [414, 296, 486, 366]}
+{'name': 'bench', 'percentage_probability': 8.06574821472168, 'box_points': [414, 296, 486, 366]}
+{'name': 'bench', 'percentage_probability': 4.368862882256508, 'box_points': [445, 294, 509, 371]}
+{'name': 'person', 'percentage_probability': 2.1728938445448875, 'box_points': [175, 319, 285, 366]}
+{'name': 'person', 'percentage_probability': 16.95779412984848, 'box_points': [316, 316, 387, 376]}
+{'name': 'person', 'percentage_probability': 2.168050594627857, 'box_points': [356, 343, 457, 376]}
+{'name': 'bottle', 'percentage_probability': 27.084562182426453, 'box_points': [407, 23, 440, 68]}
+{'name': 'bottle', 'percentage_probability': 7.665940374135971, 'box_points': [432, 24, 466, 67]}
+{'name': 'potted plant', 'percentage_probability': 6.943301111459732, 'box_points': [432, 24, 466, 67]}
+{'name': 'traffic light', 'percentage_probability': 4.948536306619644, 'box_points': [47, 37, 69, 71]}
+{'name': 'person', 'percentage_probability': 3.0979370698332787, 'box_points': [317, 36, 334, 82]}
+{'name': 'person', 'percentage_probability': 4.06012050807476, 'box_points': [329, 27, 347, 85]}
+{'name': 'vase', 'percentage_probability': 2.693147584795952, 'box_points': [366, 24, 381, 89]}
+{'name': 'potted plant', 'percentage_probability': 2.245628833770752, 'box_points': [451, 35, 473, 87]}
+{'name': 'bus', 'percentage_probability': 27.31395661830902, 'box_points': [554, 54, 639, 79]}
+{'name': 'truck', 'percentage_probability': 13.93481194972992, 'box_points': [554, 54, 639, 79]}
+{'name': 'bus', 'percentage_probability': 5.64100444316864, 'box_points': [577, 37, 614, 88]}
+{'name': 'truck', 'percentage_probability': 3.32648865878582, 'box_points': [577, 37, 614, 88]}
+{'name': 'person', 'percentage_probability': 2.7917861938476562, 'box_points': [614, 38, 634, 86]}
+{'name': 'car', 'percentage_probability': 12.50871866941452, 'box_points': [622, 35, 639, 86]}
+{'name': 'truck', 'percentage_probability': 2.359876409173012, 'box_points': [622, 35, 639, 86]}
+{'name': 'person', 'percentage_probability': 6.0782041400671005, 'box_points': [488, 47, 506, 102]}
+{'name': 'car', 'percentage_probability': 11.751355230808258, 'box_points': [570, 51, 600, 94]}
+{'name': 'car', 'percentage_probability': 44.789499044418335, 'box_points': [550, 59, 639, 78]}
+{'name': 'car', 'percentage_probability': 8.446457982063293, 'box_points': [594, 47, 619, 93]}
+{'name': 'person', 'percentage_probability': 3.2794538885354996, 'box_points': [467, 49, 482, 116]}
+{'name': 'bicycle', 'percentage_probability': 3.999745473265648, 'box_points': [467, 49, 482, 116]}
+{'name': 'person', 'percentage_probability': 11.070672422647476, 'box_points': [477, 46, 492, 120]}
+{'name': 'person', 'percentage_probability': 3.261330723762512, 'box_points': [469, 68, 503, 102]}
+{'name': 'person', 'percentage_probability': 6.661636382341385, 'box_points': [485, 70, 531, 102]}
+{'name': 'car', 'percentage_probability': 4.141895100474358, 'box_points': [485, 70, 531, 102]}
+{'name': 'car', 'percentage_probability': 3.2504651695489883, 'box_points': [500, 58, 549, 113]}
+{'name': 'car', 'percentage_probability': 20.977486670017242, 'box_points': [498, 72, 577, 97]}
+{'name': 'car', 'percentage_probability': 77.2450864315033, 'box_points': [521, 60, 569, 107]}
+{'name': 'truck', 'percentage_probability': 17.062020301818848, 'box_points': [521, 60, 569, 107]}
+{'name': 'person', 'percentage_probability': 2.2641707211732864, 'box_points': [34, 62, 50, 119]}
+{'name': 'person', 'percentage_probability': 4.510100558400154, 'box_points': [46, 59, 61, 117]}
+{'name': 'person', 'percentage_probability': 2.3507174104452133, 'box_points': [133, 66, 151, 117]}
+{'name': 'person', 'percentage_probability': 2.2702978923916817, 'box_points': [181, 71, 199, 115]}
+{'name': 'person', 'percentage_probability': 2.2943466901779175, 'box_points': [243, 67, 261, 117]}
+{'name': 'person', 'percentage_probability': 2.5139471516013145, 'box_points': [497, 65, 521, 121]}
+{'name': 'person', 'percentage_probability': 3.037792257964611, 'box_points': [260, 85, 288, 128]}
+{'name': 'person', 'percentage_probability': 2.285344898700714, 'box_points': [337, 86, 363, 128]}
+{'name': 'person', 'percentage_probability': 8.925394713878632, 'box_points': [359, 89, 386, 126]}
+{'name': 'potted plant', 'percentage_probability': 2.0096903666853905, 'box_points': [359, 89, 386, 126]}
+{'name': 'person', 'percentage_probability': 5.4395269602537155, 'box_points': [410, 65, 423, 148]}
+{'name': 'person', 'percentage_probability': 9.029507637023926, 'box_points': [416, 69, 430, 145]}
+{'name': 'person', 'percentage_probability': 4.931477457284927, 'box_points': [406, 92, 443, 125]}
+{'name': 'person', 'percentage_probability': 4.790685698390007, 'box_points': [427, 72, 443, 140]}
+{'name': 'person', 'percentage_probability': 14.848022162914276, 'box_points': [440, 79, 457, 143]}
+{'name': 'person', 'percentage_probability': 2.0180966705083847, 'box_points': [428, 96, 467, 125]}
+{'name': 'person', 'percentage_probability': 7.706854492425919, 'box_points': [451, 83, 468, 138]}
+{'name': 'person', 'percentage_probability': 3.414444625377655, 'box_points': [461, 80, 480, 137]}
+{'name': 'person', 'percentage_probability': 2.061264030635357, 'box_points': [453, 93, 488, 124]}
+{'name': 'person', 'percentage_probability': 16.29606783390045, 'box_points': [48, 81, 65, 139]}
+{'name': 'person', 'percentage_probability': 10.70052832365036, 'box_points': [58, 77, 73, 146]}
+{'name': 'person', 'percentage_probability': 4.535902664065361, 'box_points': [72, 80, 88, 144]}
+{'name': 'person', 'percentage_probability': 10.943201184272766, 'box_points': [81, 83, 97, 147]}
+{'name': 'person', 'percentage_probability': 13.748878240585327, 'box_points': [96, 85, 117, 142]}
+{'name': 'person', 'percentage_probability': 2.827572450041771, 'box_points': [88, 99, 124, 128]}
+{'name': 'person', 'percentage_probability': 4.756186902523041, 'box_points': [107, 79, 124, 143]}
+{'name': 'person', 'percentage_probability': 14.952795207500458, 'box_points': [122, 79, 138, 148]}
+{'name': 'person', 'percentage_probability': 2.061936818063259, 'box_points': [117, 97, 146, 128]}
+{'name': 'person', 'percentage_probability': 6.687459349632263, 'box_points': [131, 84, 148, 145]}
+{'name': 'person', 'percentage_probability': 6.726233661174774, 'box_points': [158, 87, 176, 145]}
+{'name': 'person', 'percentage_probability': 5.025575682520866, 'box_points': [166, 88, 184, 145]}
+{'name': 'person', 'percentage_probability': 15.12543112039566, 'box_points': [180, 85, 200, 146]}
+{'name': 'person', 'percentage_probability': 10.755657404661179, 'box_points': [194, 83, 213, 146]}
+{'name': 'person', 'percentage_probability': 10.345657914876938, 'box_points': [205, 82, 223, 148]}
+{'name': 'person', 'percentage_probability': 7.025718688964844, 'box_points': [196, 100, 233, 132]}
+{'name': 'person', 'percentage_probability': 9.005409479141235, 'box_points': [221, 81, 237, 152]}
+{'name': 'person', 'percentage_probability': 38.403695821762085, 'box_points': [230, 80, 248, 155]}
+{'name': 'person', 'percentage_probability': 19.591738283634186, 'box_points': [223, 101, 253, 132]}
+{'name': 'person', 'percentage_probability': 25.392669439315796, 'box_points': [244, 79, 260, 151]}
+{'name': 'person', 'percentage_probability': 10.409828275442123, 'box_points': [255, 84, 272, 153]}
+{'name': 'person', 'percentage_probability': 4.622245579957962, 'box_points': [246, 100, 281, 132]}
+{'name': 'person', 'percentage_probability': 18.270960450172424, 'box_points': [270, 86, 286, 153]}
+{'name': 'person', 'percentage_probability': 10.116986185312271, 'box_points': [278, 95, 297, 146]}
+{'name': 'person', 'percentage_probability': 20.348860323429108, 'box_points': [292, 93, 310, 148]}
+{'name': 'person', 'percentage_probability': 3.5241927951574326, 'box_points': [318, 95, 334, 149]}
+{'name': 'person', 'percentage_probability': 7.747335731983185, 'box_points': [330, 95, 348, 150]}
+{'name': 'person', 'percentage_probability': 2.021714486181736, 'box_points': [319, 102, 356, 134]}
+{'name': 'person', 'percentage_probability': 7.227125018835068, 'box_points': [341, 96, 360, 145]}
+{'name': 'potted plant', 'percentage_probability': 2.741757407784462, 'box_points': [341, 96, 360, 145]}
+{'name': 'person', 'percentage_probability': 14.324164390563965, 'box_points': [365, 86, 381, 146]}
+{'name': 'person', 'percentage_probability': 2.1900732070207596, 'box_points': [378, 100, 399, 138]}
+{'name': 'person', 'percentage_probability': 6.412266939878464, 'box_points': [415, 100, 452, 134]}
+{'name': 'person', 'percentage_probability': 8.957438915967941, 'box_points': [146, 94, 163, 152]}
+{'name': 'person', 'percentage_probability': 33.399203419685364, 'box_points': [172, 109, 205, 141]}
+{'name': 'person', 'percentage_probability': 13.872165977954865, 'box_points': [309, 95, 325, 158]}
+{'name': 'car', 'percentage_probability': 2.250381000339985, 'box_points': [0, 115, 22, 155]}
+{'name': 'car', 'percentage_probability': 68.41300129890442, 'box_points': [0, 126, 60, 151]}
+{'name': 'car', 'percentage_probability': 16.174307465553284, 'box_points': [6, 105, 38, 170]}
+{'name': 'person', 'percentage_probability': 2.5761885568499565, 'box_points': [290, 171, 312, 235]}
+{'name': 'person', 'percentage_probability': 95.46067118644714, 'box_points': [285, 190, 321, 226]}
+{'name': 'person', 'percentage_probability': 6.53635635972023, 'box_points': [513, 206, 553, 238]}
+{'name': 'person', 'percentage_probability': 22.483548521995544, 'box_points': [536, 233, 579, 285]}
+{'name': 'airplane', 'percentage_probability': 15.9686878323555, 'box_points': [178, 245, 226, 276]}
+{'name': 'frisbee', 'percentage_probability': 3.1263157725334167, 'box_points': [178, 245, 226, 276]}
+{'name': 'kite', 'percentage_probability': 7.98167958855629, 'box_points': [178, 245, 226, 276]}
+{'name': 'baseball bat', 'percentage_probability': 4.782865196466446, 'box_points': [178, 245, 226, 276]}
+{'name': 'person', 'percentage_probability': 60.4745090007782, 'box_points': [444, 235, 486, 299]}
+{'name': 'person', 'percentage_probability': 2.2638939321041107, 'box_points': [514, 253, 557, 286]}
+{'name': 'person', 'percentage_probability': 24.115386605262756, 'box_points': [416, 253, 462, 310]}
+{'name': 'person', 'percentage_probability': 2.118956670165062, 'box_points': [453, 222, 489, 339]}
+{'name': 'person', 'percentage_probability': 11.791390180587769, 'box_points': [537, 259, 576, 304]}
+{'name': 'person', 'percentage_probability': 24.504412710666656, 'box_points': [598, 264, 651, 306]}
+{'name': 'person', 'percentage_probability': 3.5051297396421432, 'box_points': [202, 264, 230, 309]}
+{'name': 'surfboard', 'percentage_probability': 3.580610081553459, 'box_points': [417, 260, 463, 324]}
+{'name': 'person', 'percentage_probability': 10.186068713665009, 'box_points': [432, 227, 463, 357]}
+{'name': 'person', 'percentage_probability': 4.653383791446686, 'box_points': [444, 260, 483, 324]}
+{'name': 'person', 'percentage_probability': 8.985278010368347, 'box_points': [529, 227, 563, 361]}
+{'name': 'person', 'percentage_probability': 2.5093957781791687, 'box_points': [600, 272, 619, 320]}
+{'name': 'backpack', 'percentage_probability': 2.0679667592048645, 'box_points': [600, 272, 619, 320]}
+{'name': 'handbag', 'percentage_probability': 2.0269783213734627, 'box_points': [600, 272, 619, 320]}
+{'name': 'person', 'percentage_probability': 9.907712787389755, 'box_points': [190, 282, 244, 321]}
+{'name': 'person', 'percentage_probability': 3.5041242837905884, 'box_points': [417, 277, 459, 330]}
+{'name': 'person', 'percentage_probability': 7.905048877000809, 'box_points': [605, 240, 634, 374]}
+{'name': 'person', 'percentage_probability': 3.857017308473587, 'box_points': [199, 292, 251, 333]}
+{'name': 'person', 'percentage_probability': 16.70055389404297, 'box_points': [286, 301, 324, 336]}
+{'name': 'person', 'percentage_probability': 3.8923919200897217, 'box_points': [439, 293, 479, 341]}
+{'name': 'person', 'percentage_probability': 26.619553565979004, 'box_points': [458, 294, 506, 343]}
+{'name': 'person', 'percentage_probability': 8.34667906165123, 'box_points': [592, 304, 648, 340]}
+{'name': 'person', 'percentage_probability': 87.5215232372284, 'box_points': [172, 272, 207, 379]}
+{'name': 'person', 'percentage_probability': 11.952123045921326, 'box_points': [208, 268, 246, 381]}
+{'name': 'person', 'percentage_probability': 2.5156574323773384, 'box_points': [306, 298, 324, 353]}
+{'name': 'person', 'percentage_probability': 6.613306701183319, 'box_points': [297, 277, 327, 383]}
+{'name': 'person', 'percentage_probability': 2.234537899494171, 'box_points': [303, 309, 344, 351]}
+{'name': 'person', 'percentage_probability': 58.18795561790466, 'box_points': [322, 305, 381, 352]}
+{'name': 'person', 'percentage_probability': 61.25227212905884, 'box_points': [335, 283, 367, 377]}
+{'name': 'bench', 'percentage_probability': 4.313858970999718, 'box_points': [419, 312, 476, 347]}
+{'name': 'bench', 'percentage_probability': 5.495033413171768, 'box_points': [431, 282, 466, 375]}
+{'name': 'handbag', 'percentage_probability': 2.4699224159121513, 'box_points': [475, 311, 502, 350]}
+{'name': 'person', 'percentage_probability': 8.183608204126358, 'box_points': [467, 275, 497, 380]}
+{'name': 'person', 'percentage_probability': 8.436374366283417, 'box_points': [572, 311, 594, 357]}
+{'name': 'person', 'percentage_probability': 5.463064089417458, 'box_points': [595, 307, 618, 357]}
+{'name': 'person', 'percentage_probability': 2.554617263376713, 'box_points': [588, 319, 633, 349]}
+{'name': 'person', 'percentage_probability': 7.759828120470047, 'box_points': [211, 321, 262, 354]}
+{'name': 'person', 'percentage_probability': 47.71511256694794, 'box_points': [291, 313, 332, 363]}
+{'name': 'person', 'percentage_probability': 8.76026600599289, 'box_points': [379, 316, 405, 364]}
+{'name': 'person', 'percentage_probability': 5.592305585741997, 'box_points': [368, 333, 429, 355]}
+{'name': 'person', 'percentage_probability': 4.743056744337082, 'box_points': [414, 324, 462, 356]}
+{'name': 'person', 'percentage_probability': 2.16192826628685, 'box_points': [483, 318, 506, 367]}
+{'name': 'person', 'percentage_probability': 2.123524621129036, 'box_points': [521, 330, 576, 360]}
+{'name': 'person', 'percentage_probability': 52.844637632369995, 'box_points': [558, 331, 611, 361]}
+{'name': 'person', 'percentage_probability': 15.1444211602211, 'box_points': [587, 331, 634, 363]}
+{'name': 'person', 'percentage_probability': 6.980780512094498, 'box_points': [204, 327, 231, 374]}
+{'name': 'person', 'percentage_probability': 2.385159954428673, 'box_points': [190, 340, 243, 361]}
+{'name': 'person', 'percentage_probability': 61.869877576828, 'box_points': [268, 322, 294, 383]}
+{'name': 'person', 'percentage_probability': 47.805434465408325, 'box_points': [259, 343, 301, 364]}
+{'name': 'person', 'percentage_probability': 7.874377071857452, 'box_points': [321, 335, 375, 364]}
+{'name': 'bench', 'percentage_probability': 2.2395124658942223, 'box_points': [386, 336, 434, 371]}
+{'name': 'person', 'percentage_probability': 28.456968069076538, 'box_points': [572, 334, 598, 379]}
+{'name': 'person', 'percentage_probability': 5.475979670882225, 'box_points': [598, 329, 624, 383]}
+{'name': 'person', 'percentage_probability': 8.746428787708282, 'box_points': [610, 324, 632, 384]}
+{'name': 'person', 'percentage_probability': 5.1400326192379, 'box_points': [599, 340, 644, 366]}
+{'name': 'person', 'percentage_probability': 4.359811171889305, 'box_points': [624, 327, 641, 385]}
+{'name': 'person', 'percentage_probability': 15.5983105301857, 'box_points': [94, 340, 124, 373]}
+{'name': 'person', 'percentage_probability': 6.037289649248123, 'box_points': [115, 343, 162, 370]}
+{'name': 'umbrella', 'percentage_probability': 5.252699181437492, 'box_points': [115, 343, 162, 370]}
+{'name': 'person', 'percentage_probability': 2.8422024101018906, 'box_points': [184, 343, 222, 372]}
+file uploaded detected_images_0_14_1691340209778_1691340223531_1691340299208.zip
+Upload duration - 14: 116.300537109375
+180
+180
+180
+180
+180
+180
+180
+180
+180
+180
+file uploaded detected_images_0_29_1691340209778_1691340223531_1691340303088.zip
+Upload duration - 29: 115.811767578125
+1 start: Sun Aug  6 16:44:54 2023
+0 finish: Sun Aug  6 16:44:59 2023
+1 finish: Sun Aug  6 16:45:03 2023
+duration: 15596.1005859375
+Received request
+POST http://vi-classify.default.svc.cluster.local/ vi-classify.default.svc.cluster.local
+  Host: vi-classify.default.svc.cluster.local
+  User-Agent: curl/8.2.1
+  Content-Length: 205
+  Accept: */*
+  Content-Type: application/json
+  Forwarded: for=10.244.2.191;proto=http
+  K-Proxy-Request: activator
+  X-Forwarded-For: 10.244.2.191, 10.244.2.189
+  X-Forwarded-Proto: http
+  X-Request-Id: 21305667-8132-409e-8cb1-4c00d6482fe0
+Request body:
+  {"body": "\"Download/Split/Upload Successful!\"", "counter": 2, "detect_prob": 2, "millis1": [1691340209540, 1691340209947], "millis2": [1691340224908, 1691340225805], "source_id": "0", "statusCode": 200, "values": [5, 20]}
+
+
+{'body': '"Download/Split/Upload Successful!"', 'counter': 2, 'detect_prob': 2, 'millis1': [1691340209540, 1691340209947], 'millis2': [1691340224908, 1691340225805], 'source_id': '0', 'statusCode': 200, 'values': [5, 20]}
+5
+0 start: Sun Aug  6 16:45:03 2023
+2023-08-06 16:45:03.954722: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:45:03.955532: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:45:03.955658: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:45:03.955726: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:45:03.958526: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:45:03.963841: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-08-06 16:45:03.964616: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/lib/python3.7/site-packages/cv2/../../lib64:
+2023-08-06 16:45:03.964689: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2023-08-06 16:45:03.964743: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (vi-classify-00001-deployment-6bc8bc998-kc6c7): /proc/driver/nvidia/version does not exist
+2023-08-06 16:45:03.966752: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+Download duration - 8: 26.21240234375
+{'name': 'bus', 'percentage_probability': 6.085934117436409, 'box_points': [109, 24, 219, 228]}
+{'name': 'train', 'percentage_probability': 3.3862560987472534, 'box_points': [40, 2, 279, 250]}
+{'name': 'car', 'percentage_probability': 4.9393679946660995, 'box_points': [13, 204, 110, 232]}
+{'name': 'car', 'percentage_probability': 6.924055516719818, 'box_points': [58, 209, 161, 236]}
+{'name': 'person', 'percentage_probability': 2.141951769590378, 'box_points': [21, 174, 441, 277]}
+{'name': 'car', 'percentage_probability': 41.716206073760986, 'box_points': [274, 216, 375, 245]}
+{'name': 'bus', 'percentage_probability': 5.401206389069557, 'box_points': [274, 216, 375, 245]}
+{'name': 'truck', 'percentage_probability': 44.97435688972473, 'box_points': [274, 216, 375, 245]}
+{'name': 'person', 'percentage_probability': 2.865276299417019, 'box_points': [286, 187, 716, 287]}
+{'name': 'car', 'percentage_probability': 2.2240007296204567, 'box_points': [90, 214, 176, 284]}
+{'name': 'car', 'percentage_probability': 2.1287817507982254, 'box_points': [0, 146, 33, 382]}
+{'name': 'car', 'percentage_probability': 3.6865785717964172, 'box_points': [7, 210, 76, 305]}
+{'name': 'car', 'percentage_probability': 93.11922192573547, 'box_points': [16, 208, 164, 308]}
+{'name': 'truck', 'percentage_probability': 4.156598821282387, 'box_points': [16, 208, 164, 308]}
+{'name': 'bench', 'percentage_probability': 4.531515389680862, 'box_points': [274, 230, 585, 380]}
+{'name': 'traffic light', 'percentage_probability': 9.372666478157043, 'box_points': [486, 15, 533, 55]}
+{'name': 'traffic light', 'percentage_probability': 4.940030351281166, 'box_points': [518, 52, 545, 95]}
+{'name': 'traffic light', 'percentage_probability': 4.200414940714836, 'box_points': [601, 61, 648, 92]}
+{'name': 'traffic light', 'percentage_probability': 33.78928005695343, 'box_points': [490, 63, 527, 107]}
+{'name': 'traffic light', 'percentage_probability': 7.879184931516647, 'box_points': [492, 103, 526, 138]}
+{'name': 'traffic light', 'percentage_probability': 8.466143161058426, 'box_points': [518, 106, 535, 163]}
+{'name': 'person', 'percentage_probability': 7.302175462245941, 'box_points': [144, 129, 189, 158]}
+{'name': 'person', 'percentage_probability': 2.21758633852005, 'box_points': [169, 108, 189, 176]}
+{'name': 'person', 'percentage_probability': 3.916039690375328, 'box_points': [156, 119, 177, 179]}
+{'name': 'traffic light', 'percentage_probability': 4.535499215126038, 'box_points': [525, 139, 569, 177]}
+{'name': 'traffic light', 'percentage_probability': 2.0889921113848686, 'box_points': [209, 129, 223, 203]}
+{'name': 'traffic light', 'percentage_probability': 4.408237710595131, 'box_points': [514, 138, 528, 201]}
+{'name': 'traffic light', 'percentage_probability': 2.3735977709293365, 'box_points': [527, 139, 542, 202]}
+{'name': 'person', 'percentage_probability': 2.8358271345496178, 'box_points': [406, 162, 422, 225]}
+{'name': 'person', 'percentage_probability': 2.5684772059321404, 'box_points': [440, 155, 454, 232]}
+{'name': 'car', 'percentage_probability': 2.1020665764808655, 'box_points': [29, 186, 57, 218]}
+{'name': 'person', 'percentage_probability': 4.648507013916969, 'box_points': [421, 186, 454, 222]}
+{'name': 'person', 'percentage_probability': 4.7354888170957565, 'box_points': [467, 186, 483, 238]}
+{'name': 'person', 'percentage_probability': 2.612587995827198, 'box_points': [491, 186, 509, 235]}
+{'name': 'person', 'percentage_probability': 3.366188332438469, 'box_points': [502, 185, 519, 235]}
+{'name': 'car', 'percentage_probability': 2.605569362640381, 'box_points': [545, 195, 574, 226]}
+{'name': 'car', 'percentage_probability': 13.74063491821289, 'box_points': [23, 188, 43, 235]}
+{'name': 'car', 'percentage_probability': 38.45590353012085, 'box_points': [29, 193, 74, 225]}
+{'name': 'truck', 'percentage_probability': 2.336903102695942, 'box_points': [29, 193, 74, 225]}
+{'name': 'car', 'percentage_probability': 2.2167257964611053, 'box_points': [51, 195, 81, 223]}
+{'name': 'car', 'percentage_probability': 7.324637472629547, 'box_points': [85, 195, 121, 226]}
+{'name': 'car', 'percentage_probability': 9.312540292739868, 'box_points': [98, 192, 138, 232]}
+{'name': 'car', 'percentage_probability': 3.3960282802581787, 'box_points': [81, 204, 156, 224]}
+{'name': 'person', 'percentage_probability': 2.313363365828991, 'box_points': [145, 186, 162, 237]}
+{'name': 'person', 'percentage_probability': 4.347201809287071, 'box_points': [159, 185, 176, 239]}
+{'name': 'person', 'percentage_probability': 6.2419891357421875, 'box_points': [170, 190, 187, 240]}
+{'name': 'person', 'percentage_probability': 9.561745822429657, 'box_points': [181, 193, 197, 240]}
+{'name': 'person', 'percentage_probability': 2.325766161084175, 'box_points': [206, 192, 223, 237]}
+{'name': 'person', 'percentage_probability': 28.46483886241913, 'box_points': [220, 190, 236, 243]}
+{'name': 'bicycle', 'percentage_probability': 2.2171612828969955, 'box_points': [220, 190, 236, 243]}
+{'name': 'person', 'percentage_probability': 23.08225929737091, 'box_points': [231, 192, 247, 243]}
+{'name': 'person', 'percentage_probability': 3.0406391248106956, 'box_points': [243, 192, 258, 237]}
+{'name': 'person', 'percentage_probability': 5.697901174426079, 'box_points': [257, 195, 272, 237]}
+{'name': 'person', 'percentage_probability': 2.061506360769272, 'box_points': [267, 198, 283, 239]}
+{'name': 'person', 'percentage_probability': 11.769649386405945, 'box_points': [281, 194, 296, 243]}
+{'name': 'bus', 'percentage_probability': 6.633304804563522, 'box_points': [299, 202, 353, 238]}
+{'name': 'truck', 'percentage_probability': 24.375498294830322, 'box_points': [299, 202, 353, 238]}
+{'name': 'person', 'percentage_probability': 5.385803431272507, 'box_points': [392, 197, 409, 237]}
+{'name': 'person', 'percentage_probability': 3.3768709748983383, 'box_points': [403, 194, 421, 239]}
+{'name': 'bicycle', 'percentage_probability': 3.0584804713726044, 'box_points': [403, 194, 421, 239]}
+{'name': 'person', 'percentage_probability': 4.717707633972168, 'box_points': [414, 193, 431, 239]}
+{'name': 'bicycle', 'percentage_probability': 3.0711829662323, 'box_points': [414, 193, 431, 239]}
+{'name': 'person', 'percentage_probability': 7.888420671224594, 'box_points': [431, 189, 447, 240]}
+{'name': 'bicycle', 'percentage_probability': 2.4548258632421494, 'box_points': [431, 189, 447, 240]}
+{'name': 'person', 'percentage_probability': 3.4673113375902176, 'box_points': [440, 192, 456, 239]}
+{'name': 'person', 'percentage_probability': 2.681082859635353, 'box_points': [450, 192, 465, 238]}
+{'name': 'person', 'percentage_probability': 5.778030306100845, 'box_points': [516, 192, 530, 252]}
+{'name': 'car', 'percentage_probability': 20.720885694026947, 'box_points': [560, 194, 581, 248]}
+{'name': 'person', 'percentage_probability': 8.185594528913498, 'box_points': [602, 191, 616, 257]}
+{'name': 'car', 'percentage_probability': 3.208949789404869, 'box_points': [24, 201, 63, 246]}
+{'name': 'car', 'percentage_probability': 17.442920804023743, 'box_points': [9, 213, 81, 234]}
+{'name': 'car', 'percentage_probability': 4.091814160346985, 'box_points': [117, 198, 147, 244]}
+{'name': 'person', 'percentage_probability': 8.957138657569885, 'box_points': [129, 195, 149, 250]}
+{'name': 'car', 'percentage_probability': 14.178849756717682, 'box_points': [298, 206, 353, 242]}
+{'name': 'person', 'percentage_probability': 33.738523721694946, 'box_points': [519, 181, 533, 278]}
+{'name': 'person', 'percentage_probability': 22.904324531555176, 'box_points': [514, 212, 537, 246]}
+{'name': 'person', 'percentage_probability': 20.700961351394653, 'box_points': [528, 188, 543, 271]}
+{'name': 'person', 'percentage_probability': 24.293510615825653, 'box_points': [539, 183, 553, 277]}
+{'name': 'person', 'percentage_probability': 4.463468492031097, 'box_points': [548, 196, 567, 273]}
+{'name': 'person', 'percentage_probability': 91.52749180793762, 'box_points': [542, 215, 571, 253]}
+{'name': 'person', 'percentage_probability': 89.69935178756714, 'box_points': [567, 214, 598, 255]}
+{'name': 'person', 'percentage_probability': 12.77436912059784, 'box_points': [590, 187, 604, 280]}
+{'name': 'person', 'percentage_probability': 43.844324350357056, 'box_points': [586, 215, 611, 255]}
+{'name': 'person', 'percentage_probability': 76.58491134643555, 'box_points': [597, 213, 621, 255]}
+{'name': 'person', 'percentage_probability': 13.339823484420776, 'box_points': [613, 187, 626, 280]}
+{'name': 'person', 'percentage_probability': 45.06624937057495, 'box_points': [608, 216, 633, 255]}
+{'name': 'person', 'percentage_probability': 35.61485409736633, 'box_points': [628, 187, 640, 285]}
+{'name': 'person', 'percentage_probability': 34.709060192108154, 'box_points': [622, 217, 643, 253]}
+{'name': 'car', 'percentage_probability': 2.900748699903488, 'box_points': [26, 195, 59, 320]}
+2023-08-06 16:45:04.831763: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:45:04.832798: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+2023-08-06 16:45:04.858600: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-08-06 16:45:04.859358: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2199995000 Hz
+Download duration - 23: 29.046875
+{'name': 'person', 'percentage_probability': 2.731918543577194, 'box_points': [277, 115, 725, 258]}
+{'name': 'person', 'percentage_probability': 14.648254215717316, 'box_points': [22, 162, 87, 229]}
+{'name': 'person', 'percentage_probability': 2.4667588993906975, 'box_points': [270, 168, 342, 236]}
+{'name': 'person', 'percentage_probability': 13.02792876958847, 'box_points': [301, 164, 370, 239]}
+{'name': 'person', 'percentage_probability': 4.006418958306313, 'box_points': [378, 170, 441, 242]}
+{'name': 'person', 'percentage_probability': 3.9663832634687424, 'box_points': [469, 169, 532, 253]}
+{'name': 'person', 'percentage_probability': 9.29536446928978, 'box_points': [547, 171, 608, 262]}
+{'name': 'person', 'percentage_probability': 2.9049059376120567, 'box_points': [8, 181, 82, 251]}
+{'name': 'person', 'percentage_probability': 2.6256797835230827, 'box_points': [54, 173, 112, 262]}
+{'name': 'person', 'percentage_probability': 2.0653491839766502, 'box_points': [151, 177, 212, 271]}
+{'name': 'person', 'percentage_probability': 2.011924423277378, 'box_points': [182, 184, 247, 265]}
+{'name': 'person', 'percentage_probability': 6.6446080803871155, 'box_points': [227, 183, 289, 271]}
+{'name': 'person', 'percentage_probability': 3.951377421617508, 'box_points': [251, 182, 325, 276]}
+{'name': 'person', 'percentage_probability': 2.614934742450714, 'box_points': [217, 159, 636, 304]}
+{'name': 'backpack', 'percentage_probability': 6.103058159351349, 'box_points': [414, 206, 498, 267]}
+{'name': 'backpack', 'percentage_probability': 2.8077607974410057, 'box_points': [449, 194, 513, 285]}
+{'name': 'person', 'percentage_probability': 45.63136398792267, 'box_points': [562, 179, 633, 290]}
+{'name': 'person', 'percentage_probability': 2.3960376158356667, 'box_points': [21, 202, 92, 285]}
+{'name': 'person', 'percentage_probability': 5.014197155833244, 'box_points': [0, 170, 288, 325]}
+{'name': 'handbag', 'percentage_probability': 2.168722450733185, 'box_points': [131, 192, 189, 302]}
+{'name': 'backpack', 'percentage_probability': 2.5608889758586884, 'box_points': [252, 202, 321, 294]}
+{'name': 'handbag', 'percentage_probability': 7.794485241174698, 'box_points': [252, 202, 321, 294]}
+{'name': 'person', 'percentage_probability': 6.41755536198616, 'box_points': [126, 169, 482, 341]}
+{'name': 'handbag', 'percentage_probability': 3.014816530048847, 'box_points': [452, 205, 510, 309]}
+{'name': 'handbag', 'percentage_probability': 3.7974976003170013, 'box_points': [475, 199, 529, 322]}
+{'name': 'person', 'percentage_probability': 42.33959913253784, 'box_points': [480, 150, 523, 380]}
+{'name': 'person', 'percentage_probability': 79.60641980171204, 'box_points': [25, 178, 89, 371]}
+{'name': 'person', 'percentage_probability': 13.990415632724762, 'box_points': [60, 164, 112, 372]}
+{'name': 'person', 'percentage_probability': 61.50176525115967, 'box_points': [95, 156, 168, 372]}
+{'name': 'person', 'percentage_probability': 50.88837146759033, 'box_points': [133, 162, 184, 380]}
+{'name': 'person', 'percentage_probability': 85.15371084213257, 'box_points': [164, 168, 207, 382]}
+{'name': 'handbag', 'percentage_probability': 3.4139666706323624, 'box_points': [200, 220, 257, 328]}
+{'name': 'person', 'percentage_probability': 68.138587474823, 'box_points': [195, 181, 258, 376]}
+{'name': 'handbag', 'percentage_probability': 3.1502630561590195, 'box_points': [234, 212, 289, 331]}
+{'name': 'person', 'percentage_probability': 36.72349750995636, 'box_points': [233, 173, 287, 375]}
+{'name': 'person', 'percentage_probability': 40.92585742473602, 'box_points': [249, 167, 321, 376]}
+{'name': 'person', 'percentage_probability': 75.82260370254517, 'box_points': [301, 174, 364, 379]}
+{'name': 'person', 'percentage_probability': 8.17238762974739, 'box_points': [329, 169, 385, 382]}
+{'name': 'person', 'percentage_probability': 84.2738389968872, 'box_points': [350, 166, 415, 379]}
+{'name': 'person', 'percentage_probability': 2.678975649178028, 'box_points': [396, 165, 456, 383]}
+{'name': 'person', 'percentage_probability': 90.11353254318237, 'box_points': [415, 157, 501, 394]}
+{'name': 'person', 'percentage_probability': 50.42114853858948, 'box_points': [500, 177, 568, 381]}
+{'name': 'person', 'percentage_probability': 3.5537082701921463, 'box_points': [561, 163, 639, 404]}
+{'name': 'person', 'percentage_probability': 3.095296211540699, 'box_points': [380, 248, 441, 354]}
+{'name': 'person', 'percentage_probability': 2.037016674876213, 'box_points': [32, 267, 99, 367]}
+{'name': 'bicycle', 'percentage_probability': 38.154080510139465, 'box_points': [246, 278, 369, 381]}
+{'name': 'motorcycle', 'percentage_probability': 3.2312441617250443, 'box_points': [246, 278, 369, 381]}
+{'name': 'bicycle', 'percentage_probability': 3.5848334431648254, 'box_points': [321, 282, 384, 369]}
+{'name': 'stop sign', 'percentage_probability': 24.412743747234344, 'box_points': [405, 11, 461, 36]}
+{'name': 'cup', 'percentage_probability': 2.0370030775666237, 'box_points': [405, 11, 461, 36]}
+{'name': 'traffic light', 'percentage_probability': 5.1573652774095535, 'box_points': [514, 34, 555, 69]}
+{'name': 'traffic light', 'percentage_probability': 2.4141283705830574, 'box_points': [523, 34, 547, 94]}
+{'name': 'traffic light', 'percentage_probability': 11.18689477443695, 'box_points': [415, 49, 434, 110]}
+{'name': 'traffic light', 'percentage_probability': 13.527265191078186, 'box_points': [427, 66, 466, 102]}
+{'name': 'traffic light', 'percentage_probability': 7.115289568901062, 'box_points': [436, 68, 459, 121]}
+{'name': 'traffic light', 'percentage_probability': 7.173663377761841, 'box_points': [458, 74, 483, 121]}
+{'name': 'traffic light', 'percentage_probability': 6.021915376186371, 'box_points': [473, 77, 502, 118]}
+{'name': 'traffic light', 'percentage_probability': 2.189682424068451, 'box_points': [496, 81, 523, 119]}
+{'name': 'person', 'percentage_probability': 2.557731047272682, 'box_points': [628, 107, 642, 168]}
+{'name': 'person', 'percentage_probability': 2.351713739335537, 'box_points': [509, 123, 531, 170]}
+{'name': 'person', 'percentage_probability': 2.119664289057255, 'box_points': [551, 115, 572, 180]}
+{'name': 'person', 'percentage_probability': 10.203530639410019, 'box_points': [544, 133, 580, 166]}
+{'name': 'person', 'percentage_probability': 4.756258055567741, 'box_points': [585, 112, 608, 179]}
+{'name': 'person', 'percentage_probability': 13.497953116893768, 'box_points': [577, 134, 617, 162]}
+{'name': 'person', 'percentage_probability': 10.522797703742981, 'box_points': [607, 119, 632, 174]}
+{'name': 'person', 'percentage_probability': 6.528369337320328, 'box_points': [597, 135, 642, 160]}
+{'name': 'person', 'percentage_probability': 2.700767107307911, 'box_points': [95, 121, 114, 174]}
+{'name': 'person', 'percentage_probability': 2.609490230679512, 'box_points': [564, 144, 604, 177]}
+{'name': 'umbrella', 'percentage_probability': 2.415478602051735, 'box_points': [592, 145, 648, 176]}
+{'name': 'person', 'percentage_probability': 2.2861259058117867, 'box_points': [287, 142, 315, 187]}
+{'name': 'person', 'percentage_probability': 3.961145132780075, 'box_points': [301, 147, 326, 185]}
+{'name': 'person', 'percentage_probability': 2.4177150800824165, 'box_points': [402, 144, 422, 192]}
+{'name': 'umbrella', 'percentage_probability': 4.840259626507759, 'box_points': [586, 158, 652, 189]}
+{'name': 'umbrella', 'percentage_probability': 3.4917451441287994, 'box_points': [600, 131, 636, 216]}
+{'name': 'person', 'percentage_probability': 12.811866402626038, 'box_points': [146, 138, 170, 210]}
+{'name': 'person', 'percentage_probability': 27.734506130218506, 'box_points': [138, 165, 177, 193]}
+{'name': 'person', 'percentage_probability': 7.202473282814026, 'box_points': [275, 163, 327, 195]}
+{'name': 'person', 'percentage_probability': 22.856342792510986, 'box_points': [401, 163, 442, 200]}
+{'name': 'person', 'percentage_probability': 2.5114841759204865, 'box_points': [462, 166, 509, 200]}
+{'name': 'person', 'percentage_probability': 2.895454317331314, 'box_points': [502, 167, 550, 203]}
+{'name': 'person', 'percentage_probability': 13.569723069667816, 'box_points': [26, 172, 82, 202]}
+{'name': 'person', 'percentage_probability': 2.0205579698085785, 'box_points': [52, 171, 102, 203]}
+{'name': 'person', 'percentage_probability': 7.691308110952377, 'box_points': [83, 164, 108, 210]}
+{'name': 'person', 'percentage_probability': 2.891003154218197, 'box_points': [128, 158, 149, 213]}
+{'name': 'person', 'percentage_probability': 2.3061642423272133, 'box_points': [257, 172, 293, 206]}
+{'name': 'person', 'percentage_probability': 10.802073031663895, 'box_points': [302, 169, 354, 211]}
+{'name': 'person', 'percentage_probability': 12.845589220523834, 'box_points': [320, 144, 355, 242]}
+{'name': 'person', 'percentage_probability': 21.782244741916656, 'box_points': [330, 173, 376, 213]}
+{'name': 'person', 'percentage_probability': 2.207954414188862, 'box_points': [352, 177, 399, 210]}
+{'name': 'person', 'percentage_probability': 5.981504917144775, 'box_points': [391, 172, 433, 214]}
+{'name': 'person', 'percentage_probability': 2.2715628147125244, 'box_points': [482, 140, 513, 252]}
+{'name': 'person', 'percentage_probability': 10.729335993528366, 'box_points': [525, 174, 573, 214]}
+{'name': 'person', 'percentage_probability': 7.57610946893692, 'box_points': [550, 174, 600, 219]}
+{'name': 'person', 'percentage_probability': 5.407217517495155, 'box_points': [0, 170, 15, 224]}
+{'name': 'person', 'percentage_probability': 21.477365493774414, 'box_points': [37, 147, 70, 249]}
+{'name': 'person', 'percentage_probability': 8.648140728473663, 'box_points': [56, 180, 104, 221]}
+{'name': 'person', 'percentage_probability': 3.5820025950670242, 'box_points': [152, 182, 204, 220]}
+{'name': 'person', 'percentage_probability': 2.1012425422668457, 'box_points': [228, 188, 274, 219]}
+{'name': 'person', 'percentage_probability': 2.1727342158555984, 'box_points': [333, 147, 365, 261]}
+{'name': 'person', 'percentage_probability': 6.115372106432915, 'box_points': [581, 145, 611, 280]}
+{'name': 'chair', 'percentage_probability': 2.1826308220624924, 'box_points': [0, 201, 42, 226]}
+{'name': 'dining table', 'percentage_probability': 2.6746999472379684, 'box_points': [0, 201, 42, 226]}
+{'name': 'laptop', 'percentage_probability': 4.085306078195572, 'box_points': [0, 201, 42, 226]}
+{'name': 'person', 'percentage_probability': 7.805020362138748, 'box_points': [68, 190, 111, 237]}
+{'name': 'person', 'percentage_probability': 2.560785599052906, 'box_points': [76, 155, 106, 271]}
+{'name': 'person', 'percentage_probability': 4.7811999917030334, 'box_points': [201, 192, 249, 234]}
+{'name': 'person', 'percentage_probability': 3.462032973766327, 'box_points': [272, 158, 308, 275]}
+{'name': 'person', 'percentage_probability': 2.8425440192222595, 'box_points': [310, 152, 345, 282]}
+{'name': 'backpack', 'percentage_probability': 3.9581622928380966, 'box_points': [454, 197, 497, 241]}
+{'name': 'handbag', 'percentage_probability': 2.7542799711227417, 'box_points': [454, 197, 497, 241]}
+{'name': 'person', 'percentage_probability': 3.9626549929380417, 'box_points': [558, 147, 590, 294]}
+{'name': 'person', 'percentage_probability': 6.466785818338394, 'box_points': [589, 146, 626, 297]}
+{'name': 'person', 'percentage_probability': 23.826144635677338, 'box_points': [603, 182, 647, 265]}
+{'name': 'person', 'percentage_probability': 2.5184158235788345, 'box_points': [608, 143, 635, 304]}
+{'name': 'tie', 'percentage_probability': 23.108449578285217, 'box_points': [96, 199, 117, 251]}
+{'name': 'tie', 'percentage_probability': 7.402808219194412, 'box_points': [111, 142, 119, 305]}
+{'name': 'tie', 'percentage_probability': 73.92704486846924, 'box_points': [106, 202, 123, 249]}
+{'name': 'tie', 'percentage_probability': 5.458678305149078, 'box_points': [115, 201, 135, 248]}
+{'name': 'person', 'percentage_probability': 6.993491947650909, 'box_points': [241, 166, 269, 286]}
+{'name': 'backpack', 'percentage_probability': 3.0797339975833893, 'box_points': [441, 176, 480, 286]}
+{'name': 'handbag', 'percentage_probability': 2.477838471531868, 'box_points': [462, 199, 507, 265]}
+{'name': 'person', 'percentage_probability': 2.533208951354027, 'box_points': [0, 198, 15, 273]}
+{'name': 'tie', 'percentage_probability': 2.199617587029934, 'box_points': [100, 184, 112, 286]}
+{'name': 'tie', 'percentage_probability': 3.1790465116500854, 'box_points': [159, 190, 171, 285]}
+{'name': 'tie', 'percentage_probability': 8.008991926908493, 'box_points': [152, 217, 180, 263]}
+{'name': 'tie', 'percentage_probability': 4.884551465511322, 'box_points': [199, 194, 210, 283]}
+{'name': 'backpack', 'percentage_probability': 3.2777003943920135, 'box_points': [230, 218, 275, 260]}
+{'name': 'handbag', 'percentage_probability': 5.976760759949684, 'box_points': [230, 218, 275, 260]}
+{'name': 'backpack', 'percentage_probability': 5.7854533195495605, 'box_points': [271, 173, 304, 308]}
+{'name': 'handbag', 'percentage_probability': 7.201509922742844, 'box_points': [271, 173, 304, 308]}
+{'name': 'backpack', 'percentage_probability': 2.739558555185795, 'box_points': [283, 175, 317, 306]}
+{'name': 'handbag', 'percentage_probability': 2.512047253549099, 'box_points': [473, 165, 501, 322]}
+{'name': 'handbag', 'percentage_probability': 4.639692604541779, 'box_points': [147, 225, 183, 275]}
+{'name': 'handbag', 'percentage_probability': 9.749330580234528, 'box_points': [468, 225, 504, 289]}
+{'name': 'handbag', 'percentage_probability': 2.439223602414131, 'box_points': [504, 236, 537, 280]}
+{'name': 'handbag', 'percentage_probability': 4.106339067220688, 'box_points': [170, 231, 211, 297]}
+{'name': 'handbag', 'percentage_probability': 4.802762344479561, 'box_points': [391, 244, 431, 288]}
+{'name': 'handbag', 'percentage_probability': 5.37138357758522, 'box_points': [478, 245, 516, 294]}
+{'name': 'handbag', 'percentage_probability': 3.8490448147058487, 'box_points': [490, 241, 532, 297]}
+{'name': 'handbag', 'percentage_probability': 2.5098729878664017, 'box_points': [60, 247, 103, 299]}
+{'name': 'handbag', 'percentage_probability': 3.3311787992715836, 'box_points': [241, 257, 285, 296]}
+{'name': 'person', 'percentage_probability': 2.5257378816604614, 'box_points': [484, 212, 515, 351]}
+{'name': 'person', 'percentage_probability': 2.9144084081053734, 'box_points': [0, 231, 15, 337]}
+{'name': 'person', 'percentage_probability': 2.5103291496634483, 'box_points': [397, 206, 425, 374]}
+{'name': 'person', 'percentage_probability': 2.703353390097618, 'box_points': [488, 264, 534, 321]}
+{'name': 'person', 'percentage_probability': 2.510419301688671, 'box_points': [77, 214, 103, 381]}
+{'name': 'person', 'percentage_probability': 3.4908540546894073, 'box_points': [209, 212, 241, 387]}
+{'name': 'bicycle', 'percentage_probability': 2.9554659500718117, 'box_points': [307, 253, 344, 379]}
+{'name': 'bicycle', 'percentage_probability': 6.179870292544365, 'box_points': [332, 290, 368, 342]}
+{'name': 'suitcase', 'percentage_probability': 6.100539490580559, 'box_points': [332, 290, 368, 342]}
+{'name': 'bicycle', 'percentage_probability': 2.3882102221250534, 'box_points': [254, 276, 301, 379]}
+{'name': 'bicycle', 'percentage_probability': 5.101382732391357, 'box_points': [274, 279, 327, 377]}
+{'name': 'skis', 'percentage_probability': 2.3604989051818848, 'box_points': [349, 327, 375, 373]}
+{'name': 'skis', 'percentage_probability': 2.1593019366264343, 'box_points': [373, 340, 424, 360]}
+89
+89
+89
+89
+89
+89
+89
+89
+89
+89
+file uploaded detected_images_0_8_1691340209623_1691340223529_1691340306501.zip
+Upload duration - 8: 105.497314453125
+154
+154
+154
+154
+154
+154
+154
+154
+154
+154
+file uploaded detected_images_0_23_1691340209623_1691340223529_1691340308622.zip
+Upload duration - 23: 135.397216796875
+Download duration - 5: 24.59814453125
+file uploaded detected_images_0_5_1691340209540_1691340224908_1691340311529.zip
+Upload duration - 5: 7.02099609375
+Download duration - 20: 26.940673828125
+{'name': 'truck', 'percentage_probability': 2.0255709066987038, 'box_points': [0, 27, 320, 316]}
+{'name': 'person', 'percentage_probability': 4.892640188336372, 'box_points': [249, 121, 558, 295]}
+{'name': 'bus', 'percentage_probability': 2.8242742642760277, 'box_points': [0, 135, 360, 304]}
+{'name': 'person', 'percentage_probability': 3.5821467638015747, 'box_points': [264, 191, 346, 252]}
+{'name': 'person', 'percentage_probability': 2.305750362575054, 'box_points': [277, 182, 725, 289]}
+{'name': 'truck', 'percentage_probability': 3.1589195132255554, 'box_points': [526, 222, 633, 269]}
+{'name': 'person', 'percentage_probability': 2.2882625460624695, 'box_points': [128, 195, 579, 310]}
+{'name': 'car', 'percentage_probability': 4.100979119539261, 'box_points': [527, 236, 640, 272]}
+{'name': 'traffic light', 'percentage_probability': 3.522586077451706, 'box_points': [602, 93, 646, 130]}
+{'name': 'person', 'percentage_probability': 6.668795645236969, 'box_points': [150, 134, 204, 168]}
+{'name': 'person', 'percentage_probability': 5.595433339476585, 'box_points': [179, 135, 219, 169]}
+{'name': 'person', 'percentage_probability': 14.685475826263428, 'box_points': [232, 141, 254, 189]}
+{'name': 'person', 'percentage_probability': 2.2893905639648438, 'box_points': [274, 148, 303, 187]}
+{'name': 'traffic light', 'percentage_probability': 3.4201908856630325, 'box_points': [526, 170, 543, 225]}
+{'name': 'person', 'percentage_probability': 2.14672964066267, 'box_points': [22, 170, 40, 223]}
+{'name': 'person', 'percentage_probability': 6.992407143115997, 'box_points': [226, 186, 276, 219]}
+{'name': 'person', 'percentage_probability': 2.848922275006771, 'box_points': [252, 174, 277, 230]}
+{'name': 'person', 'percentage_probability': 8.849559724330902, 'box_points': [279, 190, 328, 222]}
+{'name': 'person', 'percentage_probability': 3.5043563693761826, 'box_points': [241, 170, 283, 256]}
+{'name': 'person', 'percentage_probability': 7.4545323848724365, 'box_points': [255, 200, 299, 234]}
+{'name': 'person', 'percentage_probability': 8.294635266065598, 'box_points': [283, 170, 323, 258]}
+{'name': 'person', 'percentage_probability': 2.246403507888317, 'box_points': [304, 190, 341, 238]}
+{'name': 'person', 'percentage_probability': 7.211469858884811, 'box_points': [573, 203, 592, 246]}
+{'name': 'person', 'percentage_probability': 4.423922672867775, 'box_points': [600, 203, 622, 247]}
+{'name': 'person', 'percentage_probability': 3.5248905420303345, 'box_points': [610, 198, 630, 249]}
+{'name': 'person', 'percentage_probability': 2.3101581260561943, 'box_points': [428, 209, 445, 260]}
+{'name': 'person', 'percentage_probability': 3.3575840294361115, 'box_points': [440, 208, 455, 260]}
+{'name': 'person', 'percentage_probability': 2.498254179954529, 'box_points': [467, 207, 480, 263]}
+{'name': 'person', 'percentage_probability': 6.333249807357788, 'box_points': [479, 204, 492, 265]}
+{'name': 'person', 'percentage_probability': 4.654993489384651, 'box_points': [491, 205, 505, 265]}
+{'name': 'person', 'percentage_probability': 19.05837655067444, 'box_points': [502, 203, 516, 269]}
+{'name': 'person', 'percentage_probability': 2.370801195502281, 'box_points': [514, 208, 530, 262]}
+{'name': 'person', 'percentage_probability': 3.4881673753261566, 'box_points': [525, 208, 543, 260]}
+{'name': 'person', 'percentage_probability': 4.576436802744865, 'box_points': [541, 202, 554, 262]}
+{'name': 'person', 'percentage_probability': 5.452126637101173, 'box_points': [551, 208, 568, 257]}
+{'name': 'person', 'percentage_probability': 4.5706551522016525, 'box_points': [562, 209, 582, 255]}
+{'name': 'car', 'percentage_probability': 8.37777629494667, 'box_points': [590, 212, 626, 250]}
+{'name': 'person', 'percentage_probability': 12.632948160171509, 'box_points': [626, 196, 639, 267]}
+{'name': 'car', 'percentage_probability': 39.90149796009064, 'box_points': [9, 210, 28, 259]}
+{'name': 'motorcycle', 'percentage_probability': 2.817552164196968, 'box_points': [9, 210, 28, 259]}
+{'name': 'car', 'percentage_probability': 28.233307600021362, 'box_points': [17, 211, 41, 259]}
+{'name': 'car', 'percentage_probability': 5.430177599191666, 'box_points': [2, 220, 58, 243]}
+{'name': 'person', 'percentage_probability': 10.680735111236572, 'box_points': [336, 213, 349, 270]}
+{'name': 'chair', 'percentage_probability': 2.946257032454014, 'box_points': [336, 213, 349, 270]}
+{'name': 'person', 'percentage_probability': 27.793219685554504, 'box_points': [343, 210, 357, 270]}
+{'name': 'bicycle', 'percentage_probability': 2.024460956454277, 'box_points': [343, 210, 357, 270]}
+{'name': 'chair', 'percentage_probability': 4.75703626871109, 'box_points': [343, 210, 357, 270]}
+{'name': 'person', 'percentage_probability': 20.361390709877014, 'box_points': [355, 205, 368, 271]}
+{'name': 'chair', 'percentage_probability': 4.504397884011269, 'box_points': [355, 205, 368, 271]}
+{'name': 'person', 'percentage_probability': 7.656626403331757, 'box_points': [368, 212, 383, 267]}
+{'name': 'chair', 'percentage_probability': 2.4788139387965202, 'box_points': [368, 212, 383, 267]}
+{'name': 'person', 'percentage_probability': 11.38918325304985, 'box_points': [381, 210, 394, 270]}
+{'name': 'person', 'percentage_probability': 4.84304279088974, 'box_points': [393, 209, 405, 267]}
+{'name': 'person', 'percentage_probability': 6.504795700311661, 'box_points': [406, 214, 421, 263]}
+{'name': 'person', 'percentage_probability': 3.112276643514633, 'box_points': [416, 212, 431, 265]}
+{'name': 'car', 'percentage_probability': 13.011623919010162, 'box_points': [554, 219, 615, 265]}
+56
+56
+56
+56
+56
+56
+56
+56
+56
+56
+file uploaded detected_images_0_20_1691340209540_1691340224908_1691340314253.zip
+Upload duration - 20: 51.671630859375
+[2023-08-06 16:50:45 +0000] [1] [INFO] Handling signal: term

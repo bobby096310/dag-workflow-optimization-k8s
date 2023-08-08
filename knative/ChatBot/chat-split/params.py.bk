@@ -1,0 +1,5 @@
+minio_user = "VUWEE1CXK8MBHQ245KEA"
+minio_password = "1h4XbfkcPOiaEWDf65Tn2xrM9EAyxbYoOqrQ4Qas"
+minio_url = "10.96.216.32:80"
+bucketName = "bucket1"
+column_and_type = {"skew": "int", "bundle_size": "int", "network_bound": "int"}

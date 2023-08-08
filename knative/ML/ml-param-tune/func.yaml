@@ -1,0 +1,10 @@
+specVersion: 0.35.0
+name: ml-param-tune
+runtime: python
+registry: chiuchienhao
+image: docker.io/chiuchienhao/ml-param-tune:latest
+imageDigest: sha256:154546e863908dbd45ef1a373d958774d32b47d901cc58cb5bed31db29f7ab8e
+created: 2023-07-03T22:00:32.381507583Z
+build:
+  builder: pack
+  pvcSize: 256Mi
