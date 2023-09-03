@@ -22,10 +22,10 @@ spec:
           "-H", "Content-Type: application/json",
           "-X", "POST", "-d", "{{inputs.parameters.data}}"
           ]
-          #  activeDeadlineSeconds: 120
-          #  retryStrategy:
-          #    limit: 5
-          #    retryPolicy: "Always"
+      activeDeadlineSeconds: "90"
+      retryStrategy:
+          limit: "5"
+          retryPolicy: "Always"
 
     - name: dag
       inputs:

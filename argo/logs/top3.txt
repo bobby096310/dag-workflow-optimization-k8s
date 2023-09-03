@@ -1,0 +1,233 @@
+Sat Sep  2 21:35:48 UTC 2023
+NAME                                           CPU(cores)   MEMORY(bytes)   
+vi-extract-00001-deployment-6cfc6b6bdd-r9t45   10m          39Mi            
+vi-split-00003-deployment-555d5b4558-fpzwr     1m           43Mi            
+NAME       CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+master     353m         8%     1521Mi          9%        
+worker-1   322m         8%     1129Mi          7%        
+worker-2   212m         5%     1252Mi          7%        
+worker-3   178m         4%     993Mi           6%        
+worker-4   418m         10%    1736Mi          10%       
+worker-5   789m         19%    1316Mi          8%        
+worker-6   445m         11%    1209Mi          7%        
+Sat Sep  2 21:36:03 UTC 2023
+NAME                                           CPU(cores)   MEMORY(bytes)   
+vi-extract-00001-deployment-6cfc6b6bdd-r9t45   1m           39Mi            
+vi-shuffle-00001-deployment-5fd66dc685-dr7zl   1m           30Mi            
+vi-split-00003-deployment-555d5b4558-fpzwr     1m           43Mi            
+NAME       CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+master     362m         9%     1535Mi          9%        
+worker-1   352m         8%     1260Mi          7%        
+worker-2   290m         7%     1275Mi          8%        
+worker-3   339m         8%     1117Mi          7%        
+worker-4   370m         9%     1842Mi          11%       
+worker-5   733m         18%    1483Mi          9%        
+worker-6   444m         11%    1347Mi          8%        
+Sat Sep  2 21:36:18 UTC 2023
+NAME                                           CPU(cores)   MEMORY(bytes)   
+vi-classify-00005-deployment-c5cb6b7c6-2cxm8   3228m        1207Mi          
+vi-classify-00005-deployment-c5cb6b7c6-8wjpl   3105m        1202Mi          
+vi-classify-00005-deployment-c5cb6b7c6-9nmrh   3251m        604Mi           
+vi-classify-00005-deployment-c5cb6b7c6-dg8jl   2173m        1035Mi          
+vi-classify-00005-deployment-c5cb6b7c6-q4gjj   3428m        1216Mi          
+vi-classify-00005-deployment-c5cb6b7c6-tpvpx   269m         177Mi           
+vi-classify-00005-deployment-c5cb6b7c6-x2bsp   2810m        1217Mi          
+vi-extract-00001-deployment-6cfc6b6bdd-r9t45   1m           39Mi            
+vi-shuffle-00001-deployment-5fd66dc685-dr7zl   1m           30Mi            
+vi-split-00003-deployment-555d5b4558-fpzwr     1m           43Mi            
+NAME       CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+master     367m         9%     1563Mi          9%        
+worker-1   909m         22%    2349Mi          14%       
+worker-2   2805m        70%    2549Mi          16%       
+worker-3   1726m        43%    2285Mi          14%       
+worker-4   1940m        48%    3049Mi          19%       
+worker-5   1651m        41%    2722Mi          17%       
+worker-6   2909m        72%    2663Mi          16%       
+Sat Sep  2 21:36:33 UTC 2023
+NAME                                           CPU(cores)   MEMORY(bytes)   
+vi-classify-00005-deployment-c5cb6b7c6-2cxm8   3675m        980Mi           
+vi-classify-00005-deployment-c5cb6b7c6-8wjpl   3377m        1069Mi          
+vi-classify-00005-deployment-c5cb6b7c6-9nmrh   1581m        394Mi           
+vi-classify-00005-deployment-c5cb6b7c6-dg8jl   1m           1035Mi          
+vi-classify-00005-deployment-c5cb6b7c6-lc4t6   1m           177Mi           
+vi-classify-00005-deployment-c5cb6b7c6-q4gjj   906m         390Mi           
+vi-classify-00005-deployment-c5cb6b7c6-t49rk   2m           177Mi           
+vi-classify-00005-deployment-c5cb6b7c6-tpvpx   1m           177Mi           
+vi-classify-00005-deployment-c5cb6b7c6-x2bsp   3610m        1241Mi          
+vi-extract-00001-deployment-6cfc6b6bdd-r9t45   1m           39Mi            
+vi-shuffle-00001-deployment-5fd66dc685-dr7zl   1m           30Mi            
+vi-split-00003-deployment-555d5b4558-fpzwr     1m           43Mi            
+NAME       CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+master     191m         4%     1569Mi          9%        
+worker-1   2910m        72%    1615Mi          10%       
+worker-2   105m         2%     2520Mi          15%       
+worker-3   3861m        96%    2075Mi          13%       
+worker-4   2688m        67%    2166Mi          13%       
+worker-5   4000m        100%   2621Mi          16%       
+worker-6   3691m        92%    2544Mi          16%       
+Sat Sep  2 21:36:48 UTC 2023
+NAME                                           CPU(cores)   MEMORY(bytes)   
+vi-classify-00005-deployment-c5cb6b7c6-2cxm8   3815m        655Mi           
+vi-classify-00005-deployment-c5cb6b7c6-8wjpl   1335m        182Mi           
+vi-classify-00005-deployment-c5cb6b7c6-9nmrh   1m           394Mi           
+vi-classify-00005-deployment-c5cb6b7c6-dg8jl   2m           1035Mi          
+vi-classify-00005-deployment-c5cb6b7c6-lc4t6   2m           177Mi           
+vi-classify-00005-deployment-c5cb6b7c6-q4gjj   2m           390Mi           
+vi-classify-00005-deployment-c5cb6b7c6-t49rk   1m           177Mi           
+vi-classify-00005-deployment-c5cb6b7c6-tpvpx   1m           178Mi           
+vi-classify-00005-deployment-c5cb6b7c6-x2bsp   3875m        1788Mi          
+vi-extract-00001-deployment-6cfc6b6bdd-r9t45   1m           39Mi            
+vi-shuffle-00001-deployment-5fd66dc685-dr7zl   1m           30Mi            
+NAME       CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+master     191m         4%     1559Mi          9%        
+worker-1   79m          1%     1617Mi          10%       
+worker-2   91m          2%     2481Mi          15%       
+worker-3   3918m        97%    2134Mi          13%       
+worker-4   118m         2%     2166Mi          13%       
+worker-5   3857m        96%    3398Mi          21%       
+worker-6   2859m        71%    1622Mi          10%       
+Sat Sep  2 21:37:04 UTC 2023
+NAME                                           CPU(cores)   MEMORY(bytes)   
+vi-classify-00005-deployment-c5cb6b7c6-2cxm8   111m         183Mi           
+vi-classify-00005-deployment-c5cb6b7c6-8wjpl   2m           182Mi           
+vi-classify-00005-deployment-c5cb6b7c6-9nmrh   1m           394Mi           
+vi-classify-00005-deployment-c5cb6b7c6-dg8jl   1m           1035Mi          
+vi-classify-00005-deployment-c5cb6b7c6-lc4t6   1m           178Mi           
+vi-classify-00005-deployment-c5cb6b7c6-q4gjj   2m           390Mi           
+vi-classify-00005-deployment-c5cb6b7c6-t49rk   2m           178Mi           
+vi-classify-00005-deployment-c5cb6b7c6-tpvpx   1m           178Mi           
+vi-classify-00005-deployment-c5cb6b7c6-x2bsp   2733m        392Mi           
+vi-shuffle-00001-deployment-5fd66dc685-dr7zl   1m           30Mi            
+NAME       CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+master     133m         3%     1566Mi          9%        
+worker-1   78m          1%     1611Mi          10%       
+worker-2   59m          1%     2482Mi          15%       
+worker-3   1260m        31%    1234Mi          7%        
+worker-4   104m         2%     2171Mi          13%       
+worker-5   3768m        94%    1943Mi          12%       
+worker-6   129m         3%     1511Mi          9%        
+Sat Sep  2 21:37:19 UTC 2023
+NAME                                           CPU(cores)   MEMORY(bytes)   
+vi-classify-00005-deployment-c5cb6b7c6-2cxm8   2m           183Mi           
+vi-classify-00005-deployment-c5cb6b7c6-8wjpl   1m           182Mi           
+vi-classify-00005-deployment-c5cb6b7c6-9nmrh   1m           394Mi           
+vi-classify-00005-deployment-c5cb6b7c6-dg8jl   2m           1035Mi          
+vi-classify-00005-deployment-c5cb6b7c6-lc4t6   1m           178Mi           
+vi-classify-00005-deployment-c5cb6b7c6-q4gjj   2m           390Mi           
+vi-classify-00005-deployment-c5cb6b7c6-t49rk   1m           178Mi           
+vi-classify-00005-deployment-c5cb6b7c6-tpvpx   1m           178Mi           
+vi-classify-00005-deployment-c5cb6b7c6-x2bsp   2m           392Mi           
+NAME       CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+master     185m         4%     1564Mi          9%        
+worker-1   113m         2%     1583Mi          9%        
+worker-2   71m          1%     2484Mi          15%       
+worker-3   78m          1%     1231Mi          7%        
+worker-4   123m         3%     2170Mi          13%       
+worker-5   118m         2%     1941Mi          12%       
+worker-6   155m         3%     1474Mi          9%        
+Sat Sep  2 21:37:34 UTC 2023
+NAME                                           CPU(cores)   MEMORY(bytes)   
+vi-classify-00005-deployment-c5cb6b7c6-9nmrh   1m           394Mi           
+vi-classify-00005-deployment-c5cb6b7c6-dg8jl   1m           1036Mi          
+vi-classify-00005-deployment-c5cb6b7c6-q4gjj   2m           390Mi           
+vi-classify-00005-deployment-c5cb6b7c6-t49rk   2m           178Mi           
+vi-classify-00005-deployment-c5cb6b7c6-x2bsp   1m           392Mi           
+NAME       CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+master     117m         2%     1565Mi          9%        
+worker-1   63m          1%     1582Mi          9%        
+worker-2   53m          1%     2483Mi          15%       
+worker-3   69m          1%     1233Mi          7%        
+worker-4   89m          2%     2169Mi          13%       
+worker-5   118m         2%     1899Mi          11%       
+worker-6   67m          1%     1477Mi          9%        
+Sat Sep  2 21:37:49 UTC 2023
+NAME                                           CPU(cores)   MEMORY(bytes)   
+vi-classify-00005-deployment-c5cb6b7c6-9nmrh   2m           394Mi           
+vi-classify-00005-deployment-c5cb6b7c6-dg8jl   1m           1036Mi          
+vi-classify-00005-deployment-c5cb6b7c6-q4gjj   2m           390Mi           
+vi-classify-00005-deployment-c5cb6b7c6-t49rk   2m           178Mi           
+vi-classify-00005-deployment-c5cb6b7c6-x2bsp   2m           392Mi           
+NAME       CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+master     133m         3%     1565Mi          9%        
+worker-1   67m          1%     1583Mi          9%        
+worker-2   99m          2%     2312Mi          14%       
+worker-3   74m          1%     1236Mi          7%        
+worker-4   95m          2%     2168Mi          13%       
+worker-5   105m         2%     1903Mi          11%       
+worker-6   247m         6%     1128Mi          7%        
+Sat Sep  2 21:38:04 UTC 2023
+NAME                                           CPU(cores)   MEMORY(bytes)   
+vi-classify-00005-deployment-c5cb6b7c6-9nmrh   1m           394Mi           
+vi-classify-00005-deployment-c5cb6b7c6-dg8jl   1m           1029Mi          
+vi-classify-00005-deployment-c5cb6b7c6-q4gjj   3m           391Mi           
+vi-classify-00005-deployment-c5cb6b7c6-t49rk   2m           178Mi           
+NAME       CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+master     159m         3%     1575Mi          9%        
+worker-1   83m          2%     1517Mi          9%        
+worker-2   55m          1%     2271Mi          14%       
+worker-3   55m          1%     994Mi           6%        
+worker-4   796m         19%    2700Mi          16%       
+worker-5   1463m        36%    2223Mi          13%       
+worker-6   627m         15%    1253Mi          7%        
+Sat Sep  2 21:38:19 UTC 2023
+NAME                                           CPU(cores)   MEMORY(bytes)   
+vi-classify-00005-deployment-c5cb6b7c6-9nmrh   1m           388Mi           
+vi-classify-00005-deployment-c5cb6b7c6-q4gjj   3901m        1204Mi          
+vi-classify-00005-deployment-c5cb6b7c6-t49rk   3231m        183Mi           
+NAME       CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+master     117m         2%     1576Mi          9%        
+worker-1   68m          1%     1513Mi          9%        
+worker-2   46m          1%     2270Mi          14%       
+worker-3   54m          1%     994Mi           6%        
+worker-4   3994m        99%    3245Mi          20%       
+worker-5   3471m        86%    1879Mi          11%       
+worker-6   89m          2%     1227Mi          7%        
+Sat Sep  2 21:38:34 UTC 2023
+NAME                                           CPU(cores)   MEMORY(bytes)   
+vi-classify-00005-deployment-c5cb6b7c6-9nmrh   1m           388Mi           
+vi-classify-00005-deployment-c5cb6b7c6-q4gjj   1856m        393Mi           
+vi-classify-00005-deployment-c5cb6b7c6-t49rk   2m           183Mi           
+NAME       CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+master     153m         3%     1584Mi          9%        
+worker-1   73m          1%     1512Mi          9%        
+worker-2   70m          1%     1258Mi          7%        
+worker-3   66m          1%     993Mi           6%        
+worker-4   3933m        98%    2501Mi          15%       
+worker-5   425m         10%    1500Mi          9%        
+worker-6   158m         3%     1133Mi          7%        
+Sat Sep  2 21:38:49 UTC 2023
+NAME                                           CPU(cores)   MEMORY(bytes)   
+vi-classify-00005-deployment-c5cb6b7c6-q4gjj   1m           393Mi           
+vi-classify-00005-deployment-c5cb6b7c6-t49rk   2m           183Mi           
+NAME       CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+master     146m         3%     1586Mi          9%        
+worker-1   75m          1%     1132Mi          7%        
+worker-2   48m          1%     1254Mi          7%        
+worker-3   55m          1%     995Mi           6%        
+worker-4   273m         6%     2138Mi          13%       
+worker-5   77m          1%     1498Mi          9%        
+worker-6   70m          1%     1119Mi          7%        
+Sat Sep  2 21:39:04 UTC 2023
+NAME                                           CPU(cores)   MEMORY(bytes)   
+vi-classify-00005-deployment-c5cb6b7c6-q4gjj   1m           386Mi           
+vi-classify-00005-deployment-c5cb6b7c6-t49rk   2m           183Mi           
+NAME       CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+master     110m         2%     1586Mi          9%        
+worker-1   46m          1%     1134Mi          7%        
+worker-2   44m          1%     1255Mi          7%        
+worker-3   56m          1%     994Mi           6%        
+worker-4   73m          1%     2139Mi          13%       
+worker-5   78m          1%     1496Mi          9%        
+worker-6   61m          1%     1120Mi          7%        
+Sat Sep  2 21:39:19 UTC 2023
+NAME                                           CPU(cores)   MEMORY(bytes)   
+vi-classify-00005-deployment-c5cb6b7c6-q4gjj   1m           386Mi           
+vi-classify-00005-deployment-c5cb6b7c6-t49rk   2m           183Mi           
+NAME       CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+master     107m         2%     1583Mi          9%        
+worker-1   50m          1%     1129Mi          7%        
+worker-2   43m          1%     1254Mi          7%        
+worker-3   50m          1%     995Mi           6%        
+worker-4   83m          2%     2111Mi          13%       
+worker-5   72m          1%     1499Mi          9%        
+worker-6   58m          1%     1122Mi          7%        

@@ -1,0 +1,900 @@
+{
+   "metadata" : {
+      "annotations" : {
+         "workflows.argoproj.io/pod-name-format" : "v2"
+      },
+      "creationTimestamp" : "2023-09-03T09:14:51Z",
+      "generateName" : "dag-ml-",
+      "generation" : 13,
+      "labels" : {
+         "workflows.argoproj.io/completed" : "true",
+         "workflows.argoproj.io/phase" : "Succeeded"
+      },
+      "managedFields" : [
+         {
+            "apiVersion" : "argoproj.io/v1alpha1",
+            "fieldsType" : "FieldsV1",
+            "fieldsV1" : {
+               "f:metadata" : {
+                  "f:generateName" : {}
+               },
+               "f:spec" : {}
+            },
+            "manager" : "argo",
+            "operation" : "Update",
+            "time" : "2023-09-03T09:14:51Z"
+         },
+         {
+            "apiVersion" : "argoproj.io/v1alpha1",
+            "fieldsType" : "FieldsV1",
+            "fieldsV1" : {
+               "f:metadata" : {
+                  "f:annotations" : {
+                     "." : {},
+                     "f:workflows.argoproj.io/pod-name-format" : {}
+                  },
+                  "f:labels" : {
+                     "." : {},
+                     "f:workflows.argoproj.io/completed" : {},
+                     "f:workflows.argoproj.io/phase" : {}
+                  }
+               },
+               "f:status" : {}
+            },
+            "manager" : "workflow-controller",
+            "operation" : "Update",
+            "time" : "2023-09-03T09:17:15Z"
+         }
+      ],
+      "name" : "dag-ml-bjpqf",
+      "namespace" : "argo",
+      "resourceVersion" : "418663",
+      "uid" : "168099a5-eb5a-440b-a794-63f9b021dd24"
+   },
+   "spec" : {
+      "arguments" : {
+         "parameters" : [
+            {
+               "name" : "knative_url",
+               "value" : "10.102.102.237"
+            }
+         ]
+      },
+      "entrypoint" : "dag2",
+      "serviceAccountName" : "argo-loop",
+      "templates" : [
+         {
+            "container" : {
+               "args" : [
+                  "{{inputs.parameters.url}}",
+                  "-H",
+                  "Host: {{inputs.parameters.func}}.default.svc.cluster.local",
+                  "-H",
+                  "Content-Type: application/json",
+                  "-X",
+                  "POST",
+                  "-d",
+                  "{{inputs.parameters.data}}",
+                  "-f"
+               ],
+               "command" : [
+                  "curl"
+               ],
+               "image" : "curlimages/curl",
+               "name" : "",
+               "resources" : {}
+            },
+            "inputs" : {
+               "parameters" : [
+                  {
+                     "name" : "url"
+                  },
+                  {
+                     "name" : "func"
+                  },
+                  {
+                     "name" : "data"
+                  }
+               ]
+            },
+            "metadata" : {},
+            "name" : "curl",
+            "outputs" : {},
+            "retryStrategy" : {
+               "limit" : 10,
+               "retryPolicy" : "Always"
+            }
+         },
+         {
+            "container" : {
+               "args" : [
+                  "echo received {{inputs.parameters.messages}}"
+               ],
+               "command" : [
+                  "sh",
+                  "-c"
+               ],
+               "image" : "alpine:latest",
+               "name" : "",
+               "resources" : {}
+            },
+            "inputs" : {
+               "parameters" : [
+                  {
+                     "name" : "messages"
+                  }
+               ]
+            },
+            "metadata" : {},
+            "name" : "fan-in",
+            "outputs" : {}
+         },
+         {
+            "dag" : {
+               "tasks" : [
+                  {
+                     "arguments" : {
+                        "parameters" : [
+                           {
+                              "name" : "url",
+                              "value" : "{{inputs.parameters.knative_url}}"
+                           },
+                           {
+                              "name" : "func",
+                              "value" : "ml-pca"
+                           },
+                           {
+                              "name" : "data",
+                              "value" : "{\"bundle_size\": 4, \"key1\": \"300\"}"
+                           }
+                        ]
+                     },
+                     "name" : "p-c-a",
+                     "template" : "curl"
+                  },
+                  {
+                     "arguments" : {
+                        "parameters" : [
+                           {
+                              "name" : "url",
+                              "value" : "{{inputs.parameters.knative_url}}"
+                           },
+                           {
+                              "name" : "func",
+                              "value" : "ml-param-tune"
+                           },
+                           {
+                              "name" : "data",
+                              "value" : "{{item}}"
+                           }
+                        ]
+                     },
+                     "dependencies" : [
+                        "p-c-a"
+                     ],
+                     "name" : "param-tune",
+                     "template" : "curl",
+                     "withParam" : "{{=toJson(jsonpath(tasks['p-c-a'].outputs.result, '$.Result.detail.indeces'))}}"
+                  },
+                  {
+                     "arguments" : {
+                        "parameters" : [
+                           {
+                              "name" : "url",
+                              "value" : "{{inputs.parameters.knative_url}}"
+                           },
+                           {
+                              "name" : "func",
+                              "value" : "ml-combine"
+                           },
+                           {
+                              "name" : "data",
+                              "value" : "{{=toJson(jsonpath(tasks['param-tune'].outputs.result, '$.Result'))}}"
+                           }
+                        ]
+                     },
+                     "dependencies" : [
+                        "param-tune"
+                     ],
+                     "name" : "combine-models",
+                     "template" : "curl"
+                  }
+               ]
+            },
+            "inputs" : {
+               "parameters" : [
+                  {
+                     "name" : "knative_url"
+                  }
+               ]
+            },
+            "metadata" : {},
+            "name" : "dag2",
+            "outputs" : {}
+         }
+      ]
+   },
+   "status" : {
+      "artifactGCStatus" : {
+         "notSpecified" : true
+      },
+      "artifactRepositoryRef" : {
+         "artifactRepository" : {},
+         "default" : true
+      },
+      "conditions" : [
+         {
+            "status" : "False",
+            "type" : "PodRunning"
+         },
+         {
+            "status" : "True",
+            "type" : "Completed"
+         }
+      ],
+      "finishedAt" : "2023-09-03T09:17:15Z",
+      "nodes" : {
+         "dag-ml-bjpqf" : {
+            "children" : [
+               "dag-ml-bjpqf-3081441641"
+            ],
+            "displayName" : "dag-ml-bjpqf",
+            "finishedAt" : "2023-09-03T09:17:15Z",
+            "id" : "dag-ml-bjpqf",
+            "inputs" : {
+               "parameters" : [
+                  {
+                     "name" : "knative_url",
+                     "value" : "10.102.102.237"
+                  }
+               ]
+            },
+            "name" : "dag-ml-bjpqf",
+            "outboundNodes" : [
+               "dag-ml-bjpqf-2738443594"
+            ],
+            "phase" : "Succeeded",
+            "progress" : "6/9",
+            "resourcesDuration" : {
+               "cpu" : 421,
+               "memory" : 421
+            },
+            "startedAt" : "2023-09-03T09:14:51Z",
+            "templateName" : "dag2",
+            "templateScope" : "local/dag-ml-bjpqf",
+            "type" : "DAG"
+         },
+         "dag-ml-bjpqf-1069481544" : {
+            "boundaryID" : "dag-ml-bjpqf",
+            "displayName" : "param-tune(3:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.95,0.95,0.95,0.95],key1:inv_300,max_depth:[10,10,10,10],mod_index:4,num_of_trees:[5,10,15,20],threads:6)(0)",
+            "finishedAt" : "2023-09-03T09:15:28Z",
+            "hostNodeName" : "worker-6",
+            "id" : "dag-ml-bjpqf-1069481544",
+            "inputs" : {
+               "parameters" : [
+                  {
+                     "name" : "url",
+                     "value" : "10.102.102.237"
+                  },
+                  {
+                     "name" : "func",
+                     "value" : "ml-param-tune"
+                  },
+                  {
+                     "name" : "data",
+                     "value" : "{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"feature_fraction\":[0.95,0.95,0.95,0.95],\"key1\":\"inv_300\",\"max_depth\":[10,10,10,10],\"mod_index\":4,\"num_of_trees\":[5,10,15,20],\"threads\":6}"
+                  }
+               ]
+            },
+            "message" : "Error (exit code 22)",
+            "name" : "dag-ml-bjpqf.param-tune(3:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.95,0.95,0.95,0.95],key1:inv_300,max_depth:[10,10,10,10],mod_index:4,num_of_trees:[5,10,15,20],threads:6)(0)",
+            "outputs" : {
+               "exitCode" : "22",
+               "result" : ""
+            },
+            "phase" : "Failed",
+            "progress" : "0/1",
+            "resourcesDuration" : {
+               "cpu" : 12,
+               "memory" : 12
+            },
+            "startedAt" : "2023-09-03T09:15:18Z",
+            "templateName" : "curl",
+            "templateScope" : "local/dag-ml-bjpqf",
+            "type" : "Pod"
+         },
+         "dag-ml-bjpqf-1270665877" : {
+            "boundaryID" : "dag-ml-bjpqf",
+            "displayName" : "param-tune(3:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.95,0.95,0.95,0.95],key1:inv_300,max_depth:[10,10,10,10],mod_index:4,num_of_trees:[5,10,15,20],threads:6)(1)",
+            "finishedAt" : "2023-09-03T09:15:51Z",
+            "hostNodeName" : "worker-6",
+            "id" : "dag-ml-bjpqf-1270665877",
+            "inputs" : {
+               "parameters" : [
+                  {
+                     "name" : "url",
+                     "value" : "10.102.102.237"
+                  },
+                  {
+                     "name" : "func",
+                     "value" : "ml-param-tune"
+                  },
+                  {
+                     "name" : "data",
+                     "value" : "{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"feature_fraction\":[0.95,0.95,0.95,0.95],\"key1\":\"inv_300\",\"max_depth\":[10,10,10,10],\"mod_index\":4,\"num_of_trees\":[5,10,15,20],\"threads\":6}"
+                  }
+               ]
+            },
+            "message" : "Error (exit code 22)",
+            "name" : "dag-ml-bjpqf.param-tune(3:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.95,0.95,0.95,0.95],key1:inv_300,max_depth:[10,10,10,10],mod_index:4,num_of_trees:[5,10,15,20],threads:6)(1)",
+            "outputs" : {
+               "exitCode" : "22",
+               "result" : ""
+            },
+            "phase" : "Failed",
+            "progress" : "0/1",
+            "resourcesDuration" : {
+               "cpu" : 17,
+               "memory" : 17
+            },
+            "startedAt" : "2023-09-03T09:15:38Z",
+            "templateName" : "curl",
+            "templateScope" : "local/dag-ml-bjpqf",
+            "type" : "Pod"
+         },
+         "dag-ml-bjpqf-1368002993" : {
+            "boundaryID" : "dag-ml-bjpqf",
+            "children" : [
+               "dag-ml-bjpqf-2455675400",
+               "dag-ml-bjpqf-2656859733"
+            ],
+            "displayName" : "param-tune(1:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.5,0.5,0.5,0.5],key1:inv_300,max_depth:[10,10,10,10],mod_index:2,num_of_trees:[5,10,15,20],threads:6)",
+            "finishedAt" : "2023-09-03T09:16:28Z",
+            "id" : "dag-ml-bjpqf-1368002993",
+            "inputs" : {
+               "parameters" : [
+                  {
+                     "name" : "url",
+                     "value" : "10.102.102.237"
+                  },
+                  {
+                     "name" : "func",
+                     "value" : "ml-param-tune"
+                  },
+                  {
+                     "name" : "data",
+                     "value" : "{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"feature_fraction\":[0.5,0.5,0.5,0.5],\"key1\":\"inv_300\",\"max_depth\":[10,10,10,10],\"mod_index\":2,\"num_of_trees\":[5,10,15,20],\"threads\":6}"
+                  }
+               ]
+            },
+            "name" : "dag-ml-bjpqf.param-tune(1:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.5,0.5,0.5,0.5],key1:inv_300,max_depth:[10,10,10,10],mod_index:2,num_of_trees:[5,10,15,20],threads:6)",
+            "outputs" : {
+               "exitCode" : "0",
+               "result" : "{\"Received\":\"POST http://ml-param-tune.default.svc.cluster.local/ ml-param-tune.default.svc.cluster.local\\n  Host: ml-param-tune.default.svc.cluster.local\\n  User-Agent: curl/8.2.1\\n  Content-Length: 189\\n  Accept: */*\\n  Content-Type: application/json\\n  Forwarded: for=10.244.3.180;proto=http\\n  K-Proxy-Request: activator\\n  X-Forwarded-For: 10.244.3.180, 10.244.1.153\\n  X-Forwarded-Proto: http\\n  X-Request-Id: deeff983-73ae-4804-9049-36b669f9dcb0\\nRequest body:\\n  {\\\"PCA_Download\\\": 63, \\\"PCA_Process\\\": 7776, \\\"PCA_Upload\\\": 300, \\\"feature_fraction\\\": [0.5, 0.5, 0.5, 0.5], \\\"key1\\\": \\\"inv_300\\\", \\\"max_depth\\\": [10, 10, 10, 10], \\\"mod_index\\\": 2, \\\"num_of_trees\\\": [5, 10, 15, 20], \\\"threads\\\": 6}\\n\\n\",\"Result\":{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"accuracies\":[0.9324,0.9704,0.9842,0.9902],\"body\":\"\\\"Done Training Threads = 6\\\"\",\"download_times\":88,\"duration\":35381,\"key1\":\"inv_300\",\"process_times\":[4036,7353,9893,12293],\"statusCode\":200,\"trees_max_depthes\":[\"5_10_0.5\",\"10_10_0.5\",\"15_10_0.5\",\"20_10_0.5\"],\"upload_times\":[20,51,31,33]},\"Sent\":\"{\\\"PCA_Download\\\": 63, \\\"PCA_Process\\\": 7776, \\\"PCA_Upload\\\": 300, \\\"feature_fraction\\\": [0.5, 0.5, 0.5, 0.5], \\\"key1\\\": \\\"inv_300\\\", \\\"max_depth\\\": [10, 10, 10, 10], \\\"mod_index\\\": 2, \\\"num_of_trees\\\": [5, 10, 15, 20], \\\"threads\\\": 6}\\n\"}"
+            },
+            "phase" : "Succeeded",
+            "progress" : "2/3",
+            "resourcesDuration" : {
+               "cpu" : 94,
+               "memory" : 94
+            },
+            "startedAt" : "2023-09-03T09:15:18Z",
+            "templateName" : "curl",
+            "templateScope" : "local/dag-ml-bjpqf",
+            "type" : "Retry"
+         },
+         "dag-ml-bjpqf-2401992702" : {
+            "boundaryID" : "dag-ml-bjpqf",
+            "children" : [
+               "dag-ml-bjpqf-779809623"
+            ],
+            "displayName" : "param-tune(0:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.25,0.25,0.25,0.25],key1:inv_300,max_depth:[10,10,10,10],mod_index:1,num_of_trees:[5,10,15,20],threads:6)(0)",
+            "finishedAt" : "2023-09-03T09:15:51Z",
+            "hostNodeName" : "worker-6",
+            "id" : "dag-ml-bjpqf-2401992702",
+            "inputs" : {
+               "parameters" : [
+                  {
+                     "name" : "url",
+                     "value" : "10.102.102.237"
+                  },
+                  {
+                     "name" : "func",
+                     "value" : "ml-param-tune"
+                  },
+                  {
+                     "name" : "data",
+                     "value" : "{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"feature_fraction\":[0.25,0.25,0.25,0.25],\"key1\":\"inv_300\",\"max_depth\":[10,10,10,10],\"mod_index\":1,\"num_of_trees\":[5,10,15,20],\"threads\":6}"
+                  }
+               ]
+            },
+            "name" : "dag-ml-bjpqf.param-tune(0:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.25,0.25,0.25,0.25],key1:inv_300,max_depth:[10,10,10,10],mod_index:1,num_of_trees:[5,10,15,20],threads:6)(0)",
+            "outputs" : {
+               "exitCode" : "0",
+               "result" : "{\"Received\":\"POST http://ml-param-tune.default.svc.cluster.local/ ml-param-tune.default.svc.cluster.local\\n  Host: ml-param-tune.default.svc.cluster.local\\n  User-Agent: curl/8.2.1\\n  Content-Length: 193\\n  Accept: */*\\n  Content-Type: application/json\\n  Forwarded: for=10.244.3.180;proto=http\\n  K-Proxy-Request: activator\\n  X-Forwarded-For: 10.244.3.180, 10.244.1.153\\n  X-Forwarded-Proto: http\\n  X-Request-Id: db0d7a05-61ed-4217-abaf-8f9fed18b7e9\\nRequest body:\\n  {\\\"PCA_Download\\\": 63, \\\"PCA_Process\\\": 7776, \\\"PCA_Upload\\\": 300, \\\"feature_fraction\\\": [0.25, 0.25, 0.25, 0.25], \\\"key1\\\": \\\"inv_300\\\", \\\"max_depth\\\": [10, 10, 10, 10], \\\"mod_index\\\": 1, \\\"num_of_trees\\\": [5, 10, 15, 20], \\\"threads\\\": 6}\\n\\n\",\"Result\":{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"accuracies\":[0.9096,0.9662,0.9838,0.9916],\"body\":\"\\\"Done Training Threads = 6\\\"\",\"download_times\":166,\"duration\":23479,\"key1\":\"inv_300\",\"process_times\":[2896,4669,5417,8529],\"statusCode\":200,\"trees_max_depthes\":[\"5_10_0.25\",\"10_10_0.25\",\"15_10_0.25\",\"20_10_0.25\"],\"upload_times\":[21,26,53,29]},\"Sent\":\"{\\\"PCA_Download\\\": 63, \\\"PCA_Process\\\": 7776, \\\"PCA_Upload\\\": 300, \\\"feature_fraction\\\": [0.25, 0.25, 0.25, 0.25], \\\"key1\\\": \\\"inv_300\\\", \\\"max_depth\\\": [10, 10, 10, 10], \\\"mod_index\\\": 1, \\\"num_of_trees\\\": [5, 10, 15, 20], \\\"threads\\\": 6}\\n\"}"
+            },
+            "phase" : "Succeeded",
+            "progress" : "1/1",
+            "resourcesDuration" : {
+               "cpu" : 58,
+               "memory" : 58
+            },
+            "startedAt" : "2023-09-03T09:15:18Z",
+            "templateName" : "curl",
+            "templateScope" : "local/dag-ml-bjpqf",
+            "type" : "Pod"
+         },
+         "dag-ml-bjpqf-2454055027" : {
+            "boundaryID" : "dag-ml-bjpqf",
+            "children" : [
+               "dag-ml-bjpqf-2401992702"
+            ],
+            "displayName" : "param-tune(0:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.25,0.25,0.25,0.25],key1:inv_300,max_depth:[10,10,10,10],mod_index:1,num_of_trees:[5,10,15,20],threads:6)",
+            "finishedAt" : "2023-09-03T09:15:58Z",
+            "id" : "dag-ml-bjpqf-2454055027",
+            "inputs" : {
+               "parameters" : [
+                  {
+                     "name" : "url",
+                     "value" : "10.102.102.237"
+                  },
+                  {
+                     "name" : "func",
+                     "value" : "ml-param-tune"
+                  },
+                  {
+                     "name" : "data",
+                     "value" : "{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"feature_fraction\":[0.25,0.25,0.25,0.25],\"key1\":\"inv_300\",\"max_depth\":[10,10,10,10],\"mod_index\":1,\"num_of_trees\":[5,10,15,20],\"threads\":6}"
+                  }
+               ]
+            },
+            "name" : "dag-ml-bjpqf.param-tune(0:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.25,0.25,0.25,0.25],key1:inv_300,max_depth:[10,10,10,10],mod_index:1,num_of_trees:[5,10,15,20],threads:6)",
+            "outputs" : {
+               "exitCode" : "0",
+               "result" : "{\"Received\":\"POST http://ml-param-tune.default.svc.cluster.local/ ml-param-tune.default.svc.cluster.local\\n  Host: ml-param-tune.default.svc.cluster.local\\n  User-Agent: curl/8.2.1\\n  Content-Length: 193\\n  Accept: */*\\n  Content-Type: application/json\\n  Forwarded: for=10.244.3.180;proto=http\\n  K-Proxy-Request: activator\\n  X-Forwarded-For: 10.244.3.180, 10.244.1.153\\n  X-Forwarded-Proto: http\\n  X-Request-Id: db0d7a05-61ed-4217-abaf-8f9fed18b7e9\\nRequest body:\\n  {\\\"PCA_Download\\\": 63, \\\"PCA_Process\\\": 7776, \\\"PCA_Upload\\\": 300, \\\"feature_fraction\\\": [0.25, 0.25, 0.25, 0.25], \\\"key1\\\": \\\"inv_300\\\", \\\"max_depth\\\": [10, 10, 10, 10], \\\"mod_index\\\": 1, \\\"num_of_trees\\\": [5, 10, 15, 20], \\\"threads\\\": 6}\\n\\n\",\"Result\":{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"accuracies\":[0.9096,0.9662,0.9838,0.9916],\"body\":\"\\\"Done Training Threads = 6\\\"\",\"download_times\":166,\"duration\":23479,\"key1\":\"inv_300\",\"process_times\":[2896,4669,5417,8529],\"statusCode\":200,\"trees_max_depthes\":[\"5_10_0.25\",\"10_10_0.25\",\"15_10_0.25\",\"20_10_0.25\"],\"upload_times\":[21,26,53,29]},\"Sent\":\"{\\\"PCA_Download\\\": 63, \\\"PCA_Process\\\": 7776, \\\"PCA_Upload\\\": 300, \\\"feature_fraction\\\": [0.25, 0.25, 0.25, 0.25], \\\"key1\\\": \\\"inv_300\\\", \\\"max_depth\\\": [10, 10, 10, 10], \\\"mod_index\\\": 1, \\\"num_of_trees\\\": [5, 10, 15, 20], \\\"threads\\\": 6}\\n\"}"
+            },
+            "phase" : "Succeeded",
+            "progress" : "2/2",
+            "resourcesDuration" : {
+               "cpu" : 67,
+               "memory" : 67
+            },
+            "startedAt" : "2023-09-03T09:15:18Z",
+            "templateName" : "curl",
+            "templateScope" : "local/dag-ml-bjpqf",
+            "type" : "Retry"
+         },
+         "dag-ml-bjpqf-2455675400" : {
+            "boundaryID" : "dag-ml-bjpqf",
+            "displayName" : "param-tune(1:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.5,0.5,0.5,0.5],key1:inv_300,max_depth:[10,10,10,10],mod_index:2,num_of_trees:[5,10,15,20],threads:6)(0)",
+            "finishedAt" : "2023-09-03T09:15:27Z",
+            "hostNodeName" : "worker-6",
+            "id" : "dag-ml-bjpqf-2455675400",
+            "inputs" : {
+               "parameters" : [
+                  {
+                     "name" : "url",
+                     "value" : "10.102.102.237"
+                  },
+                  {
+                     "name" : "func",
+                     "value" : "ml-param-tune"
+                  },
+                  {
+                     "name" : "data",
+                     "value" : "{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"feature_fraction\":[0.5,0.5,0.5,0.5],\"key1\":\"inv_300\",\"max_depth\":[10,10,10,10],\"mod_index\":2,\"num_of_trees\":[5,10,15,20],\"threads\":6}"
+                  }
+               ]
+            },
+            "message" : "Error (exit code 22)",
+            "name" : "dag-ml-bjpqf.param-tune(1:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.5,0.5,0.5,0.5],key1:inv_300,max_depth:[10,10,10,10],mod_index:2,num_of_trees:[5,10,15,20],threads:6)(0)",
+            "outputs" : {
+               "exitCode" : "22",
+               "result" : ""
+            },
+            "phase" : "Failed",
+            "progress" : "0/1",
+            "resourcesDuration" : {
+               "cpu" : 11,
+               "memory" : 11
+            },
+            "startedAt" : "2023-09-03T09:15:18Z",
+            "templateName" : "curl",
+            "templateScope" : "local/dag-ml-bjpqf",
+            "type" : "Pod"
+         },
+         "dag-ml-bjpqf-2656859733" : {
+            "boundaryID" : "dag-ml-bjpqf",
+            "children" : [
+               "dag-ml-bjpqf-779809623"
+            ],
+            "displayName" : "param-tune(1:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.5,0.5,0.5,0.5],key1:inv_300,max_depth:[10,10,10,10],mod_index:2,num_of_trees:[5,10,15,20],threads:6)(1)",
+            "finishedAt" : "2023-09-03T09:16:20Z",
+            "hostNodeName" : "worker-6",
+            "id" : "dag-ml-bjpqf-2656859733",
+            "inputs" : {
+               "parameters" : [
+                  {
+                     "name" : "url",
+                     "value" : "10.102.102.237"
+                  },
+                  {
+                     "name" : "func",
+                     "value" : "ml-param-tune"
+                  },
+                  {
+                     "name" : "data",
+                     "value" : "{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"feature_fraction\":[0.5,0.5,0.5,0.5],\"key1\":\"inv_300\",\"max_depth\":[10,10,10,10],\"mod_index\":2,\"num_of_trees\":[5,10,15,20],\"threads\":6}"
+                  }
+               ]
+            },
+            "name" : "dag-ml-bjpqf.param-tune(1:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.5,0.5,0.5,0.5],key1:inv_300,max_depth:[10,10,10,10],mod_index:2,num_of_trees:[5,10,15,20],threads:6)(1)",
+            "outputs" : {
+               "exitCode" : "0",
+               "result" : "{\"Received\":\"POST http://ml-param-tune.default.svc.cluster.local/ ml-param-tune.default.svc.cluster.local\\n  Host: ml-param-tune.default.svc.cluster.local\\n  User-Agent: curl/8.2.1\\n  Content-Length: 189\\n  Accept: */*\\n  Content-Type: application/json\\n  Forwarded: for=10.244.3.180;proto=http\\n  K-Proxy-Request: activator\\n  X-Forwarded-For: 10.244.3.180, 10.244.1.153\\n  X-Forwarded-Proto: http\\n  X-Request-Id: deeff983-73ae-4804-9049-36b669f9dcb0\\nRequest body:\\n  {\\\"PCA_Download\\\": 63, \\\"PCA_Process\\\": 7776, \\\"PCA_Upload\\\": 300, \\\"feature_fraction\\\": [0.5, 0.5, 0.5, 0.5], \\\"key1\\\": \\\"inv_300\\\", \\\"max_depth\\\": [10, 10, 10, 10], \\\"mod_index\\\": 2, \\\"num_of_trees\\\": [5, 10, 15, 20], \\\"threads\\\": 6}\\n\\n\",\"Result\":{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"accuracies\":[0.9324,0.9704,0.9842,0.9902],\"body\":\"\\\"Done Training Threads = 6\\\"\",\"download_times\":88,\"duration\":35381,\"key1\":\"inv_300\",\"process_times\":[4036,7353,9893,12293],\"statusCode\":200,\"trees_max_depthes\":[\"5_10_0.5\",\"10_10_0.5\",\"15_10_0.5\",\"20_10_0.5\"],\"upload_times\":[20,51,31,33]},\"Sent\":\"{\\\"PCA_Download\\\": 63, \\\"PCA_Process\\\": 7776, \\\"PCA_Upload\\\": 300, \\\"feature_fraction\\\": [0.5, 0.5, 0.5, 0.5], \\\"key1\\\": \\\"inv_300\\\", \\\"max_depth\\\": [10, 10, 10, 10], \\\"mod_index\\\": 2, \\\"num_of_trees\\\": [5, 10, 15, 20], \\\"threads\\\": 6}\\n\"}"
+            },
+            "phase" : "Succeeded",
+            "progress" : "1/1",
+            "resourcesDuration" : {
+               "cpu" : 74,
+               "memory" : 74
+            },
+            "startedAt" : "2023-09-03T09:15:38Z",
+            "templateName" : "curl",
+            "templateScope" : "local/dag-ml-bjpqf",
+            "type" : "Pod"
+         },
+         "dag-ml-bjpqf-2738443594" : {
+            "boundaryID" : "dag-ml-bjpqf",
+            "displayName" : "combine-models(0)",
+            "finishedAt" : "2023-09-03T09:17:12Z",
+            "hostNodeName" : "worker-6",
+            "id" : "dag-ml-bjpqf-2738443594",
+            "inputs" : {
+               "parameters" : [
+                  {
+                     "name" : "url",
+                     "value" : "10.102.102.237"
+                  },
+                  {
+                     "name" : "func",
+                     "value" : "ml-combine"
+                  },
+                  {
+                     "name" : "data",
+                     "value" : "[{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"accuracies\":[0.9096,0.9662,0.9838,0.9916],\"body\":\"\\\"Done Training Threads = 6\\\"\",\"download_times\":166,\"duration\":23479,\"key1\":\"inv_300\",\"process_times\":[2896,4669,5417,8529],\"statusCode\":200,\"trees_max_depthes\":[\"5_10_0.25\",\"10_10_0.25\",\"15_10_0.25\",\"20_10_0.25\"],\"upload_times\":[21,26,53,29]},{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"accuracies\":[0.9324,0.9704,0.9842,0.9902],\"body\":\"\\\"Done Training Threads = 6\\\"\",\"download_times\":88,\"duration\":35381,\"key1\":\"inv_300\",\"process_times\":[4036,7353,9893,12293],\"statusCode\":200,\"trees_max_depthes\":[\"5_10_0.5\",\"10_10_0.5\",\"15_10_0.5\",\"20_10_0.5\"],\"upload_times\":[20,51,31,33]},{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"accuracies\":[0.9344,0.9674,0.9788,0.9876],\"body\":\"\\\"Done Training Threads = 6\\\"\",\"download_times\":172,\"duration\":47443,\"key1\":\"inv_300\",\"process_times\":[4762,8898,12807,19156],\"statusCode\":200,\"trees_max_depthes\":[\"5_10_0.75\",\"10_10_0.75\",\"15_10_0.75\",\"20_10_0.75\"],\"upload_times\":[19,27,34,34]},{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"accuracies\":[0.9226,0.9512,0.97,0.982],\"body\":\"\\\"Done Training Threads = 6\\\"\",\"download_times\":78,\"duration\":52487,\"key1\":\"inv_300\",\"process_times\":[4694,10561,15638,19749],\"statusCode\":200,\"trees_max_depthes\":[\"5_10_0.95\",\"10_10_0.95\",\"15_10_0.95\",\"20_10_0.95\"],\"upload_times\":[21,25,31,36]}]"
+                  }
+               ]
+            },
+            "name" : "dag-ml-bjpqf.combine-models(0)",
+            "outputs" : {
+               "exitCode" : "0"
+            },
+            "phase" : "Succeeded",
+            "progress" : "1/1",
+            "resourcesDuration" : {
+               "cpu" : 9,
+               "memory" : 9
+            },
+            "startedAt" : "2023-09-03T09:17:05Z",
+            "templateName" : "curl",
+            "templateScope" : "local/dag-ml-bjpqf",
+            "type" : "Pod"
+         },
+         "dag-ml-bjpqf-284347534" : {
+            "boundaryID" : "dag-ml-bjpqf",
+            "children" : [
+               "dag-ml-bjpqf-779809623"
+            ],
+            "displayName" : "param-tune(2:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.75,0.75,0.75,0.75],key1:inv_300,max_depth:[10,10,10,10],mod_index:3,num_of_trees:[5,10,15,20],threads:6)(0)",
+            "finishedAt" : "2023-09-03T09:16:14Z",
+            "hostNodeName" : "worker-5",
+            "id" : "dag-ml-bjpqf-284347534",
+            "inputs" : {
+               "parameters" : [
+                  {
+                     "name" : "url",
+                     "value" : "10.102.102.237"
+                  },
+                  {
+                     "name" : "func",
+                     "value" : "ml-param-tune"
+                  },
+                  {
+                     "name" : "data",
+                     "value" : "{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"feature_fraction\":[0.75,0.75,0.75,0.75],\"key1\":\"inv_300\",\"max_depth\":[10,10,10,10],\"mod_index\":3,\"num_of_trees\":[5,10,15,20],\"threads\":6}"
+                  }
+               ]
+            },
+            "name" : "dag-ml-bjpqf.param-tune(2:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.75,0.75,0.75,0.75],key1:inv_300,max_depth:[10,10,10,10],mod_index:3,num_of_trees:[5,10,15,20],threads:6)(0)",
+            "outputs" : {
+               "exitCode" : "0",
+               "result" : "{\"Received\":\"POST http://ml-param-tune.default.svc.cluster.local/ ml-param-tune.default.svc.cluster.local\\n  Host: ml-param-tune.default.svc.cluster.local\\n  User-Agent: curl/8.2.1\\n  Content-Length: 193\\n  Accept: */*\\n  Content-Type: application/json\\n  Forwarded: for=10.244.3.180;proto=http\\n  K-Proxy-Request: activator\\n  X-Forwarded-For: 10.244.3.180, 10.244.1.153\\n  X-Forwarded-Proto: http\\n  X-Request-Id: edc51abe-9c58-4882-99d0-27132b061b23\\nRequest body:\\n  {\\\"PCA_Download\\\": 63, \\\"PCA_Process\\\": 7776, \\\"PCA_Upload\\\": 300, \\\"feature_fraction\\\": [0.75, 0.75, 0.75, 0.75], \\\"key1\\\": \\\"inv_300\\\", \\\"max_depth\\\": [10, 10, 10, 10], \\\"mod_index\\\": 3, \\\"num_of_trees\\\": [5, 10, 15, 20], \\\"threads\\\": 6}\\n\\n\",\"Result\":{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"accuracies\":[0.9344,0.9674,0.9788,0.9876],\"body\":\"\\\"Done Training Threads = 6\\\"\",\"download_times\":172,\"duration\":47443,\"key1\":\"inv_300\",\"process_times\":[4762,8898,12807,19156],\"statusCode\":200,\"trees_max_depthes\":[\"5_10_0.75\",\"10_10_0.75\",\"15_10_0.75\",\"20_10_0.75\"],\"upload_times\":[19,27,34,34]},\"Sent\":\"{\\\"PCA_Download\\\": 63, \\\"PCA_Process\\\": 7776, \\\"PCA_Upload\\\": 300, \\\"feature_fraction\\\": [0.75, 0.75, 0.75, 0.75], \\\"key1\\\": \\\"inv_300\\\", \\\"max_depth\\\": [10, 10, 10, 10], \\\"mod_index\\\": 3, \\\"num_of_trees\\\": [5, 10, 15, 20], \\\"threads\\\": 6}\\n\"}"
+            },
+            "phase" : "Succeeded",
+            "progress" : "1/1",
+            "resourcesDuration" : {
+               "cpu" : 106,
+               "memory" : 106
+            },
+            "startedAt" : "2023-09-03T09:15:18Z",
+            "templateName" : "curl",
+            "templateScope" : "local/dag-ml-bjpqf",
+            "type" : "Pod"
+         },
+         "dag-ml-bjpqf-3081441641" : {
+            "boundaryID" : "dag-ml-bjpqf",
+            "children" : [
+               "dag-ml-bjpqf-565988304"
+            ],
+            "displayName" : "p-c-a",
+            "finishedAt" : "2023-09-03T09:15:18Z",
+            "id" : "dag-ml-bjpqf-3081441641",
+            "inputs" : {
+               "parameters" : [
+                  {
+                     "name" : "url",
+                     "value" : "10.102.102.237"
+                  },
+                  {
+                     "name" : "func",
+                     "value" : "ml-pca"
+                  },
+                  {
+                     "name" : "data",
+                     "value" : "{\"bundle_size\": 4, \"key1\": \"300\"}"
+                  }
+               ]
+            },
+            "name" : "dag-ml-bjpqf.p-c-a",
+            "outputs" : {
+               "exitCode" : "0",
+               "result" : "{\"Received\":\"POST http://ml-pca.default.svc.cluster.local/ ml-pca.default.svc.cluster.local\\n  Host: ml-pca.default.svc.cluster.local\\n  User-Agent: curl/8.2.1\\n  Content-Length: 33\\n  Accept: */*\\n  Content-Type: application/json\\n  Forwarded: for=10.244.3.180;proto=http\\n  K-Proxy-Request: activator\\n  X-Forwarded-For: 10.244.3.180, 10.244.1.153\\n  X-Forwarded-Proto: http\\n  X-Request-Id: 3a2e8dcb-dd25-4055-9037-7b2337ad3ae9\\nRequest body:\\n  {\\\"bundle_size\\\": 4, \\\"key1\\\": \\\"300\\\"}\\n\\n\",\"Result\":{\"detail\":{\"indeces\":[{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"feature_fraction\":[0.25,0.25,0.25,0.25],\"key1\":\"inv_300\",\"max_depth\":[10,10,10,10],\"mod_index\":1,\"num_of_trees\":[5,10,15,20],\"threads\":6},{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"feature_fraction\":[0.5,0.5,0.5,0.5],\"key1\":\"inv_300\",\"max_depth\":[10,10,10,10],\"mod_index\":2,\"num_of_trees\":[5,10,15,20],\"threads\":6},{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"feature_fraction\":[0.75,0.75,0.75,0.75],\"key1\":\"inv_300\",\"max_depth\":[10,10,10,10],\"mod_index\":3,\"num_of_trees\":[5,10,15,20],\"threads\":6},{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"feature_fraction\":[0.95,0.95,0.95,0.95],\"key1\":\"inv_300\",\"max_depth\":[10,10,10,10],\"mod_index\":4,\"num_of_trees\":[5,10,15,20],\"threads\":6}]}},\"Sent\":\"{\\\"bundle_size\\\": 4, \\\"key1\\\": \\\"300\\\"}\\n\"}"
+            },
+            "phase" : "Succeeded",
+            "progress" : "6/9",
+            "resourcesDuration" : {
+               "cpu" : 421,
+               "memory" : 421
+            },
+            "startedAt" : "2023-09-03T09:14:51Z",
+            "templateName" : "curl",
+            "templateScope" : "local/dag-ml-bjpqf",
+            "type" : "Retry"
+         },
+         "dag-ml-bjpqf-3653806487" : {
+            "boundaryID" : "dag-ml-bjpqf",
+            "children" : [
+               "dag-ml-bjpqf-2454055027",
+               "dag-ml-bjpqf-1368002993",
+               "dag-ml-bjpqf-4024936387",
+               "dag-ml-bjpqf-528825969"
+            ],
+            "displayName" : "param-tune",
+            "finishedAt" : "2023-09-03T09:17:05Z",
+            "id" : "dag-ml-bjpqf-3653806487",
+            "name" : "dag-ml-bjpqf.param-tune",
+            "phase" : "Succeeded",
+            "progress" : "5/8",
+            "resourcesDuration" : {
+               "cpu" : 394,
+               "memory" : 394
+            },
+            "startedAt" : "2023-09-03T09:15:18Z",
+            "templateName" : "curl",
+            "templateScope" : "local/dag-ml-bjpqf",
+            "type" : "TaskGroup"
+         },
+         "dag-ml-bjpqf-4024936387" : {
+            "boundaryID" : "dag-ml-bjpqf",
+            "children" : [
+               "dag-ml-bjpqf-284347534"
+            ],
+            "displayName" : "param-tune(2:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.75,0.75,0.75,0.75],key1:inv_300,max_depth:[10,10,10,10],mod_index:3,num_of_trees:[5,10,15,20],threads:6)",
+            "finishedAt" : "2023-09-03T09:16:18Z",
+            "id" : "dag-ml-bjpqf-4024936387",
+            "inputs" : {
+               "parameters" : [
+                  {
+                     "name" : "url",
+                     "value" : "10.102.102.237"
+                  },
+                  {
+                     "name" : "func",
+                     "value" : "ml-param-tune"
+                  },
+                  {
+                     "name" : "data",
+                     "value" : "{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"feature_fraction\":[0.75,0.75,0.75,0.75],\"key1\":\"inv_300\",\"max_depth\":[10,10,10,10],\"mod_index\":3,\"num_of_trees\":[5,10,15,20],\"threads\":6}"
+                  }
+               ]
+            },
+            "name" : "dag-ml-bjpqf.param-tune(2:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.75,0.75,0.75,0.75],key1:inv_300,max_depth:[10,10,10,10],mod_index:3,num_of_trees:[5,10,15,20],threads:6)",
+            "outputs" : {
+               "exitCode" : "0",
+               "result" : "{\"Received\":\"POST http://ml-param-tune.default.svc.cluster.local/ ml-param-tune.default.svc.cluster.local\\n  Host: ml-param-tune.default.svc.cluster.local\\n  User-Agent: curl/8.2.1\\n  Content-Length: 193\\n  Accept: */*\\n  Content-Type: application/json\\n  Forwarded: for=10.244.3.180;proto=http\\n  K-Proxy-Request: activator\\n  X-Forwarded-For: 10.244.3.180, 10.244.1.153\\n  X-Forwarded-Proto: http\\n  X-Request-Id: edc51abe-9c58-4882-99d0-27132b061b23\\nRequest body:\\n  {\\\"PCA_Download\\\": 63, \\\"PCA_Process\\\": 7776, \\\"PCA_Upload\\\": 300, \\\"feature_fraction\\\": [0.75, 0.75, 0.75, 0.75], \\\"key1\\\": \\\"inv_300\\\", \\\"max_depth\\\": [10, 10, 10, 10], \\\"mod_index\\\": 3, \\\"num_of_trees\\\": [5, 10, 15, 20], \\\"threads\\\": 6}\\n\\n\",\"Result\":{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"accuracies\":[0.9344,0.9674,0.9788,0.9876],\"body\":\"\\\"Done Training Threads = 6\\\"\",\"download_times\":172,\"duration\":47443,\"key1\":\"inv_300\",\"process_times\":[4762,8898,12807,19156],\"statusCode\":200,\"trees_max_depthes\":[\"5_10_0.75\",\"10_10_0.75\",\"15_10_0.75\",\"20_10_0.75\"],\"upload_times\":[19,27,34,34]},\"Sent\":\"{\\\"PCA_Download\\\": 63, \\\"PCA_Process\\\": 7776, \\\"PCA_Upload\\\": 300, \\\"feature_fraction\\\": [0.75, 0.75, 0.75, 0.75], \\\"key1\\\": \\\"inv_300\\\", \\\"max_depth\\\": [10, 10, 10, 10], \\\"mod_index\\\": 3, \\\"num_of_trees\\\": [5, 10, 15, 20], \\\"threads\\\": 6}\\n\"}"
+            },
+            "phase" : "Succeeded",
+            "progress" : "2/2",
+            "resourcesDuration" : {
+               "cpu" : 115,
+               "memory" : 115
+            },
+            "startedAt" : "2023-09-03T09:15:18Z",
+            "templateName" : "curl",
+            "templateScope" : "local/dag-ml-bjpqf",
+            "type" : "Retry"
+         },
+         "dag-ml-bjpqf-528825969" : {
+            "boundaryID" : "dag-ml-bjpqf",
+            "children" : [
+               "dag-ml-bjpqf-1069481544",
+               "dag-ml-bjpqf-1270665877",
+               "dag-ml-bjpqf-599414022"
+            ],
+            "displayName" : "param-tune(3:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.95,0.95,0.95,0.95],key1:inv_300,max_depth:[10,10,10,10],mod_index:4,num_of_trees:[5,10,15,20],threads:6)",
+            "finishedAt" : "2023-09-03T09:17:05Z",
+            "id" : "dag-ml-bjpqf-528825969",
+            "inputs" : {
+               "parameters" : [
+                  {
+                     "name" : "url",
+                     "value" : "10.102.102.237"
+                  },
+                  {
+                     "name" : "func",
+                     "value" : "ml-param-tune"
+                  },
+                  {
+                     "name" : "data",
+                     "value" : "{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"feature_fraction\":[0.95,0.95,0.95,0.95],\"key1\":\"inv_300\",\"max_depth\":[10,10,10,10],\"mod_index\":4,\"num_of_trees\":[5,10,15,20],\"threads\":6}"
+                  }
+               ]
+            },
+            "name" : "dag-ml-bjpqf.param-tune(3:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.95,0.95,0.95,0.95],key1:inv_300,max_depth:[10,10,10,10],mod_index:4,num_of_trees:[5,10,15,20],threads:6)",
+            "outputs" : {
+               "exitCode" : "0",
+               "result" : "{\"Received\":\"POST http://ml-param-tune.default.svc.cluster.local/ ml-param-tune.default.svc.cluster.local\\n  Host: ml-param-tune.default.svc.cluster.local\\n  User-Agent: curl/8.2.1\\n  Content-Length: 193\\n  Accept: */*\\n  Content-Type: application/json\\n  Forwarded: for=10.244.3.180;proto=http\\n  K-Proxy-Request: activator\\n  X-Forwarded-For: 10.244.3.180, 10.244.1.153\\n  X-Forwarded-Proto: http\\n  X-Request-Id: ff04b84c-23bb-48d9-b628-2628ae14c647\\nRequest body:\\n  {\\\"PCA_Download\\\": 63, \\\"PCA_Process\\\": 7776, \\\"PCA_Upload\\\": 300, \\\"feature_fraction\\\": [0.95, 0.95, 0.95, 0.95], \\\"key1\\\": \\\"inv_300\\\", \\\"max_depth\\\": [10, 10, 10, 10], \\\"mod_index\\\": 4, \\\"num_of_trees\\\": [5, 10, 15, 20], \\\"threads\\\": 6}\\n\\n\",\"Result\":{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"accuracies\":[0.9226,0.9512,0.97,0.982],\"body\":\"\\\"Done Training Threads = 6\\\"\",\"download_times\":78,\"duration\":52487,\"key1\":\"inv_300\",\"process_times\":[4694,10561,15638,19749],\"statusCode\":200,\"trees_max_depthes\":[\"5_10_0.95\",\"10_10_0.95\",\"15_10_0.95\",\"20_10_0.95\"],\"upload_times\":[21,25,31,36]},\"Sent\":\"{\\\"PCA_Download\\\": 63, \\\"PCA_Process\\\": 7776, \\\"PCA_Upload\\\": 300, \\\"feature_fraction\\\": [0.95, 0.95, 0.95, 0.95], \\\"key1\\\": \\\"inv_300\\\", \\\"max_depth\\\": [10, 10, 10, 10], \\\"mod_index\\\": 4, \\\"num_of_trees\\\": [5, 10, 15, 20], \\\"threads\\\": 6}\\n\"}"
+            },
+            "phase" : "Succeeded",
+            "progress" : "2/4",
+            "resourcesDuration" : {
+               "cpu" : 145,
+               "memory" : 145
+            },
+            "startedAt" : "2023-09-03T09:15:18Z",
+            "templateName" : "curl",
+            "templateScope" : "local/dag-ml-bjpqf",
+            "type" : "Retry"
+         },
+         "dag-ml-bjpqf-565988304" : {
+            "boundaryID" : "dag-ml-bjpqf",
+            "children" : [
+               "dag-ml-bjpqf-3653806487"
+            ],
+            "displayName" : "p-c-a(0)",
+            "finishedAt" : "2023-09-03T09:15:08Z",
+            "hostNodeName" : "worker-6",
+            "id" : "dag-ml-bjpqf-565988304",
+            "inputs" : {
+               "parameters" : [
+                  {
+                     "name" : "url",
+                     "value" : "10.102.102.237"
+                  },
+                  {
+                     "name" : "func",
+                     "value" : "ml-pca"
+                  },
+                  {
+                     "name" : "data",
+                     "value" : "{\"bundle_size\": 4, \"key1\": \"300\"}"
+                  }
+               ]
+            },
+            "name" : "dag-ml-bjpqf.p-c-a(0)",
+            "outputs" : {
+               "exitCode" : "0",
+               "result" : "{\"Received\":\"POST http://ml-pca.default.svc.cluster.local/ ml-pca.default.svc.cluster.local\\n  Host: ml-pca.default.svc.cluster.local\\n  User-Agent: curl/8.2.1\\n  Content-Length: 33\\n  Accept: */*\\n  Content-Type: application/json\\n  Forwarded: for=10.244.3.180;proto=http\\n  K-Proxy-Request: activator\\n  X-Forwarded-For: 10.244.3.180, 10.244.1.153\\n  X-Forwarded-Proto: http\\n  X-Request-Id: 3a2e8dcb-dd25-4055-9037-7b2337ad3ae9\\nRequest body:\\n  {\\\"bundle_size\\\": 4, \\\"key1\\\": \\\"300\\\"}\\n\\n\",\"Result\":{\"detail\":{\"indeces\":[{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"feature_fraction\":[0.25,0.25,0.25,0.25],\"key1\":\"inv_300\",\"max_depth\":[10,10,10,10],\"mod_index\":1,\"num_of_trees\":[5,10,15,20],\"threads\":6},{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"feature_fraction\":[0.5,0.5,0.5,0.5],\"key1\":\"inv_300\",\"max_depth\":[10,10,10,10],\"mod_index\":2,\"num_of_trees\":[5,10,15,20],\"threads\":6},{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"feature_fraction\":[0.75,0.75,0.75,0.75],\"key1\":\"inv_300\",\"max_depth\":[10,10,10,10],\"mod_index\":3,\"num_of_trees\":[5,10,15,20],\"threads\":6},{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"feature_fraction\":[0.95,0.95,0.95,0.95],\"key1\":\"inv_300\",\"max_depth\":[10,10,10,10],\"mod_index\":4,\"num_of_trees\":[5,10,15,20],\"threads\":6}]}},\"Sent\":\"{\\\"bundle_size\\\": 4, \\\"key1\\\": \\\"300\\\"}\\n\"}"
+            },
+            "phase" : "Succeeded",
+            "progress" : "1/1",
+            "resourcesDuration" : {
+               "cpu" : 27,
+               "memory" : 27
+            },
+            "startedAt" : "2023-09-03T09:14:51Z",
+            "templateName" : "curl",
+            "templateScope" : "local/dag-ml-bjpqf",
+            "type" : "Pod"
+         },
+         "dag-ml-bjpqf-599414022" : {
+            "boundaryID" : "dag-ml-bjpqf",
+            "children" : [
+               "dag-ml-bjpqf-779809623"
+            ],
+            "displayName" : "param-tune(3:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.95,0.95,0.95,0.95],key1:inv_300,max_depth:[10,10,10,10],mod_index:4,num_of_trees:[5,10,15,20],threads:6)(2)",
+            "finishedAt" : "2023-09-03T09:16:55Z",
+            "hostNodeName" : "worker-6",
+            "id" : "dag-ml-bjpqf-599414022",
+            "inputs" : {
+               "parameters" : [
+                  {
+                     "name" : "url",
+                     "value" : "10.102.102.237"
+                  },
+                  {
+                     "name" : "func",
+                     "value" : "ml-param-tune"
+                  },
+                  {
+                     "name" : "data",
+                     "value" : "{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"feature_fraction\":[0.95,0.95,0.95,0.95],\"key1\":\"inv_300\",\"max_depth\":[10,10,10,10],\"mod_index\":4,\"num_of_trees\":[5,10,15,20],\"threads\":6}"
+                  }
+               ]
+            },
+            "name" : "dag-ml-bjpqf.param-tune(3:PCA_Download:63,PCA_Process:7776,PCA_Upload:300,feature_fraction:[0.95,0.95,0.95,0.95],key1:inv_300,max_depth:[10,10,10,10],mod_index:4,num_of_trees:[5,10,15,20],threads:6)(2)",
+            "outputs" : {
+               "exitCode" : "0",
+               "result" : "{\"Received\":\"POST http://ml-param-tune.default.svc.cluster.local/ ml-param-tune.default.svc.cluster.local\\n  Host: ml-param-tune.default.svc.cluster.local\\n  User-Agent: curl/8.2.1\\n  Content-Length: 193\\n  Accept: */*\\n  Content-Type: application/json\\n  Forwarded: for=10.244.3.180;proto=http\\n  K-Proxy-Request: activator\\n  X-Forwarded-For: 10.244.3.180, 10.244.1.153\\n  X-Forwarded-Proto: http\\n  X-Request-Id: ff04b84c-23bb-48d9-b628-2628ae14c647\\nRequest body:\\n  {\\\"PCA_Download\\\": 63, \\\"PCA_Process\\\": 7776, \\\"PCA_Upload\\\": 300, \\\"feature_fraction\\\": [0.95, 0.95, 0.95, 0.95], \\\"key1\\\": \\\"inv_300\\\", \\\"max_depth\\\": [10, 10, 10, 10], \\\"mod_index\\\": 4, \\\"num_of_trees\\\": [5, 10, 15, 20], \\\"threads\\\": 6}\\n\\n\",\"Result\":{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"accuracies\":[0.9226,0.9512,0.97,0.982],\"body\":\"\\\"Done Training Threads = 6\\\"\",\"download_times\":78,\"duration\":52487,\"key1\":\"inv_300\",\"process_times\":[4694,10561,15638,19749],\"statusCode\":200,\"trees_max_depthes\":[\"5_10_0.95\",\"10_10_0.95\",\"15_10_0.95\",\"20_10_0.95\"],\"upload_times\":[21,25,31,36]},\"Sent\":\"{\\\"PCA_Download\\\": 63, \\\"PCA_Process\\\": 7776, \\\"PCA_Upload\\\": 300, \\\"feature_fraction\\\": [0.95, 0.95, 0.95, 0.95], \\\"key1\\\": \\\"inv_300\\\", \\\"max_depth\\\": [10, 10, 10, 10], \\\"mod_index\\\": 4, \\\"num_of_trees\\\": [5, 10, 15, 20], \\\"threads\\\": 6}\\n\"}"
+            },
+            "phase" : "Succeeded",
+            "progress" : "1/1",
+            "resourcesDuration" : {
+               "cpu" : 107,
+               "memory" : 107
+            },
+            "startedAt" : "2023-09-03T09:15:58Z",
+            "templateName" : "curl",
+            "templateScope" : "local/dag-ml-bjpqf",
+            "type" : "Pod"
+         },
+         "dag-ml-bjpqf-779809623" : {
+            "boundaryID" : "dag-ml-bjpqf",
+            "children" : [
+               "dag-ml-bjpqf-2738443594"
+            ],
+            "displayName" : "combine-models",
+            "finishedAt" : "2023-09-03T09:17:15Z",
+            "id" : "dag-ml-bjpqf-779809623",
+            "inputs" : {
+               "parameters" : [
+                  {
+                     "name" : "url",
+                     "value" : "10.102.102.237"
+                  },
+                  {
+                     "name" : "func",
+                     "value" : "ml-combine"
+                  },
+                  {
+                     "name" : "data",
+                     "value" : "[{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"accuracies\":[0.9096,0.9662,0.9838,0.9916],\"body\":\"\\\"Done Training Threads = 6\\\"\",\"download_times\":166,\"duration\":23479,\"key1\":\"inv_300\",\"process_times\":[2896,4669,5417,8529],\"statusCode\":200,\"trees_max_depthes\":[\"5_10_0.25\",\"10_10_0.25\",\"15_10_0.25\",\"20_10_0.25\"],\"upload_times\":[21,26,53,29]},{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"accuracies\":[0.9324,0.9704,0.9842,0.9902],\"body\":\"\\\"Done Training Threads = 6\\\"\",\"download_times\":88,\"duration\":35381,\"key1\":\"inv_300\",\"process_times\":[4036,7353,9893,12293],\"statusCode\":200,\"trees_max_depthes\":[\"5_10_0.5\",\"10_10_0.5\",\"15_10_0.5\",\"20_10_0.5\"],\"upload_times\":[20,51,31,33]},{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"accuracies\":[0.9344,0.9674,0.9788,0.9876],\"body\":\"\\\"Done Training Threads = 6\\\"\",\"download_times\":172,\"duration\":47443,\"key1\":\"inv_300\",\"process_times\":[4762,8898,12807,19156],\"statusCode\":200,\"trees_max_depthes\":[\"5_10_0.75\",\"10_10_0.75\",\"15_10_0.75\",\"20_10_0.75\"],\"upload_times\":[19,27,34,34]},{\"PCA_Download\":63,\"PCA_Process\":7776,\"PCA_Upload\":300,\"accuracies\":[0.9226,0.9512,0.97,0.982],\"body\":\"\\\"Done Training Threads = 6\\\"\",\"download_times\":78,\"duration\":52487,\"key1\":\"inv_300\",\"process_times\":[4694,10561,15638,19749],\"statusCode\":200,\"trees_max_depthes\":[\"5_10_0.95\",\"10_10_0.95\",\"15_10_0.95\",\"20_10_0.95\"],\"upload_times\":[21,25,31,36]}]"
+                  }
+               ]
+            },
+            "name" : "dag-ml-bjpqf.combine-models",
+            "outputs" : {
+               "exitCode" : "0"
+            },
+            "phase" : "Succeeded",
+            "progress" : "1/1",
+            "resourcesDuration" : {
+               "cpu" : 9,
+               "memory" : 9
+            },
+            "startedAt" : "2023-09-03T09:17:05Z",
+            "templateName" : "curl",
+            "templateScope" : "local/dag-ml-bjpqf",
+            "type" : "Retry"
+         }
+      },
+      "phase" : "Succeeded",
+      "progress" : "6/9",
+      "resourcesDuration" : {
+         "cpu" : 421,
+         "memory" : 421
+      },
+      "startedAt" : "2023-09-03T09:14:51Z"
+   }
+}

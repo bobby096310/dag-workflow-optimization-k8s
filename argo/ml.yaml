@@ -3,10 +3,12 @@ kind: Workflow
 metadata:
     generateName: dag-ml-
 spec:
+    serviceAccountName: "argo-loop"
     entrypoint: dag2
     arguments:
       parameters:
       - name: knative_url
+        value: "10.102.102.237"
     templates:
     - name: curl
       inputs:
@@ -23,20 +25,9 @@ spec:
           "-X", "POST", "-d", "{{inputs.parameters.data}}",
           "-f"
           ]
-      retryStrategy:
-        limit: 10
-        retryPolicy: "Always"
-
-
-    - name: fan-in
-      inputs:
-        parameters:
-        - name: messages
-      container:
-        image: alpine:latest
-        command: [sh, -c]
-        args: ["echo received {{inputs.parameters.messages}}"]
-
+      #retryStrategy:
+      # limit: "10"
+      # retryPolicy: "Always"
 
     - name: dag2
       inputs:
@@ -50,7 +41,7 @@ spec:
                     parameters: [
                         {name: url, value: "{{inputs.parameters.knative_url}}"}, 
                         {name: func, value: ml-pca}, 
-                        {name: data, value: '{"bundle_size": 8, "key1": "300"}'}
+                        {name: data, value: '{"bundle_size": 4, "key1": "300"}'}
                     ]
           - name: param-tune
             dependencies: [p-c-a]
