@@ -1,0 +1,5 @@
+argo_workflows==6.3.0rc2
+kubernetes==27.2.0
+PyYAML==6.0.1
+PyYAML==6.0.1
+Requests==2.31.0
