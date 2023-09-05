@@ -1,0 +1,6 @@
+logs/video_3_1_0_esxdu Mean 123.0 N95 124.0
+logs/video_3_1_0_rfuku Mean 121.4 N95 129.0
+logs/video_3_2_0_bztvq Mean 204.6 N95 216.0
+logs/video_3_3_0_bnyse Mean 238.8 N95 278.0
+logs/video_3_4_0_fjbvy Mean 249.2 N95 338.0
+logs/video_1_2_0_iphhs Mean 231.2 N95 254.0

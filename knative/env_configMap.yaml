@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: params
 data:
-  minio_user: YHRGVRBKUTOO7KK3QZ7K
-  minio_password: dh8CePvrWnW0Tl4ZuN0bUbmgVKA0adi97QGj4w1f
-  minio_url: 10.97.154.11
+  minio_user: SK8K73RRY1XRC1TT610D
+  minio_password: UvAM6MRWDHrRrbhCPnh6DdAiA1geCcQjMzQcxE9V
+  minio_url: 10.110.85.135
   bucketName: "bucket1"
