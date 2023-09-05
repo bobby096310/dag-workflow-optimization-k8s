@@ -6,16 +6,22 @@ def main():
         pprint("Please enter action:")
         return
     elif (args[0] == "get"):
+        if (len(args) < 2):
+            pprint("Please enter function name:")
+            return
+        pprint(get_function(args[1]))
+    elif (args[0] == "patch_conc"):
         if (len(args) < 3):
-            pprint("Please enter namespace and function name:")
+            pprint("Please enter function name, and concurrency:")
             return
-        pprint(get_function(args[1], args[2]))
-    elif (args[0] == "patch"):
+        body = concurrency_body(args[2])
+        pprint(patch_function(args[1], body))
+    elif (args[0] == "patch_cpu"):
         if (len(args) < 4):
-            pprint("Please enter namespace, function name, and concurrency:")
+            pprint("Please enter function name, and cpu requests and limits:")
             return
-        body = concurrency_body(args[3])
-        pprint(patch_function(args[1], args[2], body))
+        body = resources_body(args[2], args[3])
+        pprint(patch_function(args[1], body))
     
 if __name__ == "__main__":
     main()
