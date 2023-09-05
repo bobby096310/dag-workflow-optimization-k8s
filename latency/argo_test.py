@@ -20,21 +20,16 @@ def main():
             pprint("Please enter namespace and workflow name")
             return
         pprint(get_wf_latency(args[1], args[2]))
-    elif (args[0] == "getwfD"):
-        if (len(args) < 3):
-            pprint("Please enter namespace and workflow name")
-            return
-        pprint(get_wf_latency(args[1], args[2], True))
     elif (args[0] == "create"):
         if (len(args) < 3):
             pprint("Please enter namespace and workflow structure file name")
             return
         pprint(create_workflow(args[1], args[2]))
     elif (args[0] == "runwfs"):
-        if (len(args) < 4):
+        if (len(args) < 5):
             pprint("Please enter namespace, workflow structure file name and times")
             return
-        pprint(run_workflows(args[1], args[2], args[3]))
+        pprint(run_workflows(args[1], args[2], args[3], {"timeout": str(args[4])}))
     
 if __name__ == "__main__":
     main()

@@ -54,9 +54,14 @@ def parse_status(status):
             step["Latency"] = step_E2ELat.total_seconds()
             step_name = nodes[node]['display_name'] if nodes[node]['display_name'] != node else "E2E" #.split(":")[0]
             steps[step_name] = step
-    lat_detail = {"Start": start, "End": end, "E2E": E2ELat.total_seconds(), "Steps": steps, "Run_Result": run_result}
+    sorted_steps = dict(sorted(steps.items(), key=lambda x:x[1]['Start']))
+    lat_str = ""
+    for sort_step in sorted_steps:
+        lat_str = lat_str + (sort_step + " " + str(sorted_steps[sort_step]["Latency"]) + " ")
+    lat_detail = {"Start": start, "End": end, "E2E": E2ELat.total_seconds(), "Steps": steps, "Run_Result": run_result, "Latency String": lat_str}
     return lat_detail
-    
+
+'''
 def get_run_latency(status):
     lat_detail = parse_status(status)
     steps = lat_detail["Steps"]
@@ -65,15 +70,16 @@ def get_run_latency(status):
     for sort_step in sorted_steps:
         lat_str = lat_str + (sort_step + " " + str(sorted_steps[sort_step]["Latency"]) + " ")
     return lat_str
+'''
 
-def get_wf_latency(namespace, workflow_name, detail=False):
+def get_wf_latency(namespace, workflow_name):
     result = get_workflow(namespace, workflow_name)
     if "error" in result:
         return(result)
-    return parse_status(result['status']) if detail else get_run_latency(result['status'])
+    return parse_status(result['status'])
 
 
-def get_wf_latency_all(namespace, detail=False, by_func=None):
+def get_wf_latency_all(namespace, by_func=None):
     result = get_workflow_all(namespace)
     if "error" in result:
         return(result)
@@ -84,14 +90,14 @@ def get_wf_latency_all(namespace, detail=False, by_func=None):
             name = item['metadata']['name']
             if by_func is None or ((name.find('-') >= 0 and len(name.split('-')) > 1 and name.split('-')[1] == by_func)):
                 dag_run = get_workflow(namespace, name)
-                latencies[name] = parse_status(dag_run['status']) if detail else get_run_latency(dag_run['status'])
+                latencies[name] = parse_status(dag_run['status'])
         return latencies
 
-def create_workflow(namespace, filename):
+def create_workflow(namespace, filename, spec):
     with open(filename, 'r') as file:
         manifest = yaml.safe_load(file)
-        manifest['spec']['templates'][0]['activeDeadlineSeconds'] = '90'
-        manifest['spec']['templates'][0]['retryStrategy'] = {'limit': "5", 'retryPolicy': 'Always'}
+        if 'timeout' in spec:
+            manifest['spec']['templates'][0]['activeDeadlineSeconds'] = spec['timeout']
         api_client = argo_workflows.ApiClient(configuration)
         api_instance = workflow_service_api.WorkflowServiceApi(api_client)
         api_response = api_instance.create_workflow(
@@ -100,22 +106,22 @@ def create_workflow(namespace, filename):
             _check_return_type=False)
     workflow = api_response.to_dict()
     return(workflow['metadata']['name'])
-        
-def run_workflow(namespace, filename):
-    run_name = create_workflow(namespace, filename)
+
+def run_workflow(namespace, filename, spec):
+    run_name = create_workflow(namespace, filename, spec)
     time.sleep(30)
-    result = get_wf_latency(namespace, run_name, detail=True)
+    result = get_wf_latency(namespace, run_name)
     while "error" in result:
         time.sleep(30)
-        result = get_wf_latency(namespace, run_name, detail=True)
+        result = get_wf_latency(namespace, run_name)
     return run_name, result
 
-def run_workflows(namespace, filename, times):
+def run_workflows(namespace, filename, times, spec):
     results = []
     for i in range(int(times)):
-        run_name, result = run_workflow(namespace, filename)
+        run_name, result = run_workflow(namespace, filename, spec)
         if result["Run_Result"] != "Succeeded":
             break
         else:
-            results.append({run_name: result})
+            results.append({run_name: result["Latency String"]})
     return results

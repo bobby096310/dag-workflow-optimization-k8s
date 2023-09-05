@@ -1,0 +1,50 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+    generateName: dag-chatbot-
+spec:
+    entrypoint: dag1
+    arguments:
+      parameters:
+      - name: knative_url
+    templates:
+    - name: curl
+      inputs:
+          parameters:
+          - name: url
+          - name: func
+          - name: data
+      container:
+          image: curlimages/curl
+          command: [ curl ]
+          args: ["{{inputs.parameters.url}}",
+          "-H", "Host: {{inputs.parameters.func}}.default.svc.cluster.local",
+          "-H", "Content-Type: application/json",
+          "-X", "POST", "-d", "{{inputs.parameters.data}}"
+          ]
+
+    - name: dag1
+      inputs:
+        parameters:
+          - name: knative_url
+      dag:
+          tasks:
+          - name: split-chat-bot
+            template: curl
+            arguments:
+                    parameters: [
+                        {name: url, value: "{{inputs.parameters.knative_url}}"},
+                        {name: func, value: chat-split},
+                        {name: data, value: '{"skew":1, "network_bound":1, "bundle_size":6}'}
+                    ]
+          - name: train-intent-class
+            dependencies: [split-chat-bot]
+            template: curl
+            arguments:
+                    #parameters: [{name: url, value: "{{inputs.parameters.knative_url}}"}, {name: func, value: train-intent-class}, {name: data, value: '{"duration":2363,"values":[{"intent_name":"CourtesyGreetingResponse","network_bound":1,"skew":1}]}'}]
+                    parameters: [
+                        {name: url, value: "{{inputs.parameters.knative_url}}"},
+                        {name: func, value: chat-train},
+                        {name: data, value: "{{item}}"}
+                    ]
+            withParam: "{{=toJson(jsonpath(tasks['split-chat-bot'].outputs.result, '$.Result.detail.indeces'))}}"
