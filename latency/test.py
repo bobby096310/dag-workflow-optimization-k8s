@@ -68,9 +68,9 @@ def main():
     #pprint(run("video", 3, 3, 3, 0, 5))
     #pprint(run("video", 3, 3, 4, 0, 5))
     # timeout
+    pprint(run("video", 3, 3, 1, 0, 20))
     pprint(run("video", 3, 2, 1, 0, 20))
     pprint(run("video", 3, 1, 1, 0, 20))
-    pprint(run("video", 3, 3, 1, 0, 20))
     # cpu
     #pprint(run("video", 3, 2, 1, 0, 5))
     #pprint(run("video", 3, 2, 1, 1, 5))
