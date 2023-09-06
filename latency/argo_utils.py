@@ -4,6 +4,7 @@ import time
 import requests
 import yaml
 import json
+from datetime import timedelta
 
 import argo_workflows
 from argo_workflows.api import workflow_service_api
@@ -51,7 +52,7 @@ def parse_status(status):
             step_result = nodes[node]["phase"]
             step["End"] = step_end
             step["Start"] = step_start
-            step["Latency"] = step_E2ELat.total_seconds()
+            step["Latency"] = int(step_E2ELat.total_seconds())
             step_name = nodes[node]['display_name'] if nodes[node]['display_name'] != node else "E2E" #.split(":")[0]
             steps[step_name] = step
     sorted_steps = dict(sorted(steps.items(), key=lambda x:x[1]['Start']))

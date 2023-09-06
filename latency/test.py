@@ -12,7 +12,7 @@ cpu = [['100m', '4'], ['500m', '2'], ['1', '2']]
 
 def run_workflow(namespace, filename):
     run_name = create_workflow(namespace, filename)
-    time.sleep(30)
+    time.sleep(90)
     result = get_wf_latency(namespace, run_name)
     while "error" in result:
         time.sleep(30)
@@ -58,7 +58,7 @@ def analyze_result(raw_data):
     for run in raw_data:
         E2Es.append(float(raw_data[run].split(' ')[1]))
     E2E_mean = sum(E2Es) / len(E2Es)
-    return "Mean " + str(E2E_mean) + " N95 " +  str(get_n_latency(E2Es, 95))
+    return "Mean " + str(E2E_mean) + " N95 " +  str(get_n_latency(E2Es, 95)) + " Count " + str(len(E2Es))
 
 def main():
     #pprint(run("video", 3, 3, 1, 0, 1))
@@ -68,13 +68,13 @@ def main():
     #pprint(run("video", 3, 3, 3, 0, 5))
     #pprint(run("video", 3, 3, 4, 0, 5))
     # timeout
-    pprint(run("video", 3, 1, 1, 0, 5))
-    pprint(run("video", 3, 2, 1, 0, 5))
-    pprint(run("video", 3, 3, 1, 0, 5))
+    pprint(run("video", 3, 2, 1, 0, 20))
+    pprint(run("video", 3, 1, 1, 0, 20))
+    pprint(run("video", 3, 3, 1, 0, 20))
     # cpu
-    pprint(run("video", 3, 2, 1, 0, 5))
-    pprint(run("video", 3, 2, 1, 1, 5))
-    pprint(run("video", 3, 2, 1, 2, 5))
+    #pprint(run("video", 3, 2, 1, 0, 5))
+    #pprint(run("video", 3, 2, 1, 1, 5))
+    #pprint(run("video", 3, 2, 1, 2, 5))
 
 if __name__ == "__main__":
     main()

@@ -1,6 +1,14 @@
-logs/video_3_1_0_esxdu Mean 123.0 N95 124.0
-logs/video_3_1_0_rfuku Mean 121.4 N95 129.0
-logs/video_3_2_0_bztvq Mean 204.6 N95 216.0
-logs/video_3_3_0_bnyse Mean 238.8 N95 278.0
-logs/video_3_4_0_fjbvy Mean 249.2 N95 338.0
-logs/video_1_2_0_iphhs Mean 231.2 N95 254.0
+video_3_1_0_esxdu Mean 123.0 N95 124.0 Count 1
+video_3_1_0_rfuku Mean 121.4 N95 129.0 Count 5
+video_3_2_0_bztvq Mean 204.6 N95 216.0 Count 5
+video_3_3_0_bnyse Mean 238.8 N95 278.0 Count 5
+video_3_4_0_fjbvy Mean 249.2 N95 338.0 Count 5
+video_1_2_0_iphhs Mean 231.2 N95 254.0
+video_1_1_0_juzar Mean 171.0 N95 191.0
+video_2_1_0_avljn Mean 130.4 N95 139.0
+video_3_1_0_opglb Mean 125.2 N95 144.0
+video_2_1_0_tflid Mean 136.0 N95 171.0
+video_2_1_1_okagn Mean 123.6 N95 130.0
+video_3_1_0_kjaun Mean 125 N95 125
+video_1_1_0_cftqq Mean 151.52941176470588 N95 214.0 Count 17
+video_3_1_0_xyfyd Mean 132.10344827586206 N95 153.0 Count 29
