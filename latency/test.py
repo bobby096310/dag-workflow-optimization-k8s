@@ -57,7 +57,7 @@ def analyze_result(raw_data):
     E2Es = []
     for run in raw_data:
         E2Es.append(float(raw_data[run].split(' ')[1]))
-    E2E_mean = sum(E2Es) / len(E2Es)
+    E2E_mean = round(sum(E2Es) / len(E2Es), 2)
     return "Mean " + str(E2E_mean) + " N95 " +  str(get_n_latency(E2Es, 95)) + " Count " + str(len(E2Es))
 
 def main():
