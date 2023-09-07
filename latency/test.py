@@ -8,7 +8,7 @@ filenames = {"ml": "../argo/ml.yaml", "video": "../argo/video.yaml"}
 workflow_functions = {"ml": ["ml-pca","ml-param-tune","ml-combine"], "video": ["vi-split", "vi-extract", "vi-shuffle", "vi-classify"]}
 timeout = [60, 75, 90, 120]
 conc = [0, 1, 2, 5, 10]
-cpu = [['100m', '4'], ['500m', '2'], ['1', '2']]
+cpu = [['100m', '4'], ['500m', '2'], ['1', '2'], ['1', '4'], ['1500m', '4'], ['-', '-'], ['1', '-'], ['1500m', '-']]
 
 def run_workflow(namespace, filename):
     run_name = create_workflow(namespace, filename)
@@ -46,35 +46,26 @@ def run(workflow_name, function_index, timeout_index, conc_index, cpu_index, tim
         spec['cpu'] = cpu[cpu_index]
     update(filename, workflow_functions[workflow_name][function_index], spec)
     result = run_workflows('argo-wf', filename, times, log_file_name)
-    final = log_file_name[:-4] + " " +  analyze_result(result)
-    with open("logs/group/logs.txt", 'a') as file:
-        file.write(final + "\n")
+    final = log_file_name[:-4] + " " +  analyze_result(list(result.values()), 1)
     return final
-    
-# [{'dag-video-7cbwp': 'E2E 298.0 split 10.0 extract 21.0 shuffle 10.0 classify 257.0 '}]
-
-def analyze_result(raw_data):
-    E2Es = []
-    for run in raw_data:
-        E2Es.append(float(raw_data[run].split(' ')[1]))
-    E2E_mean = round(sum(E2Es) / len(E2Es), 2)
-    return "Mean " + str(E2E_mean) + " N95 " +  str(get_n_latency(E2Es, 95)) + " Count " + str(len(E2Es))
 
 def main():
-    #pprint(run("video", 3, 3, 1, 0, 1))
     # concurrency
+    #pprint(run("video", 3, 3, 0, 0, 5))
     #pprint(run("video", 3, 3, 1, 0, 5))
     #pprint(run("video", 3, 3, 2, 0, 5))
-    #pprint(run("video", 3, 3, 3, 0, 5))
-    #pprint(run("video", 3, 3, 4, 0, 5))
     # timeout
-    #pprint(run("video", 3, 3, 1, 0, 20))
-    #pprint(run("video", 3, 2, 1, 0, 20))
-    #pprint(run("video", 3, 1, 1, 0, 20))
+    #pprint(run("video", 3, 1, 2, 0, 5))
+    #pprint(run("video", 3, 2, 2, 0, 5))
+    #pprint(run("video", 3, 3, 2, 0, 5))
     # cpu
-    pprint(run("video", 3, 3, 1, '-', 20))
-    #pprint(run("video", 3, 3, 1, 1, 5))
-    #pprint(run("video", 3, 3, 1, 2, 5))
+    #pprint(run("video", 3, 2, 2, 0, 5))
+    #pprint(run("video", 3, 2, 2, 1, 5))
+    #pprint(run("video", 3, 2, 2, 2, 5))
+    pprint(run("video", 3, 3, 1, 3, 10))
+    pprint(run("video", 3, 3, 1, 6, 10))
+    pprint(run("video", 3, 2, 1, 2, 10))
+    pprint(run("video", 3, 2, 1, 1, 10))
 
 if __name__ == "__main__":
     main()

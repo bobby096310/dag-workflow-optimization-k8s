@@ -66,6 +66,13 @@ def get_n_latency(data, n):
     cdf_perc, cdf_values = get_cdf(pdf_perc, pdf_values)
     return get_n(n, cdf_perc, cdf_values)
 
+def analyze_result(raw_data, col_index):
+    E2Es = []
+    for run in raw_data:
+        E2Es.append(float(run.split(' ')[col_index]))
+    E2E_mean = round(sum(E2Es) / len(E2Es), 2)
+    return "Mean " + str(E2E_mean) + " P95 " +  str(get_n_latency(E2Es, 95)) + " Count " + str(len(E2Es))
+
 def main():
     args = sys.argv[1:]
     if(len(args) < 1):
