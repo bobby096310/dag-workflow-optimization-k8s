@@ -1,0 +1,5 @@
+dag-video-2hpsn E2E 204 split 10 extract 21 shuffle 10 classify 163 
+dag-video-dw89v E2E 201 split 10 extract 20 shuffle 10 classify 161 
+dag-video-dr8fb E2E 210 split 10 extract 20 shuffle 10 classify 170 
+dag-video-2dqd5 E2E 216 split 10 extract 20 shuffle 10 classify 176 
+dag-video-7wk9d E2E 192 split 10 extract 20 shuffle 10 classify 152 

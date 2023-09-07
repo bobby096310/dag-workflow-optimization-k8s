@@ -1,0 +1,6 @@
+dag-video-mz979 E2E 113 split 10 extract 20 shuffle 10 classify 73 
+dag-video-zsrgx E2E 135 split 10 extract 30 shuffle 10 classify 85 
+dag-video-vvmkm E2E 107 split 10 extract 20 shuffle 10 classify 67 
+dag-video-f7tqz E2E 106 split 10 extract 21 shuffle 10 classify 65 
+dag-video-mmldl E2E 111 split 10 extract 20 shuffle 10 classify 71 
+dag-video-wp2tp E2E 111 split 10 extract 20 shuffle 10 classify 71 

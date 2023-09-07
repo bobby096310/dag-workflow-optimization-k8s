@@ -1,0 +1,24 @@
+Mean 166.84 N95 214.0 Count 58
+Mean 119.7 N95 136.0 Count 10
+Mean 129.05 N95 150.0 Count 59
+Mean 133.26 N95 199.0 Count 53
+Mean 249.2 N95 338.0 Count 5
+Mean 115.67 N95 133.0 Count 24
+Mean 231.2 N95 254.0 Count 5
+Mean 134.3 N95 157.0 Count 10
+Mean 134.0 N95 135.0 Count 2
+Mean 204.6 N95 216.0 Count 5
+Mean 123.6 N95 130.0 Count 5
+Mean 238.8 N95 278.0 Count 5
+video_3_1_1_0 Mean 166.84 N95 214.0 Count 58
+video_3_3_1_2 Mean 119.7 N95 136.0 Count 10
+video_3_3_1_0 Mean 129.05 N95 150.0 Count 59
+video_3_2_1_0 Mean 133.26 N95 199.0 Count 53
+video_3_3_4_0 Mean 249.2 N95 338.0 Count 5
+video_3_3_1_- Mean 115.67 N95 133.0 Count 24
+video_3_1_2_0 Mean 231.2 N95 254.0 Count 5
+video_3_3_1_1 Mean 134.3 N95 157.0 Count 10
+video_3_2_1_2 Mean 134.0 N95 135.0 Count 2
+video_3_3_2_0 Mean 204.6 N95 216.0 Count 5
+video_3_2_1_1 Mean 123.6 N95 130.0 Count 5
+video_3_3_3_0 Mean 238.8 N95 278.0 Count 5

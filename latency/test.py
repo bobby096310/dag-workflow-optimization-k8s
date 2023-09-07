@@ -35,7 +35,7 @@ def run_workflows(namespace, filename, times, log_file_name):
 def run(workflow_name, function_index, timeout_index, conc_index, cpu_index, times):
     letters = string.ascii_lowercase
     profile_hash = ''.join(random.choice(letters) for i in range(5))
-    log_file_name = workflow_name + "_" + str(timeout_index) + "_" + str(conc_index) + "_" + str(cpu_index) + "_" + profile_hash + ".txt"
+    log_file_name = workflow_name + "_" + str(function_index) + "_" + str(timeout_index) + "_" + str(conc_index) + "_" + str(cpu_index) + "_" + profile_hash + ".txt"
     filename = filenames[workflow_name]
     spec = {}
     if timeout_index != '-':
@@ -47,7 +47,7 @@ def run(workflow_name, function_index, timeout_index, conc_index, cpu_index, tim
     update(filename, workflow_functions[workflow_name][function_index], spec)
     result = run_workflows('argo-wf', filename, times, log_file_name)
     final = log_file_name[:-4] + " " +  analyze_result(result)
-    with open("logs/logs.txt", 'a') as file:
+    with open("logs/group/logs.txt", 'a') as file:
         file.write(final + "\n")
     return final
     
@@ -68,13 +68,13 @@ def main():
     #pprint(run("video", 3, 3, 3, 0, 5))
     #pprint(run("video", 3, 3, 4, 0, 5))
     # timeout
-    pprint(run("video", 3, 3, 1, 0, 20))
-    pprint(run("video", 3, 2, 1, 0, 20))
-    pprint(run("video", 3, 1, 1, 0, 20))
+    #pprint(run("video", 3, 3, 1, 0, 20))
+    #pprint(run("video", 3, 2, 1, 0, 20))
+    #pprint(run("video", 3, 1, 1, 0, 20))
     # cpu
-    #pprint(run("video", 3, 2, 1, 0, 5))
-    #pprint(run("video", 3, 2, 1, 1, 5))
-    #pprint(run("video", 3, 2, 1, 2, 5))
+    pprint(run("video", 3, 3, 1, '-', 20))
+    #pprint(run("video", 3, 3, 1, 1, 5))
+    #pprint(run("video", 3, 3, 1, 2, 5))
 
 if __name__ == "__main__":
     main()
