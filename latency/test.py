@@ -6,9 +6,10 @@ import string
 
 filenames = {"ml": "../argo/ml.yaml", "video": "../argo/video.yaml"}
 workflow_functions = {"ml": ["ml-pca","ml-param-tune","ml-combine"], "video": ["vi-split", "vi-extract", "vi-shuffle", "vi-classify"]}
-timeout = [60, 75, 90, 120]
 conc = [0, 1, 2, 5, 10]
-cpu = [['100m', '4'], ['500m', '2'], ['1', '2'], ['1', '4'], ['1500m', '4'], ['-', '-'], ['1', '-'], ['1500m', '-']]
+timeout = [60, 75, 90, 120]
+#cpu = [['100m', '4'], ['500m', '2'], ['1', '2'], ['1', '4'], ['1500m', '4'], ['-', '-'], ['1', '-'], ['1500m', '-']]
+cpu = [['-', '-'], ['1', '-'], ['1', '2'], ['1500m', '-']]
 
 def run_workflow(namespace, filename):
     run_name = create_workflow(namespace, filename)
@@ -32,10 +33,10 @@ def run_workflows(namespace, filename, times, log_file_name):
         time.sleep(30)
     return results
 
-def run(workflow_name, function_index, timeout_index, conc_index, cpu_index, times):
+def run(workflow_name, function_index, conc_index, cpu_index, timeout_index, times):
     letters = string.ascii_lowercase
     profile_hash = ''.join(random.choice(letters) for i in range(5))
-    log_file_name = workflow_name + "_" + str(function_index) + "_" + str(timeout_index) + "_" + str(conc_index) + "_" + str(cpu_index) + "_" + profile_hash + ".txt"
+    log_file_name = workflow_name + "_" + str(function_index) + "_" + str(conc_index) + "_" + str(cpu_index) + "_" + str(timeout_index) + "_" + profile_hash + ".txt"
     filename = filenames[workflow_name]
     spec = {}
     if timeout_index != '-':
@@ -51,21 +52,19 @@ def run(workflow_name, function_index, timeout_index, conc_index, cpu_index, tim
 
 def main():
     # concurrency
-    #pprint(run("video", 3, 3, 0, 0, 5))
-    #pprint(run("video", 3, 3, 1, 0, 5))
-    #pprint(run("video", 3, 3, 2, 0, 5))
-    # timeout
-    #pprint(run("video", 3, 1, 2, 0, 5))
-    #pprint(run("video", 3, 2, 2, 0, 5))
-    #pprint(run("video", 3, 3, 2, 0, 5))
+    #pprint(run("video", 3, 1, '-', '-', 10))
+    #pprint(run("video", 3, 2, '-', '-', 40))
+    #pprint(run("video", 3, 0, '-', '-', 10))
     # cpu
-    #pprint(run("video", 3, 2, 2, 0, 5))
-    #pprint(run("video", 3, 2, 2, 1, 5))
-    #pprint(run("video", 3, 2, 2, 2, 5))
-    pprint(run("video", 3, 3, 1, 3, 10))
-    pprint(run("video", 3, 3, 1, 6, 10))
-    pprint(run("video", 3, 2, 1, 2, 10))
-    pprint(run("video", 3, 2, 1, 1, 10))
+    #pprint(run("video", 3, 1, 0, 0, 5))
+    #pprint(run("video", 3, 1, 1, 0, 5))
+    #pprint(run("video", 3, 1, 2, 0, 5))
+    #pprint(run("video", 3, 1, 3, 0, 5))
+    # timeout   
+    pprint(run("video", 3, 1, 3, 0, 10))
+    pprint(run("video", 3, 1, 3, 1, 10))
+    pprint(run("video", 3, 1, 3, 2, 10))
+    pprint(run("video", 3, 0, '-', '-', 10))
 
 if __name__ == "__main__":
     main()

@@ -34,10 +34,17 @@ def sort_by_mean(agg_list):
         dic[mean] = agg
     return list(dict(sorted(dic.items())).values())
 
-def sort_by_p95(agg_list):
+def sort_by_p50(agg_list):
     dic = {}
     for agg in agg_list:
         n = float(agg.split(" ")[4])
+        dic[n] = agg
+    return list(dict(sorted(dic.items())).values())
+
+def sort_by_p95(agg_list):
+    dic = {}
+    for agg in agg_list:
+        n = float(agg.split(" ")[6])
         dic[n] = agg
     return list(dict(sorted(dic.items())).values())
 
@@ -53,12 +60,20 @@ def main():
         #print(agg)
         agg_list.append(agg)
     agg_mean = sort_by_mean(agg_list)
+    agg_p50 = sort_by_p50(agg_list)
     agg_p95 = sort_by_p95(agg_list)
     with open(os.path.join("logs/group/", "group_logs.txt"), 'a') as groupfile:
+        print("Sort by Mean:")
         groupfile.write("Sort by Mean:\n")
         for line in agg_mean:
             print(line)
             groupfile.writelines(line + "\n")
+        print("Sort by P50:")
+        groupfile.write("Sort by P50:\n")
+        for line in agg_p50:
+            print(line)
+            groupfile.writelines(line + "\n")
+        print("Sort by P95:")
         groupfile.write("Sort by P95:\n")
         for line in agg_p95:
             print(line)

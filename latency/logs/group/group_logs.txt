@@ -1,35 +1,27 @@
 Sort by Mean:
-video_3_3_1_- Mean 70.42 P95 83.0 Count 40
-video_3_3_1_3 Mean 70.87 P95 82.0 Count 30
-video_3_3_1_6 Mean 74.93 P95 87.0 Count 30
-video_3_2_1_2 Mean 75.25 P95 85.0 Count 12
-video_3_3_1_7 Mean 75.75 P95 90.0 Count 16
-video_3_3_1_2 Mean 76.07 P95 86.0 Count 30
-video_3_3_1_1 Mean 83.8 P95 96.0 Count 10
-video_3_3_1_0 Mean 85.49 P95 106.0 Count 59
-video_3_2_1_1 Mean 89.27 P95 151.0 Count 15
-video_3_2_1_0 Mean 89.85 P95 152.0 Count 53
-video_3_3_1_4 Mean 90.0 P95 170.0 Count 31
-video_3_1_1_0 Mean 123.03 P95 163.0 Count 58
-video_3_3_2_0 Mean 164.4 P95 176.0 Count 5
-video_3_1_2_0 Mean 186.6 P95 204.0 Count 5
-video_3_3_3_0 Mean 196.6 P95 238.0 Count 5
-video_3_3_4_0 Mean 205.2 P95 298.0 Count 5
+video_3_1_3_- Mean 79.08 P50 75.0 P95 94.0 Count 100
+video_3_1_1_- Mean 84.65 P50 79.0 P95 135.0 Count 99
+video_3_1_2_- Mean 88.91 P50 82.0 P95 142.0 Count 100
+video_3_1_-_- Mean 97.35 P50 84.0 P95 178.0 Count 93
+video_3_1_0_- Mean 106.08 P50 90.0 P95 160.0 Count 100
+video_3_1_3_0 Mean 122.57 P50 115.0 P95 168.0 Count 7
+video_3_2_-_- Mean 169.73 P50 162.0 P95 232.0 Count 100
+video_3_0_-_- Mean 457.0 P50 405.0 P95 510.0 Count 2
+Sort by P50:
+video_3_1_3_- Mean 79.08 P50 75.0 P95 94.0 Count 100
+video_3_1_1_- Mean 84.65 P50 79.0 P95 135.0 Count 99
+video_3_1_2_- Mean 88.91 P50 82.0 P95 142.0 Count 100
+video_3_1_-_- Mean 97.35 P50 84.0 P95 178.0 Count 93
+video_3_1_0_- Mean 106.08 P50 90.0 P95 160.0 Count 100
+video_3_1_3_0 Mean 122.57 P50 115.0 P95 168.0 Count 7
+video_3_2_-_- Mean 169.73 P50 162.0 P95 232.0 Count 100
+video_3_0_-_- Mean 457.0 P50 405.0 P95 510.0 Count 2
 Sort by P95:
-video_3_3_1_3 Mean 70.87 P95 82.0 Count 30
-video_3_3_1_- Mean 70.42 P95 83.0 Count 40
-video_3_2_1_2 Mean 75.25 P95 85.0 Count 12
-video_3_3_1_2 Mean 76.07 P95 86.0 Count 30
-video_3_3_1_6 Mean 74.93 P95 87.0 Count 30
-video_3_3_1_7 Mean 75.75 P95 90.0 Count 16
-video_3_3_1_1 Mean 83.8 P95 96.0 Count 10
-video_3_3_1_5 Mean 83.8 P95 101.0 Count 20
-video_3_3_1_0 Mean 85.49 P95 106.0 Count 59
-video_3_2_1_1 Mean 89.27 P95 151.0 Count 15
-video_3_2_1_0 Mean 89.85 P95 152.0 Count 53
-video_3_1_1_0 Mean 123.03 P95 163.0 Count 58
-video_3_3_1_4 Mean 90.0 P95 170.0 Count 31
-video_3_3_2_0 Mean 164.4 P95 176.0 Count 5
-video_3_1_2_0 Mean 186.6 P95 204.0 Count 5
-video_3_3_3_0 Mean 196.6 P95 238.0 Count 5
-video_3_3_4_0 Mean 205.2 P95 298.0 Count 5
+video_3_1_3_- Mean 79.08 P50 75.0 P95 94.0 Count 100
+video_3_1_1_- Mean 84.65 P50 79.0 P95 135.0 Count 99
+video_3_1_2_- Mean 88.91 P50 82.0 P95 142.0 Count 100
+video_3_1_0_- Mean 106.08 P50 90.0 P95 160.0 Count 100
+video_3_1_3_0 Mean 122.57 P50 115.0 P95 168.0 Count 7
+video_3_1_-_- Mean 97.35 P50 84.0 P95 178.0 Count 93
+video_3_2_-_- Mean 169.73 P50 162.0 P95 232.0 Count 100
+video_3_0_-_- Mean 457.0 P50 405.0 P95 510.0 Count 2
