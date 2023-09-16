@@ -31,22 +31,23 @@ def sort_by_mean(agg_list):
     dic = {}
     for agg in agg_list:
         mean = float(agg.split(" ")[2])
-        dic[mean] = agg
-    return list(dict(sorted(dic.items())).values())
+        dic[agg] = mean
+    return list(dict(sorted(dic.items(), key=lambda x:x[1])).keys())
 
 def sort_by_p50(agg_list):
     dic = {}
     for agg in agg_list:
         n = float(agg.split(" ")[4])
-        dic[n] = agg
-    return list(dict(sorted(dic.items())).values())
+        dic[agg] = n
+        # sorted(footballers_goals.items(), key=lambda x:x[1])
+    return list(dict(sorted(dic.items(), key=lambda x:x[1])).keys())
 
 def sort_by_p95(agg_list):
     dic = {}
     for agg in agg_list:
         n = float(agg.split(" ")[6])
-        dic[n] = agg
-    return list(dict(sorted(dic.items())).values())
+        dic[agg] = n
+    return list(dict(sorted(dic.items(), key=lambda x:x[1])).keys())
 
 
 def main():
@@ -72,7 +73,7 @@ def main():
         groupfile.write("Sort by P50:\n")
         for line in agg_p50:
             print(line)
-            groupfile.writelines(line + "\n")
+            groupfile.writelines(str(line) + "\n")
         print("Sort by P95:")
         groupfile.write("Sort by P95:\n")
         for line in agg_p95:

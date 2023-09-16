@@ -1,0 +1,16 @@
+dag-video-nlkzj E2E 123 split 10 extract 30 shuffle 10 classify 73 
+dag-video-z4g8t E2E 113 split 10 extract 20 shuffle 11 classify 72 
+dag-video-zstvw E2E 107 split 10 extract 20 shuffle 10 classify 67 
+dag-video-mgr5r E2E 130 split 10 extract 30 shuffle 10 classify 80 
+dag-video-4bds8 E2E 118 split 10 extract 30 shuffle 10 classify 68 
+dag-video-tfnnn E2E 148 split 33 extract 20 shuffle 22 classify 73 
+dag-video-xqcbj E2E 120 split 10 extract 30 shuffle 10 classify 70 
+dag-video-6lvv2 E2E 114 split 10 extract 20 shuffle 11 classify 73 
+dag-video-s5k68 E2E 119 split 10 extract 30 shuffle 10 classify 69 
+dag-video-t7cbz E2E 120 split 10 extract 20 shuffle 10 classify 80 
+dag-video-xdjvb E2E 122 split 10 extract 30 shuffle 10 classify 72 
+dag-video-jgpk7 E2E 126 split 10 extract 20 shuffle 10 classify 86 
+dag-video-57pwh E2E 121 split 25 extract 20 shuffle 10 classify 66 
+dag-video-m2f7r E2E 112 split 10 extract 20 shuffle 10 classify 72 
+dag-video-pvr9h E2E 130 split 10 extract 20 shuffle 10 classify 90 
+dag-video-bn9tz E2E 116 split 10 extract 20 shuffle 10 classify 76 

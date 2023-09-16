@@ -2,15 +2,27 @@ from k_function import *
 from argo_utils import *
 
 def update_argo_yaml(filename, spec):
+    msg = []
     if 'timeout' in spec:
         with open(filename, 'r') as file:
             manifest = yaml.safe_load(file)
         with open(filename, 'w') as file:
             curl_template = manifest['spec']['templates'][0]
-            curl_template['activeDeadlineSeconds'] = str(spec['timeout'])
+            if str(spec['timeout']) == '0':
+                msg.append(curl_template.pop('activeDeadlineSeconds') + " reset")
+            else:
+                curl_template['activeDeadlineSeconds'] = str(spec['timeout'])
             yaml.dump(manifest, file)
-        return "workflow updated"
-    return "No changes made"
+        msg.append("workflow updated")
+    if 'input' in spec:
+        with open(filename, 'r') as file:
+            manifest = yaml.safe_load(file)
+        with open(filename, 'w') as file:
+            parameter = manifest['spec']['arguments']['parameters'][1]
+            parameter['value'] = str(spec['input'])
+            yaml.dump(manifest, file)
+        msg.append("input updated")
+    return "No changes made" if len(msg) < 1 else ' '.join(msg)
 
 def update_function(func_name, new_spec):
     body = ''
@@ -34,22 +46,15 @@ def update(filename, func_name, new_spec):
 
 def main():
     args = sys.argv[1:]
-    if len(args) < 6:
-        pprint("Please enter filename, function, parameters (timeout, concurrency, cpu r and l)")
+    if len(args) < 3:
+        pprint("Please enter filename, function, and spec (timeout, concurrency, cpu r and l)")
         return
     spec = {}
     filename = args[0]
     function = args[1]
-    timeout = args[2]
-    concurrency = args[3]
-    cpu1 = args[4]
-    cpu2 = args[5]
-    if timeout != '-':
-        spec['timeout'] = timeout 
-    if concurrency != '-':
-        spec['concurrency'] = concurrency
-    if cpu1 != '-' and cpu2 != '-':
-        spec['cpu'] = [cpu1, cpu2]
+    spec = json.loads(args[2])
+    #ml -> "{\"bundle_size\": 4, \"key1\": \"300\"}"
+    #video -> "{\"src_name\": \"0\", \"DOP\": \"30\", \"detect_prob\": 2}"
     #pprint(update_function('vi-classify', {"timeout": 90, "concurrency": 10, "cpu_r": ["1200m", "2"]}))
     pprint(update(filename, function, spec))
 

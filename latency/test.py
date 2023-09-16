@@ -7,7 +7,7 @@ import string
 filenames = {"ml": "../argo/ml.yaml", "video": "../argo/video.yaml"}
 workflow_functions = {"ml": ["ml-pca","ml-param-tune","ml-combine"], "video": ["vi-split", "vi-extract", "vi-shuffle", "vi-classify"]}
 conc = [0, 1, 2, 5, 10]
-timeout = [60, 75, 90, 120]
+timeout = [60, 75, 90, 120, 0]
 #cpu = [['100m', '4'], ['500m', '2'], ['1', '2'], ['1', '4'], ['1500m', '4'], ['-', '-'], ['1', '-'], ['1500m', '-']]
 cpu = [['-', '-'], ['1', '-'], ['1', '2'], ['1500m', '-']]
 
@@ -61,10 +61,11 @@ def main():
     #pprint(run("video", 3, 1, 2, 0, 5))
     #pprint(run("video", 3, 1, 3, 0, 5))
     # timeout   
-    pprint(run("video", 3, 1, 3, 0, 10))
+    #pprint(run("video", 3, 1, 3, 0, 10))
+    pprint(run("video", 3, 1, 3, 4, 35))
     pprint(run("video", 3, 1, 3, 1, 10))
     pprint(run("video", 3, 1, 3, 2, 10))
-    pprint(run("video", 3, 0, '-', '-', 10))
+    pprint(run("video", 3, 1, 3, 3, 20))
 
 if __name__ == "__main__":
     main()
