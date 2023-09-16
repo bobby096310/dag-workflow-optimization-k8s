@@ -34,19 +34,11 @@ def main():
     input = {"src_name": "0", "DOP": "30", "detect_prob": 2}
     re1 = execute('vi-split', input)
     input2s = re1['Result']['detail']['indeces']
-    '''
-    re2s = []
-    for input2 in input2s:
-        re2 = execute('vi-extract', input2)
-        re2s.append(re2['Result'])
-    input3s = re2s
-    '''
     input3s = list(map('vi-extract', input2s))
-    print(input3s)
     re3 = execute('vi-shuffle', input3s)
     input4s = re3['Result']['detail']['indeces']
     re4 = map('vi-classify', input4s)
-    pprint(re4)
+    print(re4)
     end_time = datetime.now()
     print("E2E latency:: {:d}".format(int((end_time-start_time).total_seconds())))
 
