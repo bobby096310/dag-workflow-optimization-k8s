@@ -1,0 +1,10 @@
+video-oasiu split 942 extract 1837 shuffle 2303 classify 57594 E2E 81815
+video-teukh split 3290 extract 2967 shuffle 2302 classify 62672 E2E 86471
+video-dpzub split 3309 extract 2973 shuffle 2204 classify 74065 E2E 103004
+video-miozz split 3245 extract 3108 shuffle 2154 classify 67658 E2E 95324
+video-clbaf split 3295 extract 3008 shuffle 2189 classify 74751 E2E 98490
+video-xtror split 3316 extract 2993 shuffle 2293 classify 64398 E2E 92256
+video-rikll split 3386 extract 2974 shuffle 2199 classify 69705 E2E 93973
+video-opjog split 3235 extract 3117 shuffle 2208 classify 68645 E2E 96376
+video-gxgqq split 3212 extract 3046 shuffle 2224 classify 73153 E2E 98975
+video-nabet split 3234 extract 2954 shuffle 2237 classify 75168 E2E 99337

@@ -9,7 +9,8 @@ def update_argo_yaml(filename, spec):
         with open(filename, 'w') as file:
             curl_template = manifest['spec']['templates'][0]
             if str(spec['timeout']) == '0':
-                msg.append(curl_template.pop('activeDeadlineSeconds') + " reset")
+                if 'activeDeadlineSeconds' in curl_template:
+                    msg.append(curl_template.pop('activeDeadlineSeconds') + " reset")
             else:
                 curl_template['activeDeadlineSeconds'] = str(spec['timeout'])
             yaml.dump(manifest, file)

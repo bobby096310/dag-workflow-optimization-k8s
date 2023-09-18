@@ -1,0 +1,5 @@
+video-psqcu split 3275 extract 2924 shuffle 2208 classify 61285 E2E 97345
+video-mompt split 3238 extract 2881 shuffle 2111 classify 259287 E2E 296192
+video-awxbf split 5600 extract 511 shuffle 2135 classify 84226 E2E 107733
+video-botbu split 3205 extract 2877 shuffle 2183 classify 247162 E2E 275191
+video-ctlkn split 3430 extract 3011 shuffle 2267 classify 185470 E2E 213293

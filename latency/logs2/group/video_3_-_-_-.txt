@@ -1,0 +1,5 @@
+video-qzibq split 3281 extract 2982 shuffle 2086 classify 259830 E2E 308601
+video-leedn split 3300 extract 3084 shuffle 2074 classify 169729 E2E 308638
+video-sqwrh split 3483 extract 2978 shuffle 2188 classify 219095 E2E 308768
+video-bnlny split 3257 extract 2964 shuffle 2221 classify 205287 E2E 214035
+video-yhjla split 3262 extract 3039 shuffle 2112 classify 206148 E2E 214763
