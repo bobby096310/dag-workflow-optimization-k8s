@@ -1,3 +1,13 @@
+video-qpvul split 3406 extract 2737 shuffle 2283 classify 60369 E2E 69321
+video-uenha split 3405 extract 2740 shuffle 2180 classify 187991 E2E 196831
+video-baimq split 3295 extract 2971 shuffle 2313 classify 50290 E2E 59335
+video-arnav split 3211 extract 2681 shuffle 2106 classify 168950 E2E 177496
+video-hhngm split 4087 extract 2917 shuffle 2849 classify 144050 E2E 154358
+video-thjhi split 3290 extract 2748 shuffle 2065 classify 163436 E2E 171853
+video-qrivb split 3423 extract 2757 shuffle 2179 classify 279499 E2E 288239
+video-bixpg split 3315 extract 2851 shuffle 2139 classify 306527 E2E 315214
+video-qkkxs split 3375 extract 2726 shuffle 2312 classify 145708 E2E 154552
+video-jaypl split 3321 extract 2650 shuffle 2170 classify 247493 E2E 256088
 video-cadwr split 3256 extract 3007 shuffle 2109 classify 75384 E2E 100955
 video-owmav split 3732 extract 2989 shuffle 2162 classify 256787 E2E 291391
 video-wfxki split 3169 extract 2957 shuffle 2073 classify 316877 E2E 350254
@@ -8,3 +18,13 @@ video-hxzil split 3313 extract 2948 shuffle 2118 classify 315609 E2E 349228
 video-wcpxr split 3209 extract 2926 shuffle 2094 classify 142120 E2E 175582
 video-dhnup split 3237 extract 2954 shuffle 2138 classify 311560 E2E 343532
 video-bvdod split 3250 extract 2911 shuffle 2100 classify 233857 E2E 270350
+video-chiic split 3438 extract 2788 shuffle 2220 classify 62609 E2E 71507
+video-eivsf split 3372 extract 2703 shuffle 2244 classify 309396 E2E 318272
+video-wtegt split 3367 extract 3056 shuffle 2147 classify 140705 E2E 149775
+video-laynr split 3380 extract 3124 shuffle 2196 classify 157663 E2E 166872
+video-sbear split 3373 extract 3191 shuffle 2178 classify 252422 E2E 261652
+video-edaag split 3227 extract 3305 shuffle 2854 classify 56549 E2E 66463
+video-vwdix split 3283 extract 2817 shuffle 2206 classify 67528 E2E 76265
+video-lkane split 3509 extract 2753 shuffle 2182 classify 63598 E2E 72548
+video-gapdt split 3351 extract 2698 shuffle 2292 classify 44511 E2E 53347
+video-wheom split 3366 extract 2769 shuffle 2337 classify 62416 E2E 71394

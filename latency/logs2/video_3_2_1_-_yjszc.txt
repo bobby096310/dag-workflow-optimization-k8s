@@ -28,5 +28,3 @@ video-mvjje split 3142 extract 2979 shuffle 2088 classify 161253 E2E 169965
 video-vnsff split 3220 extract 3060 shuffle 2050 classify 155486 E2E 164185
 video-vrhok split 3366 extract 3058 shuffle 2057 classify 146054 E2E 154990
 video-nfqto split 3430 extract 2763 shuffle 2139 classify 250672 E2E 259410
-video-cxurk split 3248 extract 2967 shuffle 2203 classify 56941 E2E 81921
-video-bnhed split 3277 extract 2987 shuffle 2707 classify 423587 E2E 454798

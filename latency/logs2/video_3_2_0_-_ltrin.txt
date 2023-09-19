@@ -1,0 +1,4 @@
+video-hcxaz split 3607 extract 3787 shuffle 2274 classify 155899 E2E 166072
+video-xgutt split 3422 extract 2734 shuffle 2150 classify 152722 E2E 161559
+video-hjluf split 3385 extract 4250 shuffle 2127 classify 152880 E2E 163253
+video-uahtt split 3609 extract 2706 shuffle 3508 classify 135820 E2E 146136

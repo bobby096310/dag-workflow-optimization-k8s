@@ -1,0 +1,3 @@
+video-conig split 893 extract 5526 shuffle 3248 classify 145813 E2E 155917
+video-xihtr split 3185 extract 2715 shuffle 2312 classify 100676 E2E 109398
+video-slrsx split 4231 extract 3349 shuffle 2136 classify 130055 E2E 140258
