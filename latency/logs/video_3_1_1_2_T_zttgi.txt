@@ -1,0 +1,4 @@
+video-zlwov split 2831 extract 2388 shuffle 3237 classify 31580 E2E 40126
+video-fbwsj split 4021 extract 2587 shuffle 2221 classify 32263 E2E 41198
+video-zrpev split 2761 extract 2460 shuffle 2093 classify 35411 E2E 42825
+video-ezulb split 2890 extract 2577 shuffle 2976 classify 32193 E2E 40738

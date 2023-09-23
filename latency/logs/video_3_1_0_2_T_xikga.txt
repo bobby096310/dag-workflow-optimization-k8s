@@ -1,0 +1,10 @@
+video-rumid split 2880 extract 2494 shuffle 2143 classify 33844 E2E 41464
+video-ftpvs split 2898 extract 2510 shuffle 2056 classify 33008 E2E 40582
+video-crzec split 2719 extract 2543 shuffle 2159 classify 31834 E2E 39355
+video-ojmps split 2727 extract 2662 shuffle 2165 classify 32893 E2E 40564
+video-ijhyu split 2730 extract 2572 shuffle 2195 classify 32834 E2E 40430
+video-ptlfx split 2883 extract 2522 shuffle 2046 classify 31598 E2E 39154
+video-epvbz split 2879 extract 2500 shuffle 2142 classify 32151 E2E 39773
+video-pvjlm split 2905 extract 2463 shuffle 2202 classify 34420 E2E 42092
+video-vyigk split 2792 extract 2600 shuffle 2227 classify 34360 E2E 42092
+video-hevwb split 2742 extract 2537 shuffle 2079 classify 32300 E2E 39764
