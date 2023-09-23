@@ -1,0 +1,4 @@
+video-ggxlq split 3042 extract 2462 shuffle 2309 classify 24228 E2E 32171
+video-vcoru split 2854 extract 2750 shuffle 2224 classify 35354 E2E 43310
+video-sjlen split 2993 extract 2546 shuffle 2947 classify 41741 E2E 50397
+video-gwzxv split 3200 extract 2679 shuffle 2372 classify 25667 E2E 34023

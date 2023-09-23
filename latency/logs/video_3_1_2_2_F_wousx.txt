@@ -1,4 +1,3 @@
-video-nllqx split 2793 extract 2453 shuffle 2063 classify 35320 E2E 42688
 video-sbuap split 3550 extract 2652 shuffle 2249 classify 34613 E2E 43112
 video-telkj split 3108 extract 2525 shuffle 2245 classify 31282 E2E 39203
 video-ntrxb split 3038 extract 2541 shuffle 2337 classify 36084 E2E 44047

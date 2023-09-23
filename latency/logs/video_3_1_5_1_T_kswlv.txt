@@ -8,4 +8,3 @@ video-bhnxn split 2944 extract 2793 shuffle 2272 classify 24685 E2E 32822
 video-tfsqf split 2814 extract 2715 shuffle 3005 classify 29208 E2E 37864
 video-taspx split 3007 extract 2530 shuffle 2260 classify 25673 E2E 33591
 video-bayyb split 3205 extract 2782 shuffle 2270 classify 26781 E2E 35172
-video-envzr split 418 extract 281 shuffle 8 classify 35134 E2E 35997

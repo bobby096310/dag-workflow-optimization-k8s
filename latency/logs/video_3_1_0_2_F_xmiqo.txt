@@ -8,4 +8,3 @@ video-qzhjt split 3130 extract 2586 shuffle 2370 classify 32723 E2E 40857
 video-hbqik split 3020 extract 2497 shuffle 2380 classify 32307 E2E 40250
 video-refeu split 3026 extract 2518 shuffle 2329 classify 33218 E2E 41166
 video-koahi split 2868 extract 2658 shuffle 2285 classify 33659 E2E 41517
-video-qxybl split 2816 extract 2562 shuffle 2111 classify 29807 E2E 37348
