@@ -1,0 +1,5 @@
+video-xwhlp split 3314 extract 3735 shuffle 2403 classify 55207 E2E 64954
+video-szalo split 3288 extract 2672 shuffle 2045 classify 55307 E2E 63654
+video-vezia split 3147 extract 2850 shuffle 2083 classify 62982 E2E 71390
+video-sucwp split 3313 extract 2809 shuffle 2141 classify 62816 E2E 71377
+video-wrbpj split 3315 extract 2767 shuffle 2047 classify 61204 E2E 69525

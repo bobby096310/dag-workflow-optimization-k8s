@@ -1,0 +1,10 @@
+video-ueftp split 3266 extract 2837 shuffle 2120 classify 58057 E2E 66411
+video-ripfw split 3308 extract 2791 shuffle 2087 classify 60602 E2E 68929
+video-gtnkx split 3943 extract 2861 shuffle 2054 classify 58441 E2E 67421
+video-gcvir split 3211 extract 2810 shuffle 2152 classify 66150 E2E 74448
+video-gbxtc split 3315 extract 2685 shuffle 2126 classify 71337 E2E 79590
+video-bxjwc split 3219 extract 2729 shuffle 2079 classify 70161 E2E 78313
+video-dknly split 3210 extract 2725 shuffle 2056 classify 62883 E2E 71003
+video-kvays split 3325 extract 2758 shuffle 2074 classify 67086 E2E 75362
+video-cebfi split 3295 extract 2786 shuffle 2082 classify 75851 E2E 84100
+video-ptvzm split 3297 extract 2759 shuffle 2210 classify 72998 E2E 81460

@@ -1,0 +1,10 @@
+video-aabcv split 3280 extract 2995 shuffle 2118 classify 59598 E2E 68123
+video-jamtg split 3294 extract 2937 shuffle 2149 classify 71301 E2E 79808
+video-wvhvl split 3247 extract 2867 shuffle 2139 classify 79265 E2E 87650
+video-nvjci split 3241 extract 2890 shuffle 2084 classify 79859 E2E 88208
+video-gxpkb split 3230 extract 2788 shuffle 2152 classify 68637 E2E 76933
+video-nnzfg split 3323 extract 2880 shuffle 2115 classify 70995 E2E 79452
+video-rjcsa split 3244 extract 2841 shuffle 2065 classify 69374 E2E 77634
+video-gmwvb split 3269 extract 2938 shuffle 2078 classify 69354 E2E 77753
+video-apwjs split 3331 extract 2828 shuffle 2137 classify 60389 E2E 68799
+video-xjvfi split 3271 extract 2904 shuffle 2120 classify 63146 E2E 71548

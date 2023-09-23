@@ -1,0 +1,10 @@
+video-fsrel split 383 extract 199 shuffle 8 classify 24841 E2E 25561
+video-qxedg split 373 extract 192 shuffle 8 classify 24784 E2E 25496
+video-ungmo split 380 extract 193 shuffle 9 classify 24779 E2E 25491
+video-jlioo split 395 extract 209 shuffle 8 classify 22116 E2E 22854
+video-ltzgi split 380 extract 155 shuffle 8 classify 26867 E2E 27537
+video-qitmt split 377 extract 181 shuffle 8 classify 24623 E2E 25316
+video-fpnqo split 372 extract 153 shuffle 8 classify 25922 E2E 26582
+video-nfpdh split 389 extract 167 shuffle 8 classify 24385 E2E 25074
+video-qubpl split 372 extract 176 shuffle 8 classify 22749 E2E 23425
+video-pyjli split 373 extract 180 shuffle 8 classify 24680 E2E 25370

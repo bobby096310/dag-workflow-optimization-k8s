@@ -1,0 +1,10 @@
+video-takao split 396 extract 199 shuffle 7 classify 22248 E2E 23086
+video-fqbdt split 375 extract 189 shuffle 9 classify 23776 E2E 24568
+video-ogwzi split 404 extract 223 shuffle 7 classify 16517 E2E 17368
+video-jeelf split 395 extract 202 shuffle 8 classify 19987 E2E 20837
+video-iasyz split 397 extract 223 shuffle 8 classify 20304 E2E 21164
+video-qrxld split 394 extract 220 shuffle 8 classify 16871 E2E 17714
+video-zeirj split 404 extract 238 shuffle 8 classify 21978 E2E 22851
+video-fjrfb split 405 extract 196 shuffle 9 classify 15841 E2E 16686
+video-intoj split 397 extract 220 shuffle 9 classify 23354 E2E 24214
+video-iizxf split 376 extract 210 shuffle 9 classify 15678 E2E 16510

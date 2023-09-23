@@ -1,0 +1,10 @@
+video-zeeez split 417 extract 255 shuffle 10 classify 25841 E2E 26807
+video-lkrze split 427 extract 201 shuffle 9 classify 63586 E2E 64475
+video-recog split 2724 extract 2480 shuffle 2298 classify 24989 E2E 32801
+video-kmmzf split 413 extract 218 shuffle 8 classify 24889 E2E 25770
+video-jnehe split 391 extract 219 shuffle 8 classify 25079 E2E 25940
+video-synxs split 415 extract 200 shuffle 8 classify 25326 E2E 26199
+video-bitlr split 428 extract 207 shuffle 8 classify 25263 E2E 26155
+video-nqujs split 418 extract 190 shuffle 8 classify 25081 E2E 25937
+video-nhcfv split 414 extract 220 shuffle 8 classify 25093 E2E 25964
+video-agrbc split 389 extract 211 shuffle 8 classify 22934 E2E 23785

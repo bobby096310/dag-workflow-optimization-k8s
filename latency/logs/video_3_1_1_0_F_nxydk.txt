@@ -1,0 +1,4 @@
+video-iultw split 2798 extract 2469 shuffle 2099 classify 34143 E2E 41646
+video-zhizy split 2777 extract 2557 shuffle 2151 classify 25026 E2E 32677
+video-vswde split 2754 extract 2513 shuffle 2051 classify 28715 E2E 36230
+video-unlvw split 3300 extract 2470 shuffle 2091 classify 20495 E2E 307998

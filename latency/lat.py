@@ -133,8 +133,8 @@ def run_ml(inp):
     return (" ".join(latencies))
 
 def main():
-    inp = {"src_name": "0", "DOP": "30", "detect_prob": 2}
-    print(run_video(inp))
+    inp = {"src_name": "00", "DOP": "15", "detect_prob": 2}
+    print(run_video(inp, True))
 
 if __name__ == "__main__":
     main()

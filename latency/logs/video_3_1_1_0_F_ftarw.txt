@@ -1,0 +1,10 @@
+video-regfd split 381 extract 195 shuffle 8 classify 26304 E2E 27019
+video-uscmj split 367 extract 198 shuffle 8 classify 29406 E2E 30090
+video-ffhnz split 372 extract 200 shuffle 9 classify 19557 E2E 20237
+video-hcwdu split 388 extract 195 shuffle 7 classify 17609 E2E 18298
+video-nqjeu split 374 extract 197 shuffle 8 classify 23343 E2E 24053
+video-wfrnl split 376 extract 199 shuffle 8 classify 18847 E2E 19547
+video-xzmwk split 384 extract 187 shuffle 8 classify 24923 E2E 25625
+video-jexkf split 374 extract 190 shuffle 7 classify 20487 E2E 21148
+video-yebyc split 365 extract 214 shuffle 8 classify 21344 E2E 22039
+video-totyw split 377 extract 173 shuffle 12 classify 25220 E2E 25909

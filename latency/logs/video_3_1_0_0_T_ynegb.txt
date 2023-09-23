@@ -1,0 +1,10 @@
+video-mvxpm split 14671 extract 3474 shuffle 3479 classify 31321 E2E 53173
+video-lecbo split 3662 extract 2914 shuffle 2528 classify 23821 E2E 33183
+video-tsara split 374 extract 191 shuffle 9 classify 23716 E2E 24502
+video-rovqy split 407 extract 183 shuffle 8 classify 22365 E2E 23206
+video-njkvi split 552 extract 172 shuffle 8 classify 30642 E2E 31604
+video-xmpze split 3387 extract 2484 shuffle 2089 classify 32012 E2E 40225
+video-pgmnh split 3510 extract 2890 shuffle 2707 classify 22388 E2E 31745
+video-mtkfq split 387 extract 232 shuffle 8 classify 23365 E2E 24248
+video-wproy split 402 extract 184 shuffle 7 classify 27427 E2E 28272
+video-kdrol split 401 extract 218 shuffle 7 classify 21833 E2E 22686

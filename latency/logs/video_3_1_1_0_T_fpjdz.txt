@@ -1,0 +1,10 @@
+video-kzugg split 394 extract 209 shuffle 8 classify 22405 E2E 23248
+video-peuvt split 398 extract 224 shuffle 8 classify 25959 E2E 26817
+video-duuoj split 404 extract 201 shuffle 8 classify 17705 E2E 18531
+video-eweuv split 392 extract 201 shuffle 8 classify 18656 E2E 19505
+video-tievm split 393 extract 199 shuffle 8 classify 28739 E2E 29573
+video-zbren split 397 extract 211 shuffle 8 classify 17243 E2E 18086
+video-yrlqd split 397 extract 208 shuffle 7 classify 23288 E2E 24134
+video-wfiix split 388 extract 192 shuffle 7 classify 19705 E2E 20530
+video-vcsgn split 400 extract 211 shuffle 8 classify 22566 E2E 23420
+video-walvx split 396 extract 192 shuffle 8 classify 17691 E2E 18501

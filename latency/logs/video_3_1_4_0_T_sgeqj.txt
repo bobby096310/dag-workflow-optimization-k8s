@@ -1,0 +1,10 @@
+video-uimur split 2800 extract 2534 shuffle 2056 classify 32003 E2E 39662
+video-nuxue split 2843 extract 2600 shuffle 2011 classify 41596 E2E 49345
+video-vvmzd split 2763 extract 2485 shuffle 2073 classify 47217 E2E 54822
+video-sxlpi split 2857 extract 2419 shuffle 2126 classify 46112 E2E 53809
+video-uypha split 2862 extract 2474 shuffle 2089 classify 46393 E2E 54130
+video-xagab split 2834 extract 2557 shuffle 2050 classify 47039 E2E 54790
+video-qnmbi split 2762 extract 2515 shuffle 2047 classify 46816 E2E 54435
+video-mjnxw split 2729 extract 2494 shuffle 2085 classify 49899 E2E 57475
+video-neexv split 2778 extract 2481 shuffle 2077 classify 43895 E2E 51570
+video-gokmg split 2796 extract 2519 shuffle 2082 classify 44635 E2E 52332

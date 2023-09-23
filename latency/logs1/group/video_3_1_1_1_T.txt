@@ -1,0 +1,4 @@
+video-bsubq split 3158 extract 2726 shuffle 2086 classify 71797 E2E 80060
+video-elebc split 3160 extract 2723 shuffle 2565 classify 46082 E2E 54753
+video-fcaih split 3521 extract 2799 shuffle 2075 classify 57924 E2E 66600
+video-iwqdz split 3220 extract 2781 shuffle 2192 classify 70824 E2E 79343

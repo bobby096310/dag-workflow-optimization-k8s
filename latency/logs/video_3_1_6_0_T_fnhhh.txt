@@ -1,0 +1,10 @@
+video-xtrlx split 378 extract 187 shuffle 9 classify 24418 E2E 25230
+video-bggea split 387 extract 195 shuffle 8 classify 26717 E2E 27547
+video-mnpat split 388 extract 191 shuffle 9 classify 25825 E2E 26642
+video-toclp split 381 extract 208 shuffle 9 classify 27588 E2E 28419
+video-iwqmd split 387 extract 186 shuffle 9 classify 25155 E2E 25971
+video-hpcdh split 373 extract 221 shuffle 9 classify 25379 E2E 26205
+video-cxvja split 382 extract 200 shuffle 8 classify 27500 E2E 28323
+video-vsmzy split 385 extract 212 shuffle 9 classify 26140 E2E 26996
+video-opdtd split 395 extract 182 shuffle 8 classify 25154 E2E 25982
+video-ygexg split 387 extract 233 shuffle 9 classify 25019 E2E 25885

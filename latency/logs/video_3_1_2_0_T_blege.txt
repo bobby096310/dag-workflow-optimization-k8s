@@ -1,0 +1,10 @@
+video-negkq split 422 extract 180 shuffle 7 classify 24943 E2E 25772
+video-wagty split 392 extract 182 shuffle 8 classify 17082 E2E 17903
+video-saaya split 391 extract 237 shuffle 8 classify 25609 E2E 26481
+video-wjwwc split 394 extract 178 shuffle 8 classify 19941 E2E 20777
+video-vgbde split 404 extract 208 shuffle 9 classify 16662 E2E 17517
+video-xvfpb split 394 extract 195 shuffle 8 classify 23018 E2E 23858
+video-buhwe split 401 extract 172 shuffle 8 classify 18066 E2E 18863
+video-fakpc split 598 extract 245 shuffle 8 classify 22849 E2E 23950
+video-rwcbw split 393 extract 174 shuffle 7 classify 17303 E2E 18103
+video-kajde split 403 extract 185 shuffle 7 classify 24931 E2E 25747

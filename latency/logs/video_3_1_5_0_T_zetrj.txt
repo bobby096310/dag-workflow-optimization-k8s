@@ -1,0 +1,10 @@
+video-oprje split 390 extract 206 shuffle 9 classify 29057 E2E 29906
+video-zeiar split 423 extract 2538 shuffle 2176 classify 25019 E2E 30637
+video-jqqom split 2846 extract 226 shuffle 8 classify 24721 E2E 28019
+video-gnfou split 392 extract 188 shuffle 8 classify 24824 E2E 25659
+video-tknjj split 383 extract 175 shuffle 9 classify 27458 E2E 28287
+video-clzqe split 400 extract 182 shuffle 8 classify 24933 E2E 25786
+video-ijdbl split 377 extract 210 shuffle 9 classify 25605 E2E 26453
+video-qqbyu split 387 extract 207 shuffle 8 classify 24958 E2E 25825
+video-cjaqb split 375 extract 226 shuffle 9 classify 25107 E2E 25952
+video-hqfga split 369 extract 196 shuffle 9 classify 27579 E2E 28397
