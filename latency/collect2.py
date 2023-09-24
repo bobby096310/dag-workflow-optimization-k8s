@@ -3,13 +3,14 @@ import os
 from pdf_cdf import *
 
 root_dir = "logs/"
-group_dir = "logs/group/"
+group_dir = root_dir + "group/"
+data_index = 8
 
 def transferlog(filename):
     with open(filename, 'r') as file:
         #lines = file.readlines()
         lines = [line for line in file]
-        return analyze_result(lines, 8) #2 for E2E
+        return analyze_result(lines, data_index) #2 for E2E
 
 def copyandpaste(groupname):
     # clear the data in the info file
@@ -64,6 +65,13 @@ def sort_by_p95(agg_list):
 
 
 def main():
+    args = sys.argv[1:]
+    if len(args) > 0:
+        global root_dir
+        root_dir = args[0]
+    if len(args) > 1:
+        global data_index
+        data_index = int(args[1])
     groupnames = fetch_groups()
     agg_list = get_agg_list(groupnames)
     agg_mean = sort_by_mean(agg_list)

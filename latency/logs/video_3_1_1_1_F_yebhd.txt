@@ -7,4 +7,3 @@ video-xllcu split 2921 extract 2650 shuffle 2194 classify 22542 E2E 30364
 video-clzxj split 2798 extract 2564 shuffle 2168 classify 29601 E2E 37203
 video-kitkm split 2807 extract 2515 shuffle 2059 classify 25218 E2E 32677
 video-crqtj split 2911 extract 2673 shuffle 2128 classify 26260 E2E 34049
-video-jmyyf split 2708 extract 2683 shuffle 2041 classify 26399 E2E 33908

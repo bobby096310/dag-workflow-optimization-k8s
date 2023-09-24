@@ -1,4 +1,3 @@
-video-vafag split 2787 extract 2631 shuffle 2057 classify 26113 E2E 33668
 video-rgzyj split 2891 extract 2604 shuffle 2385 classify 32789 E2E 40729
 video-kstzz split 2930 extract 2467 shuffle 2069 classify 26124 E2E 33664
 video-qjvvl split 2943 extract 2511 shuffle 2114 classify 39917 E2E 47555

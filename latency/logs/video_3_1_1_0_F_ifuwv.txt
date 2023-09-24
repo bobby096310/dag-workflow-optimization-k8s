@@ -1,4 +1,3 @@
-video-otsxq split 2758 extract 2355 shuffle 2113 classify 24303 E2E 31682
 video-qpxrp split 2715 extract 2535 shuffle 2199 classify 28502 E2E 36149
 video-uotct split 2763 extract 2405 shuffle 2292 classify 28036 E2E 35628
 video-vjeye split 2802 extract 2565 shuffle 2136 classify 27469 E2E 35166

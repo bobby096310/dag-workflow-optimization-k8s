@@ -1,0 +1,10 @@
+video-cumas split 3207 extract 2796 shuffle 2243 classify 53233 E2E 61656
+video-uhpam split 17928 extract 2761 shuffle 2063 classify 50191 E2E 73129
+video-etdpx split 4074 extract 3471 shuffle 2319 classify 72127 E2E 82232
+video-tfwex split 3096 extract 2661 shuffle 2020 classify 59703 E2E 67668
+video-ueely split 3383 extract 2699 shuffle 2133 classify 46548 E2E 54973
+video-qlnxp split 3161 extract 2710 shuffle 2235 classify 64815 E2E 73107
+video-xslzq split 3314 extract 2691 shuffle 2227 classify 68297 E2E 76728
+video-kgjph split 3169 extract 2734 shuffle 2106 classify 62245 E2E 70468
+video-gptby split 3201 extract 2798 shuffle 2044 classify 62685 E2E 70940
+video-juuee split 3222 extract 2779 shuffle 2080 classify 64631 E2E 72901

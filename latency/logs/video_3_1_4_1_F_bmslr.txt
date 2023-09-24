@@ -1,4 +1,3 @@
-video-jpgim split 2749 extract 2661 shuffle 2040 classify 20833 E2E 28348
 video-pnosu split 2948 extract 2630 shuffle 2443 classify 28700 E2E 36808
 video-agtld split 2890 extract 2513 shuffle 2263 classify 28540 E2E 36272
 video-wbaxf split 3016 extract 2587 shuffle 2099 classify 34422 E2E 42175

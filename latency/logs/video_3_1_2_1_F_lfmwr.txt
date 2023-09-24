@@ -7,4 +7,3 @@ video-unchv split 3724 extract 2429 shuffle 2116 classify 25196 E2E 33547
 video-wjard split 2648 extract 3323 shuffle 2052 classify 27514 E2E 35624
 video-xytnq split 2789 extract 2690 shuffle 2039 classify 28446 E2E 36049
 video-zkrom split 2763 extract 2484 shuffle 2178 classify 31408 E2E 38908
-video-mazhx split 2757 extract 2652 shuffle 2008 classify 22651 E2E 30135
