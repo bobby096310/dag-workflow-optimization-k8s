@@ -1,4 +1,3 @@
-video-qavmq split 2788 extract 2616 shuffle 2080 classify 32388 E2E 39939
 video-olrye split 3271 extract 2521 shuffle 2176 classify 28691 E2E 36731
 video-oogew split 2673 extract 2469 shuffle 2656 classify 28504 E2E 36392
 video-dwdet split 2771 extract 2443 shuffle 2245 classify 28998 E2E 36531

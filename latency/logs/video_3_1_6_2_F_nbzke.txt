@@ -1,4 +1,3 @@
-video-figqa split 2784 extract 2579 shuffle 2022 classify 33171 E2E 40610
 video-lopfw split 2955 extract 2488 shuffle 2170 classify 40603 E2E 48276
 video-lxaij split 2769 extract 2486 shuffle 2070 classify 32861 E2E 40237
 video-hjpca split 2849 extract 2347 shuffle 2122 classify 33276 E2E 40676
@@ -6,3 +5,4 @@ video-upwmn split 2734 extract 2469 shuffle 2139 classify 32222 E2E 39620
 video-gkywl split 2675 extract 2609 shuffle 2017 classify 33364 E2E 40722
 video-mygjh split 2750 extract 2498 shuffle 2066 classify 32943 E2E 40308
 video-wysfr split 2693 extract 2437 shuffle 2055 classify 33182 E2E 40428
+video-coejl split 2786 extract 2472 shuffle 2164 classify 31617 E2E 39103

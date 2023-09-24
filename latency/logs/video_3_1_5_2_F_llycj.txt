@@ -1,4 +1,3 @@
-video-dgkoy split 2780 extract 2600 shuffle 2023 classify 32539 E2E 39996
 video-jelih split 2824 extract 2473 shuffle 2067 classify 34796 E2E 42213
 video-phgdq split 2765 extract 2382 shuffle 2095 classify 33371 E2E 40719
 video-vheeb split 2836 extract 2497 shuffle 2020 classify 33150 E2E 40564

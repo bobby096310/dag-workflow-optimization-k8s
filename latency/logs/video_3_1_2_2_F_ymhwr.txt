@@ -1,4 +1,3 @@
-video-khpao split 2771 extract 2542 shuffle 2016 classify 32433 E2E 39824
 video-vjabr split 2764 extract 2587 shuffle 2096 classify 37186 E2E 44695
 video-pbfao split 2814 extract 2377 shuffle 2196 classify 33938 E2E 41382
 video-dkbah split 2676 extract 2434 shuffle 2012 classify 33100 E2E 40288
