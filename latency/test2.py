@@ -105,7 +105,7 @@ def init(workflow_name, func_index, conc, resources, bundling):
                 time.sleep(60)
 
 def run_level(configs, level, interval):
-    target = level * interval
+    target = (level + 1) * interval
     s = round(len(configs)/pow(2, level))
     config_for_level = configs[:s]
     for config in config_for_level:
@@ -120,8 +120,8 @@ def run_times(input_str, times):
     config_str = input_str.split(" ")[0]
     config_list = config_str.split("_")
     workflow_name = config_list[0]
-    config = config_list[1:5]
-    run(workflow_name, config, times, False)
+    #config = config_list[1:5]
+    run(workflow_name, [int(config_list[1]), int(config_list[2]), int(config_list[3]), int(config_list[4])], times, False)
    
 def get_P50():
     groupnames = fetch_groups()
@@ -130,16 +130,17 @@ def get_P50():
     return agg_p50
 
 def main():
-    args = sys.argv[1:]
-    interval = int(args[0])
+    #args = sys.argv[1:]
+    #interval = int(args[0])
     workflow_name = 'video'
     func_index = 3
     conc = 1
     init(workflow_name, func_index, conc, cpu, bundle[workflow_name])
     configs = get_P50()
     print(configs)
-    #run_level(configs, 1, 10)
-    #run_level(configs, 2, 10)
+    run_level(configs, 0, 10)
+    run_level(configs, 1, 10)
+    run_level(configs, 2, 10)
 
 if __name__ == "__main__":
     main()
