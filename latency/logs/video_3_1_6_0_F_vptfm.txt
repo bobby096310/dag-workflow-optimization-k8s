@@ -1,4 +1,3 @@
-video-kmerb split 2864 extract 2402 shuffle 2132 classify 30470 E2E 38037
 video-vgfqm split 2866 extract 2626 shuffle 2128 classify 48165 E2E 55934
 video-tieer split 2782 extract 2402 shuffle 2074 classify 49939 E2E 57377
 video-aieqq split 2911 extract 2585 shuffle 2021 classify 42967 E2E 50658

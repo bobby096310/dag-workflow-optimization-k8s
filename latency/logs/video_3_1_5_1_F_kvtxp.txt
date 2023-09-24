@@ -4,3 +4,6 @@ video-skrsp split 2760 extract 2577 shuffle 2082 classify 29975 E2E 37474
 video-whdyj split 2957 extract 2503 shuffle 2151 classify 35970 E2E 43651
 video-czpdu split 2858 extract 2610 shuffle 2148 classify 39618 E2E 47309
 video-ykssf split 2874 extract 2565 shuffle 2305 classify 29679 E2E 37493
+video-qvbws split 2906 extract 2552 shuffle 2180 classify 31766 E2E 39463
+video-kmlds split 2857 extract 2461 shuffle 2334 classify 27097 E2E 34816
+video-lgeic split 2908 extract 2592 shuffle 2107 classify 39147 E2E 46829

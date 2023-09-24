@@ -7,4 +7,3 @@ video-gelhp split 2814 extract 2660 shuffle 2128 classify 38861 E2E 46656
 video-uhnsa split 2806 extract 2593 shuffle 2219 classify 37518 E2E 45307
 video-sqzev split 2819 extract 2664 shuffle 2152 classify 31821 E2E 39631
 video-cbuwp split 2870 extract 2597 shuffle 2107 classify 34196 E2E 41949
-video-lyjla split 2835 extract 2503 shuffle 2094 classify 28621 E2E 36214

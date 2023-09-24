@@ -1,4 +1,3 @@
-video-jdqrm split 2765 extract 2612 shuffle 2053 classify 28020 E2E 35585
 video-apnas split 2797 extract 2480 shuffle 2148 classify 35173 E2E 42779
 video-vxkqw split 2781 extract 2594 shuffle 2102 classify 44585 E2E 52217
 video-tqlyk split 2778 extract 2681 shuffle 2130 classify 47906 E2E 55619

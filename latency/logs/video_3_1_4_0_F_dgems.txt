@@ -1,4 +1,3 @@
-video-wrich split 2823 extract 2427 shuffle 2065 classify 29677 E2E 37151
 video-jmtkt split 2924 extract 2626 shuffle 2088 classify 38765 E2E 46585
 video-yxkuv split 2903 extract 2603 shuffle 2324 classify 41731 E2E 49723
 video-mmnhg split 2907 extract 2593 shuffle 2155 classify 51516 E2E 59374
