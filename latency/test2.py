@@ -1,6 +1,7 @@
 from lat import *
 from update import *
 from pdf_cdf import *
+from collect2 import *
 import random
 import string
 
@@ -8,7 +9,6 @@ filenames = {"ml": "../argo/ml.yaml", "video": "../argo/video.yaml"}
 workflow_functions = {"ml": ["ml-pca","ml-param-tune","ml-combine"], "video": ["vi-split", "vi-extract", "vi-shuffle", "vi-classify"]}
 conc = [0, 1, 2, 5, 10]
 cpu = [['-', '-'], ['1', '-'], ['1', '2'], ['1500m', '-'], ['2', '-'], ['2', '3'], ['3', '-']]
-timeout = [60, 75, 90, 120, 0]
 bundle = {"ml": ["2", "4", "8"], "video": ["15", "5", "3"]}
 
 def create_random_name(n):
@@ -64,7 +64,7 @@ def possible_configs(workflow_name, base):
     configs = add_dim(configs, range(len(cpu)))
     return configs
 
-def main():
+#def run_tests():
     #pprint(run('video', [3, 1, 0, 1], 10, True))
     #pprint(run('video', [3, 1, 0, 1], 10, False))
     #pprint(run('video', [3, 1, 0, 2], 10, True))
@@ -73,7 +73,7 @@ def main():
     #pprint(run('video', [3, 1, 1, 1], 10, False))
     #pprint(run('video', [3, 1, 1, 2], 10, True))
     #pprint(run('video', [3, 1, 1, 2], 10, False))
-    pprint(run('video', [3, 1, 2, 1], 10, True))
+    #pprint(run('video', [3, 1, 2, 1], 10, True))
     #pprint(run('video', [3, 1, 2, 1], 10, False))
     #pprint(run('video', [3, 1, 2, 2], 10, True))
     #pprint(run('video', [3, 1, 2, 2], 10, False))
@@ -92,7 +92,54 @@ def main():
     #pprint(run('video', [3, 1, 6, 1], 10, True))
     #pprint(run('video', [3, 1, 6, 1], 10, False))
     #pprint(run('video', [3, 1, 6, 2], 10, True))
-    #pprint(run('video', [3, 1, 6, 2], 10, False))    
+    #pprint(run('video', [3, 1, 6, 2], 10, False)) 
+
+def init(workflow_name, func_index, conc, resources, bundling):
+    current_list = [r.split(" ")[0] for r in get_P50()]
+    for r in range(len(resources)):
+        for b in range(len(bundling)):
+            entry = workflow_name + "_" + str(func_index) + "_" + str(conc) + "_" + str(r) + "_" + str(b) +  "_F"
+            if entry not in current_list:
+                print("run " + entry)
+                run(workflow_name, [func_index, 1, r, b], 1, False)
+                time.sleep(60)
+
+def run_level(configs, level, interval):
+    target = level * interval
+    s = round(len(configs)/pow(2, level))
+    config_for_level = configs[:s]
+    for config in config_for_level:
+        times = int(config.split(" ")[-1])
+        if times < target:		
+            run_times(config, target - times)
+        else:
+            print("target met")
+            continue
+
+def run_times(input_str, times):
+    config_str = input_str.split(" ")[0]
+    config_list = config_str.split("_")
+    workflow_name = config_list[0]
+    config = config_list[1:5]
+    run(workflow_name, config, times, False)
+   
+def get_P50():
+    groupnames = fetch_groups()
+    agg_list = get_agg_list(groupnames)
+    agg_p50 = sort_by_p50(agg_list)
+    return agg_p50
+
+def main():
+    args = sys.argv[1:]
+    interval = int(args[0])
+    workflow_name = 'video'
+    func_index = 3
+    conc = 1
+    init(workflow_name, func_index, conc, cpu, bundle[workflow_name])
+    configs = get_P50()
+    print(configs)
+    #run_level(configs, 1, 10)
+    #run_level(configs, 2, 10)
 
 if __name__ == "__main__":
     main()

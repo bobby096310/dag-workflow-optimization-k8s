@@ -30,6 +30,16 @@ def fetch_groups():
             groupnames.append(filename[:-10])
     return groupnames
 
+def get_agg_list(groupnames):
+    agg_list = []
+    with open(os.path.join(group_dir, "group_logs.txt"), 'w') as groupfile:
+        pass
+    for groupname in groupnames:
+        copyandpaste(groupname)
+        agg = groupname + " " + transferlog(os.path.join(group_dir, groupname + ".txt"))
+        agg_list.append(agg)
+    return agg_list
+
 def sort_by_mean(agg_list):
     dic = {}
     for agg in agg_list:
@@ -55,14 +65,7 @@ def sort_by_p95(agg_list):
 
 def main():
     groupnames = fetch_groups()
-    agg_list = []
-    with open(os.path.join(group_dir, "group_logs.txt"), 'w') as groupfile:
-        pass
-    for groupname in groupnames:
-        copyandpaste(groupname)
-        agg = groupname + " " + transferlog(os.path.join(group_dir, groupname + ".txt"))
-        #print(agg)
-        agg_list.append(agg)
+    agg_list = get_agg_list(groupnames)
     agg_mean = sort_by_mean(agg_list)
     agg_p50 = sort_by_p50(agg_list)
     agg_p95 = sort_by_p95(agg_list)
