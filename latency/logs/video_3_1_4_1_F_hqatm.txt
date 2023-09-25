@@ -8,13 +8,3 @@ video-watce split 2700 extract 2498 shuffle 2075 classify 30438 E2E 37792
 video-umbmu split 2689 extract 2460 shuffle 2189 classify 32645 E2E 40057
 video-duvhk split 2740 extract 2732 shuffle 2061 classify 33394 E2E 41008
 video-jktee split 2783 extract 2570 shuffle 2113 classify 35872 E2E 43398
-video-jpgim split 2749 extract 2661 shuffle 2040 classify 20833 E2E 28348
-video-pnosu split 2948 extract 2630 shuffle 2443 classify 28700 E2E 36808
-video-agtld split 2890 extract 2513 shuffle 2263 classify 28540 E2E 36272
-video-wbaxf split 3016 extract 2587 shuffle 2099 classify 34422 E2E 42175
-video-zvcjc split 2900 extract 2618 shuffle 2162 classify 21655 E2E 29405
-video-zpqrv split 2849 extract 2655 shuffle 2288 classify 43265 E2E 51130
-video-xornx split 2804 extract 2636 shuffle 2090 classify 31753 E2E 39374
-video-hesss split 2862 extract 2700 shuffle 2017 classify 29291 E2E 36935
-video-vtfzx split 2786 extract 2669 shuffle 2042 classify 23965 E2E 31540
-video-hwibk split 2941 extract 2502 shuffle 2303 classify 34585 E2E 42404

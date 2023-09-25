@@ -1,12 +1,3 @@
-video-slruh split 2784 extract 2410 shuffle 2126 classify 27674 E2E 35058
-video-fddwk split 2793 extract 2467 shuffle 2111 classify 26210 E2E 33667
-video-vdqnz split 2763 extract 2653 shuffle 2128 classify 23916 E2E 31527
-video-sydtd split 2731 extract 3084 shuffle 2042 classify 29200 E2E 37138
-video-kntng split 2782 extract 2456 shuffle 2293 classify 22713 E2E 30324
-video-vlmyw split 2709 extract 3191 shuffle 2065 classify 24147 E2E 32192
-video-eextl split 2779 extract 2443 shuffle 2188 classify 28541 E2E 36014
-video-gtyok split 2770 extract 2482 shuffle 1999 classify 22904 E2E 30210
-video-wdaxa split 3213 extract 2544 shuffle 2186 classify 23023 E2E 31035
 video-vcxrv split 2805 extract 9007 shuffle 2082 classify 30563 E2E 44536
 video-ukxxw split 2874 extract 2525 shuffle 2246 classify 23798 E2E 31506
 video-ahkgv split 2703 extract 2673 shuffle 2145 classify 25827 E2E 33407
@@ -27,14 +18,3 @@ video-qmoxl split 2923 extract 2562 shuffle 2058 classify 33068 E2E 40676
 video-dnulu split 2811 extract 2534 shuffle 2143 classify 23266 E2E 30836
 video-lqwzu split 2720 extract 2534 shuffle 2087 classify 37278 E2E 44693
 video-rcyzr split 2897 extract 2580 shuffle 2030 classify 31459 E2E 39036
-video-utbtw split 2782 extract 2730 shuffle 2067 classify 22394 E2E 30050
-video-tohda split 2824 extract 2478 shuffle 2024 classify 43528 E2E 50909
-video-znahc split 2719 extract 2418 shuffle 2036 classify 36699 E2E 43930
-video-fpgwm split 2726 extract 2352 shuffle 2148 classify 26463 E2E 33758
-video-bdpxa split 2789 extract 2538 shuffle 2063 classify 25899 E2E 33371
-video-sqzzq split 2985 extract 2558 shuffle 2032 classify 22161 E2E 29799
-video-kumwg split 2884 extract 2495 shuffle 2289 classify 24509 E2E 32244
-video-wotap split 2729 extract 2535 shuffle 2245 classify 31285 E2E 38878
-video-kxglp split 2825 extract 2486 shuffle 2056 classify 21980 E2E 29409
-video-hhbut split 2739 extract 2426 shuffle 2199 classify 27489 E2E 34932
-video-bsxja split 2704 extract 2408 shuffle 2107 classify 24451 E2E 31740
