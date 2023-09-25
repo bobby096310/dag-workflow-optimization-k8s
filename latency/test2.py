@@ -135,12 +135,15 @@ def main():
     workflow_name = 'video'
     func_index = 3
     conc = 1
-    init(workflow_name, func_index, conc, cpu, bundle[workflow_name])
+    #init(workflow_name, func_index, conc, cpu, bundle[workflow_name])
     configs = get_P50()
     print(configs)
-    run_level(configs, 0, 10)
-    run_level(configs, 1, 10)
-    run_level(configs, 2, 10)
+    #run_level(configs, 0, 10)
+    #run_level(configs, 1, 10)
+    #run_level(configs, 2, 10)
+    #run_level(configs, 3, 10)
+    #run_level(configs, 4, 10)
+    run_level(configs, 5, 10)
 
 if __name__ == "__main__":
     main()
