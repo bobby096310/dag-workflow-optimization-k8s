@@ -1,4 +1,3 @@
-video-ufrms split 2725 extract 2651 shuffle 2072 classify 34846 E2E 42346
 video-nofwe split 3058 extract 2393 shuffle 2194 classify 35825 E2E 43523
 video-qxjhb split 2735 extract 2486 shuffle 2094 classify 31608 E2E 38981
 video-romvp split 2782 extract 2529 shuffle 2009 classify 33772 E2E 41146

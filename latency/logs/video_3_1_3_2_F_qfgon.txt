@@ -1,4 +1,3 @@
-video-oepgm split 2761 extract 2563 shuffle 2052 classify 33199 E2E 40635
 video-aoisp split 3319 extract 2476 shuffle 2162 classify 35115 E2E 43117
 video-dioxb split 2666 extract 2588 shuffle 2062 classify 35315 E2E 42686
 video-mgroj split 2821 extract 2380 shuffle 2099 classify 32198 E2E 39567

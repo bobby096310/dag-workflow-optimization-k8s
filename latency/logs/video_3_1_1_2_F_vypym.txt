@@ -7,4 +7,3 @@ video-cmwia split 2708 extract 2577 shuffle 2066 classify 34772 E2E 42174
 video-uuxsp split 2841 extract 2441 shuffle 2145 classify 34165 E2E 41650
 video-ntekj split 2921 extract 2406 shuffle 2205 classify 33687 E2E 41281
 video-uonab split 2857 extract 2540 shuffle 2143 classify 32875 E2E 40468
-video-vpwyj split 2766 extract 2586 shuffle 2018 classify 33212 E2E 40637
