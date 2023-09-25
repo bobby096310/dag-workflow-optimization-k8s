@@ -1,1 +1,10 @@
 video-tohda split 2824 extract 2478 shuffle 2024 classify 43528 E2E 50909
+video-znahc split 2719 extract 2418 shuffle 2036 classify 36699 E2E 43930
+video-fpgwm split 2726 extract 2352 shuffle 2148 classify 26463 E2E 33758
+video-bdpxa split 2789 extract 2538 shuffle 2063 classify 25899 E2E 33371
+video-sqzzq split 2985 extract 2558 shuffle 2032 classify 22161 E2E 29799
+video-kumwg split 2884 extract 2495 shuffle 2289 classify 24509 E2E 32244
+video-wotap split 2729 extract 2535 shuffle 2245 classify 31285 E2E 38878
+video-kxglp split 2825 extract 2486 shuffle 2056 classify 21980 E2E 29409
+video-hhbut split 2739 extract 2426 shuffle 2199 classify 27489 E2E 34932
+video-bsxja split 2704 extract 2408 shuffle 2107 classify 24451 E2E 31740
