@@ -1,0 +1,4 @@
+video-skjdm split 3180 extract 2880 shuffle 2049 classify 28059 E2E 36260
+video-xrlre split 3102 extract 2861 shuffle 2027 classify 27734 E2E 35829
+video-jxuok split 3083 extract 2903 shuffle 2027 classify 27645 E2E 35756
+video-zgqex split 3148 extract 2947 shuffle 2031 classify 26022 E2E 34234

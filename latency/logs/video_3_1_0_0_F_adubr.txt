@@ -1,0 +1,9 @@
+video-iwsba split 3200 extract 2810 shuffle 1991 classify 30710 E2E 39021
+video-fluow split 3210 extract 2762 shuffle 2062 classify 27632 E2E 35994
+video-ozaoj split 3073 extract 2700 shuffle 2038 classify 28123 E2E 36252
+video-ztvut split 3126 extract 2743 shuffle 1974 classify 29027 E2E 37189
+video-gvbmy split 3076 extract 2711 shuffle 2113 classify 26988 E2E 35248
+video-bmtcx split 3112 extract 2750 shuffle 2084 classify 25773 E2E 34004
+video-toaab split 3079 extract 2751 shuffle 2000 classify 26038 E2E 34330
+video-sspts split 3141 extract 2704 shuffle 2015 classify 25712 E2E 33983
+video-wzbek split 3111 extract 2670 shuffle 2194 classify 25195 E2E 33567

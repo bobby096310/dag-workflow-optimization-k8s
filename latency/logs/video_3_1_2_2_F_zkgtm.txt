@@ -1,0 +1,9 @@
+video-trlhm split 3212 extract 3161 shuffle 2003 classify 28304 E2E 36733
+video-habqf split 3837 extract 2963 shuffle 2247 classify 25674 E2E 34787
+video-smxpl split 3155 extract 2919 shuffle 2130 classify 28901 E2E 37185
+video-vmsng split 3168 extract 2990 shuffle 2129 classify 24614 E2E 32965
+video-zpoes split 3172 extract 2908 shuffle 2050 classify 29021 E2E 37228
+video-vmvqh split 3152 extract 2989 shuffle 2059 classify 27792 E2E 36094
+video-tymzn split 3195 extract 2999 shuffle 2053 classify 32034 E2E 40347
+video-ovqpk split 3187 extract 3024 shuffle 2001 classify 27306 E2E 35584
+video-bdgtu split 3157 extract 2988 shuffle 2081 classify 28017 E2E 36317

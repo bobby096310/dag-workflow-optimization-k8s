@@ -1,0 +1,9 @@
+video-lmlpf split 3335 extract 2779 shuffle 1998 classify 30333 E2E 38584
+video-sokdw split 3208 extract 2835 shuffle 2059 classify 31575 E2E 39760
+video-foknc split 3241 extract 2861 shuffle 2034 classify 26185 E2E 34487
+video-rlfty split 3276 extract 2851 shuffle 2118 classify 26169 E2E 34576
+video-zjzzo split 3225 extract 2798 shuffle 2192 classify 22531 E2E 30876
+video-byvdn split 3176 extract 2773 shuffle 2042 classify 28587 E2E 36718
+video-wcron split 3183 extract 2728 shuffle 2066 classify 28049 E2E 36170
+video-hlsua split 3150 extract 2774 shuffle 2082 classify 27673 E2E 35826
+video-igaya split 3092 extract 2833 shuffle 2093 classify 25617 E2E 33793

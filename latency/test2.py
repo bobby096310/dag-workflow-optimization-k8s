@@ -9,7 +9,7 @@ filenames = {"ml": "../argo/ml.yaml", "video": "../argo/video.yaml"}
 workflow_functions = {"ml": ["ml-pca","ml-param-tune","ml-combine"], "video": ["vi-split", "vi-extract", "vi-shuffle", "vi-classify"]}
 conc = [0, 1, 2, 5, 10]
 cpu = [['-', '-'], ['1', '-'], ['1', '2'], ['1500m', '-'], ['2', '-'], ['2', '3'], ['3', '-']]
-bundle = {"ml": ["2", "4", "8"], "video": ["15", "5", "3"]}
+bundle = {"ml": ["2", "4", "8"], "video": ["30", "15", "5", "3"]}
 
 def create_random_name(n):
     letters = string.ascii_lowercase
@@ -42,7 +42,7 @@ def run(workflow_name, config, times, pre_warm):
     if cpu_index != '-':
         spec['cpu'] = cpu[cpu_index]
     update(filename, workflow_functions[workflow_name][function_index], spec)
-    inp = {"src_name": "00", "DOP": bundle[workflow_name][bundle_index], "detect_prob": 2}
+    inp = {"src_name": "0", "DOP": bundle[workflow_name][bundle_index], "detect_prob": 2}
     result = run_workflows('argo-wf', workflow_name, filename, times, inp, pre_warm, log_file_name)
     final = log_file_name[:-4] + " " +  analyze_result(list(result.values()), 7)
     #get_n_latency(list(result.values()), 95)
@@ -138,11 +138,11 @@ def main():
     #init(workflow_name, func_index, conc, cpu, bundle[workflow_name])
     configs = get_P50()
     print(configs)
-    #run_level(configs, 0, 10)
-    #run_level(configs, 1, 10)
-    #run_level(configs, 2, 10)
-    #run_level(configs, 3, 10)
-    #run_level(configs, 4, 10)
+    run_level(configs, 0, 10)
+    run_level(configs, 1, 10)
+    run_level(configs, 2, 10)
+    run_level(configs, 3, 10)
+    run_level(configs, 4, 10)
     run_level(configs, 5, 10)
 
 if __name__ == "__main__":

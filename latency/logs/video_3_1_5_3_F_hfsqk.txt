@@ -1,0 +1,9 @@
+video-cjigf split 3192 extract 2923 shuffle 2038 classify 27677 E2E 35935
+video-eswhd split 3218 extract 2887 shuffle 2129 classify 26633 E2E 34925
+video-lhbly split 3130 extract 2911 shuffle 1991 classify 28651 E2E 36741
+video-kptsg split 3153 extract 2914 shuffle 2032 classify 26517 E2E 34676
+video-wylxr split 3212 extract 2879 shuffle 2065 classify 26283 E2E 34497
+video-etkxs split 3252 extract 2882 shuffle 2014 classify 39812 E2E 48016
+video-huytm split 3179 extract 3049 shuffle 2040 classify 26711 E2E 35040
+video-bhiaa split 3161 extract 2955 shuffle 2062 classify 45582 E2E 53817
+video-ercad split 3164 extract 2912 shuffle 2083 classify 26661 E2E 34887

@@ -1,0 +1,9 @@
+video-nmnvj split 3179 extract 2939 shuffle 2105 classify 27599 E2E 35928
+video-gaxvp split 3119 extract 2954 shuffle 1990 classify 25007 E2E 33165
+video-jhkns split 3093 extract 2858 shuffle 2016 classify 30312 E2E 38393
+video-hfnjn split 3008 extract 2906 shuffle 1994 classify 27296 E2E 35330
+video-iwkvk split 3101 extract 2961 shuffle 2004 classify 24844 E2E 33005
+video-hagzd split 3071 extract 2888 shuffle 1956 classify 26524 E2E 34540
+video-imjgp split 3117 extract 2848 shuffle 2003 classify 25696 E2E 33775
+video-opojm split 3105 extract 2899 shuffle 2019 classify 23877 E2E 32014
+video-pudjv split 3105 extract 2807 shuffle 2041 classify 25751 E2E 33798

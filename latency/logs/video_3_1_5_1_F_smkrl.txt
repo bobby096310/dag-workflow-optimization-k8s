@@ -1,0 +1,9 @@
+video-srcri split 3264 extract 2909 shuffle 2292 classify 25885 E2E 34452
+video-rdcya split 3190 extract 2914 shuffle 2132 classify 24064 E2E 32422
+video-ktzur split 3208 extract 2764 shuffle 2140 classify 26787 E2E 35058
+video-sqefj split 3211 extract 2826 shuffle 2119 classify 33393 E2E 41683
+video-jecfa split 3258 extract 2925 shuffle 2120 classify 23689 E2E 32119
+video-cezvk split 3182 extract 2952 shuffle 2039 classify 35467 E2E 43762
+video-dosde split 3291 extract 2756 shuffle 2025 classify 25536 E2E 33738
+video-mykbt split 3200 extract 2674 shuffle 2064 classify 25725 E2E 33814
+video-byddj split 3229 extract 2790 shuffle 2062 classify 25902 E2E 34109

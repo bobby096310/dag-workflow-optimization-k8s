@@ -1,0 +1,9 @@
+video-uylye split 3072 extract 2991 shuffle 1986 classify 27031 E2E 35183
+video-ehhto split 3044 extract 2865 shuffle 1989 classify 26720 E2E 34719
+video-eetqm split 3122 extract 2902 shuffle 2028 classify 27403 E2E 35555
+video-msgmb split 3143 extract 2877 shuffle 2008 classify 28741 E2E 36864
+video-ulozi split 3104 extract 2849 shuffle 1979 classify 27414 E2E 35453
+video-eoevf split 3109 extract 2817 shuffle 2027 classify 26028 E2E 34081
+video-jbakp split 3079 extract 2905 shuffle 1955 classify 25080 E2E 33118
+video-idojh split 3028 extract 2906 shuffle 1941 classify 27692 E2E 35682
+video-seluj split 3244 extract 2933 shuffle 2013 classify 29433 E2E 37734

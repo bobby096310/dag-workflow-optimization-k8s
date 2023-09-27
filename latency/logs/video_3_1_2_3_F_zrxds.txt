@@ -1,0 +1,6 @@
+video-bfhzn split 3178 extract 2900 shuffle 2037 classify 26474 E2E 34670
+video-nswhk split 3283 extract 2926 shuffle 2031 classify 26851 E2E 35174
+video-fmdwd split 3082 extract 2836 shuffle 1972 classify 26586 E2E 34575
+video-mxgtr split 3153 extract 2891 shuffle 2093 classify 28969 E2E 37193
+video-ghwce split 3174 extract 2876 shuffle 2075 classify 26050 E2E 34268
+video-qeoyj split 3089 extract 2895 shuffle 1978 classify 29509 E2E 37600

@@ -1,0 +1,10 @@
+video-mlwjt split 3163 extract 2415 shuffle 2225 classify 34291 E2E 42147
+video-xupdf split 2694 extract 2545 shuffle 2167 classify 32428 E2E 39878
+video-txwpp split 2909 extract 2466 shuffle 1997 classify 34437 E2E 41867
+video-nuowf split 2692 extract 2466 shuffle 2016 classify 32513 E2E 39741
+video-puizw split 2765 extract 2504 shuffle 2077 classify 31558 E2E 38953
+video-cmwia split 2708 extract 2577 shuffle 2066 classify 34772 E2E 42174
+video-uuxsp split 2841 extract 2441 shuffle 2145 classify 34165 E2E 41650
+video-ntekj split 2921 extract 2406 shuffle 2205 classify 33687 E2E 41281
+video-uonab split 2857 extract 2540 shuffle 2143 classify 32875 E2E 40468
+video-vpwyj split 2766 extract 2586 shuffle 2018 classify 33212 E2E 40637

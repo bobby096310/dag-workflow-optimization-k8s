@@ -1,0 +1,10 @@
+video-dkpvq split 3110 extract 2801 shuffle 2017 classify 29379 E2E 37617
+video-pedyv split 3096 extract 2876 shuffle 2155 classify 26412 E2E 34782
+video-wudmo split 3158 extract 2667 shuffle 2097 classify 26605 E2E 34822
+video-iwzpx split 3174 extract 2829 shuffle 2078 classify 25968 E2E 34271
+video-zodla split 3168 extract 2921 shuffle 2127 classify 24625 E2E 33027
+video-lwbeg split 3235 extract 2899 shuffle 2073 classify 27169 E2E 35635
+video-dmssp split 3120 extract 2867 shuffle 2139 classify 28165 E2E 36439
+video-iqmxm split 3124 extract 2721 shuffle 2099 classify 27376 E2E 35478
+video-xdhpl split 3211 extract 2867 shuffle 2066 classify 26073 E2E 34452
+video-lpbli split 3214 extract 2885 shuffle 2178 classify 27040 E2E 35469

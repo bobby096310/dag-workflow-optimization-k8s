@@ -1,0 +1,8 @@
+video-idwde split 3248 extract 2852 shuffle 2022 classify 28589 E2E 37019
+video-decgi split 3133 extract 2870 shuffle 2218 classify 25914 E2E 34369
+video-puupk split 3243 extract 2772 shuffle 2053 classify 25430 E2E 33786
+video-pdmhl split 3219 extract 2700 shuffle 2114 classify 26859 E2E 35178
+video-tzqrh split 3085 extract 2803 shuffle 2105 classify 24479 E2E 32696
+video-pahqb split 3168 extract 2918 shuffle 2146 classify 27244 E2E 35673
+video-jinuq split 3311 extract 2759 shuffle 2046 classify 32647 E2E 40988
+video-spjcc split 3143 extract 2795 shuffle 2028 classify 25839 E2E 33957

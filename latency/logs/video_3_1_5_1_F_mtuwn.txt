@@ -1,0 +1,4 @@
+video-zoret split 3281 extract 2605 shuffle 2005 classify 26036 E2E 34159
+video-oywdy split 3209 extract 2726 shuffle 1954 classify 29279 E2E 37388
+video-qutzt split 3164 extract 2713 shuffle 2090 classify 25033 E2E 33178
+video-uvacd split 3084 extract 2717 shuffle 2051 classify 26083 E2E 34208

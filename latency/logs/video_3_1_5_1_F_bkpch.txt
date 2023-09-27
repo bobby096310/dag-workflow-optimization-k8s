@@ -1,0 +1,6 @@
+video-chhag split 3193 extract 2758 shuffle 2117 classify 26770 E2E 35054
+video-wwukq split 3056 extract 3481 shuffle 2023 classify 25752 E2E 34475
+video-gcdcb split 3132 extract 2685 shuffle 2132 classify 29183 E2E 37442
+video-ppokb split 3163 extract 2729 shuffle 2059 classify 26022 E2E 34215
+video-zvduh split 3166 extract 2668 shuffle 2385 classify 25045 E2E 33531
+video-aosuc split 3175 extract 2747 shuffle 2015 classify 27046 E2E 35216

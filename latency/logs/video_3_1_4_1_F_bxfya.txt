@@ -1,0 +1,7 @@
+video-xxuaq split 4273 extract 5386 shuffle 3110 classify 34777 E2E 47693
+video-knrpu split 3768 extract 3602 shuffle 2249 classify 25592 E2E 35379
+video-jnpsr split 3070 extract 3364 shuffle 2014 classify 26012 E2E 34602
+video-hazvf split 3156 extract 2713 shuffle 2207 classify 23459 E2E 31668
+video-ltxfs split 3118 extract 2687 shuffle 2103 classify 25221 E2E 33298
+video-jyhll split 3153 extract 2963 shuffle 2269 classify 27963 E2E 36548
+video-cbrco split 3161 extract 2732 shuffle 2059 classify 22996 E2E 31088

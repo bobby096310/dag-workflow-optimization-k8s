@@ -1,0 +1,9 @@
+video-oarze split 3131 extract 2848 shuffle 2015 classify 27762 E2E 35845
+video-fmitx split 3058 extract 2782 shuffle 1980 classify 24889 E2E 32791
+video-ykyia split 3116 extract 2731 shuffle 1979 classify 42667 E2E 50568
+video-lbniy split 3054 extract 2799 shuffle 2032 classify 25276 E2E 33254
+video-offwq split 3050 extract 2789 shuffle 1987 classify 35899 E2E 43825
+video-rkehk split 2972 extract 2741 shuffle 2035 classify 26434 E2E 34280
+video-ikvkv split 3095 extract 2785 shuffle 2050 classify 25653 E2E 33665
+video-xgnfe split 3132 extract 2837 shuffle 1929 classify 25734 E2E 33722
+video-zkadu split 3045 extract 2818 shuffle 1933 classify 26207 E2E 34100

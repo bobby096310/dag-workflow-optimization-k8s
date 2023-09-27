@@ -1,0 +1,9 @@
+video-enhox split 3345 extract 3058 shuffle 2090 classify 27931 E2E 36488
+video-ncooq split 3194 extract 3061 shuffle 2038 classify 31709 E2E 40076
+video-wpqbq split 3153 extract 2980 shuffle 2068 classify 25243 E2E 33525
+video-rfjex split 3222 extract 2934 shuffle 2244 classify 24207 E2E 32682
+video-oxtsz split 3250 extract 2940 shuffle 2198 classify 27870 E2E 36314
+video-paylf split 3233 extract 2964 shuffle 2113 classify 29448 E2E 37824
+video-ezpsz split 3271 extract 3016 shuffle 2143 classify 25706 E2E 34187
+video-olsxk split 3140 extract 2970 shuffle 2068 classify 27994 E2E 36246
+video-kictb split 3195 extract 2951 shuffle 2018 classify 25112 E2E 33346
