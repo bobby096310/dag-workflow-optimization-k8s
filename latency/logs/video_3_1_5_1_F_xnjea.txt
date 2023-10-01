@@ -1,0 +1,3 @@
+video-yzgrb split 3245 extract 2689 shuffle 2066 classify 27969 E2E 36220
+video-oljsu split 3079 extract 2600 shuffle 1953 classify 27138 E2E 35099
+video-jpzpr split 3058 extract 2663 shuffle 1940 classify 25577 E2E 33471

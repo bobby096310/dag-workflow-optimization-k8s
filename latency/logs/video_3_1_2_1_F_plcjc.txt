@@ -7,3 +7,4 @@ video-prblu split 3040 extract 2729 shuffle 2057 classify 27950 E2E 35955
 video-blsxh split 3100 extract 2700 shuffle 1996 classify 24973 E2E 33062
 video-mrbso split 3090 extract 2731 shuffle 1981 classify 24072 E2E 32051
 video-rafvc split 3023 extract 2785 shuffle 1983 classify 22398 E2E 30346
+video-apsio split 3115 extract 2696 shuffle 1984 classify 26049 E2E 34121
