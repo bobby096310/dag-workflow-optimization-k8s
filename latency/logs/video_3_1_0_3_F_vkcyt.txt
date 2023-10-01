@@ -1,0 +1,9 @@
+video-xxsiz split 3123 extract 2774 shuffle 1970 classify 29051 E2E 36992
+video-flpsl split 3095 extract 2874 shuffle 1975 classify 26774 E2E 34798
+video-ajtrt split 3136 extract 2747 shuffle 1921 classify 26481 E2E 34364
+video-jslvj split 3018 extract 2762 shuffle 2020 classify 26418 E2E 34317
+video-acfwe split 3092 extract 2864 shuffle 2004 classify 27966 E2E 36009
+video-npjjh split 2970 extract 2813 shuffle 2099 classify 27443 E2E 35426
+video-trhdk split 2939 extract 2793 shuffle 1962 classify 26087 E2E 33882
+video-iutpa split 3047 extract 2716 shuffle 2025 classify 25031 E2E 32902
+video-tytxn split 3104 extract 2747 shuffle 1984 classify 26852 E2E 34774

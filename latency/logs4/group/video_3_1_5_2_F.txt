@@ -1,0 +1,10 @@
+video-turql split 3227 extract 2805 shuffle 2043 classify 26016 E2E 34222
+video-ocjyv split 3292 extract 2930 shuffle 2032 classify 28218 E2E 36542
+video-caqhl split 3166 extract 2947 shuffle 2044 classify 30339 E2E 38578
+video-kccri split 3311 extract 2901 shuffle 2042 classify 27020 E2E 35344
+video-tumno split 3174 extract 3005 shuffle 2061 classify 28331 E2E 36632
+video-nkyim split 3215 extract 3030 shuffle 1993 classify 28571 E2E 36878
+video-okykx split 3094 extract 3102 shuffle 2026 classify 27304 E2E 35587
+video-bflbr split 3124 extract 3002 shuffle 2072 classify 27642 E2E 35906
+video-uzhxe split 3202 extract 2935 shuffle 2021 classify 26463 E2E 34691
+video-yhfwv split 3178 extract 2980 shuffle 2197 classify 27233 E2E 35655

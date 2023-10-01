@@ -1,0 +1,9 @@
+video-oofon split 3088 extract 2659 shuffle 1975 classify 21936 E2E 29933
+video-preey split 3164 extract 2671 shuffle 1990 classify 24053 E2E 32158
+video-yrrss split 3121 extract 2742 shuffle 2035 classify 25498 E2E 33601
+video-jpgns split 3076 extract 2732 shuffle 1979 classify 31706 E2E 39724
+video-fwwlg split 3055 extract 2626 shuffle 1974 classify 25817 E2E 33797
+video-jxaot split 3098 extract 2788 shuffle 2007 classify 25675 E2E 33834
+video-zcemu split 3047 extract 2741 shuffle 2040 classify 24919 E2E 33012
+video-dyoex split 3068 extract 2660 shuffle 2029 classify 26060 E2E 34143
+video-lqmpz split 3096 extract 2743 shuffle 1991 classify 25655 E2E 33663

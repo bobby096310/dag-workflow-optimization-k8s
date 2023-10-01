@@ -1,0 +1,7 @@
+video-zxsyj split 3222 extract 2732 shuffle 1972 classify 26057 E2E 34124
+video-kiddk split 3135 extract 2740 shuffle 2016 classify 28513 E2E 36676
+video-frazg split 3147 extract 2714 shuffle 2053 classify 24643 E2E 32795
+video-gwqit split 3139 extract 2803 shuffle 2062 classify 29870 E2E 37969
+video-rmuuw split 3185 extract 2692 shuffle 2154 classify 28343 E2E 36553
+video-dcass split 3149 extract 2729 shuffle 2216 classify 24868 E2E 33187
+video-ndvry split 3157 extract 2587 shuffle 1926 classify 25000 E2E 32870

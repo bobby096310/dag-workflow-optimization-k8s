@@ -1,0 +1,9 @@
+video-rbsix split 804 extract 2859 shuffle 2007 classify 29822 E2E 35592
+video-rryvc split 3143 extract 2994 shuffle 2072 classify 26906 E2E 35219
+video-brdye split 3073 extract 3074 shuffle 1957 classify 27402 E2E 35613
+video-cijrs split 3197 extract 2942 shuffle 2001 classify 30319 E2E 38552
+video-fkvkv split 3144 extract 2907 shuffle 2255 classify 27993 E2E 36404
+video-luzhm split 3177 extract 2969 shuffle 2028 classify 28096 E2E 36374
+video-ifyww split 3233 extract 2982 shuffle 1958 classify 27515 E2E 35773
+video-azuhl split 3131 extract 2945 shuffle 2031 classify 30195 E2E 38402
+video-jmpoc split 3250 extract 2932 shuffle 2054 classify 26187 E2E 34528

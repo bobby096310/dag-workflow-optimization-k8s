@@ -1,0 +1,9 @@
+video-winqr split 3183 extract 2793 shuffle 2035 classify 27101 E2E 35406
+video-csmaj split 3250 extract 2842 shuffle 2043 classify 27322 E2E 35808
+video-kqctd split 3183 extract 2782 shuffle 2064 classify 36345 E2E 44866
+video-ofitp split 3154 extract 2889 shuffle 2059 classify 29911 E2E 38408
+video-hbrku split 3198 extract 2705 shuffle 2095 classify 33568 E2E 42011
+video-nmzay split 3216 extract 2951 shuffle 2024 classify 27338 E2E 35857
+video-ysmhk split 3236 extract 2870 shuffle 2020 classify 33832 E2E 42302
+video-totfk split 3128 extract 2910 shuffle 2127 classify 27410 E2E 35907
+video-kpvur split 3255 extract 2918 shuffle 2061 classify 30820 E2E 39427

@@ -1,0 +1,9 @@
+video-ovycx split 3185 extract 2817 shuffle 2007 classify 28935 E2E 37041
+video-woerx split 3001 extract 2850 shuffle 2006 classify 25884 E2E 33840
+video-efdgp split 3019 extract 2817 shuffle 1950 classify 27704 E2E 35584
+video-vtqud split 3011 extract 2782 shuffle 2021 classify 25883 E2E 33800
+video-owhpc split 3144 extract 2730 shuffle 1953 classify 25717 E2E 33653
+video-ityya split 3049 extract 2782 shuffle 1976 classify 37348 E2E 45266
+video-gyfnm split 3061 extract 3218 shuffle 1963 classify 27451 E2E 35797
+video-jvkew split 3018 extract 2817 shuffle 2098 classify 26563 E2E 34597
+video-lxyxo split 3087 extract 2750 shuffle 2023 classify 24763 E2E 32724

@@ -8,7 +8,8 @@ import string
 filenames = {"ml": "../argo/ml.yaml", "video": "../argo/video.yaml"}
 workflow_functions = {"ml": ["ml-pca","ml-param-tune","ml-combine"], "video": ["vi-split", "vi-extract", "vi-shuffle", "vi-classify"]}
 conc = [0, 1, 2, 5, 10]
-cpu = [['-', '-'], ['1', '-'], ['1', '2'], ['1500m', '-'], ['2', '-'], ['2', '3'], ['3', '-']]
+#cpu = [['-', '-'], ['1', '-'], ['1', '2'], ['1500m', '-'], ['2', '-'], ['2', '3'], ['3', '-']]
+cpu = [['-', '-'], ['500m', '500m'], ['1', '1'], ['1500m', '1500m'], ['2', '2'], ['2500m', '2500m'], ['3', '3']]
 bundle = {"ml": ["2", "4", "8"], "video": ["30", "15", "5", "3"]}
 
 def create_random_name(n):
@@ -135,7 +136,7 @@ def main():
     workflow_name = 'video'
     func_index = 3
     conc = 1
-    #init(workflow_name, func_index, conc, cpu, bundle[workflow_name])
+    init(workflow_name, func_index, conc, cpu, bundle[workflow_name])
     configs = get_P50()
     print(configs)
     run_level(configs, 0, 10)

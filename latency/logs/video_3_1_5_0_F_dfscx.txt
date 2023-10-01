@@ -1,0 +1,2 @@
+video-jgveg split 3250 extract 2880 shuffle 2103 classify 26688 E2E 35242
+video-enfzu split 3052 extract 2815 shuffle 2168 classify 26246 E2E 34619

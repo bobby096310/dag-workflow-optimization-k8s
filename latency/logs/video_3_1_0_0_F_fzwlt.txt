@@ -1,0 +1,9 @@
+video-nijel split 3243 extract 2816 shuffle 1965 classify 25975 E2E 34237
+video-slwyy split 3109 extract 2710 shuffle 2044 classify 25199 E2E 33545
+video-iuqgk split 3082 extract 2738 shuffle 2023 classify 24499 E2E 32688
+video-bmjdq split 3188 extract 2768 shuffle 2045 classify 27602 E2E 35856
+video-kwrnw split 3193 extract 3004 shuffle 2073 classify 27825 E2E 36376
+video-qtnrh split 3216 extract 2898 shuffle 2320 classify 26500 E2E 35455
+video-ngdzq split 3134 extract 2637 shuffle 2003 classify 24841 E2E 33088
+video-qpofj split 3084 extract 2603 shuffle 2109 classify 27348 E2E 35600
+video-hmgpd split 3149 extract 2936 shuffle 2015 classify 26684 E2E 35110

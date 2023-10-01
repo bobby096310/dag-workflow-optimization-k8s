@@ -1,0 +1,9 @@
+video-pqjrp split 3054 extract 2782 shuffle 2005 classify 24289 E2E 32264
+video-gcteq split 3125 extract 2811 shuffle 1951 classify 28275 E2E 36286
+video-rdcbf split 2993 extract 2849 shuffle 1998 classify 27259 E2E 35212
+video-yefyc split 3102 extract 2752 shuffle 1942 classify 27101 E2E 35033
+video-fmkxa split 3074 extract 2807 shuffle 2022 classify 26681 E2E 34710
+video-nmtoy split 3185 extract 2830 shuffle 2058 classify 24497 E2E 32698
+video-dsokq split 3033 extract 2866 shuffle 1953 classify 28649 E2E 36615
+video-wyuru split 2987 extract 2755 shuffle 1984 classify 31471 E2E 39329
+video-senqh split 3000 extract 2897 shuffle 1989 classify 28874 E2E 36899

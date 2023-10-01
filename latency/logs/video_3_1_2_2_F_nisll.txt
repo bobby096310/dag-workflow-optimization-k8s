@@ -1,0 +1,9 @@
+video-kwhku split 3229 extract 2898 shuffle 2014 classify 25792 E2E 34001
+video-izmwx split 3159 extract 2876 shuffle 2000 classify 23580 E2E 31692
+video-bszrc split 3133 extract 2853 shuffle 2061 classify 29069 E2E 37195
+video-nyaly split 3057 extract 2850 shuffle 1980 classify 27179 E2E 35130
+video-xikzh split 3095 extract 2973 shuffle 2015 classify 25448 E2E 33615
+video-negbd split 3062 extract 2877 shuffle 2038 classify 25753 E2E 33795
+video-eoste split 3143 extract 2972 shuffle 1995 classify 29067 E2E 37252
+video-ddcdg split 3198 extract 2890 shuffle 2024 classify 26275 E2E 34465
+video-zlycp split 3061 extract 2865 shuffle 2096 classify 27879 E2E 35977

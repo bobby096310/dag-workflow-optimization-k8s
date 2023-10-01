@@ -1,0 +1,9 @@
+video-tmmnn split 3330 extract 2950 shuffle 2033 classify 28522 E2E 36910
+video-padbd split 3195 extract 3019 shuffle 2109 classify 27863 E2E 36262
+video-ikrja split 3163 extract 2955 shuffle 2076 classify 27890 E2E 36162
+video-qsrza split 3201 extract 2879 shuffle 1998 classify 26275 E2E 34440
+video-ztblx split 3239 extract 3002 shuffle 1963 classify 26497 E2E 34784
+video-gdelb split 3226 extract 3079 shuffle 2090 classify 26356 E2E 34830
+video-ekhfj split 3147 extract 3422 shuffle 1977 classify 25730 E2E 34352
+video-ejecq split 3205 extract 2975 shuffle 2022 classify 28764 E2E 37053
+video-jadva split 3153 extract 2915 shuffle 1953 classify 27976 E2E 36089

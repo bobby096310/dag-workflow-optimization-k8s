@@ -1,0 +1,9 @@
+video-nlgfe split 3269 extract 2789 shuffle 2053 classify 24305 E2E 32673
+video-jlkip split 3071 extract 2745 shuffle 1984 classify 24982 E2E 33049
+video-xkzlc split 3221 extract 2700 shuffle 1972 classify 24010 E2E 32145
+video-yoofj split 3075 extract 2584 shuffle 2040 classify 25287 E2E 33230
+video-fxkix split 3082 extract 2711 shuffle 1957 classify 23841 E2E 31807
+video-cenrk split 3133 extract 2734 shuffle 2051 classify 24914 E2E 32974
+video-ouvjv split 3132 extract 2734 shuffle 1981 classify 25442 E2E 33524
+video-nylmh split 3125 extract 2669 shuffle 2013 classify 25720 E2E 33768
+video-nsuux split 3132 extract 2729 shuffle 2042 classify 24079 E2E 32175

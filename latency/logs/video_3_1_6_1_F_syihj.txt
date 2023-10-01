@@ -1,0 +1,9 @@
+video-wfdic split 3137 extract 2759 shuffle 1985 classify 35248 E2E 43250
+video-bnbzf split 2980 extract 2649 shuffle 1931 classify 27697 E2E 35436
+video-dngmk split 3089 extract 2829 shuffle 2011 classify 25432 E2E 33636
+video-fugum split 3076 extract 2685 shuffle 2114 classify 25310 E2E 33479
+video-zbnkp split 3118 extract 2678 shuffle 2013 classify 24066 E2E 32102
+video-byepw split 3187 extract 2748 shuffle 2077 classify 31770 E2E 39992
+video-eqaxb split 3075 extract 2756 shuffle 2119 classify 23069 E2E 31226
+video-qdfsx split 3162 extract 2749 shuffle 2037 classify 26156 E2E 34297
+video-zzhzo split 3135 extract 2707 shuffle 2025 classify 30597 E2E 38689

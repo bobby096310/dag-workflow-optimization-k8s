@@ -1,0 +1,9 @@
+video-atyme split 3148 extract 2731 shuffle 2021 classify 29390 E2E 37502
+video-tacqb split 3139 extract 2750 shuffle 2057 classify 25918 E2E 34146
+video-elksw split 3158 extract 2715 shuffle 1999 classify 27514 E2E 35599
+video-azqnn split 3045 extract 2690 shuffle 2060 classify 27225 E2E 35257
+video-qyaiv split 3166 extract 2780 shuffle 2066 classify 25905 E2E 34174
+video-dzyxo split 3137 extract 2786 shuffle 2015 classify 29361 E2E 37628
+video-rhtjp split 3151 extract 2728 shuffle 2065 classify 25064 E2E 33318
+video-azrvy split 3096 extract 2747 shuffle 2017 classify 27333 E2E 35452
+video-oolgh split 3141 extract 2773 shuffle 2033 classify 26601 E2E 34801

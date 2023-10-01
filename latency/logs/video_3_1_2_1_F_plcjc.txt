@@ -1,0 +1,9 @@
+video-ovaik split 3210 extract 2655 shuffle 2060 classify 25478 E2E 33698
+video-mlztz split 3169 extract 2606 shuffle 2045 classify 24476 E2E 32570
+video-ebtcz split 3193 extract 2630 shuffle 2034 classify 23048 E2E 31177
+video-lhjzn split 3173 extract 2582 shuffle 2024 classify 27142 E2E 35250
+video-hvrag split 3114 extract 2630 shuffle 2059 classify 23720 E2E 31836
+video-prblu split 3040 extract 2729 shuffle 2057 classify 27950 E2E 35955
+video-blsxh split 3100 extract 2700 shuffle 1996 classify 24973 E2E 33062
+video-mrbso split 3090 extract 2731 shuffle 1981 classify 24072 E2E 32051
+video-rafvc split 3023 extract 2785 shuffle 1983 classify 22398 E2E 30346

@@ -1,0 +1,7 @@
+video-qxajn split 3953 extract 3786 shuffle 2867 classify 29188 E2E 39994
+video-mtleu split 3997 extract 3561 shuffle 2715 classify 26989 E2E 37532
+video-ikrib split 3073 extract 3083 shuffle 2400 classify 25146 E2E 34015
+video-dnkrn split 3266 extract 3104 shuffle 2014 classify 30833 E2E 39578
+video-wkwbs split 3932 extract 2810 shuffle 2077 classify 28186 E2E 37460
+video-khvio split 3142 extract 2788 shuffle 2085 classify 25278 E2E 33548
+video-cgeiq split 3089 extract 2676 shuffle 2014 classify 25745 E2E 33994
