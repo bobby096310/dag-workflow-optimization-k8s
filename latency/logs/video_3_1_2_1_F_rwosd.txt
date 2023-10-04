@@ -1,0 +1,10 @@
+video-obmec split 3118 extract 2712 shuffle 1998 classify 24772 E2E 32781
+video-gezrw split 3087 extract 2805 shuffle 2019 classify 28252 E2E 36276
+video-tqsgq split 3073 extract 2745 shuffle 2011 classify 27124 E2E 35128
+video-unehj split 3121 extract 2680 shuffle 2017 classify 24265 E2E 32288
+video-svdwq split 3147 extract 2716 shuffle 2022 classify 25915 E2E 34007
+video-nlbuq split 3114 extract 2661 shuffle 2053 classify 28986 E2E 37071
+video-hcmet split 3105 extract 2790 shuffle 2086 classify 23091 E2E 31212
+video-mwqev split 3104 extract 3046 shuffle 2009 classify 24230 E2E 32685
+video-lhkeg split 3076 extract 2688 shuffle 2048 classify 26988 E2E 34980
+video-razit split 3150 extract 2770 shuffle 2006 classify 26255 E2E 34319

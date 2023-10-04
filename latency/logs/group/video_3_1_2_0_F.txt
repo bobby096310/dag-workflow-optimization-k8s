@@ -7,4 +7,9 @@ video-dzyxo split 3137 extract 2786 shuffle 2015 classify 29361 E2E 37628
 video-rhtjp split 3151 extract 2728 shuffle 2065 classify 25064 E2E 33318
 video-azrvy split 3096 extract 2747 shuffle 2017 classify 27333 E2E 35452
 video-oolgh split 3141 extract 2773 shuffle 2033 classify 26601 E2E 34801
+video-xrzgx split 4875 extract 5525 shuffle 3147 classify 31024 E2E 44796
+video-vlxnh split 3817 extract 3098 shuffle 2200 classify 22616 E2E 32096
+video-ylkfn split 4057 extract 3369 shuffle 2281 classify 30223 E2E 40364
+video-fercv split 3143 extract 2707 shuffle 2023 classify 25252 E2E 33394
+video-kvulg split 3869 extract 2867 shuffle 2148 classify 30086 E2E 39362
 video-okidd split 2980 extract 2619 shuffle 1975 classify 26689 E2E 34680

@@ -18,3 +18,13 @@ video-dnkrn split 3266 extract 3104 shuffle 2014 classify 30833 E2E 39578
 video-wkwbs split 3932 extract 2810 shuffle 2077 classify 28186 E2E 37460
 video-khvio split 3142 extract 2788 shuffle 2085 classify 25278 E2E 33548
 video-cgeiq split 3089 extract 2676 shuffle 2014 classify 25745 E2E 33994
+video-mpihd split 3142 extract 2746 shuffle 2057 classify 27108 E2E 35538
+video-txdmc split 3209 extract 2702 shuffle 2011 classify 25583 E2E 34073
+video-emnrn split 3153 extract 2627 shuffle 2203 classify 26640 E2E 35086
+video-uttbb split 3103 extract 2842 shuffle 2019 classify 27845 E2E 36085
+video-aymca split 3245 extract 2802 shuffle 2026 classify 25711 E2E 34156
+video-fugmy split 3085 extract 2637 shuffle 2036 classify 26336 E2E 34672
+video-cstvs split 3072 extract 2739 shuffle 2042 classify 24829 E2E 32954
+video-teddn split 3032 extract 2609 shuffle 1975 classify 27191 E2E 35334
+video-zopja split 3212 extract 2764 shuffle 2084 classify 28077 E2E 36657
+video-yswsg split 3139 extract 2743 shuffle 1995 classify 24304 E2E 32602

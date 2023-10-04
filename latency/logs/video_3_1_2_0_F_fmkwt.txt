@@ -1,0 +1,5 @@
+video-xrzgx split 4875 extract 5525 shuffle 3147 classify 31024 E2E 44796
+video-vlxnh split 3817 extract 3098 shuffle 2200 classify 22616 E2E 32096
+video-ylkfn split 4057 extract 3369 shuffle 2281 classify 30223 E2E 40364
+video-fercv split 3143 extract 2707 shuffle 2023 classify 25252 E2E 33394
+video-kvulg split 3869 extract 2867 shuffle 2148 classify 30086 E2E 39362

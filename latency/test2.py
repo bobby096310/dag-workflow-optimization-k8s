@@ -36,8 +36,6 @@ def run(workflow_name, config, times, pre_warm):
     log_file_name = workflow_name + "_" + str(function_index) + "_" + str(conc_index) + "_" + str(cpu_index) + "_" + str(bundle_index) + "_" + ('T' if pre_warm else 'F') + "_" + create_random_name(5) + ".txt"
     filename = filenames[workflow_name]
     spec = {}
-    #if timeout_index != '-':
-    #    spec['timeout'] = timeout[timeout_index]
     if conc_index != '-':
         spec['concurrency'] = conc[conc_index]
     if cpu_index != '-':
@@ -49,51 +47,9 @@ def run(workflow_name, config, times, pre_warm):
     #get_n_latency(list(result.values()), 95)
     return final
 
-def add_dim(li, li2):
-    li_o = []
-    for l in li:
-        for l2 in li2:
-            l2_o = l.copy()
-            l2_o.append(l2)
-            li_o.append(l2_o)
-    return li_o
-
-def possible_configs(workflow_name, base):
-    configs = [[]]
-    configs = add_dim(configs, range(len(workflow_functions[workflow_name])))
-    configs = add_dim(configs, range(len(conc)))
-    configs = add_dim(configs, range(len(cpu)))
-    return configs
-
 #def run_tests():
     #pprint(run('video', [3, 1, 0, 1], 10, True))
     #pprint(run('video', [3, 1, 0, 1], 10, False))
-    #pprint(run('video', [3, 1, 0, 2], 10, True))
-    #pprint(run('video', [3, 1, 0, 2], 10, False))
-    #pprint(run('video', [3, 1, 1, 1], 10, True))
-    #pprint(run('video', [3, 1, 1, 1], 10, False))
-    #pprint(run('video', [3, 1, 1, 2], 10, True))
-    #pprint(run('video', [3, 1, 1, 2], 10, False))
-    #pprint(run('video', [3, 1, 2, 1], 10, True))
-    #pprint(run('video', [3, 1, 2, 1], 10, False))
-    #pprint(run('video', [3, 1, 2, 2], 10, True))
-    #pprint(run('video', [3, 1, 2, 2], 10, False))
-    #pprint(run('video', [3, 1, 2, 1], 10, True))
-    #pprint(run('video', [3, 1, 2, 1], 10, False))
-    #pprint(run('video', [3, 1, 3, 2], 10, True))
-    #pprint(run('video', [3, 1, 3, 2], 10, False))
-    #pprint(run('video', [3, 1, 4, 1], 10, True))
-    #pprint(run('video', [3, 1, 4, 1], 10, False))
-    #pprint(run('video', [3, 1, 4, 2], 10, True))
-    #pprint(run('video', [3, 1, 4, 2], 10, False))
-    #pprint(run('video', [3, 1, 5, 1], 10, True))
-    #pprint(run('video', [3, 1, 5, 1], 10, False))
-    #pprint(run('video', [3, 1, 5, 2], 10, True))
-    #pprint(run('video', [3, 1, 5, 2], 10, False))
-    #pprint(run('video', [3, 1, 6, 1], 10, True))
-    #pprint(run('video', [3, 1, 6, 1], 10, False))
-    #pprint(run('video', [3, 1, 6, 2], 10, True))
-    #pprint(run('video', [3, 1, 6, 2], 10, False)) 
 
 def init(workflow_name, func_index, conc, resources, bundling):
     current_list = [r.split(" ")[0] for r in get_P50()]
@@ -105,25 +61,38 @@ def init(workflow_name, func_index, conc, resources, bundling):
                 run(workflow_name, [func_index, 1, r, b], 1, False)
                 time.sleep(60)
 
-def run_level(configs, level, interval):
-    target = (level + 1) * interval
-    s = round(len(configs)/pow(2, level))
-    config_for_level = configs[:s]
-    for config in config_for_level:
+def run_level(batch, target):
+    for config in batch:
         times = int(config.split(" ")[-1])
         if times < target:		
             run_times(config, target - times)
         else:
             print("target met")
             continue
+        
+
+def get_next_level(level, interval):
+    configs = get_P50()
+    target = (level + 1) * interval
+    s = round(len(configs)/pow(2, level))
+    config_for_level = configs[:s]
+    return config_for_level, target
 
 def run_times(input_str, times):
     config_str = input_str.split(" ")[0]
     config_list = config_str.split("_")
     workflow_name = config_list[0]
-    #config = config_list[1:5]
     run(workflow_name, [int(config_list[1]), int(config_list[2]), int(config_list[3]), int(config_list[4])], times, False)
    
+def get_best_config():
+    groupnames = fetch_groups()
+    agg_list = get_agg_list(groupnames)
+    agg_p95 = sort_by_p95(agg_list)
+    for config in agg_p95:
+        if (int(config.split(" ")[-1]) > 99):
+            return config
+    return "NaN"
+    
 def get_P50():
     groupnames = fetch_groups()
     agg_list = get_agg_list(groupnames)
@@ -137,14 +106,18 @@ def main():
     func_index = 3
     conc = 1
     init(workflow_name, func_index, conc, cpu, bundle[workflow_name])
-    configs = get_P50()
-    print(configs)
-    run_level(configs, 0, 10)
-    run_level(configs, 1, 10)
-    run_level(configs, 2, 10)
-    run_level(configs, 3, 10)
-    run_level(configs, 4, 10)
-    run_level(configs, 5, 10)
+    #run_level(configs, 0, 10)
+    #run_level(configs, 1, 10)
+    level = 0
+    while level < 20:
+        batch, target = get_next_level(level, 10)
+        if len(batch) < 4:
+            run_level(batch, 100)
+            break
+        else:
+            run_level(batch, target)
+        level += 1
+    print(get_best_config())
 
 if __name__ == "__main__":
     main()

@@ -15,3 +15,6 @@ video-dqfyx split 3899 extract 3517 shuffle 2277 classify 24272 E2E 34120
 video-xdatu split 3819 extract 3144 shuffle 2064 classify 27785 E2E 36975
 video-eefne split 3081 extract 2731 shuffle 2086 classify 27828 E2E 35870
 video-sdeav split 3271 extract 2670 shuffle 2044 classify 25536 E2E 33644
+video-yzgrb split 3245 extract 2689 shuffle 2066 classify 27969 E2E 36220
+video-oljsu split 3079 extract 2600 shuffle 1953 classify 27138 E2E 35099
+video-jpzpr split 3058 extract 2663 shuffle 1940 classify 25577 E2E 33471

@@ -1,0 +1,8 @@
+video-fvoxc split 3094 extract 2655 shuffle 2044 classify 27361 E2E 35289
+video-dcufi split 3103 extract 2762 shuffle 1984 classify 28308 E2E 36391
+video-hfcno split 3038 extract 2670 shuffle 2007 classify 25551 E2E 33569
+video-iathe split 3056 extract 2760 shuffle 2020 classify 25077 E2E 33118
+video-xtphc split 3015 extract 2634 shuffle 2030 classify 25215 E2E 33195
+video-zbgti split 3041 extract 2653 shuffle 1989 classify 26481 E2E 34411
+video-vuykq split 3089 extract 2749 shuffle 2014 classify 27305 E2E 35424
+video-nybby split 3078 extract 2851 shuffle 1993 classify 25095 E2E 33326
