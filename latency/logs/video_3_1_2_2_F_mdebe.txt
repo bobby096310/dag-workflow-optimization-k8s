@@ -1,0 +1,9 @@
+video-buakj split 3285 extract 3003 shuffle 2108 classify 40788 E2E 49299
+video-eylwf split 3250 extract 2935 shuffle 2037 classify 27858 E2E 36231
+video-igafr split 3194 extract 3063 shuffle 1979 classify 28775 E2E 37173
+video-behuo split 3125 extract 3065 shuffle 2005 classify 28616 E2E 36957
+video-inxju split 3210 extract 2906 shuffle 2094 classify 26416 E2E 34778
+video-orucq split 3192 extract 2932 shuffle 2122 classify 25912 E2E 34314
+video-gijeg split 3376 extract 2978 shuffle 2093 classify 31503 E2E 40066
+video-gnzlv split 3218 extract 2692 shuffle 1872 classify 27616 E2E 35515
+video-rsdzi split 3175 extract 2918 shuffle 2123 classify 24357 E2E 32712

@@ -1,0 +1,10 @@
+video-glkxw split 3230 extract 2592 shuffle 2078 classify 25384 E2E 33689
+video-lippe split 2984 extract 2576 shuffle 2035 classify 31876 E2E 39785
+video-tgxga split 3059 extract 2740 shuffle 1993 classify 28154 E2E 36179
+video-oxkle split 3231 extract 2513 shuffle 2099 classify 22384 E2E 30511
+video-bsfiv split 3161 extract 2985 shuffle 2193 classify 28731 E2E 37309
+video-lgfss split 3257 extract 2898 shuffle 1934 classify 25314 E2E 33696
+video-ktssh split 3202 extract 2815 shuffle 2045 classify 34626 E2E 43028
+video-glhup split 3163 extract 2831 shuffle 2059 classify 25741 E2E 33926
+video-pvlpu split 3012 extract 2556 shuffle 2145 classify 24101 E2E 32111
+video-rxirv split 2992 extract 2631 shuffle 1904 classify 26908 E2E 34724

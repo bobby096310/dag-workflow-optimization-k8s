@@ -1,0 +1,9 @@
+video-dpgdn split 3122 extract 2935 shuffle 1966 classify 25773 E2E 33932
+video-oeita split 3211 extract 2803 shuffle 1884 classify 27344 E2E 35352
+video-qtqhk split 3167 extract 2945 shuffle 1891 classify 29890 E2E 38014
+video-iihdn split 3211 extract 2906 shuffle 1989 classify 28610 E2E 36872
+video-vahvo split 3192 extract 2786 shuffle 1996 classify 26726 E2E 34818
+video-btrub split 3132 extract 3026 shuffle 2057 classify 27469 E2E 35821
+video-rljan split 3078 extract 2841 shuffle 1995 classify 28900 E2E 36950
+video-bvycf split 2969 extract 3054 shuffle 2004 classify 25657 E2E 33814
+video-vwyfc split 3071 extract 2969 shuffle 1942 classify 26721 E2E 34842

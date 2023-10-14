@@ -1,0 +1,9 @@
+video-pwipb split 3198 extract 2704 shuffle 2106 classify 25486 E2E 33778
+video-lpspc split 4005 extract 3419 shuffle 2223 classify 27912 E2E 37784
+video-ftpli split 3216 extract 2751 shuffle 2008 classify 28095 E2E 36298
+video-wstuu split 3176 extract 2740 shuffle 2033 classify 30835 E2E 39029
+video-zivnk split 3095 extract 2702 shuffle 2090 classify 25502 E2E 33717
+video-fsxel split 3210 extract 2792 shuffle 2001 classify 25274 E2E 33547
+video-expov split 3123 extract 2753 shuffle 2057 classify 28091 E2E 36184
+video-znfsg split 3174 extract 2717 shuffle 2070 classify 27076 E2E 35315
+video-vlmsj split 3197 extract 2702 shuffle 2109 classify 26516 E2E 34767

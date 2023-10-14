@@ -1,0 +1,5 @@
+video-qtkyj split 3256 extract 2736 shuffle 2123 classify 29580 E2E 37821
+video-toriz split 3210 extract 2902 shuffle 1903 classify 25406 E2E 33533
+video-xmvfz split 3173 extract 2795 shuffle 2116 classify 25833 E2E 34024
+video-esygt split 3221 extract 2834 shuffle 2046 classify 27240 E2E 35471
+video-qzcvc split 3137 extract 2826 shuffle 2080 classify 42204 E2E 50365

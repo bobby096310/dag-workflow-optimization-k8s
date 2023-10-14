@@ -1,0 +1,9 @@
+video-slxie split 3254 extract 2794 shuffle 1948 classify 35282 E2E 43794
+video-wcemi split 3108 extract 2554 shuffle 2129 classify 29809 E2E 38136
+video-bnfgg split 3120 extract 2741 shuffle 2095 classify 37924 E2E 46401
+video-hrtsi split 3182 extract 2749 shuffle 2065 classify 36808 E2E 45211
+video-ljeka split 3139 extract 2583 shuffle 2054 classify 35608 E2E 43921
+video-wmvdo split 3137 extract 2768 shuffle 2032 classify 39145 E2E 47604
+video-ivoux split 3153 extract 2832 shuffle 2034 classify 33934 E2E 42550
+video-coyxw split 3212 extract 2811 shuffle 2037 classify 32421 E2E 40877
+video-worhu split 3140 extract 2773 shuffle 2077 classify 38418 E2E 46836

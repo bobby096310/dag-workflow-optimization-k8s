@@ -1,0 +1,9 @@
+video-mcryp split 3331 extract 2683 shuffle 2043 classify 29792 E2E 37963
+video-rwzxo split 3163 extract 2635 shuffle 2052 classify 27513 E2E 35497
+video-pnvdv split 3238 extract 2683 shuffle 2044 classify 26043 E2E 34132
+video-dsfas split 2967 extract 2893 shuffle 1903 classify 36243 E2E 44128
+video-ssdpe split 3205 extract 2929 shuffle 1877 classify 27974 E2E 36105
+video-heuaa split 3162 extract 2925 shuffle 1992 classify 28523 E2E 36724
+video-vaxgm split 3218 extract 2881 shuffle 1997 classify 25275 E2E 33485
+video-nphab split 3159 extract 2886 shuffle 2068 classify 26517 E2E 34739
+video-ylwyp split 3285 extract 2881 shuffle 2078 classify 26164 E2E 34511

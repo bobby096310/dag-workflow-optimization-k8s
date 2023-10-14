@@ -29,17 +29,17 @@ def run_workflows(namespace, workflow_name, filename, times, inp, pre_warm, log_
     return results
     
 def run(workflow_name, config, times, pre_warm):
-    function_index = config[0]
+    function_index = int(config[0])
     conc_index = config[1]
     cpu_index = config[2]
-    bundle_index = config[3]
+    bundle_index = int(config[3])
     log_file_name = workflow_name + "_" + str(function_index) + "_" + str(conc_index) + "_" + str(cpu_index) + "_" + str(bundle_index) + "_" + ('T' if pre_warm else 'F') + "_" + create_random_name(5) + ".txt"
     filename = filenames[workflow_name]
     spec = {}
     if conc_index != '-':
-        spec['concurrency'] = conc[conc_index]
+        spec['concurrency'] = conc[int(conc_index)]
     if cpu_index != '-':
-        spec['cpu'] = cpu[cpu_index]
+        spec['cpu'] = cpu[int(cpu_index)]
     update(filename, workflow_functions[workflow_name][function_index], spec)
     inp = {"src_name": "0", "DOP": bundle[workflow_name][bundle_index], "detect_prob": 2}
     result = run_workflows('argo-wf', workflow_name, filename, times, inp, pre_warm, log_file_name)
@@ -69,7 +69,6 @@ def run_level(batch, target):
         else:
             print("target met")
             continue
-        
 
 def get_next_level(level, interval):
     configs = get_P50()
@@ -99,15 +98,9 @@ def get_P50():
     agg_p50 = sort_by_p50(agg_list)
     return agg_p50
 
-def main():
-    #args = sys.argv[1:]
-    #interval = int(args[0])
-    workflow_name = 'video'
-    func_index = 3
+def find_best_config(workflow_name, func_index):
     conc = 1
     init(workflow_name, func_index, conc, cpu, bundle[workflow_name])
-    #run_level(configs, 0, 10)
-    #run_level(configs, 1, 10)
     level = 0
     while level < 20:
         batch, target = get_next_level(level, 10)
@@ -118,6 +111,46 @@ def main():
             run_level(batch, target)
         level += 1
     print(get_best_config())
+
+def run_all(workflow_name, func_index):
+    conc = 1
+    init(workflow_name, func_index, conc, cpu, bundle[workflow_name])
+    batch = get_P50()
+    level = 1
+    while level < 10:
+        run_level(batch, level * 10)
+        level += 1
+    print(get_best_config())
+
+def main():
+    args = sys.argv[1:]
+    #interval = int(args[0])
+    code = args[0]
+    if code == "best":
+        if len(args) < 3:
+            print("Please enter workflow name and function index")
+        workflow_name = args[1]
+        func_index = args[2]
+        find_best_config(workflow_name, func_index)
+    elif code == "run":
+        if len(args) < 8:
+            print("Please enter workflow name, function index, concurrency, cpu, bundle, pre_warm, and times")
+        workflow_name = args[1]
+        func_index = args[2]
+        c = args[3]
+        r = args[4]
+        b = args[5]
+        pre_warm = False if 'F' else True
+        times = args[7]
+        run(workflow_name, [func_index, c, r, b], times, pre_warm)
+        #python3 test2.py run video 3 1 - 0 F 10
+    elif code == "run_all":
+        if len(args) < 3:
+            print("Please enter workflow name and function index")
+        workflow_name = args[1]
+        func_index = args[2]
+        run_all(workflow_name, func_index)
+
 
 if __name__ == "__main__":
     main()

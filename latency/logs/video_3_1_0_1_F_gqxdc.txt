@@ -1,0 +1,9 @@
+video-mvmjt split 3413 extract 2656 shuffle 1946 classify 22533 E2E 30722
+video-ipslk split 3231 extract 2777 shuffle 2042 classify 27212 E2E 35531
+video-cyxne split 3146 extract 2766 shuffle 1921 classify 24119 E2E 32211
+video-hwpom split 3197 extract 2785 shuffle 2019 classify 24844 E2E 33046
+video-hegys split 3221 extract 2943 shuffle 2124 classify 26190 E2E 34709
+video-cmgym split 3198 extract 2800 shuffle 2089 classify 24746 E2E 33044
+video-yjdkc split 3422 extract 2824 shuffle 2130 classify 26112 E2E 34673
+video-kzjne split 3189 extract 2900 shuffle 2043 classify 27576 E2E 36044
+video-wmmwy split 3276 extract 2807 shuffle 2050 classify 24966 E2E 33282

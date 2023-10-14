@@ -1,0 +1,7 @@
+video-jljsy split 3292 extract 2791 shuffle 2006 classify 30476 E2E 39051
+video-nczri split 3347 extract 2852 shuffle 2028 classify 38968 E2E 47600
+video-tblwb split 3267 extract 2799 shuffle 2056 classify 40884 E2E 49554
+video-catiu split 3138 extract 2717 shuffle 2080 classify 35853 E2E 44468
+video-negpf split 3235 extract 2720 shuffle 2019 classify 43626 E2E 52055
+video-yrwwo split 3339 extract 2637 shuffle 2074 classify 48438 E2E 57066
+video-erfjd split 3200 extract 2632 shuffle 2059 classify 28742 E2E 37218

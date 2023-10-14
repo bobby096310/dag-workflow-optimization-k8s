@@ -1,0 +1,23 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+    generateName: dag-video-
+spec:
+    entrypoint: dag
+    templates:
+    - name: vi-split
+      container:
+          image: chiuchienhao/vi-split2
+          command: [ python3 ]
+          args: ["func.py", '{"src_name": "0", "DOP": "30", "detect_prob": 2}', "10.106.235.207", "KYUHD4DV72ZEY2RINEZ3", "89NIoz4QmjE3EFOFoYL63UT0EuDht0HsfiFBpEL2"]
+      activeDeadlineSeconds: "90"
+      retryStrategy:
+          limit: "5"
+          retryPolicy: "Always"
+
+    - name: dag
+      dag:
+          tasks:
+          - name: split
+            template: vi-split
+

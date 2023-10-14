@@ -1,0 +1,4 @@
+video-lfkgv split 3239 extract 2956 shuffle 3668 classify 30269 E2E 40226
+video-mhlix split 3172 extract 3113 shuffle 2085 classify 26655 E2E 35111
+video-goxll split 3235 extract 3070 shuffle 2043 classify 26049 E2E 34493
+video-fqfan split 3168 extract 2863 shuffle 2062 classify 28381 E2E 36560

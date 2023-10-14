@@ -1,0 +1,9 @@
+video-sbvfe split 3327 extract 2959 shuffle 2015 classify 28509 E2E 37277
+video-bnhfv split 3200 extract 2584 shuffle 1970 classify 28949 E2E 37088
+video-diddf split 3326 extract 2970 shuffle 2116 classify 28425 E2E 37491
+video-fggpu split 3276 extract 3040 shuffle 2109 classify 26816 E2E 35560
+video-aizdg split 3302 extract 2930 shuffle 2133 classify 27254 E2E 35968
+video-ghivh split 3207 extract 2712 shuffle 1980 classify 30811 E2E 39295
+video-iskwj split 3346 extract 2744 shuffle 2121 classify 26328 E2E 34932
+video-lpqrk split 3177 extract 2767 shuffle 2262 classify 28350 E2E 36833
+video-cclel split 3338 extract 2766 shuffle 2113 classify 26391 E2E 34940

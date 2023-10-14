@@ -1,0 +1,10 @@
+video-qkyko split 3235 extract 860963 shuffle 2013 classify 309416 E2E 1175998
+video-uwyto split 3093 extract 2688 shuffle 1999 classify 311590 E2E 319698
+video-usedm split 3124 extract 2843 shuffle 1984 classify 314075 E2E 322224
+video-cwhfv split 5229 extract 2679 shuffle 1962 classify 315164 E2E 325374
+video-pfwmw split 3073 extract 2654 shuffle 1973 classify 306136 E2E 314236
+video-uxlla split 3124 extract 2663 shuffle 1951 classify 323418 E2E 331646
+video-vvchz split 4058 extract 2690 shuffle 2041 classify 313488 E2E 322456
+video-fajyx split 3138 extract 2734 shuffle 1945 classify 306133 E2E 314243
+video-utfml split 3126 extract 2595 shuffle 1999 classify 311808 E2E 319990
+video-jrtcj split 3137 extract 3409 shuffle 2069 classify 314892 E2E 323705

@@ -1,0 +1,7 @@
+video-cspxc split 4249 extract 3261 shuffle 3642 classify 52883 E2E 64260
+video-nhqkc split 2941 extract 2540 shuffle 2089 classify 312217 E2E 319925
+video-evyeg split 3188 extract 2677 shuffle 2787 classify 306220 E2E 315079
+video-kebcs split 2975 extract 2581 shuffle 1934 classify 313325 E2E 321115
+video-hoagb split 2922 extract 2570 shuffle 2001 classify 606914 E2E 614647
+video-wzlnr split 3006 extract 2622 shuffle 1877 classify 311372 E2E 319129
+video-qhlcw split 3037 extract 3128 shuffle 1957 classify 320028 E2E 328431

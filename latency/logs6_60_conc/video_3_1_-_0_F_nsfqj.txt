@@ -1,0 +1,10 @@
+video-orici split 815 extract 2657 shuffle 1968 classify 25837 E2E 31684
+video-daets split 3126 extract 2744 shuffle 2035 classify 31277 E2E 39561
+video-mjdhl split 3170 extract 3243 shuffle 2061 classify 25737 E2E 34486
+video-tabvw split 3209 extract 2781 shuffle 2051 classify 30319 E2E 38838
+video-dvwrw split 3147 extract 2883 shuffle 1989 classify 25030 E2E 33551
+video-ksdni split 3211 extract 2851 shuffle 2076 classify 31306 E2E 39771
+video-lixly split 3140 extract 2812 shuffle 2020 classify 24840 E2E 33300
+video-bepas split 3259 extract 2648 shuffle 2060 classify 32879 E2E 41390
+video-ocgsg split 3192 extract 3226 shuffle 2007 classify 25514 E2E 34274
+video-uuhvw split 3244 extract 2829 shuffle 2116 classify 27562 E2E 36169

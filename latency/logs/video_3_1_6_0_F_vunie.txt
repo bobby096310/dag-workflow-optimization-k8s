@@ -1,0 +1,10 @@
+video-maenx split 3115 extract 2738 shuffle 2004 classify 31643 E2E 39850
+video-ehrhm split 3311 extract 2587 shuffle 2070 classify 40655 E2E 49279
+video-jxyky split 3140 extract 2655 shuffle 1974 classify 39178 E2E 47431
+video-nptpd split 3085 extract 2717 shuffle 1998 classify 41304 E2E 49530
+video-hlykx split 3171 extract 2676 shuffle 1980 classify 39319 E2E 47575
+video-zxcpz split 3037 extract 2690 shuffle 1999 classify 41805 E2E 50008
+video-dsmkv split 3094 extract 2648 shuffle 2017 classify 35927 E2E 44216
+video-uaimb split 3105 extract 2600 shuffle 1976 classify 37004 E2E 45201
+video-zbucb split 3159 extract 2774 shuffle 1995 classify 42163 E2E 50549
+video-dsugr split 3182 extract 2761 shuffle 1983 classify 35791 E2E 44208

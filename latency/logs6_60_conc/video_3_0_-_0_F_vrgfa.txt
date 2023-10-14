@@ -1,0 +1,7 @@
+video-eqdvm split 2976 extract 3276 shuffle 2083 classify 312384 E2E 320925
+video-ayilf split 3014 extract 2776 shuffle 1944 classify 305968 E2E 314026
+video-celqg split 3061 extract 2593 shuffle 1967 classify 57021 E2E 65027
+video-jtpsr split 3058 extract 2739 shuffle 1979 classify 306261 E2E 314246
+video-smplq split 3090 extract 2740 shuffle 2048 classify 306093 E2E 314199
+video-iznsk split 3108 extract 2786 shuffle 1986 classify 314672 E2E 322715
+video-kifby split 2996 extract 2852 shuffle 1957 classify 313838 E2E 321791

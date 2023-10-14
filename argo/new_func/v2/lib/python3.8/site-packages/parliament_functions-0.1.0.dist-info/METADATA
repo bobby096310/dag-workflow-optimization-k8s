@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: parliament-functions
+Version: 0.1.0
+Summary: A framework for invoking functions over HTTP
+Home-page: https://github.com/boson-project/parliament
+Author: Lance Ball
+Author-email: lball@redhat.com
+License: MIT
+Keywords: faas,functions,openshift
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: cloudevents
+Requires-Dist: flask
+Requires-Dist: waitress
+
+# Parliament
+
+Parliament is a framework for invoking functions over HTTP. It
+handles routing, liveness and readiness endpoints, and CloudEvent
+extraction.
+
+Function developers write functions that take a dictionary as the
+single parameter. There is a `request` object in the dictionary
+that is the Flask `request`object`. If the incoming request is a
+POST of a CloudEvent, the event will be extracted and provided as a
+`cloud_event` object in the dictionary.
+
+[![Mothership Connection](parliament.jpg)](https://www.youtube.com/watch?v=gBWH3OWfT2Y)
+
+

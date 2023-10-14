@@ -1,0 +1,7 @@
+video-mhkgz split 3163 extract 2741 shuffle 1890 classify 27617 E2E 35549
+video-smidy split 3419 extract 2987 shuffle 1955 classify 27119 E2E 35605
+video-kwmrs split 3170 extract 3005 shuffle 1890 classify 24455 E2E 32648
+video-edmts split 3176 extract 2747 shuffle 2053 classify 29005 E2E 37085
+video-vwfmp split 3033 extract 3051 shuffle 1924 classify 28813 E2E 36967
+video-ptgns split 3206 extract 2782 shuffle 2041 classify 28676 E2E 36820
+video-dqcjv split 3227 extract 2742 shuffle 1891 classify 28699 E2E 36678

@@ -1,0 +1,9 @@
+video-npjhp split 2876 extract 2567 shuffle 2077 classify 29123 E2E 36756
+video-uzxma split 2904 extract 2567 shuffle 2027 classify 28616 E2E 36215
+video-cflmb split 2886 extract 2625 shuffle 2056 classify 25736 E2E 33399
+video-icmsn split 2961 extract 2810 shuffle 1910 classify 25238 E2E 33025
+video-nypdu split 3095 extract 2711 shuffle 1938 classify 27079 E2E 34932
+video-rtmah split 3140 extract 2620 shuffle 1859 classify 25556 E2E 33283
+video-pgmtt split 2925 extract 2812 shuffle 1890 classify 25973 E2E 33711
+video-kgcyf split 2836 extract 2877 shuffle 1855 classify 26246 E2E 33926
+video-blhve split 2881 extract 2807 shuffle 1873 classify 25220 E2E 32897

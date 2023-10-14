@@ -1,0 +1,10 @@
+video-vvodt split 3052 extract 11003 shuffle 2062 classify 26577 E2E 43095
+video-xmmov split 4035 extract 3930 shuffle 2195 classify 28004 E2E 38658
+video-jyoml split 3118 extract 3043 shuffle 2022 classify 26309 E2E 34924
+video-bkkiu split 3058 extract 3190 shuffle 2069 classify 29262 E2E 38073
+video-bjoog split 3159 extract 2781 shuffle 1998 classify 25125 E2E 33564
+video-viexk split 3109 extract 11613 shuffle 2002 classify 24866 E2E 42050
+video-qfqgw split 3061 extract 2670 shuffle 1968 classify 25906 E2E 33990
+video-oamut split 3140 extract 3777 shuffle 2077 classify 26020 E2E 35469
+video-pealo split 3060 extract 3445 shuffle 2019 classify 29306 E2E 38259
+video-iceut split 3116 extract 3235 shuffle 2093 classify 26512 E2E 35426

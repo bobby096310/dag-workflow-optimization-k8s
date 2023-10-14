@@ -1,0 +1,8 @@
+video-hexrc split 1434 extract 3104 shuffle 17 classify 23103 E2E 27747
+video-fmfsc split 851 extract 7662 shuffle 2850 classify 39635 E2E 51093
+video-febhg split 860 extract 682 shuffle 152 classify 51769 E2E 53553
+video-qvckc split 3085 extract 2923 shuffle 2094 classify 27734 E2E 35932
+video-jwret split 3140 extract 3782 shuffle 2151 classify 27867 E2E 37022
+video-oqipa split 3135 extract 3528 shuffle 2068 classify 26793 E2E 35628
+video-zmnkj split 3157 extract 3609 shuffle 2202 classify 25808 E2E 34904
+video-lwspz split 3195 extract 3332 shuffle 2170 classify 26536 E2E 35323

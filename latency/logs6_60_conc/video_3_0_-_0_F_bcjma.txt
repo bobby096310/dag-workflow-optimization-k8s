@@ -1,0 +1,3 @@
+video-ugizm split 5854 extract 5669 shuffle 2729 classify 306067 E2E 320542
+video-lwdxy split 3076 extract 2711 shuffle 1895 classify 62547 E2E 70601
+video-ygryc split 3768 extract 3124 shuffle 2226 classify 305983 E2E 315413

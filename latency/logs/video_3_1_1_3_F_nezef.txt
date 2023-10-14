@@ -1,0 +1,9 @@
+video-vswsc split 3230 extract 2894 shuffle 2004 classify 27034 E2E 35257
+video-hppnn split 3138 extract 2821 shuffle 2068 classify 29021 E2E 37133
+video-zlkii split 3124 extract 2817 shuffle 2080 classify 26464 E2E 34579
+video-plmic split 3227 extract 2985 shuffle 2004 classify 27988 E2E 36291
+video-hhijf split 3195 extract 2956 shuffle 2032 classify 27713 E2E 35990
+video-fvwfq split 3175 extract 2854 shuffle 2068 classify 27450 E2E 35637
+video-scjmq split 3146 extract 2850 shuffle 2237 classify 28733 E2E 37057
+video-pjbzg split 3129 extract 2846 shuffle 2097 classify 26843 E2E 35006
+video-wegot split 3224 extract 2987 shuffle 2052 classify 29174 E2E 37533

@@ -1,0 +1,3 @@
+[console_scripts]
+parliament = parliament.__main__:main
+

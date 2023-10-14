@@ -1,0 +1,10 @@
+video-ihysp split 4501 extract 8311 shuffle 2892 classify 27208 E2E 43139
+video-cpkob split 3061 extract 4126 shuffle 3303 classify 27438 E2E 38047
+video-cwoyk split 3070 extract 3696 shuffle 3259 classify 26319 E2E 36574
+video-qvsfo split 3092 extract 3234 shuffle 2326 classify 25730 E2E 34545
+video-czerl split 3735 extract 2965 shuffle 2327 classify 28463 E2E 37688
+video-lkydk split 3163 extract 3444 shuffle 2025 classify 27237 E2E 36037
+video-pqtxa split 3075 extract 2998 shuffle 2482 classify 29848 E2E 38632
+video-pqkid split 3085 extract 3595 shuffle 2087 classify 24199 E2E 33167
+video-karqi split 3886 extract 3037 shuffle 2307 classify 24592 E2E 34048
+video-hpzad split 3034 extract 3025 shuffle 2355 classify 27218 E2E 35786

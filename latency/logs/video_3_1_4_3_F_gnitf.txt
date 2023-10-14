@@ -1,0 +1,9 @@
+video-wyxay split 4879 extract 3954 shuffle 4270 classify 28312 E2E 41529
+video-sdkmm split 3979 extract 3527 shuffle 2242 classify 25912 E2E 35774
+video-geabc split 3230 extract 2896 shuffle 1853 classify 41669 E2E 49793
+video-tspts split 3184 extract 2861 shuffle 2231 classify 26749 E2E 35147
+video-eatng split 3222 extract 3009 shuffle 1836 classify 26129 E2E 34297
+video-rzsfw split 3144 extract 2831 shuffle 1856 classify 24235 E2E 32178
+video-enfxj split 3163 extract 2650 shuffle 2061 classify 27039 E2E 35025
+video-whral split 3068 extract 2636 shuffle 2004 classify 26206 E2E 34010
+video-oisot split 3121 extract 2766 shuffle 2023 classify 24168 E2E 32179

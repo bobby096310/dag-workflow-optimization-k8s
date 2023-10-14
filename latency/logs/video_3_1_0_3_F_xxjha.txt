@@ -1,0 +1,4 @@
+video-qirgm split 3160 extract 3626 shuffle 2241 classify 28574 E2E 37686
+video-bmkuz split 3070 extract 3811 shuffle 2256 classify 26362 E2E 35579
+video-upcfs split 3112 extract 3722 shuffle 2055 classify 32713 E2E 41695
+video-alxua split 3163 extract 13522 shuffle 2905 classify 32828 E2E 52495
