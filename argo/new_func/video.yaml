@@ -4,20 +4,72 @@ metadata:
     generateName: dag-video-
 spec:
     entrypoint: dag
+    arguments:
+      parameters:
+      - name: minio_url
+      - name: minio_user
+      - name: minio_pass
     templates:
     - name: vi-split
+      inputs:
+        parameters:
+        - name: minio_url
+        - name: minio_user
+        - name: minio_pass
+        - name: image
       container:
-          image: chiuchienhao/vi-split2
+          image: "{{inputs.parameters.image}}"
           command: [ python3 ]
-          args: ["func.py", '{"src_name": "0", "DOP": "30", "detect_prob": 2}', "10.106.235.207", "KYUHD4DV72ZEY2RINEZ3", "89NIoz4QmjE3EFOFoYL63UT0EuDht0HsfiFBpEL2"]
+          args: ["func.py", '{"src_name": "0", "DOP": "30", "detect_prob": 2}',
+          "{{inputs.parameters.minio_url}}", "{{inputs.parameters.minio_user}}", "{{inputs.parameters.minio_pass}}"]
+      activeDeadlineSeconds: "90"
+      retryStrategy:
+          limit: "5"
+          retryPolicy: "Always"
+          
+    - name: vi-extract
+      inputs:
+        parameters:
+        - name: minio_url
+        - name: minio_user
+        - name: minio_pass
+        - name: data
+      container:
+          image: chiuchienhao/vi-extract2
+          command: [ python3 ]
+          args: ["func.py", '{{inputs.parameters.data}}',
+          "{{inputs.parameters.minio_url}}", "{{inputs.parameters.minio_user}}", "{{inputs.parameters.minio_pass}}"]
       activeDeadlineSeconds: "90"
       retryStrategy:
           limit: "5"
           retryPolicy: "Always"
 
     - name: dag
+      inputs:
+        parameters:
+        - name: minio_url
+        - name: minio_user
+        - name: minio_pass
       dag:
           tasks:
           - name: split
             template: vi-split
-
+            arguments:
+                    parameters: [
+                        {name: minio_url, value: "{{inputs.parameters.minio_url}}"},
+                        {name: minio_user, value: "{{inputs.parameters.minio_user}}"},
+                        {name: minio_pass, value: "{{inputs.parameters.minio_pass}}" },
+                        {name: image, value: "chiuchienhao/vi-split2"}
+                    ]
+                    
+          - name: extract
+            dependencies: [split]
+            template: vi-extract
+            arguments:
+                    parameters: [
+                        {name: minio_url, value: "{{inputs.parameters.minio_url}}"},
+                        {name: minio_user, value: "{{inputs.parameters.minio_user}}"},
+                        {name: minio_pass, value: "{{inputs.parameters.minio_pass}}" },
+                        {name: data, value: "{{item}}" }
+                    ]
+            withParam: "{{tasks.split.outputs.result}}"

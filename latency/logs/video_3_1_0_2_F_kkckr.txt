@@ -1,0 +1,7 @@
+video-rncix split 39939 extract 3635 shuffle 4984 classify 34351 E2E 83008
+video-jcjbb split 2887 extract 2749 shuffle 2117 classify 27573 E2E 35460
+video-kadlx split 2911 extract 3785 shuffle 2483 classify 24615 E2E 33887
+video-rkflm split 2979 extract 2697 shuffle 1937 classify 24702 E2E 32411
+video-xuumv split 3774 extract 3098 shuffle 1965 classify 30571 E2E 39510
+video-wjmez split 2944 extract 2812 shuffle 1896 classify 28040 E2E 35800
+video-hlfzt split 3690 extract 2736 shuffle 1949 classify 26496 E2E 34975

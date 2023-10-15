@@ -1,0 +1,10 @@
+video-vfifn split 3181 extract 2634 shuffle 1950 classify 25462 E2E 33498
+video-vaeno split 3054 extract 2624 shuffle 2012 classify 23987 E2E 31973
+video-hmnce split 3060 extract 2697 shuffle 1949 classify 23900 E2E 31917
+video-nzxhc split 3034 extract 2639 shuffle 2076 classify 28815 E2E 36752
+video-oxwse split 3106 extract 2746 shuffle 1932 classify 21079 E2E 29063
+video-kmvcx split 3029 extract 2643 shuffle 2026 classify 24974 E2E 32962
+video-dwomc split 3071 extract 2793 shuffle 1982 classify 22340 E2E 30409
+video-iukgs split 3011 extract 2728 shuffle 1969 classify 24045 E2E 31940
+video-psgnt split 3102 extract 2599 shuffle 2063 classify 24393 E2E 32374
+video-xjxlb split 3010 extract 2709 shuffle 1990 classify 24030 E2E 32034

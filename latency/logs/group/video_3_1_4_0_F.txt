@@ -18,3 +18,7 @@ video-tzdui split 3182 extract 2762 shuffle 1902 classify 43301 E2E 51672
 video-ofnmh split 3144 extract 2802 shuffle 2087 classify 25411 E2E 33899
 video-vmpcr split 3234 extract 2821 shuffle 1918 classify 27467 E2E 35865
 video-qjjmu split 3158 extract 2809 shuffle 1964 classify 30251 E2E 38747
+video-vyaho split 3238 extract 2651 shuffle 2001 classify 25883 E2E 34196
+video-whohb split 3112 extract 2608 shuffle 2009 classify 35844 E2E 44029
+video-ynham split 3103 extract 2600 shuffle 2007 classify 33543 E2E 41652
+video-spxwt split 3099 extract 2680 shuffle 2055 classify 32440 E2E 40596

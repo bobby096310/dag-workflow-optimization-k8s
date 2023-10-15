@@ -18,3 +18,13 @@ video-xbutm split 3163 extract 3586 shuffle 2199 classify 30868 E2E 39943
 video-voanu split 3156 extract 3679 shuffle 2341 classify 27470 E2E 36744
 video-matws split 3205 extract 3083 shuffle 2269 classify 27268 E2E 35926
 video-kzysy split 3095 extract 3357 shuffle 3141 classify 26215 E2E 35901
+video-icezf split 3047 extract 2832 shuffle 1960 classify 22793 E2E 30742
+video-ezofr split 3070 extract 2894 shuffle 1988 classify 25444 E2E 33503
+video-zneeb split 3012 extract 2853 shuffle 2038 classify 27400 E2E 35405
+video-ppiav split 3120 extract 2840 shuffle 1991 classify 24672 E2E 32735
+video-ehnew split 3043 extract 2816 shuffle 2044 classify 28293 E2E 36296
+video-ultfp split 3106 extract 2766 shuffle 1972 classify 29771 E2E 37730
+video-gxhmh split 3064 extract 2831 shuffle 1965 classify 25576 E2E 33536
+video-mwwic split 3067 extract 2830 shuffle 2069 classify 27307 E2E 35372
+video-rdivs split 3115 extract 2855 shuffle 2010 classify 27251 E2E 35354
+video-ivebp split 3195 extract 2814 shuffle 2051 classify 27828 E2E 35980

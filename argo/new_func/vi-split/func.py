@@ -26,7 +26,7 @@ def mainFunc(event, minio_url, minio_user, minio_password):
     bucket_name = "bucket1"
     
     filename = "/tmp/src.mp4"
-    print(event)
+    #print(event)
     src_video = event['src_name']
     DOP = int(event['DOP'])
     detect_prob = int(event['detect_prob'])
@@ -37,7 +37,7 @@ def mainFunc(event, minio_url, minio_user, minio_password):
                               stdout=subprocess.PIPE
                               ).stdout.read().decode("utf-8")
 
-    print(output)
+    #print(output)
     matches = re_length.search(output)
     count = 0
     millis_list = []
@@ -45,7 +45,7 @@ def mainFunc(event, minio_url, minio_user, minio_password):
         video_length = int(matches.group(1)) * 3600 + \
                        int(matches.group(2)) * 60 + \
                        int(matches.group(3))
-        print("Video length in seconds: " + str(video_length))
+        #print("Video length in seconds: " + str(video_length))
 
         start = 0
         chunk_size = 2  # in seconds
@@ -61,7 +61,7 @@ def mainFunc(event, minio_url, minio_user, minio_password):
             start = start + chunk_size
             client.fput_object(bucket_name, "Video_Chunks_Step/" + chunk_video_name, "/tmp/" + chunk_video_name)
 
-    print("Done!")
+    #print("Done!")
 
     payload = count / DOP
     listOfDics = []
@@ -81,13 +81,15 @@ def mainFunc(event, minio_url, minio_user, minio_password):
             currentList = []
             currentMillis = []
 
+    '''
     returnedObj = {
         "detail": {
             "indeces": listOfDics
         }
     }
-    print(returnedObj)
-    return returnedObj
+    #print(returnedObj)
+    '''
+    return listOfDics
 
 def main():
     args = sys.argv[1:]
@@ -95,29 +97,9 @@ def main():
     minio_url = args[1]
     minio_user = args[2]
     minio_password = args[3]
-    return {"Result": mainFunc(input, minio_url, minio_user, minio_password)}
-
-'''
-def main(context: Context):
-    """
-    Function template
-    The context parameter contains the Flask request object and any
-    CloudEvent received with the request.
-    """
-
-    # Add your business logic here
-    print("Received request")
-
-    if 'request' in context.keys():
-        ret = pretty_print(context.request)
-        print(ret, flush=True)
-        exeRet = mainFunc(context.request.get_json())
-        everything = {"Result": exeRet, "Received": ret, "Sent": payload_print(context.request)}
-        return everything, 200
-    else:
-        print("Empty request", flush=True)
-        return "{}", 200
-'''
+    result = mainFunc(input, minio_url, minio_user, minio_password)
+    print(json.dumps(result))
+    return result
 
 if __name__ == "__main__":
     main()

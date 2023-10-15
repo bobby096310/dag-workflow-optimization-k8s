@@ -1,0 +1,10 @@
+video-pilej split 3094 extract 2824 shuffle 1962 classify 29313 E2E 37301
+video-tyacp split 2944 extract 2836 shuffle 2000 classify 26802 E2E 34693
+video-tmobj split 3008 extract 2757 shuffle 2014 classify 25298 E2E 33169
+video-osnlj split 3035 extract 2838 shuffle 2000 classify 27285 E2E 35266
+video-uulol split 3056 extract 2785 shuffle 2003 classify 27087 E2E 35040
+video-drner split 3020 extract 2916 shuffle 1953 classify 26005 E2E 34009
+video-bzxnm split 3038 extract 2742 shuffle 1995 classify 27367 E2E 35252
+video-akocw split 3017 extract 2853 shuffle 1978 classify 25438 E2E 33383
+video-yitka split 3052 extract 3718 shuffle 1974 classify 24677 E2E 33544
+video-epidr split 2979 extract 2780 shuffle 1991 classify 24673 E2E 32527

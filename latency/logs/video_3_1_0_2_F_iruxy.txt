@@ -1,0 +1,3 @@
+video-qbvsp split 2959 extract 2853 shuffle 1915 classify 24006 E2E 31866
+video-adwdc split 2977 extract 2842 shuffle 1948 classify 26683 E2E 34573
+video-mlmdq split 3065 extract 2846 shuffle 1954 classify 22913 E2E 30872

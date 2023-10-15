@@ -1,0 +1,8 @@
+video-ebeix split 3103 extract 2831 shuffle 2024 classify 25925 E2E 33957
+video-ehfgj split 3118 extract 2708 shuffle 2016 classify 25334 E2E 33266
+video-zcroc split 3006 extract 2843 shuffle 1962 classify 27044 E2E 34955
+video-guzit split 3159 extract 2958 shuffle 1962 classify 27390 E2E 35550
+video-jtoml split 3203 extract 2884 shuffle 2041 classify 28478 E2E 36693
+video-cuemj split 3076 extract 2812 shuffle 1997 classify 25873 E2E 33846
+video-gkcxs split 3044 extract 2958 shuffle 1982 classify 25481 E2E 33539
+video-orufh split 3124 extract 2828 shuffle 2043 classify 25566 E2E 33650
