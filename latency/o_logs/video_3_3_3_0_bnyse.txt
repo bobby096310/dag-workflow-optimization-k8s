@@ -1,5 +1,0 @@
-dag-video-tvcvh E2E 204.0 split 10.0 extract 20.0 shuffle 10.0 classify 164.0 
-dag-video-w9v5r E2E 260.0 split 10.0 extract 20.0 shuffle 10.0 classify 220.0 
-dag-video-84b7k E2E 278.0 split 10.0 extract 20.0 shuffle 10.0 classify 238.0 
-dag-video-2v7b8 E2E 236.0 split 20.0 extract 20.0 shuffle 10.0 classify 186.0 
-dag-video-pckts E2E 216.0 split 10.0 extract 21.0 shuffle 10.0 classify 175.0 

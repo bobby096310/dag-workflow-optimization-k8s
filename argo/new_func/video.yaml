@@ -10,34 +10,18 @@ spec:
       - name: minio_user
       - name: minio_pass
     templates:
-    - name: vi-split
+    - name: python-script
       inputs:
         parameters:
-        - name: minio_url
-        - name: minio_user
-        - name: minio_pass
         - name: image
-      container:
-          image: "{{inputs.parameters.image}}"
-          command: [ python3 ]
-          args: ["func.py", '{"src_name": "0", "DOP": "30", "detect_prob": 2}',
-          "{{inputs.parameters.minio_url}}", "{{inputs.parameters.minio_user}}", "{{inputs.parameters.minio_pass}}"]
-      activeDeadlineSeconds: "90"
-      retryStrategy:
-          limit: "5"
-          retryPolicy: "Always"
-          
-    - name: vi-extract
-      inputs:
-        parameters:
         - name: minio_url
         - name: minio_user
         - name: minio_pass
         - name: data
       container:
-          image: chiuchienhao/vi-extract2
+          image: "{{inputs.parameters.image}}"
           command: [ python3 ]
-          args: ["func.py", '{{inputs.parameters.data}}',
+          args: ["func.py", "{{inputs.parameters.data}}",
           "{{inputs.parameters.minio_url}}", "{{inputs.parameters.minio_user}}", "{{inputs.parameters.minio_pass}}"]
       activeDeadlineSeconds: "90"
       retryStrategy:
@@ -53,23 +37,50 @@ spec:
       dag:
           tasks:
           - name: split
-            template: vi-split
+            template: python-script
             arguments:
-                    parameters: [
-                        {name: minio_url, value: "{{inputs.parameters.minio_url}}"},
-                        {name: minio_user, value: "{{inputs.parameters.minio_user}}"},
-                        {name: minio_pass, value: "{{inputs.parameters.minio_pass}}" },
-                        {name: image, value: "chiuchienhao/vi-split2"}
-                    ]
+                parameters: [
+                    {name: image, value: "chiuchienhao/vi-split2"},
+                    {name: minio_url, value: "{{inputs.parameters.minio_url}}"},
+                    {name: minio_user, value: "{{inputs.parameters.minio_user}}"},
+                    {name: minio_pass, value: "{{inputs.parameters.minio_pass}}" },
+                    {name: data, value: '{"src_name": "0", "DOP": "30", "detect_prob": 2}' }
+                ]
                     
           - name: extract
             dependencies: [split]
-            template: vi-extract
+            template: python-script
             arguments:
-                    parameters: [
-                        {name: minio_url, value: "{{inputs.parameters.minio_url}}"},
-                        {name: minio_user, value: "{{inputs.parameters.minio_user}}"},
-                        {name: minio_pass, value: "{{inputs.parameters.minio_pass}}" },
-                        {name: data, value: "{{item}}" }
-                    ]
+                parameters: [
+                    {name: image, value: "chiuchienhao/vi-extract2"},
+                    {name: minio_url, value: "{{inputs.parameters.minio_url}}"},
+                    {name: minio_user, value: "{{inputs.parameters.minio_user}}"},
+                    {name: minio_pass, value: "{{inputs.parameters.minio_pass}}" },
+                    {name: data, value: "{{item}}" }
+                ]
             withParam: "{{tasks.split.outputs.result}}"
+            
+          - name: shuffle
+            dependencies: [extract]
+            template: python-script
+            arguments:
+                parameters: [
+                    {name: image, value: "chiuchienhao/vi-shuffle2"},
+                    {name: minio_url, value: "{{inputs.parameters.minio_url}}"},
+                    {name: minio_user, value: "{{inputs.parameters.minio_user}}"},
+                    {name: minio_pass, value: "{{inputs.parameters.minio_pass}}" },
+                    {name: data, value: "{{tasks.extract.outputs.result}}" }
+                ]
+                
+          - name: classify
+            dependencies: [shuffle]
+            template: python-script
+            arguments:
+                parameters: [
+                    {name: image, value: "chiuchienhao/vi-classify2"},
+                    {name: minio_url, value: "{{inputs.parameters.minio_url}}"},
+                    {name: minio_user, value: "{{inputs.parameters.minio_user}}"},
+                    {name: minio_pass, value: "{{inputs.parameters.minio_pass}}" },
+                    {name: data, value: "{{item}}" }
+                ]
+            withParam: "{{tasks.shuffle.outputs.result}}"

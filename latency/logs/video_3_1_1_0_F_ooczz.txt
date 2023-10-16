@@ -1,0 +1,9 @@
+video-vpsyx split 767 extract 541 shuffle 10 classify 19694 E2E 21345
+video-oofxi split 3095 extract 4256 shuffle 2022 classify 24418 E2E 34129
+video-tkamo split 2982 extract 2658 shuffle 1958 classify 26019 E2E 33984
+video-xpjmt split 3089 extract 2680 shuffle 1994 classify 26545 E2E 34680
+video-vevdq split 3046 extract 2859 shuffle 2049 classify 26917 E2E 35167
+video-tdayz split 3125 extract 2635 shuffle 2057 classify 28617 E2E 36883
+video-ivqdo split 3103 extract 2645 shuffle 2000 classify 25125 E2E 33236
+video-gkbkd split 3038 extract 2734 shuffle 1990 classify 26602 E2E 34669
+video-gfajp split 3085 extract 2572 shuffle 1998 classify 25960 E2E 34146

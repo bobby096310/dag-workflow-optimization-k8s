@@ -1,0 +1,5 @@
+dag-video-445hl E2E 132.0 split 21.0 extract 21.0 shuffle 10.0 classify 80.0 
+dag-video-x975k E2E 139.0 split 10.0 extract 30.0 shuffle 10.0 classify 89.0 
+dag-video-97p2h E2E 117.0 split 10.0 extract 20.0 shuffle 10.0 classify 77.0 
+dag-video-x46fb E2E 135.0 split 10.0 extract 20.0 shuffle 10.0 classify 95.0 
+dag-video-29r79 E2E 129.0 split 10.0 extract 31.0 shuffle 10.0 classify 78.0 

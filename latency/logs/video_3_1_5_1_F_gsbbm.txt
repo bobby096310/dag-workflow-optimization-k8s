@@ -1,0 +1,10 @@
+video-ljxte split 3194 extract 2616 shuffle 1981 classify 26199 E2E 34216
+video-zebmy split 3064 extract 2745 shuffle 1954 classify 25956 E2E 33922
+video-rterh split 3219 extract 2887 shuffle 1983 classify 24242 E2E 32656
+video-vztey split 3183 extract 2581 shuffle 1945 classify 27629 E2E 35514
+video-jjfmo split 2996 extract 2574 shuffle 1981 classify 26552 E2E 34397
+video-yupdb split 3123 extract 2633 shuffle 1915 classify 23701 E2E 31612
+video-tegyo split 3068 extract 2733 shuffle 1944 classify 30876 E2E 38863
+video-pneud split 3121 extract 2644 shuffle 1950 classify 26701 E2E 34741
+video-vlilg split 3084 extract 2691 shuffle 1945 classify 25739 E2E 33664
+video-hdcrb split 3091 extract 2731 shuffle 1991 classify 27724 E2E 35736

@@ -2,30 +2,44 @@ import sys
 import os
 from pdf_cdf import *
 
+root_dir = "logs/"
+group_dir = root_dir + "group/"
+data_index = 8
+
 def transferlog(filename):
     with open(filename, 'r') as file:
         #lines = file.readlines()
         lines = [line for line in file]
-        return analyze_result(lines, 10) #2 for E2E
+        return analyze_result(lines, data_index) #2 for E2E
 
 def copyandpaste(groupname):
     # clear the data in the info file
-    with open(os.path.join("logs/group/", groupname + ".txt"), 'w') as groupfile:
+    with open(os.path.join(group_dir, groupname + ".txt"), 'w') as groupfile:
         pass
-    with open(os.path.join("logs/group/", groupname + ".txt"), 'a') as groupfile:
-        for filename in os.listdir("logs/"):
+    with open(os.path.join(group_dir, groupname + ".txt"), 'a') as groupfile:
+        for filename in os.listdir(root_dir):
             if groupname == filename[:-10]:
                 #print(filename)
-                with open(os.path.join("logs/", filename), 'r') as runfile:
+                with open(os.path.join(root_dir, filename), 'r') as runfile:
                     lines = runfile.readlines()
                     groupfile.writelines(lines)
 
 def fetch_groups():
     groupnames = []
-    for filename in os.listdir("logs/"):
-        if os.path.isfile(os.path.join("logs/", filename)) and (filename[:-10] not in groupnames):
+    for filename in os.listdir(root_dir):
+        if os.path.isfile(os.path.join(root_dir, filename)) and (filename[:-10] not in groupnames):
             groupnames.append(filename[:-10])
     return groupnames
+
+def get_agg_list(groupnames):
+    agg_list = []
+    with open(os.path.join(group_dir, "group_logs.txt"), 'w') as groupfile:
+        pass
+    for groupname in groupnames:
+        copyandpaste(groupname)
+        agg = groupname + " " + transferlog(os.path.join(group_dir, groupname + ".txt"))
+        agg_list.append(agg)
+    return agg_list
 
 def sort_by_mean(agg_list):
     dic = {}
@@ -51,19 +65,19 @@ def sort_by_p95(agg_list):
 
 
 def main():
+    args = sys.argv[1:]
+    if len(args) > 0:
+        global root_dir
+        root_dir = args[0]
+    if len(args) > 1:
+        global data_index
+        data_index = int(args[1])
     groupnames = fetch_groups()
-    agg_list = []
-    with open(os.path.join("logs/group/", "group_logs.txt"), 'w') as groupfile:
-        pass
-    for groupname in groupnames:
-        copyandpaste(groupname)
-        agg = groupname + " " + transferlog(os.path.join("logs/group/", groupname + ".txt"))
-        #print(agg)
-        agg_list.append(agg)
+    agg_list = get_agg_list(groupnames)
     agg_mean = sort_by_mean(agg_list)
     agg_p50 = sort_by_p50(agg_list)
     agg_p95 = sort_by_p95(agg_list)
-    with open(os.path.join("logs/group/", "group_logs.txt"), 'a') as groupfile:
+    with open(os.path.join(group_dir, "group_logs.txt"), 'a') as groupfile:
         print("Sort by Mean:")
         groupfile.write("Sort by Mean:\n")
         for line in agg_mean:

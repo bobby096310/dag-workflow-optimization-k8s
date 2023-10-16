@@ -2,3 +2,9 @@ video-vyaho split 3238 extract 2651 shuffle 2001 classify 25883 E2E 34196
 video-whohb split 3112 extract 2608 shuffle 2009 classify 35844 E2E 44029
 video-ynham split 3103 extract 2600 shuffle 2007 classify 33543 E2E 41652
 video-spxwt split 3099 extract 2680 shuffle 2055 classify 32440 E2E 40596
+video-sdkvb split 3103 extract 2638 shuffle 2008 classify 35142 E2E 43331
+video-wfvld split 3176 extract 2650 shuffle 2058 classify 32032 E2E 40393
+video-gvpix split 3120 extract 2620 shuffle 2014 classify 36274 E2E 44442
+video-zffvr split 3148 extract 2607 shuffle 2011 classify 34664 E2E 42948
+video-ofwfi split 3064 extract 2785 shuffle 2033 classify 34682 E2E 42989
+video-uwkpi split 3082 extract 2685 shuffle 2027 classify 31947 E2E 40185

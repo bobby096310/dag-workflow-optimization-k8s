@@ -1,0 +1,10 @@
+video-pgdnu split 3164 extract 2798 shuffle 2020 classify 29146 E2E 37234
+video-nngdl split 3176 extract 2826 shuffle 1950 classify 26830 E2E 34886
+video-buycm split 3165 extract 2827 shuffle 1988 classify 25500 E2E 33581
+video-uswtc split 3119 extract 2837 shuffle 2077 classify 26888 E2E 35017
+video-mornk split 3095 extract 2840 shuffle 1991 classify 25748 E2E 33768
+video-ipejz split 3095 extract 2801 shuffle 2033 classify 25254 E2E 33283
+video-xctys split 3078 extract 2871 shuffle 1986 classify 24748 E2E 32785
+video-chfra split 3057 extract 2864 shuffle 2074 classify 26155 E2E 34241
+video-cdjob split 3060 extract 2869 shuffle 1987 classify 26767 E2E 34784
+video-pygva split 3058 extract 2853 shuffle 2027 classify 26535 E2E 34581

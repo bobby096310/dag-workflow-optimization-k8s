@@ -1,0 +1,4 @@
+video-lcpsx split 3209 extract 2708 shuffle 2236 classify 31757 E2E 40093
+video-yavvc split 3448 extract 2757 shuffle 2049 classify 28879 E2E 37373
+video-dorwx split 3177 extract 2748 shuffle 2027 classify 26902 E2E 35086
+video-hfyul split 3211 extract 2885 shuffle 1984 classify 32980 E2E 41346

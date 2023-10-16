@@ -1,0 +1,10 @@
+video-kstvj split 3104 extract 2622 shuffle 2006 classify 28630 E2E 36621
+video-gphdt split 3051 extract 2601 shuffle 2047 classify 24116 E2E 31986
+video-tcgnt split 3085 extract 2623 shuffle 2009 classify 27548 E2E 35549
+video-azwna split 3066 extract 2635 shuffle 2033 classify 25704 E2E 33738
+video-zyijf split 3066 extract 2653 shuffle 1940 classify 25003 E2E 32956
+video-vjihj split 3062 extract 2732 shuffle 1985 classify 26177 E2E 34269
+video-rntjv split 2987 extract 2728 shuffle 1985 classify 27101 E2E 35081
+video-dzjec split 3078 extract 2603 shuffle 2039 classify 26620 E2E 34640
+video-oydim split 3134 extract 2719 shuffle 2018 classify 23778 E2E 31917
+video-ktodo split 3013 extract 2577 shuffle 2042 classify 25187 E2E 33146

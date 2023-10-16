@@ -1,0 +1,10 @@
+video-oxwii split 3059 extract 2758 shuffle 2059 classify 29067 E2E 37078
+video-tfiib split 3019 extract 2805 shuffle 1998 classify 26411 E2E 34352
+video-grfat split 3050 extract 2772 shuffle 2010 classify 24417 E2E 32374
+video-dsnzg split 3064 extract 2853 shuffle 2020 classify 25435 E2E 33504
+video-vghkg split 3120 extract 2785 shuffle 1996 classify 26241 E2E 34260
+video-cmpau split 3074 extract 2800 shuffle 2029 classify 26850 E2E 34860
+video-cmufw split 3027 extract 2865 shuffle 1935 classify 23504 E2E 31461
+video-nftcs split 3093 extract 2814 shuffle 1962 classify 29881 E2E 37882
+video-tsmjx split 3038 extract 2890 shuffle 2014 classify 27096 E2E 35175
+video-hzjpz split 2990 extract 2728 shuffle 2038 classify 25468 E2E 33350

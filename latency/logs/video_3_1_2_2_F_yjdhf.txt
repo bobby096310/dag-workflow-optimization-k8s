@@ -1,0 +1,8 @@
+video-rkudb split 2980 extract 2959 shuffle 2008 classify 31373 E2E 39464
+video-afdbw split 2956 extract 2827 shuffle 1966 classify 26818 E2E 34687
+video-ymacy split 3034 extract 2726 shuffle 1960 classify 26894 E2E 34731
+video-kbotn split 2987 extract 2766 shuffle 1976 classify 26693 E2E 34533
+video-xivoe split 2966 extract 2878 shuffle 1992 classify 25096 E2E 33061
+video-nyopn split 3103 extract 2702 shuffle 2042 classify 30376 E2E 38352
+video-owpug split 3023 extract 2847 shuffle 1975 classify 28430 E2E 36393
+video-htbqf split 3013 extract 2745 shuffle 2038 classify 27949 E2E 35924

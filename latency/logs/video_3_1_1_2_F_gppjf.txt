@@ -1,0 +1,3 @@
+video-ebraj split 3208 extract 2806 shuffle 1979 classify 29933 E2E 38035
+video-aoode split 3139 extract 2992 shuffle 2002 classify 27839 E2E 36074
+video-kmecl split 3066 extract 914106 shuffle 10 classify 129 E2E 917419

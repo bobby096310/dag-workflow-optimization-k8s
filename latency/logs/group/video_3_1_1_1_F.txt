@@ -1,3 +1,13 @@
+video-cnrfi split 3302 extract 2843 shuffle 1963 classify 27715 E2E 36057
+video-hhbiw split 3028 extract 2661 shuffle 2143 classify 23609 E2E 31696
+video-ufhtf split 3023 extract 2588 shuffle 2025 classify 25613 E2E 33496
+video-mlezv split 3043 extract 2674 shuffle 2020 classify 24755 E2E 32698
+video-fijcu split 3212 extract 2728 shuffle 1974 classify 23561 E2E 31682
+video-dalyd split 3056 extract 2773 shuffle 1973 classify 25712 E2E 33784
+video-edajx split 3109 extract 2588 shuffle 2036 classify 23836 E2E 31918
+video-nxkaw split 2955 extract 2725 shuffle 2016 classify 25492 E2E 33397
+video-nvfcb split 3068 extract 2780 shuffle 2007 classify 26398 E2E 34485
+video-xjqcp split 3042 extract 2705 shuffle 2102 classify 25183 E2E 33251
 video-amrmu split 3241 extract 2818 shuffle 2098 classify 26000 E2E 34344
 video-soqdi split 3184 extract 2812 shuffle 2112 classify 25380 E2E 33835
 video-bbkkb split 3267 extract 2947 shuffle 2116 classify 26819 E2E 35375
@@ -28,3 +38,13 @@ video-vgril split 3502 extract 2805 shuffle 2092 classify 25444 E2E 34086
 video-tphhs split 3230 extract 2688 shuffle 2009 classify 27086 E2E 35213
 video-obsuz split 15043 extract 12328 shuffle 1906 classify 30632 E2E 60080
 video-fswyy split 3201 extract 2650 shuffle 2080 classify 28526 E2E 36614
+video-qllez split 3096 extract 2765 shuffle 1970 classify 26653 E2E 34646
+video-unzat split 3132 extract 2585 shuffle 1982 classify 23710 E2E 31659
+video-irzom split 3100 extract 2687 shuffle 2044 classify 25680 E2E 33751
+video-xdsau split 3083 extract 2714 shuffle 2034 classify 24463 E2E 32547
+video-dmtgj split 3126 extract 2737 shuffle 2019 classify 27437 E2E 35554
+video-qwlrj split 3114 extract 2697 shuffle 2027 classify 25501 E2E 33515
+video-bjhsg split 3121 extract 2677 shuffle 2006 classify 26380 E2E 34442
+video-zrmtl split 3086 extract 2698 shuffle 2046 classify 21965 E2E 30019
+video-burax split 3038 extract 2679 shuffle 2007 classify 23690 E2E 31669
+video-ggqvx split 3089 extract 2723 shuffle 2084 classify 25800 E2E 33917

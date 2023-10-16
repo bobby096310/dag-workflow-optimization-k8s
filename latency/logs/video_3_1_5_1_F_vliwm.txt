@@ -1,0 +1,6 @@
+video-aford split 5631 extract 5381 shuffle 3071 classify 28994 E2E 43291
+video-kwprh split 3692 extract 2964 shuffle 2164 classify 24357 E2E 33451
+video-txvtr split 3026 extract 2743 shuffle 1960 classify 26752 E2E 34645
+video-itugn split 3644 extract 2781 shuffle 2006 classify 23543 E2E 32189
+video-xpzht split 3029 extract 2593 shuffle 2002 classify 31019 E2E 38933
+video-mogif split 3115 extract 3394 shuffle 2421 classify 25597 E2E 34771
