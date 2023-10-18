@@ -48,3 +48,8 @@ video-pdubq split 3107 extract 2794 shuffle 2061 classify 27544 E2E 35593
 video-zhiiz split 3060 extract 2852 shuffle 1939 classify 42480 E2E 50415
 video-eueez split 3035 extract 2889 shuffle 2154 classify 25041 E2E 33192
 video-hussn split 3137 extract 2857 shuffle 1970 classify 25417 E2E 33472
+video-zbgvt split 3157 extract 2940 shuffle 2011 classify 29118 E2E 37311
+video-ujmsp split 3148 extract 2857 shuffle 2014 classify 27802 E2E 35912
+video-szpnx split 3242 extract 2904 shuffle 1997 classify 27079 E2E 35303
+video-idcbt split 3148 extract 2868 shuffle 2046 classify 26752 E2E 34895
+video-ripxd split 3169 extract 2937 shuffle 2052 classify 27298 E2E 35540
