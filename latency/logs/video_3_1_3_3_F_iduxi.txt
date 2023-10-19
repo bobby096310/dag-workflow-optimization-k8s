@@ -1,0 +1,10 @@
+video-inbol split 3194 extract 2965 shuffle 2104 classify 28327 E2E 36679
+video-autfp split 3191 extract 2978 shuffle 2087 classify 25959 E2E 34307
+video-ksdyu split 3216 extract 2905 shuffle 2007 classify 42276 E2E 50495
+video-hyxac split 3059 extract 2838 shuffle 2046 classify 26184 E2E 34221
+video-heytr split 3236 extract 2941 shuffle 1958 classify 34093 E2E 42310
+video-wcccu split 3134 extract 2917 shuffle 2054 classify 26990 E2E 35191
+video-bvkpk split 3158 extract 2898 shuffle 2074 classify 27113 E2E 35337
+video-gmzxm split 3117 extract 2822 shuffle 2076 classify 28602 E2E 36709
+video-mvkgp split 3203 extract 2921 shuffle 2081 classify 26674 E2E 34967
+video-eudgi split 3260 extract 2950 shuffle 1998 classify 26445 E2E 34743

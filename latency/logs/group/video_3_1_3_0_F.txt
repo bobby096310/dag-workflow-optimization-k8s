@@ -7,6 +7,16 @@ video-qrtfo split 3167 extract 2706 shuffle 2111 classify 25789 E2E 34382
 video-lorel split 3188 extract 2723 shuffle 2046 classify 26651 E2E 35052
 video-olmhk split 3244 extract 2709 shuffle 2089 classify 31933 E2E 40565
 video-adcxd split 3184 extract 2793 shuffle 2046 classify 33468 E2E 41960
+video-qofbl split 3348 extract 2777 shuffle 2105 classify 26986 E2E 35445
+video-owdbt split 3178 extract 2796 shuffle 2103 classify 27343 E2E 35885
+video-zqyln split 3250 extract 2824 shuffle 2128 classify 28274 E2E 36799
+video-hvuvj split 3197 extract 2857 shuffle 2020 classify 26561 E2E 35004
+video-epbaz split 3147 extract 2699 shuffle 2091 classify 26447 E2E 34860
+video-pohjq split 3215 extract 2782 shuffle 2105 classify 32120 E2E 40606
+video-tdmdr split 3185 extract 2737 shuffle 2054 classify 26145 E2E 34539
+video-plkzw split 3237 extract 2589 shuffle 2136 classify 29873 E2E 38313
+video-swxam split 3201 extract 2789 shuffle 2069 classify 28812 E2E 37286
+video-xzqmn split 3164 extract 2774 shuffle 2118 classify 24999 E2E 33415
 video-edvqy split 3146 extract 2821 shuffle 1967 classify 30632 E2E 38894
 video-jsdvq split 3028 extract 2648 shuffle 1991 classify 27361 E2E 35498
 video-yopaf split 3118 extract 2705 shuffle 1992 classify 23774 E2E 32146

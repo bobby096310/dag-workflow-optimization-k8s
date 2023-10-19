@@ -1,0 +1,4 @@
+video-mhfpl split 23451 extract 3575 shuffle 3073 classify 31580 E2E 61783
+video-xvsnq split 2992 extract 2675 shuffle 2103 classify 25130 E2E 32987
+video-xxskr split 3611 extract 3278 shuffle 1935 classify 26679 E2E 35596
+video-sagxp split 3005 extract 2731 shuffle 2129 classify 25763 E2E 33702

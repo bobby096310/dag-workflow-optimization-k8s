@@ -1,0 +1,8 @@
+video-iotrn split 3291 extract 2716 shuffle 2106 classify 31898 E2E 40374
+video-mkaqc split 3584 extract 2906 shuffle 2300 classify 29056 E2E 38321
+video-zpsju split 3227 extract 2682 shuffle 2062 classify 37688 E2E 46187
+video-vmorf split 3206 extract 2830 shuffle 2025 classify 38140 E2E 46568
+video-homnu split 3173 extract 2891 shuffle 2051 classify 36153 E2E 44575
+video-ejpfr split 3246 extract 2743 shuffle 2020 classify 35202 E2E 43645
+video-mboqk split 3165 extract 2690 shuffle 2010 classify 41031 E2E 49353
+video-czkoq split 3259 extract 2835 shuffle 2056 classify 36888 E2E 45515

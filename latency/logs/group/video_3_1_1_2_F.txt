@@ -48,3 +48,13 @@ video-ivebp split 3195 extract 2814 shuffle 2051 classify 27828 E2E 35980
 video-ebraj split 3208 extract 2806 shuffle 1979 classify 29933 E2E 38035
 video-aoode split 3139 extract 2992 shuffle 2002 classify 27839 E2E 36074
 video-kmecl split 3066 extract 914106 shuffle 10 classify 129 E2E 917419
+video-vksmk split 3103 extract 2912 shuffle 2149 classify 28925 E2E 37190
+video-zvsfw split 3125 extract 2966 shuffle 2144 classify 30012 E2E 38356
+video-eytdi split 3155 extract 2896 shuffle 2075 classify 24676 E2E 32910
+video-ljxvy split 3085 extract 2967 shuffle 1957 classify 29513 E2E 37628
+video-wpqth split 3209 extract 3102 shuffle 2061 classify 30495 E2E 38969
+video-usmms split 3172 extract 3021 shuffle 2004 classify 27819 E2E 36147
+video-lfzkg split 3094 extract 3076 shuffle 2004 classify 27987 E2E 36271
+video-xyvga split 3123 extract 2999 shuffle 1982 classify 28200 E2E 36413
+video-svcce split 3121 extract 2965 shuffle 2109 classify 32640 E2E 40948
+video-xrwok split 3344 extract 2922 shuffle 2003 classify 33160 E2E 41533

@@ -1,0 +1,6 @@
+video-msatf split 3196 extract 2866 shuffle 2041 classify 26219 E2E 34405
+video-nowfn split 3125 extract 2892 shuffle 2046 classify 25409 E2E 33559
+video-hrlok split 3227 extract 2882 shuffle 1935 classify 26287 E2E 34412
+video-iblgz split 3122 extract 2856 shuffle 1962 classify 28495 E2E 36521
+video-ucuzg split 3132 extract 2880 shuffle 2002 classify 25622 E2E 33726
+video-amgcw split 3122 extract 2911 shuffle 2014 classify 27055 E2E 35207

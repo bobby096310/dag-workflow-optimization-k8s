@@ -6,6 +6,9 @@ video-yzwef split 3108 extract 2877 shuffle 2014 classify 26286 E2E 34378
 video-mijyc split 3200 extract 3009 shuffle 2109 classify 25675 E2E 34107
 video-jfkok split 3319 extract 2986 shuffle 2128 classify 27003 E2E 35522
 video-gsbii split 3230 extract 2918 shuffle 2014 classify 26419 E2E 34688
+video-vfqkn split 3149 extract 2932 shuffle 2124 classify 26355 E2E 34637
+video-ozkcl split 3164 extract 2912 shuffle 2106 classify 25385 E2E 33650
+video-koeft split 3188 extract 2979 shuffle 2038 classify 27014 E2E 35319
 video-ncsrj split 3008 extract 2834 shuffle 1933 classify 28657 E2E 36533
 video-qtxlu split 3169 extract 2656 shuffle 1885 classify 28046 E2E 35855
 video-vvajx split 3137 extract 2695 shuffle 2055 classify 25385 E2E 33358
@@ -45,6 +48,16 @@ video-fvwfq split 3175 extract 2854 shuffle 2068 classify 27450 E2E 35637
 video-scjmq split 3146 extract 2850 shuffle 2237 classify 28733 E2E 37057
 video-pjbzg split 3129 extract 2846 shuffle 2097 classify 26843 E2E 35006
 video-wegot split 3224 extract 2987 shuffle 2052 classify 29174 E2E 37533
+video-pkipx split 3193 extract 2965 shuffle 2134 classify 30044 E2E 38436
+video-wrrvl split 3096 extract 2988 shuffle 2085 classify 28812 E2E 37061
+video-ijhjd split 3190 extract 2875 shuffle 2038 classify 27184 E2E 35416
+video-ktqbv split 3250 extract 2854 shuffle 1996 classify 27908 E2E 36103
+video-dgfzh split 3312 extract 2871 shuffle 1968 classify 28957 E2E 37200
+video-tmfhr split 4709 extract 2840 shuffle 2383 classify 29409 E2E 39446
+video-kapdu split 3258 extract 2903 shuffle 2004 classify 27386 E2E 35651
+video-sknap split 3238 extract 2935 shuffle 2046 classify 26351 E2E 34715
+video-rvtwc split 3181 extract 2903 shuffle 2077 classify 32981 E2E 41234
+video-wammb split 3158 extract 2818 shuffle 2087 classify 40303 E2E 48447
 video-aotuy split 3147 extract 2738 shuffle 1924 classify 28079 E2E 35971
 video-wrian split 3154 extract 2813 shuffle 1942 classify 26846 E2E 34847
 video-obkei split 3086 extract 2953 shuffle 1975 classify 26123 E2E 34214
