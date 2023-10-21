@@ -1,0 +1,10 @@
+video-myegr split 3204 extract 2951 shuffle 12 classify 38548 E2E 44846
+video-fmbvz split 3063 extract 2799 shuffle 1958 classify 35817 E2E 43759
+video-ifhbb split 3128 extract 2851 shuffle 1948 classify 27369 E2E 35418
+video-boyox split 3199 extract 2971 shuffle 1954 classify 28266 E2E 36509
+video-riycs split 3209 extract 2916 shuffle 2047 classify 25640 E2E 33909
+video-cjuwp split 3167 extract 2931 shuffle 1961 classify 26908 E2E 35102
+video-wzfej split 3186 extract 2955 shuffle 2005 classify 26675 E2E 34943
+video-zfugn split 3131 extract 3042 shuffle 2020 classify 29129 E2E 37455
+video-ukwyt split 3071 extract 3142 shuffle 2070 classify 28549 E2E 36978
+video-xkkcs split 3087 extract 2970 shuffle 1971 classify 28969 E2E 37126

@@ -1,0 +1,10 @@
+video-erdox split 3251 extract 2871 shuffle 2083 classify 27660 E2E 35962
+video-voedm split 3202 extract 2839 shuffle 2138 classify 26463 E2E 34735
+video-wqwdf split 3259 extract 2861 shuffle 2086 classify 26053 E2E 34349
+video-envog split 3288 extract 3073 shuffle 2066 classify 27491 E2E 36005
+video-dygfb split 3198 extract 2850 shuffle 2099 classify 27530 E2E 35762
+video-pdgkg split 3226 extract 3000 shuffle 2103 classify 26154 E2E 34569
+video-xxxdj split 3160 extract 2903 shuffle 2108 classify 26283 E2E 34548
+video-hpiem split 3112 extract 2882 shuffle 2056 classify 25190 E2E 33324
+video-sdltv split 3165 extract 2899 shuffle 2177 classify 26466 E2E 34796
+video-dlavt split 3193 extract 2895 shuffle 1987 classify 36061 E2E 44219

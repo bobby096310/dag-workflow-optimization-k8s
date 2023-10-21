@@ -1,0 +1,8 @@
+video-odupq split 3225 extract 2791 shuffle 2016 classify 24946 E2E 33374
+video-fjihg split 3144 extract 2763 shuffle 2026 classify 30173 E2E 38471
+video-gfgqp split 3315 extract 2621 shuffle 2014 classify 37488 E2E 45886
+video-saqgz split 3236 extract 2730 shuffle 2027 classify 29926 E2E 38457
+video-cadva split 3227 extract 2728 shuffle 2048 classify 28736 E2E 37276
+video-ieera split 3099 extract 2881 shuffle 1976 classify 30312 E2E 38644
+video-lkwor split 3124 extract 2624 shuffle 1996 classify 34976 E2E 43215
+video-qgroh split 3171 extract 2771 shuffle 1968 classify 35150 E2E 43474

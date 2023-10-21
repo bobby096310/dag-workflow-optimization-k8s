@@ -1,0 +1,10 @@
+video-lgrhg split 4072 extract 2706 shuffle 2006 classify 25294 E2E 34377
+video-fboer split 3210 extract 2911 shuffle 2068 classify 37460 E2E 46059
+video-jdkah split 3137 extract 3187 shuffle 2026 classify 25970 E2E 34799
+video-bdmto split 3147 extract 2891 shuffle 2095 classify 26825 E2E 35311
+video-wqgod split 3281 extract 2713 shuffle 2108 classify 28692 E2E 37096
+video-mvino split 3166 extract 2798 shuffle 2052 classify 26569 E2E 35002
+video-uqhdz split 3335 extract 2818 shuffle 2152 classify 24365 E2E 33099
+video-nfbsq split 3141 extract 2846 shuffle 2082 classify 25028 E2E 33287
+video-xaoxk split 3254 extract 2931 shuffle 2164 classify 31924 E2E 40563
+video-iirix split 3180 extract 2639 shuffle 2066 classify 28285 E2E 36671

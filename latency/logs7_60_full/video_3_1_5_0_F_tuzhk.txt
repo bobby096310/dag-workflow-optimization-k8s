@@ -1,0 +1,10 @@
+video-nvmfr split 3120 extract 2683 shuffle 2024 classify 31687 E2E 39964
+video-euevg split 3143 extract 2643 shuffle 1974 classify 30407 E2E 38631
+video-jsuth split 3083 extract 2658 shuffle 2012 classify 41326 E2E 49462
+video-xlsgy split 3160 extract 2791 shuffle 1960 classify 27875 E2E 36243
+video-pbuog split 3138 extract 2732 shuffle 1965 classify 44987 E2E 53172
+video-unwle split 3164 extract 2673 shuffle 2019 classify 29873 E2E 38236
+video-fitjp split 3205 extract 2772 shuffle 2011 classify 37649 E2E 46041
+video-gsitt split 3124 extract 2889 shuffle 2025 classify 32180 E2E 40604
+video-fneqo split 3116 extract 2864 shuffle 2022 classify 34808 E2E 43073
+video-rgwfs split 3147 extract 2672 shuffle 2010 classify 39387 E2E 47660

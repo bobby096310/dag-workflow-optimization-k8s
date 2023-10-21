@@ -1,0 +1,9 @@
+video-awcwv split 3157 extract 2819 shuffle 2004 classify 35407 E2E 43622
+video-fmccj split 3598 extract 2878 shuffle 2013 classify 28437 E2E 37436
+video-bmbli split 3183 extract 2767 shuffle 2115 classify 25258 E2E 33781
+video-aqqhu split 3352 extract 2826 shuffle 2028 classify 28482 E2E 37021
+video-yeqqn split 3253 extract 2817 shuffle 2066 classify 25579 E2E 34183
+video-stlso split 3207 extract 2689 shuffle 1988 classify 33134 E2E 41459
+video-lajyp split 3203 extract 2649 shuffle 2007 classify 31541 E2E 39825
+video-nxslf split 3320 extract 2912 shuffle 2049 classify 26287 E2E 34831
+video-urcod split 3149 extract 2750 shuffle 2039 classify 29161 E2E 37516

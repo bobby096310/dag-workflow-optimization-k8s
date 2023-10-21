@@ -1,0 +1,10 @@
+video-wkefs split 3254 extract 2871 shuffle 1997 classify 28129 E2E 36350
+video-nndoy split 3100 extract 2781 shuffle 2008 classify 26369 E2E 34372
+video-wkeqn split 3117 extract 2835 shuffle 1942 classify 28678 E2E 36675
+video-uscqe split 3073 extract 2936 shuffle 2002 classify 28972 E2E 37096
+video-rzpyr split 3076 extract 2776 shuffle 2020 classify 26220 E2E 34191
+video-nvrtf split 3109 extract 2837 shuffle 2050 classify 37668 E2E 45781
+video-peuku split 3112 extract 2854 shuffle 2025 classify 24494 E2E 32575
+video-hipir split 3194 extract 2975 shuffle 1966 classify 29910 E2E 38129
+video-vssjo split 3108 extract 2896 shuffle 2024 classify 24758 E2E 32909
+video-yozbw split 3080 extract 2835 shuffle 2015 classify 28386 E2E 36399

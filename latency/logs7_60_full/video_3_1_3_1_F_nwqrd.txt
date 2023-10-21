@@ -1,0 +1,4 @@
+video-qgwnj split 3364 extract 2626 shuffle 1972 classify 26609 E2E 34883
+video-giwjd split 3150 extract 2731 shuffle 1981 classify 26035 E2E 34048
+video-loqdh split 3223 extract 2842 shuffle 2005 classify 29307 E2E 37591
+video-ftmrz split 3287 extract 2809 shuffle 2148 classify 26987 E2E 35563

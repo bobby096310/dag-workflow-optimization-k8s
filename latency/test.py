@@ -127,7 +127,7 @@ def run_all(workflow_name, func_index):
     init(workflow_name, func_index, conc, cpu, bundle[workflow_name])
     batch = get_P50()
     level = 1
-    while level < 10:
+    while level < 11:
         print("level: ", level)
         run_level(batch, level * 10)
         level += 1

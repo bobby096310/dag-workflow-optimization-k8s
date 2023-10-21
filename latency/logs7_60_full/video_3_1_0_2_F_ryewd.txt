@@ -1,0 +1,10 @@
+video-olicc split 3356 extract 3058 shuffle 2046 classify 28178 E2E 36767
+video-rykua split 3172 extract 2831 shuffle 2013 classify 23690 E2E 31847
+video-xlzba split 3255 extract 3060 shuffle 2016 classify 28558 E2E 37029
+video-iehem split 3095 extract 2894 shuffle 1987 classify 25925 E2E 34013
+video-xtawk split 3178 extract 2922 shuffle 2001 classify 28054 E2E 36281
+video-yglmn split 3195 extract 2855 shuffle 2124 classify 26287 E2E 34626
+video-zrlpz split 3136 extract 2876 shuffle 1923 classify 29656 E2E 37724
+video-ipkob split 3164 extract 2880 shuffle 1993 classify 28611 E2E 36777
+video-pjuxp split 3227 extract 2848 shuffle 1991 classify 29307 E2E 37508
+video-ewycq split 3117 extract 2848 shuffle 2048 classify 29618 E2E 37778

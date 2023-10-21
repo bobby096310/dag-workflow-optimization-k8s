@@ -1,0 +1,10 @@
+video-gayim split 846 extract 475 shuffle 363 classify 55449 E2E 57773
+video-oabaz split 3697 extract 3122 shuffle 2003 classify 34049 E2E 43271
+video-krbmi split 3123 extract 2664 shuffle 2029 classify 38131 E2E 46400
+video-wtdfm split 3101 extract 2667 shuffle 2039 classify 47413 E2E 55652
+video-xflxh split 3136 extract 2636 shuffle 2095 classify 26095 E2E 34462
+video-ofaoz split 3114 extract 2778 shuffle 1996 classify 35904 E2E 44089
+video-kmmwr split 3107 extract 2765 shuffle 1997 classify 37694 E2E 45885
+video-jjhla split 3040 extract 2686 shuffle 2009 classify 36494 E2E 44653
+video-qrgtd split 3136 extract 2761 shuffle 2089 classify 36872 E2E 45119
+video-ejidb split 3201 extract 2648 shuffle 2040 classify 46328 E2E 54678

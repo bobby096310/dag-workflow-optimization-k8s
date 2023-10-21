@@ -1,0 +1,10 @@
+video-sspdr split 3298 extract 2962 shuffle 2185 classify 27989 E2E 36537
+video-bhuom split 3174 extract 2880 shuffle 2064 classify 27984 E2E 36204
+video-jlncc split 3181 extract 2901 shuffle 2062 classify 30168 E2E 38422
+video-bhshm split 3213 extract 2819 shuffle 2029 classify 26019 E2E 34206
+video-hoxim split 3116 extract 2898 shuffle 2064 classify 27527 E2E 35700
+video-ugguf split 3158 extract 2913 shuffle 2012 classify 24791 E2E 32985
+video-oghkw split 3168 extract 2941 shuffle 1996 classify 23395 E2E 31611
+video-jngie split 3167 extract 2910 shuffle 2062 classify 28246 E2E 36487
+video-pgjvo split 3317 extract 2889 shuffle 2224 classify 38499 E2E 47046
+video-ewlap split 3168 extract 2925 shuffle 2023 classify 27654 E2E 35873

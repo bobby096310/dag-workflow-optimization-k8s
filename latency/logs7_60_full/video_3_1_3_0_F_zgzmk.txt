@@ -1,0 +1,6 @@
+video-gvhyr split 3105 extract 2593 shuffle 2105 classify 33188 E2E 41466
+video-skjqe split 3220 extract 2791 shuffle 2041 classify 26528 E2E 35072
+video-xkhiv split 3191 extract 2722 shuffle 2154 classify 24789 E2E 33394
+video-izxmc split 3204 extract 2700 shuffle 2111 classify 25030 E2E 33578
+video-mtqhu split 3216 extract 2774 shuffle 2095 classify 29965 E2E 38451
+video-bxlue split 875 extract 426 shuffle 11 classify 29880 E2E 31653

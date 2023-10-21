@@ -1,0 +1,6 @@
+video-ztmjd split 12639 extract 2571 shuffle 1914 classify 27673 E2E 45032
+video-dgmnk split 888 extract 2670 shuffle 2030 classify 31303 E2E 37147
+video-rxdue split 3053 extract 2624 shuffle 1965 classify 31334 E2E 39251
+video-szyqp split 3058 extract 2729 shuffle 1944 classify 32401 E2E 40369
+video-rsznd split 5680 extract 2682 shuffle 8717 classify 29153 E2E 46448
+video-iufms split 3052 extract 2875 shuffle 1978 classify 32873 E2E 41015

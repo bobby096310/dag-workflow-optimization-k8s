@@ -1,0 +1,5 @@
+video-nuapr split 896 extract 459 shuffle 10 classify 21731 E2E 23415
+video-jbrug split 851 extract 439 shuffle 10 classify 22845 E2E 24499
+video-viltp split 837 extract 428 shuffle 2041 classify 28599 E2E 32443
+video-jfqqp split 3221 extract 2787 shuffle 2290 classify 24539 E2E 33258
+video-oqogx split 3058 extract 2841 shuffle 2106 classify 30012 E2E 38590

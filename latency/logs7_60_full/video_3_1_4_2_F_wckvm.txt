@@ -1,0 +1,10 @@
+video-wydlb split 3103 extract 2910 shuffle 2045 classify 26808 E2E 34976
+video-ryvkk split 3116 extract 2889 shuffle 2019 classify 30394 E2E 38521
+video-sbtoi split 3196 extract 2913 shuffle 2161 classify 30909 E2E 39296
+video-pdyon split 3303 extract 3002 shuffle 2005 classify 24891 E2E 33302
+video-qlmgg split 3215 extract 2875 shuffle 1984 classify 28655 E2E 36807
+video-ukarv split 3071 extract 3060 shuffle 2008 classify 30935 E2E 39175
+video-qcoea split 3121 extract 2923 shuffle 1984 classify 28264 E2E 36394
+video-rmrbi split 3267 extract 2879 shuffle 2050 classify 38067 E2E 46394
+video-gonak split 3207 extract 2819 shuffle 1996 classify 26229 E2E 34367
+video-eqawd split 3335 extract 2919 shuffle 1978 classify 24089 E2E 32426

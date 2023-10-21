@@ -1,0 +1,3 @@
+video-dptry split 242261 extract 692 shuffle 10 classify 29041 E2E 272261
+video-agcli split 955 extract 488 shuffle 10 classify 39449 E2E 41244
+video-htpji split 846 extract 456 shuffle 12 classify 43954 E2E 45755

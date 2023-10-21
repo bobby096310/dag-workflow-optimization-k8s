@@ -1,0 +1,7 @@
+video-zdbnn split 3125 extract 2650 shuffle 2038 classify 40765 E2E 49063
+video-mvfgk split 3121 extract 2721 shuffle 2007 classify 28964 E2E 37278
+video-hyfwq split 47799 extract 3498 shuffle 1985 classify 26319 E2E 80090
+video-bpqvt split 3140 extract 2694 shuffle 2004 classify 47344 E2E 55616
+video-kduxv split 3188 extract 2665 shuffle 2004 classify 31007 E2E 39300
+video-uzabi split 5981 extract 9746 shuffle 4813 classify 31070 E2E 52026
+video-widoe split 3302 extract 2826 shuffle 1976 classify 27034 E2E 35568

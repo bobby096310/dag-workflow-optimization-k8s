@@ -1,0 +1,5 @@
+video-grdab split 3061 extract 2622 shuffle 2023 classify 25138 E2E 33171
+video-mnnuk split 3152 extract 2673 shuffle 1954 classify 30635 E2E 38702
+video-ukjbl split 3105 extract 2682 shuffle 2024 classify 25690 E2E 33753
+video-dscus split 3126 extract 2739 shuffle 1981 classify 26567 E2E 34689
+video-alutq split 3237 extract 2734 shuffle 2104 classify 25741 E2E 34068

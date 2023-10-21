@@ -1,0 +1,5 @@
+video-uclyk split 3187 extract 3024 shuffle 2026 classify 31374 E2E 39819
+video-nnxfd split 3165 extract 2681 shuffle 2047 classify 26710 E2E 34910
+video-lnviu split 3126 extract 2724 shuffle 2084 classify 27517 E2E 35676
+video-wtpcj split 3106 extract 2711 shuffle 2061 classify 26783 E2E 34903
+video-oeaap split 3084 extract 2708 shuffle 2086 classify 23597 E2E 31711

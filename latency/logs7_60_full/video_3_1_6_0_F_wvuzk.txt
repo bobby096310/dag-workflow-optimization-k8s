@@ -1,0 +1,10 @@
+video-lbith split 3184 extract 2727 shuffle 2040 classify 31877 E2E 40261
+video-avtec split 3144 extract 2789 shuffle 2020 classify 32737 E2E 41132
+video-fkvrx split 3192 extract 2637 shuffle 2039 classify 43922 E2E 52410
+video-ncmer split 3193 extract 2762 shuffle 2047 classify 38129 E2E 46580
+video-wxyst split 3161 extract 2811 shuffle 2022 classify 38737 E2E 47221
+video-bjmde split 3129 extract 2703 shuffle 2007 classify 42546 E2E 50814
+video-hoikm split 3147 extract 2639 shuffle 1985 classify 34654 E2E 42934
+video-xelnz split 3160 extract 2737 shuffle 2146 classify 39120 E2E 47607
+video-lcwlh split 5943 extract 5463 shuffle 2068 classify 35272 E2E 49267
+video-mdnsa split 3136 extract 2668 shuffle 1999 classify 37778 E2E 46096
