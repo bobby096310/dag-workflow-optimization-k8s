@@ -1,0 +1,9 @@
+video-ntbna split 3211 extract 2742 shuffle 1992 classify 26707 E2E 35147
+video-qqcfn split 3121 extract 2694 shuffle 2000 classify 31891 E2E 40205
+video-alzts split 3119 extract 3062 shuffle 1996 classify 24873 E2E 33499
+video-iupjq split 4071 extract 2601 shuffle 1989 classify 25911 E2E 35102
+video-aymyo split 3218 extract 2688 shuffle 1998 classify 32490 E2E 40927
+video-hblgf split 3302 extract 2967 shuffle 2003 classify 25009 E2E 33883
+video-yqynb split 3156 extract 2898 shuffle 1951 classify 28612 E2E 37123
+video-xfquq split 3083 extract 2770 shuffle 1985 classify 28755 E2E 37094
+video-qwbjq split 3271 extract 2703 shuffle 2056 classify 24632 E2E 33051

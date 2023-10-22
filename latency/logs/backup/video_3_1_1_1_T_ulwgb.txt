@@ -1,0 +1,8 @@
+video-ulhio split 3322 extract 2752 shuffle 2106 classify 29263 E2E 37930
+video-wpcwj split 16036 extract 2671 shuffle 1945 classify 29039 E2E 50296
+video-oesob split 3197 extract 2706 shuffle 9223 classify 27910 E2E 43523
+video-xkxrx split 3121 extract 2646 shuffle 2059 classify 24548 E2E 32877
+video-xtdwj split 3111 extract 2762 shuffle 2034 classify 26425 E2E 34763
+video-tbiyh split 3108 extract 2669 shuffle 1963 classify 22375 E2E 30511
+video-oonuk split 3116 extract 10609 shuffle 2082 classify 24771 E2E 41062
+video-hhuyz split 3631 extract 2830 shuffle 2071 classify 25368 E2E 34398

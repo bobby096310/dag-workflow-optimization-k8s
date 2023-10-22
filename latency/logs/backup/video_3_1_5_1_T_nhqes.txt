@@ -1,0 +1,9 @@
+video-bgcha split 3239 extract 2887 shuffle 2144 classify 28209 E2E 36983
+video-ntsfh split 3193 extract 2898 shuffle 2031 classify 24807 E2E 33433
+video-sgxfe split 3249 extract 2913 shuffle 2308 classify 36912 E2E 45819
+video-pwksf split 3092 extract 2640 shuffle 2021 classify 22932 E2E 31124
+video-dclsx split 3120 extract 2611 shuffle 2019 classify 34151 E2E 42402
+video-aztuw split 3070 extract 2755 shuffle 2007 classify 27358 E2E 35692
+video-hcgnc split 3161 extract 2758 shuffle 2248 classify 29759 E2E 38301
+video-qcenb split 3067 extract 2843 shuffle 2071 classify 23477 E2E 31852
+video-mdtrg split 3078 extract 2644 shuffle 2055 classify 32382 E2E 40640

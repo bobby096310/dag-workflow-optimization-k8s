@@ -1,0 +1,8 @@
+video-sigvr split 3514 extract 2610 shuffle 2283 classify 28962 E2E 37854
+video-bbfwi split 3388 extract 2734 shuffle 1961 classify 25209 E2E 33814
+video-ymwxa split 3096 extract 2843 shuffle 1996 classify 23523 E2E 31969
+video-jtcji split 3298 extract 2817 shuffle 2021 classify 36769 E2E 45333
+video-xiozz split 3079 extract 2972 shuffle 2029 classify 25050 E2E 33553
+video-qngps split 3254 extract 2727 shuffle 2017 classify 24913 E2E 33316
+video-veyod split 3195 extract 2558 shuffle 2032 classify 25938 E2E 34264
+video-tqzpa split 3329 extract 2667 shuffle 2208 classify 26476 E2E 35069

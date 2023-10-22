@@ -1,0 +1,9 @@
+video-rayep split 3324 extract 2794 shuffle 2077 classify 27047 E2E 35702
+video-iwiwl split 3149 extract 2870 shuffle 2016 classify 25899 E2E 34436
+video-frcdt split 10378 extract 2751 shuffle 2052 classify 27965 E2E 43626
+video-jywed split 3065 extract 2668 shuffle 2133 classify 32144 E2E 40470
+video-xlwsn split 3202 extract 2796 shuffle 2020 classify 27824 E2E 36355
+video-rnnac split 3081 extract 2664 shuffle 1957 classify 31514 E2E 39704
+video-prgfe split 3331 extract 2716 shuffle 1980 classify 24547 E2E 33065
+video-lhngh split 3076 extract 2750 shuffle 1974 classify 26880 E2E 35163
+video-kuxxy split 3270 extract 2659 shuffle 1959 classify 31094 E2E 39426

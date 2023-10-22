@@ -1,0 +1,9 @@
+video-wpwgc split 3095 extract 2905 shuffle 2062 classify 33211 E2E 41459
+video-gzggx split 3272 extract 2800 shuffle 2002 classify 38281 E2E 46581
+video-hskuz split 3086 extract 2832 shuffle 1972 classify 40307 E2E 48388
+video-vkenu split 3255 extract 2951 shuffle 2063 classify 27613 E2E 36085
+video-kskdc split 3299 extract 2845 shuffle 2022 classify 27038 E2E 35419
+video-lvfqd split 3104 extract 2769 shuffle 2089 classify 28889 E2E 37094
+video-oemcw split 3216 extract 2774 shuffle 2068 classify 44612 E2E 52863
+video-igrcr split 3111 extract 2972 shuffle 4353 classify 39989 E2E 50624
+video-lyuaq split 3827 extract 2925 shuffle 2049 classify 42628 E2E 51611
