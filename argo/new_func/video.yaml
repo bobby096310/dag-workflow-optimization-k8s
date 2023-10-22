@@ -23,6 +23,9 @@ spec:
           command: [ python3 ]
           args: ["func.py", "{{inputs.parameters.data}}",
           "{{inputs.parameters.minio_url}}", "{{inputs.parameters.minio_user}}", "{{inputs.parameters.minio_pass}}"]
+          resources:
+                requests:
+                        cpu: "1"
       activeDeadlineSeconds: "90"
       retryStrategy:
           limit: "5"
@@ -46,7 +49,7 @@ spec:
                     {name: minio_pass, value: "{{inputs.parameters.minio_pass}}" },
                     {name: data, value: '{"src_name": "0", "DOP": "30", "detect_prob": 2}' }
                 ]
-                    
+
           - name: extract
             dependencies: [split]
             template: python-script

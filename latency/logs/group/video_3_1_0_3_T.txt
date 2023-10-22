@@ -8,3 +8,13 @@ video-fvwms split 3237 extract 2912 shuffle 1934 classify 27322 E2E 35593
 video-fxrxk split 3151 extract 2847 shuffle 2269 classify 25140 E2E 33603
 video-vdinx split 3148 extract 2828 shuffle 2068 classify 53576 E2E 61806
 video-xemyq split 3061 extract 2799 shuffle 1994 classify 27093 E2E 35120
+video-aqjzq split 3591 extract 3353 shuffle 2215 classify 27361 E2E 36709
+video-lamzw split 3040 extract 3105 shuffle 1975 classify 39939 E2E 48260
+video-nrfkm split 3221 extract 2895 shuffle 2122 classify 34351 E2E 42798
+video-jfnzm split 3203 extract 2792 shuffle 2001 classify 28203 E2E 36413
+video-ejkni split 3340 extract 2814 shuffle 2044 classify 27119 E2E 35514
+video-ndtfe split 3304 extract 2832 shuffle 2024 classify 27767 E2E 36133
+video-fvmco split 3149 extract 2763 shuffle 2154 classify 28687 E2E 36940
+video-dhuuy split 3144 extract 2741 shuffle 1984 classify 26785 E2E 34848
+video-odshc split 3246 extract 2811 shuffle 1961 classify 26460 E2E 34685
+video-jsncz split 3147 extract 2992 shuffle 1979 classify 40245 E2E 48574

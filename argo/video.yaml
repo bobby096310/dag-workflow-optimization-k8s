@@ -41,7 +41,7 @@ spec:
                         {name: func, value: vi-split},
                         {name: data, value: '{"src_name": "0", "DOP": "30", "detect_prob": 2}'}
                     ]
-                    
+                               
           - name: extract
             dependencies: [split]
             template: curl

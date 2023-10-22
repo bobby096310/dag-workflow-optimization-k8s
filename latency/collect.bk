@@ -6,12 +6,10 @@ root_dir = "logs/"
 group_dir = root_dir + "group/"
 data_index = 8
 
-def transferlog(filename, limit):
+def transferlog(filename):
     with open(filename, 'r') as file:
         #lines = file.readlines()
         lines = [line for line in file]
-        if limit > 0 and limit < len(lines):
-            lines = lines[:limit]
         return analyze_result(lines, data_index) #2 for E2E
 
 def copyandpaste(groupname):
@@ -33,13 +31,13 @@ def fetch_groups():
             groupnames.append(filename[:-10])
     return groupnames
 
-def get_agg_list(groupnames, limit=0):
+def get_agg_list(groupnames):
     agg_list = []
     with open(os.path.join(group_dir, "group_logs.txt"), 'w') as groupfile:
         pass
     for groupname in groupnames:
         copyandpaste(groupname)
-        agg = groupname + " " + transferlog(os.path.join(group_dir, groupname + ".txt"), limit)
+        agg = groupname + " " + transferlog(os.path.join(group_dir, groupname + ".txt"))
         agg_list.append(agg)
     return agg_list
 
@@ -65,7 +63,19 @@ def sort_by_p95(agg_list):
         dic[agg] = n
     return list(dict(sorted(dic.items(), key=lambda x:x[1])).keys())
 
-def store_statistics(agg_list):
+
+def main():
+    args = sys.argv[1:]
+    if len(args) > 0:
+        global root_dir
+        root_dir = args[0]
+        global group_dir
+        group_dir = root_dir + "group/"
+    if len(args) > 1:
+        global data_index
+        data_index = int(args[1])
+    groupnames = fetch_groups()
+    agg_list = get_agg_list(groupnames)
     agg_mean = sort_by_mean(agg_list)
     agg_p50 = sort_by_p50(agg_list)
     agg_p95 = sort_by_p95(agg_list)
@@ -85,32 +95,6 @@ def store_statistics(agg_list):
         for line in agg_p95:
             print(line)
             groupfile.writelines(line + "\n")
-
-def get_results(groupnames):
-    agg_list = get_agg_list(groupnames)
-    store_statistics(agg_list)
-            
-def get_results_with_limit(groupnames, limit):
-    agg_list = get_agg_list(groupnames, limit)
-    store_statistics(agg_list)
-    
-
-def main():
-    args = sys.argv[1:]
-    if len(args) > 0:
-        global root_dir
-        root_dir = args[0]
-        global group_dir
-        group_dir = root_dir + "group/"
-    if len(args) > 1:
-        global data_index
-        data_index = int(args[1])
-    groupnames = fetch_groups()
-    if len(args) > 2:
-        get_results_with_limit(groupnames, int(args[2]))
-    else:
-        get_results(groupnames)
-    
 
 if __name__ == "__main__":
     main()
