@@ -69,4 +69,5 @@ video-wctkj split 3183 extract 2705 shuffle 2063 classify 27369 E2E 35579
 video-rmkzy split 3181 extract 2764 shuffle 2007 classify 27187 E2E 35443
 video-janfo split 3144 extract 2789 shuffle 2025 classify 25320 E2E 33472
 video-dyvme split 3101 extract 2793 shuffle 2028 classify 24767 E2E 32959
+video-ogikg split 3133 extract 2696 shuffle 1962 classify 26595 E2E 34594
 video-ynshd split 3125 extract 2888 shuffle 2026 classify 24588 E2E 32751

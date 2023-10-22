@@ -69,6 +69,8 @@ def main():
     if len(args) > 0:
         global root_dir
         root_dir = args[0]
+        global group_dir
+        group_dir = root_dir + "group/"
     if len(args) > 1:
         global data_index
         data_index = int(args[1])
