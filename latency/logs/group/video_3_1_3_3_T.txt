@@ -17,3 +17,4 @@ video-eiujs split 3148 extract 3003 shuffle 1967 classify 26909 E2E 35229
 video-cgewc split 3286 extract 3010 shuffle 2015 classify 28409 E2E 36931
 video-qfmwf split 3274 extract 2854 shuffle 1914 classify 42722 E2E 50966
 video-cbrry split 3060 extract 2925 shuffle 2037 classify 28885 E2E 37083
+video-cjbqd split 3154 extract 2883 shuffle 1959 classify 29996 E2E 38173

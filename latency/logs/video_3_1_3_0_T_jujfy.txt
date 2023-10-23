@@ -8,13 +8,3 @@ video-kbofy split 2962 extract 2517 shuffle 1928 classify 37971 E2E 45934
 video-rvsqk split 2978 extract 2608 shuffle 1980 classify 55888 E2E 63972
 video-zenvq split 3108 extract 2629 shuffle 1946 classify 30933 E2E 39195
 video-thvrp split 3034 extract 2588 shuffle 1964 classify 40444 E2E 48536
-video-kopkg split 3363 extract 3033 shuffle 1966 classify 27865 E2E 36971
-video-wddrd split 3061 extract 2817 shuffle 1978 classify 29640 E2E 38363
-video-vxcoz split 3282 extract 2827 shuffle 2021 classify 41149 E2E 50022
-video-uwdpr split 3224 extract 2728 shuffle 2091 classify 35955 E2E 44789
-video-wwftf split 3158 extract 2794 shuffle 2056 classify 43648 E2E 52464
-video-egrwr split 3185 extract 2788 shuffle 2070 classify 41885 E2E 50804
-video-xskro split 3193 extract 2879 shuffle 2042 classify 37244 E2E 46130
-video-xumuo split 3282 extract 2910 shuffle 2033 classify 43397 E2E 52293
-video-tesvh split 3278 extract 2892 shuffle 2094 classify 36445 E2E 45489
-video-kuzlg split 3194 extract 2739 shuffle 1997 classify 49439 E2E 58226

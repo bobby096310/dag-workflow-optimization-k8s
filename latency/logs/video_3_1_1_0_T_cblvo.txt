@@ -1,0 +1,9 @@
+video-cnvub split 15289 extract 9794 shuffle 4968 classify 108689 E2E 139267
+video-nvqwn split 41771 extract 9641 shuffle 4172 classify 61658 E2E 117748
+video-siiua split 3806 extract 3147 shuffle 9239 classify 24425 E2E 41163
+video-frprl split 3110 extract 2732 shuffle 2004 classify 28204 E2E 36569
+video-xsljs split 3158 extract 2695 shuffle 9186 classify 28285 E2E 43846
+video-wacys split 10485 extract 2625 shuffle 1914 classify 25649 E2E 41166
+video-npwdb split 9793 extract 10301 shuffle 2051 classify 29611 E2E 52184
+video-hauyf split 3057 extract 2766 shuffle 2221 classify 27553 E2E 36168
+video-dcjty split 3612 extract 8559 shuffle 2009 classify 26219 E2E 40872
