@@ -1,0 +1,6 @@
+video-qpocv split 2601 extract 2364 shuffle 2047 classify 18302 E2E 25404
+video-ttyvr split 2672 extract 2334 shuffle 1942 classify 28829 E2E 35858
+video-mjhmj split 2723 extract 2405 shuffle 2035 classify 22190 E2E 29433
+video-ojscb split 2587 extract 2492 shuffle 1983 classify 19005 E2E 26147
+video-hslaz split 3162 extract 2453 shuffle 2052 classify 21587 E2E 29379
+video-xlxjx split 2385 extract 2461 shuffle 1988 classify 16860 E2E 23782

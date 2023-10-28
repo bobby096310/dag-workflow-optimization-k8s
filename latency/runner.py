@@ -4,7 +4,7 @@ import requests
 import time
 from multiprocessing import Process, Manager
 
-url = "http://10.101.174.44"
+url = "http://10.106.133.219"#"http://10.101.174.44"
 
 def execute(func, data):
     headers = {"Content-Type": "application/json; charset=utf-8", "Host": func + ".default.svc.cluster.local"}

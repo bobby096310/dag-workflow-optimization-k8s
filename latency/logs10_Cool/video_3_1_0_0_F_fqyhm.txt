@@ -1,0 +1,7 @@
+video-ispao split 2978 extract 2974 shuffle 2849 classify 26720 E2E 35895
+video-jlrpi split 2808 extract 2914 shuffle 2443 classify 20967 E2E 29507
+video-eogfo split 3484 extract 3030 shuffle 2402 classify 22961 E2E 32213
+video-panqw split 3346 extract 2844 shuffle 2542 classify 22801 E2E 31870
+video-ypnxe split 3436 extract 2989 shuffle 2485 classify 22470 E2E 31795
+video-wzsgv split 3207 extract 3115 shuffle 2438 classify 24407 E2E 33522
+video-megqc split 2778 extract 3247 shuffle 2478 classify 21506 E2E 30423

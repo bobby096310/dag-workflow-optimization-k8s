@@ -1,0 +1,9 @@
+video-gsbad split 2884 extract 2351 shuffle 1964 classify 16319 E2E 23762
+video-ztjiu split 2609 extract 2254 shuffle 1960 classify 15137 E2E 22163
+video-lujyy split 2640 extract 2295 shuffle 1954 classify 16345 E2E 23477
+video-ujufb split 2637 extract 2344 shuffle 2029 classify 16101 E2E 23347
+video-tgilo split 2600 extract 2325 shuffle 1986 classify 17126 E2E 24260
+video-ezysa split 2632 extract 2221 shuffle 1991 classify 15349 E2E 22403
+video-tisey split 2646 extract 2329 shuffle 1959 classify 16642 E2E 23783
+video-jjzfj split 2668 extract 2417 shuffle 2004 classify 17176 E2E 24486
+video-caerq split 2653 extract 2356 shuffle 1979 classify 17025 E2E 24250

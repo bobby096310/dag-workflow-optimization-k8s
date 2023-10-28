@@ -1,0 +1,10 @@
+video-ptrbo split 2529 extract 2372 shuffle 1993 classify 19790 E2E 26892
+video-zulbc split 2664 extract 2391 shuffle 2007 classify 22944 E2E 30213
+video-fqnwb split 2837 extract 2460 shuffle 1987 classify 15649 E2E 23136
+video-aoija split 2668 extract 2380 shuffle 2052 classify 16463 E2E 23774
+video-fpcxw split 2602 extract 2365 shuffle 1968 classify 18186 E2E 25327
+video-uktqb split 2610 extract 2358 shuffle 2037 classify 16688 E2E 23893
+video-kuhso split 2694 extract 2398 shuffle 2032 classify 16361 E2E 23687
+video-susvp split 2752 extract 2346 shuffle 2194 classify 17588 E2E 25083
+video-ngkos split 2558 extract 2372 shuffle 2012 classify 16269 E2E 23413
+video-qseyj split 2628 extract 2406 shuffle 2064 classify 17132 E2E 24420

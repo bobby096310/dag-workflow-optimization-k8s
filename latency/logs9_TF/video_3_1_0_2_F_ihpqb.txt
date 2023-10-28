@@ -1,0 +1,9 @@
+video-luixn split 2649 extract 2362 shuffle 1928 classify 15218 E2E 22240
+video-qmoac split 3283 extract 2289 shuffle 2003 classify 15415 E2E 23063
+video-qkcfm split 2578 extract 2318 shuffle 1965 classify 16048 E2E 23005
+video-yjhdt split 2623 extract 2319 shuffle 1986 classify 15088 E2E 22088
+video-jpgnj split 2601 extract 2360 shuffle 1997 classify 14702 E2E 21744
+video-ywnnz split 2594 extract 2365 shuffle 1918 classify 15875 E2E 22841
+video-elzuk split 2561 extract 2350 shuffle 1999 classify 19454 E2E 26451
+video-vudke split 2654 extract 2352 shuffle 1979 classify 15862 E2E 22930
+video-espup split 2594 extract 2450 shuffle 1928 classify 15768 E2E 22823

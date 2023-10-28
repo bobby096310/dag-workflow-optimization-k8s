@@ -1,0 +1,10 @@
+video-nlyfc split 2774 extract 2429 shuffle 1989 classify 18139 E2E 25737
+video-qwkaq split 3287 extract 2335 shuffle 2049 classify 17390 E2E 25414
+video-jaomh split 2657 extract 2401 shuffle 1961 classify 17456 E2E 25023
+video-asxpq split 2628 extract 2328 shuffle 1965 classify 18630 E2E 25940
+video-inowq split 2604 extract 2460 shuffle 2015 classify 16928 E2E 24361
+video-khfur split 2570 extract 2325 shuffle 1969 classify 16659 E2E 23863
+video-omqwq split 2584 extract 2430 shuffle 1989 classify 16897 E2E 24271
+video-gykvq split 4458 extract 2440 shuffle 2056 classify 16305 E2E 25643
+video-jiksr split 2775 extract 2412 shuffle 2018 classify 16256 E2E 23832
+video-ddnwu split 2592 extract 2335 shuffle 1987 classify 16608 E2E 23878

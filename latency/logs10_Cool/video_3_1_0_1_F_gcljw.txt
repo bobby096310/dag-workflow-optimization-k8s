@@ -1,0 +1,5 @@
+video-xdlgd split 2712 extract 2348 shuffle 2063 classify 17600 E2E 24837
+video-zkhfz split 2618 extract 2460 shuffle 1970 classify 16146 E2E 23287
+video-lrxmg split 2625 extract 2443 shuffle 2080 classify 16034 E2E 23295
+video-uaide split 2656 extract 2513 shuffle 1951 classify 16921 E2E 24158
+video-nmfbj split 2690 extract 2512 shuffle 1983 classify 15654 E2E 22959

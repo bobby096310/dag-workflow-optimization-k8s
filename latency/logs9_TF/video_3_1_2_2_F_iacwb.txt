@@ -1,0 +1,9 @@
+video-zyctb split 2716 extract 2372 shuffle 2000 classify 17263 E2E 24431
+video-gjseg split 2574 extract 2471 shuffle 1971 classify 17191 E2E 24277
+video-vsefc split 2551 extract 2357 shuffle 1996 classify 16031 E2E 23022
+video-jwzpk split 2677 extract 2385 shuffle 1945 classify 19484 E2E 26564
+video-wwldy split 2554 extract 2349 shuffle 2011 classify 16023 E2E 23018
+video-zknxb split 2582 extract 2383 shuffle 1910 classify 14655 E2E 21600
+video-mcipo split 2543 extract 2391 shuffle 2016 classify 27568 E2E 34595
+video-ngrvf split 2539 extract 2362 shuffle 1958 classify 14810 E2E 21746
+video-pprud split 2622 extract 2370 shuffle 1956 classify 15513 E2E 22566

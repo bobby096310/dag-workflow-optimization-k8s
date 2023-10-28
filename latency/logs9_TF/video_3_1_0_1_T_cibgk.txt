@@ -1,0 +1,9 @@
+video-ycopq split 2801 extract 2320 shuffle 1941 classify 15165 E2E 22455
+video-kfrnp split 2624 extract 2337 shuffle 1980 classify 17802 E2E 24966
+video-ikael split 2702 extract 2384 shuffle 2049 classify 18147 E2E 25517
+video-uvnyu split 2632 extract 2342 shuffle 1970 classify 16925 E2E 24126
+video-cwjxx split 2770 extract 2386 shuffle 2068 classify 17066 E2E 24526
+video-cutlj split 2629 extract 2309 shuffle 2067 classify 16283 E2E 23535
+video-wnovy split 2669 extract 2400 shuffle 2024 classify 17477 E2E 24780
+video-akuud split 2595 extract 2330 shuffle 2007 classify 15984 E2E 23145
+video-zpfnm split 2613 extract 2254 shuffle 2005 classify 18824 E2E 25939

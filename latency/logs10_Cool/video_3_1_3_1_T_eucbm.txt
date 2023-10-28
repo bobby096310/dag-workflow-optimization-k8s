@@ -1,0 +1,9 @@
+video-pnnfv split 3336 extract 2277 shuffle 2022 classify 15495 E2E 23328
+video-mtreb split 2625 extract 2339 shuffle 1951 classify 18487 E2E 25610
+video-cznzy split 2619 extract 2324 shuffle 1947 classify 15236 E2E 22322
+video-umowp split 2664 extract 2516 shuffle 1929 classify 18676 E2E 25997
+video-vnqmt split 2585 extract 2343 shuffle 2031 classify 16829 E2E 23979
+video-voxoq split 2705 extract 2335 shuffle 1910 classify 19465 E2E 26627
+video-zzkbt split 2597 extract 2342 shuffle 1944 classify 16047 E2E 23105
+video-xwbbt split 2627 extract 2403 shuffle 1930 classify 16797 E2E 23948
+video-iozcm split 2596 extract 2372 shuffle 1958 classify 19188 E2E 26312

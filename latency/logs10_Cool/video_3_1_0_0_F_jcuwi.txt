@@ -1,0 +1,9 @@
+video-aykcl split 4559 extract 2594 shuffle 2095 classify 16682 E2E 26052
+video-qjebr split 2639 extract 2337 shuffle 1964 classify 16605 E2E 23725
+video-brmhq split 2591 extract 2354 shuffle 1924 classify 15943 E2E 23029
+video-vsdgh split 2623 extract 2207 shuffle 1941 classify 15703 E2E 22657
+video-urven split 2609 extract 2296 shuffle 1996 classify 15729 E2E 22813
+video-cevnz split 2650 extract 2223 shuffle 1955 classify 17661 E2E 24699
+video-swhaa split 2612 extract 2383 shuffle 1929 classify 15185 E2E 22279
+video-dowwv split 2700 extract 2275 shuffle 1948 classify 15584 E2E 22675
+video-elhjs split 2593 extract 2295 shuffle 1915 classify 17165 E2E 24126

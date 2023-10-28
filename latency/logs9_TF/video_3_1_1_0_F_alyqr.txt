@@ -1,0 +1,8 @@
+video-wmhwh split 2626 extract 2369 shuffle 1983 classify 17975 E2E 25277
+video-sewsb split 2710 extract 2390 shuffle 1970 classify 17421 E2E 24736
+video-lxvvj split 2690 extract 2361 shuffle 2043 classify 17674 E2E 25043
+video-dlmck split 2634 extract 2356 shuffle 2001 classify 17505 E2E 24683
+video-jutri split 2675 extract 2356 shuffle 2012 classify 16921 E2E 24102
+video-kluus split 2622 extract 2353 shuffle 2013 classify 17793 E2E 24953
+video-scoxa split 2696 extract 2340 shuffle 2063 classify 17835 E2E 25121
+video-vnytv split 2633 extract 2359 shuffle 2019 classify 18039 E2E 25236

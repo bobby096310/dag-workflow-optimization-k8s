@@ -1,0 +1,9 @@
+video-dpgyn split 2419 extract 2384 shuffle 1986 classify 17297 E2E 24272
+video-cuugn split 2409 extract 2182 shuffle 1869 classify 19139 E2E 25744
+video-pzndp split 2388 extract 2237 shuffle 1820 classify 14531 E2E 21113
+video-baygv split 2420 extract 2165 shuffle 1887 classify 14906 E2E 21537
+video-fpmag split 2392 extract 2258 shuffle 1821 classify 14468 E2E 21091
+video-uwgjj split 2376 extract 2297 shuffle 1827 classify 14103 E2E 20747
+video-nlmtq split 2436 extract 2092 shuffle 1845 classify 17375 E2E 23903
+video-vxlnf split 2438 extract 2123 shuffle 1853 classify 14829 E2E 21383
+video-wopqh split 2412 extract 2167 shuffle 1878 classify 14266 E2E 20873

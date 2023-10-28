@@ -1,0 +1,3 @@
+video-pxgju split 4294 extract 3365 shuffle 3377 classify 19763 E2E 30905
+video-tbasq split 2503 extract 2691 shuffle 1795 classify 15688 E2E 22772
+video-ghhcc split 2521 extract 2170 shuffle 2038 classify 16941 E2E 23788

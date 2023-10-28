@@ -1,0 +1,9 @@
+video-zfosh split 2654 extract 2348 shuffle 1945 classify 17676 E2E 24793
+video-rbmtv split 2621 extract 2320 shuffle 1930 classify 17268 E2E 24389
+video-tzkjz split 2654 extract 2257 shuffle 1965 classify 15884 E2E 22888
+video-kifna split 2625 extract 2303 shuffle 2068 classify 16658 E2E 23789
+video-iyayp split 2682 extract 2271 shuffle 1957 classify 16158 E2E 23266
+video-uwgfz split 2609 extract 2306 shuffle 1956 classify 15760 E2E 22774
+video-fwtym split 2658 extract 2405 shuffle 1930 classify 17315 E2E 24517
+video-aubkm split 2610 extract 2465 shuffle 1922 classify 17192 E2E 24427
+video-ohicb split 2632 extract 2289 shuffle 2038 classify 15455 E2E 22608

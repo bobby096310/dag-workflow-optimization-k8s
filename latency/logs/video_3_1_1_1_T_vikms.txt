@@ -1,0 +1,9 @@
+video-bmkip split 2748 extract 2394 shuffle 2032 classify 23719 E2E 31238
+video-fyiii split 2744 extract 2313 shuffle 2053 classify 16066 E2E 23526
+video-tbdbk split 2724 extract 2414 shuffle 2011 classify 17648 E2E 25143
+video-ktvqy split 2819 extract 2499 shuffle 2003 classify 20430 E2E 28065
+video-nphno split 2665 extract 2424 shuffle 2001 classify 20744 E2E 28174
+video-kkbwc split 2744 extract 2329 shuffle 2058 classify 20901 E2E 28343
+video-wdiou split 2685 extract 2380 shuffle 2026 classify 22682 E2E 30080
+video-fhnpf split 3677 extract 2936 shuffle 2036 classify 25378 E2E 34320
+video-haown split 2714 extract 2280 shuffle 2032 classify 20708 E2E 28072

@@ -1,0 +1,5 @@
+video-ipres split 2641 extract 2420 shuffle 2063 classify 17864 E2E 25185
+video-glawf split 423 extract 237 shuffle 10 classify 10851 E2E 11719
+video-msuoe split 440 extract 269 shuffle 10 classify 11024 E2E 11923
+video-afhlz split 397 extract 260 shuffle 10 classify 11144 E2E 11986
+video-ikghb split 438 extract 288 shuffle 11 classify 11387 E2E 12328

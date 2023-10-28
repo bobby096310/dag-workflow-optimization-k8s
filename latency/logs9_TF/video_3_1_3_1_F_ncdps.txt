@@ -1,0 +1,10 @@
+video-rncan split 2692 extract 2381 shuffle 1974 classify 18827 E2E 25960
+video-hythc split 2693 extract 2477 shuffle 2012 classify 16713 E2E 23986
+video-yqyjp split 2619 extract 2347 shuffle 2140 classify 16330 E2E 23539
+video-ziykp split 2675 extract 2471 shuffle 2020 classify 15356 E2E 22607
+video-tmbsj split 2636 extract 2427 shuffle 1990 classify 16003 E2E 23165
+video-yiuhw split 2666 extract 2468 shuffle 1972 classify 16417 E2E 23638
+video-mjglk split 2653 extract 2373 shuffle 2052 classify 17881 E2E 25058
+video-qxdur split 2634 extract 2371 shuffle 1971 classify 17721 E2E 24820
+video-nzwuh split 2644 extract 2309 shuffle 2001 classify 16307 E2E 23359
+video-qzngt split 373 extract 211 shuffle 10 classify 26443 E2E 27122

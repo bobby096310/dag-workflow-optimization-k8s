@@ -1,0 +1,10 @@
+video-vbind split 2749 extract 2402 shuffle 2038 classify 16284 E2E 23899
+video-smrwe split 2868 extract 2337 shuffle 2321 classify 23358 E2E 31337
+video-wbinl split 4626 extract 2538 shuffle 3511 classify 26353 E2E 37492
+video-ynrnv split 2886 extract 2522 shuffle 2050 classify 27439 E2E 35351
+video-hoqhh split 2766 extract 2351 shuffle 2017 classify 26139 E2E 33704
+video-pxyuw split 2713 extract 2495 shuffle 2005 classify 26378 E2E 34079
+video-kaukw split 2714 extract 2413 shuffle 2058 classify 25187 E2E 32796
+video-lgjlo split 2708 extract 2351 shuffle 2032 classify 34522 E2E 42011
+video-eymhz split 2669 extract 2507 shuffle 2012 classify 21455 E2E 29094
+video-zrzql split 2748 extract 2468 shuffle 2105 classify 26753 E2E 34455

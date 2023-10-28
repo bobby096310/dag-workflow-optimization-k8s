@@ -1,0 +1,9 @@
+video-rfwgt split 5121 extract 3607 shuffle 3167 classify 20626 E2E 32604
+video-lmmpv split 3255 extract 2779 shuffle 1981 classify 17439 E2E 25530
+video-xeoef split 3415 extract 2929 shuffle 2054 classify 17041 E2E 25509
+video-dmpsj split 2572 extract 2393 shuffle 2341 classify 15119 E2E 22502
+video-iivjd split 2532 extract 2359 shuffle 2113 classify 15798 E2E 22868
+video-rygrn split 2636 extract 2401 shuffle 1973 classify 16967 E2E 24037
+video-netcy split 2573 extract 2361 shuffle 1932 classify 17560 E2E 24501
+video-euran split 2557 extract 2332 shuffle 2222 classify 16702 E2E 23894
+video-zjwvy split 2637 extract 2357 shuffle 1954 classify 14902 E2E 21925

@@ -1,0 +1,10 @@
+video-erhar split 2604 extract 2223 shuffle 1973 classify 17055 E2E 24074
+video-yfczr split 2856 extract 2607 shuffle 1954 classify 18127 E2E 25750
+video-dnqqt split 2618 extract 2326 shuffle 2031 classify 16787 E2E 23973
+video-zpxbt split 3679 extract 2437 shuffle 1985 classify 16192 E2E 24507
+video-qmywo split 2603 extract 2339 shuffle 1889 classify 17300 E2E 24322
+video-rzhvy split 2635 extract 2331 shuffle 1957 classify 16073 E2E 23201
+video-uusxn split 2595 extract 2360 shuffle 2075 classify 16531 E2E 23759
+video-vcyry split 2596 extract 2296 shuffle 2007 classify 17103 E2E 24183
+video-maewo split 2705 extract 2281 shuffle 2109 classify 17542 E2E 24819
+video-xvhjc split 2587 extract 2319 shuffle 1947 classify 18739 E2E 25800

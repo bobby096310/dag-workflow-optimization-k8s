@@ -1,0 +1,10 @@
+video-xrldr split 2631 extract 2328 shuffle 1970 classify 18719 E2E 25732
+video-vzdbk split 2615 extract 2384 shuffle 1932 classify 19068 E2E 26100
+video-ovrav split 2569 extract 2316 shuffle 1972 classify 17205 E2E 24159
+video-dunxn split 2649 extract 2390 shuffle 1962 classify 16428 E2E 23527
+video-icfng split 2518 extract 2360 shuffle 1934 classify 17343 E2E 24255
+video-zuhlo split 2629 extract 2336 shuffle 1969 classify 16419 E2E 23455
+video-tcync split 2589 extract 2422 shuffle 1969 classify 17700 E2E 24771
+video-mjuap split 2672 extract 2379 shuffle 1986 classify 16308 E2E 23470
+video-kkowt split 2574 extract 2311 shuffle 1926 classify 16732 E2E 23644
+video-orulf split 2726 extract 2344 shuffle 1963 classify 16253 E2E 23411

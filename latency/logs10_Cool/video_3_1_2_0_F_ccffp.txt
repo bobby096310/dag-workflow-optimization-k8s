@@ -1,0 +1,6 @@
+video-aaiwe split 4328 extract 2404 shuffle 2158 classify 18104 E2E 27464
+video-eclgz split 2718 extract 2510 shuffle 2007 classify 17755 E2E 25349
+video-jzhlm split 4327 extract 2438 shuffle 2019 classify 18008 E2E 27139
+video-rkplq split 2657 extract 2397 shuffle 2017 classify 17898 E2E 25266
+video-gbvwc split 2711 extract 3959 shuffle 2092 classify 17074 E2E 26242
+video-nhfip split 2702 extract 3987 shuffle 2041 classify 17906 E2E 26993

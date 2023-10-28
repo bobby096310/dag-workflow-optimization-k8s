@@ -43,6 +43,34 @@ def patch_function(func_name, body):
         except ApiException as e:
             return ("Exception when calling CustomObjectsApi->patch_cluster_custom_object: %s\n" % e)
 
+def get_pods(namespace="default"):
+    with client.ApiClient() as api_client:
+        api_instance = client.CoreV1Api(api_client)
+        try:
+            api_response = api_instance.list_namespaced_pod(namespace=namespace)
+            pod_list = []
+            for pod_entry in api_response.items:
+                pod_list.append(pod_entry.metadata.name)
+            #print(pod_list)
+            return pod_list
+        except ApiException as e:
+            print("Exception when calling CoreV1Api->delete_namespaced_pod: %s\n" % e)
+
+def clear_pods(namespace="default"):
+    with client.ApiClient() as api_client:
+        api_instance = client.CoreV1Api(api_client)
+        try:
+            #api_instance.list_namespaced_pod(namespace=namespace)
+            pod_list = get_pods()
+            for pod in pod_list:
+                print(pod)
+                api_response = api_instance.delete_namespaced_pod(pod, namespace)
+            #api_response = api_instance.delete_collection_namespaced_pod(namespace=namespace, 
+            #        body=client.V1DeleteOptions(), grace_period_seconds=0)
+                print(api_response)
+        except ApiException as e:
+            print("Exception when calling CoreV1Api->delete_namespaced_pod: %s\n" % e)
+
 def concurrency_body(concurrency):
     return '[{"op": "replace", "path": "/spec/template/spec/containerConcurrency", "value": ' + str(concurrency) + '}]'
     
@@ -92,6 +120,10 @@ def main():
             return
         body = resources_body(args[2], args[3])
         pprint(patch_function(args[1], body))
-    
+    elif (args[0] == "clear_pods"):
+        pprint(clear_pods())
+    elif (args[0] == "get_pods"):
+        pprint(get_pods())
+
 if __name__ == "__main__":
     main()

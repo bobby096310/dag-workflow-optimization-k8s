@@ -1,0 +1,9 @@
+video-ksvib split 2695 extract 2261 shuffle 1900 classify 17079 E2E 24283
+video-ixphm split 2607 extract 2338 shuffle 1877 classify 16183 E2E 23361
+video-uuule split 2601 extract 2132 shuffle 1948 classify 16372 E2E 23490
+video-ngtjr split 2586 extract 2198 shuffle 1957 classify 14961 E2E 22090
+video-ooviq split 2626 extract 2304 shuffle 1871 classify 15207 E2E 22393
+video-vhdiz split 2621 extract 2301 shuffle 1902 classify 17071 E2E 24306
+video-nhxuo split 2590 extract 2346 shuffle 1845 classify 15694 E2E 22837
+video-ykxgh split 2556 extract 2160 shuffle 1923 classify 15221 E2E 22226
+video-pmpca split 2588 extract 2242 shuffle 1894 classify 16151 E2E 23266

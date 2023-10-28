@@ -1,0 +1,9 @@
+video-adtqp split 2583 extract 2274 shuffle 1967 classify 18911 E2E 25843
+video-nspcs split 2644 extract 2334 shuffle 1985 classify 16588 E2E 23648
+video-wmoop split 2639 extract 2348 shuffle 1959 classify 19742 E2E 26805
+video-iutff split 2618 extract 2373 shuffle 1998 classify 17828 E2E 24927
+video-nimjf split 2639 extract 2300 shuffle 1944 classify 18921 E2E 25907
+video-gkyrq split 2593 extract 2311 shuffle 2026 classify 19463 E2E 26513
+video-pklqn split 2614 extract 2286 shuffle 2053 classify 16539 E2E 23578
+video-ipael split 2634 extract 2386 shuffle 1978 classify 17503 E2E 24616
+video-yanoz split 2609 extract 2330 shuffle 2035 classify 15833 E2E 22920

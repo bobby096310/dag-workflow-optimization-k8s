@@ -1,0 +1,9 @@
+video-wqfuk split 2692 extract 2425 shuffle 1871 classify 18571 E2E 25793
+video-tuytz split 2626 extract 2330 shuffle 1981 classify 17737 E2E 24900
+video-sretj split 2661 extract 2261 shuffle 1989 classify 16829 E2E 23927
+video-yxxll split 2651 extract 2368 shuffle 2032 classify 14861 E2E 22099
+video-nmwyo split 2500 extract 2319 shuffle 2083 classify 14961 E2E 22090
+video-xejqs split 2692 extract 2376 shuffle 1995 classify 16011 E2E 23332
+video-ijhwi split 2597 extract 2273 shuffle 2008 classify 16997 E2E 24069
+video-kinti split 2579 extract 2328 shuffle 1971 classify 16421 E2E 23484
+video-pilid split 2489 extract 2388 shuffle 1950 classify 16581 E2E 23632

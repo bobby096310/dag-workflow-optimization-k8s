@@ -1,0 +1,10 @@
+video-dexns split 2687 extract 2379 shuffle 2083 classify 18250 E2E 25918
+video-ocnbl split 2539 extract 2306 shuffle 1847 classify 18725 E2E 25822
+video-lnnvq split 2640 extract 2290 shuffle 1897 classify 18095 E2E 25300
+video-exxxi split 2584 extract 2231 shuffle 1955 classify 16436 E2E 23541
+video-oxuit split 2660 extract 2229 shuffle 1851 classify 16906 E2E 24067
+video-grcwh split 2608 extract 2229 shuffle 1958 classify 15748 E2E 22947
+video-vynei split 2623 extract 2173 shuffle 1915 classify 18249 E2E 25382
+video-spkkw split 2610 extract 2177 shuffle 1888 classify 16251 E2E 23299
+video-taxjy split 2574 extract 2301 shuffle 1973 classify 16400 E2E 23576
+video-auqca split 2575 extract 2283 shuffle 1869 classify 16479 E2E 23580

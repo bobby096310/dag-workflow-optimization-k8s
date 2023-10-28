@@ -1,0 +1,10 @@
+video-rdtrh split 2688 extract 2316 shuffle 2060 classify 18917 E2E 26138
+video-rsjus split 2505 extract 2335 shuffle 1948 classify 16837 E2E 23800
+video-mvvsg split 2707 extract 2359 shuffle 1920 classify 15298 E2E 22451
+video-qphqm split 2524 extract 2349 shuffle 1907 classify 15860 E2E 22810
+video-ojuvc split 2573 extract 2362 shuffle 1938 classify 16544 E2E 23586
+video-ntyzo split 2540 extract 2494 shuffle 1973 classify 16897 E2E 24068
+video-eqmxl split 2613 extract 2299 shuffle 1976 classify 16865 E2E 23926
+video-mnyqf split 2539 extract 2473 shuffle 1932 classify 14978 E2E 22083
+video-hohay split 2610 extract 2328 shuffle 1922 classify 16049 E2E 23071
+video-ryvpk split 2605 extract 2341 shuffle 1989 classify 15295 E2E 22410

@@ -1,0 +1,4 @@
+video-cmbfm split 2693 extract 2442 shuffle 1930 classify 18194 E2E 25360
+video-ipsrs split 2639 extract 2394 shuffle 1988 classify 16463 E2E 23587
+video-zqhbc split 2589 extract 4171 shuffle 1976 classify 15444 E2E 24321
+video-utfev split 2681 extract 2327 shuffle 1999 classify 16901 E2E 24003

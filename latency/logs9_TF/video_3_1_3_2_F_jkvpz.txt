@@ -1,0 +1,10 @@
+video-gtxbm split 415 extract 295 shuffle 9 classify 11078 E2E 11867
+video-fjkvn split 387 extract 243 shuffle 1093 classify 16541 E2E 18348
+video-huzsx split 2666 extract 2351 shuffle 2067 classify 16157 E2E 23333
+video-vyeew split 2558 extract 2297 shuffle 2008 classify 17324 E2E 24269
+video-hkqii split 2660 extract 2385 shuffle 1999 classify 18524 E2E 25640
+video-dossp split 2586 extract 2408 shuffle 1986 classify 16940 E2E 23997
+video-ajnvd split 2649 extract 2375 shuffle 2113 classify 16545 E2E 23758
+video-ilvlc split 2690 extract 2413 shuffle 2059 classify 16866 E2E 24107
+video-vwdbc split 2545 extract 2383 shuffle 1911 classify 18891 E2E 25809
+video-imptd split 2626 extract 2432 shuffle 1980 classify 16377 E2E 23505

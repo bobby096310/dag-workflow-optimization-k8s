@@ -1,0 +1,9 @@
+video-cclby split 2850 extract 2360 shuffle 1961 classify 17999 E2E 25333
+video-ozjbp split 2674 extract 2365 shuffle 2081 classify 15460 E2E 22774
+video-mnicc split 2590 extract 2487 shuffle 1963 classify 16155 E2E 23403
+video-welxr split 2622 extract 2364 shuffle 2037 classify 15367 E2E 22577
+video-qwntu split 2676 extract 2387 shuffle 1985 classify 16065 E2E 23330
+video-oxkyp split 2639 extract 2429 shuffle 2031 classify 16699 E2E 24011
+video-ojxoe split 2652 extract 2384 shuffle 1976 classify 15177 E2E 22371
+video-keiaq split 2672 extract 2456 shuffle 1944 classify 17355 E2E 24612
+video-gbbnd split 2647 extract 2374 shuffle 1989 classify 17676 E2E 24890

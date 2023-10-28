@@ -1,0 +1,9 @@
+video-meksl split 2608 extract 2401 shuffle 1994 classify 18549 E2E 25650
+video-hmknu split 2580 extract 2356 shuffle 1975 classify 19711 E2E 26714
+video-acbzz split 2634 extract 2403 shuffle 2938 classify 15054 E2E 23116
+video-sktvq split 2633 extract 2386 shuffle 1979 classify 19853 E2E 26944
+video-wfidt split 2610 extract 2368 shuffle 2058 classify 15079 E2E 22180
+video-iqwhw split 2734 extract 2538 shuffle 2069 classify 16295 E2E 23720
+video-wzlys split 2725 extract 2514 shuffle 2026 classify 16050 E2E 23402
+video-undpu split 2582 extract 2307 shuffle 1976 classify 15104 E2E 22046
+video-treiq split 2670 extract 2418 shuffle 1999 classify 16373 E2E 23536

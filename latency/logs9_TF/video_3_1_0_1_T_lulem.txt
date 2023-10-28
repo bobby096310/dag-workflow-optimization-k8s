@@ -1,0 +1,10 @@
+video-ianfc split 2528 extract 2404 shuffle 1972 classify 16517 E2E 23625
+video-btdhj split 2625 extract 2316 shuffle 1964 classify 15350 E2E 22448
+video-krqkw split 2569 extract 2396 shuffle 1939 classify 17601 E2E 24709
+video-gvmwv split 2608 extract 2377 shuffle 1945 classify 15539 E2E 22668
+video-lzgdj split 2765 extract 2350 shuffle 2094 classify 17543 E2E 24948
+video-vtfmi split 2677 extract 2365 shuffle 1951 classify 16889 E2E 24080
+video-doqwb split 2569 extract 2332 shuffle 1942 classify 17550 E2E 24602
+video-tsqln split 2648 extract 2329 shuffle 1945 classify 15118 E2E 22241
+video-kvpoe split 2569 extract 2381 shuffle 1960 classify 15744 E2E 22855
+video-kpxpy split 2694 extract 2357 shuffle 1974 classify 16119 E2E 23372

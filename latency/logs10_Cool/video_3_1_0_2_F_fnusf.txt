@@ -1,0 +1,6 @@
+video-rudcf split 2609 extract 2468 shuffle 1954 classify 13450 E2E 20562
+video-tkrcb split 2609 extract 2302 shuffle 2042 classify 16636 E2E 23672
+video-ftjqj split 2660 extract 2318 shuffle 1988 classify 15244 E2E 22293
+video-ntbau split 2711 extract 2307 shuffle 1934 classify 15827 E2E 22861
+video-pyula split 2571 extract 2365 shuffle 2006 classify 14997 E2E 22007
+video-dgmry split 2596 extract 2373 shuffle 2053 classify 15910 E2E 23008

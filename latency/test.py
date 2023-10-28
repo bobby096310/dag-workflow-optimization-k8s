@@ -2,6 +2,7 @@ from runner import run_video, run_ml
 from update import update_function
 from pdf_cdf import analyze_result
 from collect import *
+import os
 import time
 import random
 import string
@@ -12,7 +13,7 @@ conc = [0, 1, 2, 5, 10]
 #cpu = [['-', '-'], ['1', '-'], ['1', '2'], ['1500m', '-'], ['2', '-'], ['2', '3'], ['3', '-']]
 #cpu = [['-', '-'], ['500m', '500m'], ['1', '1'], ['1500m', '1500m'], ['2', '2'], ['2500m', '2500m'], ['3', '3']]
 cpu = [['-', '-'], ['1', '1'], ['2', '2'], ['3', '3']]
-bundle = {"ml": ["2", "4", "8"], "video": ["30", "15", "5", "3"]}
+bundle = {"ml": ["2", "4", "8"], "video": ["15", "5", "3"]}
 
 def create_random_name(n):
     letters = string.ascii_lowercase
@@ -39,7 +40,8 @@ def run_workflows(workflow_name, filename, times, inp, pre_warm, log_file_name):
             return "Workflow not found!"
         with open("logs/" + log_file_name, 'a') as file:
             file.write(run_name + " " + results[run_name] + "\n")
-        time.sleep(60)
+        time.sleep(40)
+        #os.system("kubectl delete pods --all")
     return results
 
 # Update the spec and run workflows    
@@ -57,7 +59,7 @@ def update_and_run(workflow_name, config, times, pre_warm):
         spec['cpu'] = cpu[int(cpu_index)]
     update_function(workflow_functions[workflow_name][function_index], spec)
     if workflow_name == 'video' :
-        inp = {"src_name": "0", "DOP": bundle[workflow_name][bundle_index], "detect_prob": 2}
+        inp = {"src_name": "00", "DOP": bundle[workflow_name][bundle_index], "detect_prob": 2}
     result = run_workflows(workflow_name, filename, times, inp, pre_warm, log_file_name)
     final = log_file_name[:-4] + " " +  analyze_result(list(result.values()), 7)
     #get_n_latency(list(result.values()), 95)
@@ -76,7 +78,7 @@ def init(workflow_name, func_index, conc, resources, bundling, pre_warm):
             if entry not in current_list:
                 print("run " + entry)
                 update_and_run(workflow_name, [func_index, 1, r, b], 1, pre_warm)
-                time.sleep(60)
+                #time.sleep(90)
 
 # Run workflows until target is met for the level
 def run_level(batch, target):
@@ -173,6 +175,7 @@ def main():
         pre_warm = args[3]
         rounds = args[4]
         run_all(workflow_name, func_index, rounds, pre_warm)
+        # python3 test.py run_all video 3 T 1 
 
 
 if __name__ == "__main__":

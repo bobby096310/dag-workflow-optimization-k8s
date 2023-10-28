@@ -1,0 +1,10 @@
+video-nozem split 2778 extract 2386 shuffle 2013 classify 16314 E2E 23655
+video-wqtiy split 2590 extract 2387 shuffle 1944 classify 17686 E2E 24760
+video-kwjpw split 2658 extract 2344 shuffle 2006 classify 15552 E2E 22731
+video-lijij split 2559 extract 2424 shuffle 2055 classify 15075 E2E 22259
+video-dtnxz split 2659 extract 2379 shuffle 1972 classify 16676 E2E 23848
+video-xvrhf split 2581 extract 2409 shuffle 1947 classify 19082 E2E 26195
+video-aiufx split 2659 extract 2324 shuffle 2020 classify 15688 E2E 22866
+video-udoub split 2597 extract 2326 shuffle 1974 classify 15852 E2E 22907
+video-jsmku split 2625 extract 2347 shuffle 1979 classify 17326 E2E 24454
+video-llngy split 2626 extract 2370 shuffle 1960 classify 16575 E2E 23703

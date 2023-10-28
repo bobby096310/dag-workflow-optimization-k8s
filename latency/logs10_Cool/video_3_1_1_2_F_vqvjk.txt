@@ -1,0 +1,9 @@
+video-gmryt split 2732 extract 2534 shuffle 2030 classify 19237 E2E 26609
+video-dkiwi split 2879 extract 2554 shuffle 1993 classify 15987 E2E 23507
+video-bcusx split 2681 extract 2387 shuffle 2050 classify 15180 E2E 22378
+video-hivwb split 2802 extract 2414 shuffle 2092 classify 16514 E2E 23913
+video-xonow split 2688 extract 2384 shuffle 2046 classify 27459 E2E 34642
+video-moseq split 2697 extract 2412 shuffle 1979 classify 17709 E2E 24891
+video-fbeis split 2941 extract 2438 shuffle 1964 classify 15125 E2E 22539
+video-pmtbw split 2681 extract 2548 shuffle 1985 classify 16935 E2E 24242
+video-qeqqg split 2828 extract 2397 shuffle 1975 classify 15722 E2E 22995

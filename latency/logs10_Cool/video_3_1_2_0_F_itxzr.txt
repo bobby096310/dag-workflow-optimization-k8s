@@ -1,0 +1,9 @@
+video-fbwib split 2452 extract 2128 shuffle 1885 classify 15503 E2E 22122
+video-whvzt split 2483 extract 2097 shuffle 1954 classify 15640 E2E 22334
+video-pmbfm split 2463 extract 2274 shuffle 1807 classify 15919 E2E 22620
+video-adage split 2494 extract 2207 shuffle 1843 classify 16286 E2E 23052
+video-szgzm split 2511 extract 2258 shuffle 1832 classify 14988 E2E 21824
+video-qqaed split 2481 extract 2169 shuffle 1936 classify 15416 E2E 22170
+video-fdgng split 2543 extract 2166 shuffle 1948 classify 15194 E2E 22046
+video-pgyhx split 2500 extract 2213 shuffle 1833 classify 14808 E2E 21578
+video-efaec split 2565 extract 2306 shuffle 1938 classify 15263 E2E 22238

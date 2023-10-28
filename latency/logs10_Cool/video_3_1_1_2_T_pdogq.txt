@@ -1,0 +1,9 @@
+video-rohnk split 2632 extract 2278 shuffle 1908 classify 18395 E2E 25433
+video-azkwd split 2609 extract 2355 shuffle 1917 classify 14653 E2E 21697
+video-gopps split 2648 extract 2469 shuffle 1966 classify 15073 E2E 22317
+video-unbhi split 3673 extract 2290 shuffle 1878 classify 16358 E2E 24389
+video-akeja split 2624 extract 2321 shuffle 2554 classify 15424 E2E 23083
+video-mnbtp split 2669 extract 2308 shuffle 1932 classify 15096 E2E 22232
+video-mlmva split 2606 extract 2324 shuffle 1998 classify 14435 E2E 21528
+video-owesq split 2620 extract 2313 shuffle 1930 classify 15490 E2E 22514
+video-jkdbr split 2798 extract 2270 shuffle 2049 classify 19171 E2E 26465

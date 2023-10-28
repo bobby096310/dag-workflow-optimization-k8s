@@ -1,0 +1,9 @@
+video-hhduv split 2709 extract 2472 shuffle 1957 classify 17907 E2E 25260
+video-dvpgs split 2646 extract 2331 shuffle 2028 classify 23320 E2E 30604
+video-mueyq split 2611 extract 2355 shuffle 1984 classify 28024 E2E 35210
+video-oubab split 2617 extract 2397 shuffle 1987 classify 26866 E2E 34101
+video-zrbhk split 2641 extract 2453 shuffle 2049 classify 26399 E2E 33763
+video-vbnur split 2713 extract 2357 shuffle 2033 classify 26081 E2E 33487
+video-qugku split 2649 extract 2378 shuffle 2167 classify 25981 E2E 33440
+video-ebuvi split 2756 extract 2436 shuffle 2038 classify 25828 E2E 33296
+video-zdurh split 2679 extract 2354 shuffle 2029 classify 25366 E2E 32673

@@ -1,0 +1,4 @@
+video-gpdjy split 819 extract 458 shuffle 10 classify 20065 E2E 21422
+video-fvkyg split 396 extract 233 shuffle 9 classify 22799 E2E 23503
+video-wtdbt split 377 extract 2366 shuffle 1594 classify 19377 E2E 23782
+video-yeldu split 2750 extract 2869 shuffle 1651 classify 20832 E2E 28217

@@ -1,0 +1,9 @@
+video-sajng split 2648 extract 2357 shuffle 2015 classify 18606 E2E 25815
+video-jsuby split 2566 extract 2327 shuffle 1956 classify 14794 E2E 21839
+video-hjxrb split 2531 extract 2758 shuffle 1870 classify 18055 E2E 25417
+video-zyyyc split 2603 extract 2329 shuffle 1961 classify 15184 E2E 22286
+video-tzfit split 2491 extract 2335 shuffle 1972 classify 16935 E2E 23913
+video-bhdhb split 2592 extract 2343 shuffle 1926 classify 16026 E2E 23067
+video-pietr split 2569 extract 2344 shuffle 1976 classify 17556 E2E 24657
+video-cazye split 2650 extract 2303 shuffle 1938 classify 17805 E2E 24937
+video-fbzkh split 2637 extract 2324 shuffle 1909 classify 16109 E2E 23181

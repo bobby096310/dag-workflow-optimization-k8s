@@ -1,0 +1,9 @@
+video-pkgtk split 2424 extract 2110 shuffle 1942 classify 16616 E2E 23187
+video-lahih split 2393 extract 2120 shuffle 1904 classify 16212 E2E 22721
+video-ulazf split 2367 extract 2130 shuffle 1899 classify 15354 E2E 21856
+video-mgord split 2396 extract 2200 shuffle 1803 classify 15463 E2E 21946
+video-bdwjl split 2313 extract 2146 shuffle 1898 classify 16312 E2E 22768
+video-fmfzv split 2391 extract 2202 shuffle 1814 classify 14508 E2E 21011
+video-ubrtp split 2341 extract 2151 shuffle 1824 classify 15791 E2E 22204
+video-xnevj split 2464 extract 2158 shuffle 1858 classify 15185 E2E 21749
+video-xliyr split 2527 extract 2197 shuffle 1876 classify 15632 E2E 22336

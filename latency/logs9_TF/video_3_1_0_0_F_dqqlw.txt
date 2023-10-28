@@ -1,0 +1,10 @@
+video-dtuek split 2686 extract 2389 shuffle 2055 classify 18614 E2E 26054
+video-mlfjb split 2673 extract 2322 shuffle 2040 classify 17624 E2E 24875
+video-medcb split 2683 extract 2374 shuffle 2011 classify 17503 E2E 24709
+video-vdjny split 2662 extract 2472 shuffle 2017 classify 18169 E2E 25497
+video-aeaow split 2628 extract 2376 shuffle 2005 classify 17160 E2E 24403
+video-pgkxh split 2596 extract 2493 shuffle 2007 classify 17032 E2E 24305
+video-zzwfy split 2537 extract 2297 shuffle 1996 classify 17321 E2E 24435
+video-digle split 2612 extract 2439 shuffle 2084 classify 15883 E2E 23212
+video-pefrq split 2681 extract 2417 shuffle 2045 classify 16653 E2E 23929
+video-caajj split 2640 extract 2323 shuffle 1989 classify 17223 E2E 24333
