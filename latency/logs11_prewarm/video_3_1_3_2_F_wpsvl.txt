@@ -1,0 +1,9 @@
+video-bxufz split 2720 extract 2469 shuffle 1999 classify 20534 E2E 27837
+video-pcpep split 2683 extract 2388 shuffle 2037 classify 19268 E2E 26512
+video-emlsn split 3798 extract 2369 shuffle 2074 classify 18966 E2E 27318
+video-pgamk split 2654 extract 2393 shuffle 2151 classify 19369 E2E 26715
+video-pswsn split 2695 extract 2387 shuffle 1964 classify 21051 E2E 28201
+video-dnrtg split 2741 extract 2374 shuffle 2008 classify 20932 E2E 28192
+video-iyksi split 4494 extract 2439 shuffle 2095 classify 29915 E2E 39081
+video-dolta split 2703 extract 2889 shuffle 2063 classify 21345 E2E 29118
+video-repsq split 2735 extract 2430 shuffle 2174 classify 19130 E2E 26577

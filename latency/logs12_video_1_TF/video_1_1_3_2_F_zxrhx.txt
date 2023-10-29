@@ -1,0 +1,9 @@
+video-gdajo split 4285 extract 751 shuffle 3399 classify 26385 E2E 34910
+video-jnxvn split 2661 extract 2628 shuffle 2237 classify 24292 E2E 31893
+video-rppor split 2708 extract 2724 shuffle 2132 classify 22383 E2E 30015
+video-mrjba split 2704 extract 2843 shuffle 2365 classify 18882 E2E 26851
+video-nawpx split 2689 extract 2869 shuffle 1962 classify 19632 E2E 27217
+video-bgxzo split 2684 extract 2705 shuffle 2044 classify 19945 E2E 27447
+video-lezsf split 2808 extract 3195 shuffle 2193 classify 21784 E2E 30032
+video-ejxbz split 2655 extract 4777 shuffle 2064 classify 18938 E2E 28493
+video-zmytm split 2741 extract 2770 shuffle 2089 classify 22024 E2E 29697

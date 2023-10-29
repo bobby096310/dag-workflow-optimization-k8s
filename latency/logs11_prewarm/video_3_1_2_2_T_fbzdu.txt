@@ -1,0 +1,9 @@
+video-obnak split 2785 extract 2499 shuffle 2108 classify 16740 E2E 24431
+video-gxmng split 3223 extract 2951 shuffle 1957 classify 19794 E2E 28186
+video-lergk split 2905 extract 2339 shuffle 2153 classify 20240 E2E 27863
+video-muyir split 2989 extract 2380 shuffle 2255 classify 20227 E2E 28099
+video-cokay split 2819 extract 2380 shuffle 2108 classify 20173 E2E 27712
+video-ceysw split 2765 extract 2444 shuffle 1974 classify 28920 E2E 36331
+video-lymbr split 2745 extract 4421 shuffle 2137 classify 20799 E2E 30335
+video-dqggu split 2758 extract 2460 shuffle 2014 classify 20542 E2E 27995
+video-jjgua split 2789 extract 2468 shuffle 2102 classify 19206 E2E 26822

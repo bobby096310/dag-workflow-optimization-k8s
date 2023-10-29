@@ -1,0 +1,9 @@
+video-ptkqe split 3136 extract 2547 shuffle 2699 classify 21072 E2E 30372
+video-gtfaq split 2862 extract 2648 shuffle 2098 classify 19755 E2E 28045
+video-gqgfm split 2802 extract 2319 shuffle 2116 classify 22713 E2E 30660
+video-xsyjp split 2782 extract 2511 shuffle 1991 classify 22688 E2E 30740
+video-iytoi split 2895 extract 2641 shuffle 2017 classify 22442 E2E 30766
+video-ohlzq split 2872 extract 2445 shuffle 2168 classify 19789 E2E 27900
+video-immai split 2789 extract 2298 shuffle 2202 classify 21767 E2E 29901
+video-zopkg split 4033 extract 2485 shuffle 1970 classify 22279 E2E 31565
+video-kqsiy split 2746 extract 2538 shuffle 1971 classify 20189 E2E 28138

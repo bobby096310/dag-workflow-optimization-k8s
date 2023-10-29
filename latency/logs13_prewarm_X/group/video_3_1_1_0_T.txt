@@ -1,0 +1,3 @@
+video-sptkr split 3633 extract 132 shuffle 10 classify 21504 E2E 30713
+video-gtwes split 3207 extract 3283 shuffle 1990 classify 15695 E2E 37762
+video-dcjrz split 2694 extract 2534 shuffle 1973 classify 13457 E2E 33914

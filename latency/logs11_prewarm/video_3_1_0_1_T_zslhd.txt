@@ -1,0 +1,9 @@
+video-ytbda split 2867 extract 2541 shuffle 2193 classify 20578 E2E 28568
+video-lsjdy split 2875 extract 2715 shuffle 1956 classify 22689 E2E 30575
+video-ceyal split 4201 extract 2327 shuffle 2157 classify 21552 E2E 30548
+video-awjon split 2842 extract 2279 shuffle 2278 classify 22795 E2E 30550
+video-egssq split 2813 extract 2328 shuffle 2158 classify 20642 E2E 28272
+video-dmmgr split 3015 extract 2304 shuffle 2254 classify 22608 E2E 30513
+video-mmivb split 2913 extract 3906 shuffle 2229 classify 24161 E2E 33497
+video-vlisq split 2854 extract 2406 shuffle 2161 classify 22021 E2E 29798
+video-vzcue split 2843 extract 2271 shuffle 2146 classify 20904 E2E 28514

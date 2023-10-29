@@ -1,0 +1,10 @@
+video-zcasq split 2760 extract 2565 shuffle 2451 classify 19552 E2E 27487
+video-wfpty split 2712 extract 2688 shuffle 2126 classify 28076 E2E 35713
+video-jmhgy split 2724 extract 2391 shuffle 2047 classify 21242 E2E 28546
+video-pegth split 2727 extract 2358 shuffle 2050 classify 20320 E2E 27575
+video-azsyr split 2728 extract 2415 shuffle 2018 classify 19310 E2E 26593
+video-taqra split 2694 extract 2317 shuffle 2068 classify 27373 E2E 34575
+video-dynva split 2716 extract 2314 shuffle 2185 classify 19838 E2E 27184
+video-ctyly split 2837 extract 2346 shuffle 2071 classify 19104 E2E 26480
+video-zwqhv split 2712 extract 2326 shuffle 2217 classify 19479 E2E 26856
+video-meuaw split 2683 extract 2327 shuffle 2280 classify 23026 E2E 30460

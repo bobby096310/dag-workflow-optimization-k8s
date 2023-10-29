@@ -1,0 +1,10 @@
+video-jiudf split 2748 extract 2611 shuffle 2241 classify 21468 E2E 29248
+video-gdomz split 2723 extract 2835 shuffle 2221 classify 20119 E2E 28052
+video-zydmx split 2802 extract 2652 shuffle 2105 classify 21222 E2E 28950
+video-ehlsv split 2675 extract 2583 shuffle 2149 classify 24132 E2E 31745
+video-epujg split 2727 extract 2558 shuffle 2099 classify 18140 E2E 25684
+video-wonjx split 2671 extract 2527 shuffle 2115 classify 23165 E2E 30677
+video-ljqkz split 2698 extract 2931 shuffle 2173 classify 16428 E2E 24397
+video-hydai split 2668 extract 2758 shuffle 2159 classify 17778 E2E 25504
+video-lbudh split 2662 extract 2676 shuffle 2108 classify 17457 E2E 25053
+video-kzazp split 3053 extract 2754 shuffle 2277 classify 20970 E2E 29412

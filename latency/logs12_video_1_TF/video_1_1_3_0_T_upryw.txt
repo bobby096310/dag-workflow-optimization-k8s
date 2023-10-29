@@ -1,0 +1,9 @@
+video-jfohf split 2701 extract 3328 shuffle 2408 classify 64259 E2E 73002
+video-dysvc split 2705 extract 2977 shuffle 2007 classify 62820 E2E 70873
+video-uzaoi split 2764 extract 2668 shuffle 2027 classify 62537 E2E 70400
+video-zrifj split 2795 extract 2647 shuffle 2066 classify 63770 E2E 71686
+video-lmbfs split 2991 extract 2863 shuffle 2104 classify 60637 E2E 69039
+video-ntrpa split 2687 extract 2616 shuffle 2088 classify 59431 E2E 67155
+video-ktawl split 2752 extract 2551 shuffle 2129 classify 56292 E2E 64129
+video-wqwzn split 2758 extract 2669 shuffle 2111 classify 62600 E2E 70534
+video-ybmid split 2747 extract 2624 shuffle 2079 classify 59903 E2E 67695

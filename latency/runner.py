@@ -2,16 +2,26 @@ from pprint import pprint
 from datetime import datetime
 import requests
 import time
+import threading
 from multiprocessing import Process, Manager
 
 url = "http://10.106.133.219"#"http://10.101.174.44"
 
+def request_task(url, json, headers):
+    requests.post(url, json=json, headers=headers)
+
+def fire_and_forget(url, json, func):
+    headers = {"Content-Type": "application/json; charset=utf-8", "Host": func + ".default.svc.cluster.local"}
+    threading.Thread(target=request_task, args=(url, json, headers)).start()
+
 def execute(func, data):
     headers = {"Content-Type": "application/json; charset=utf-8", "Host": func + ".default.svc.cluster.local"}
-    start_time = datetime.now()
-    resp = requests.post(url, headers=headers, json=data)
     if 'dummy' in data:
+        fire_and_forget(url, headers=headers, json=data)
         return
+    else:
+        start_time = datetime.now()
+        resp = requests.post(url, headers=headers, json=data)
     while (not resp.ok):
         print("Retry")
         time.sleep(0.5)
@@ -23,8 +33,6 @@ def execute(func, data):
     return result, lat
 
 def execute_map(func, data, out_list, lat_list):
-    if 'dummy' in data:
-        return
     exec_result, lat = execute(func, data)
     out_list.append(exec_result)
     lat_list.append(lat)
@@ -35,6 +43,11 @@ def map(func, input_raw, timeout=None):
     lat_list = manager.list()
     ths=[]
     in_list = input_raw['detail']['indeces']
+    if 'dummy' in in_list[0]:
+        for inp in in_list:
+            fire_and_forget(url, inp, func)
+        return
+
     for inp in in_list:
         ths.append((Process(target=execute_map,  args=(func, inp, out_list, lat_list)), inp))
     for t in ths:

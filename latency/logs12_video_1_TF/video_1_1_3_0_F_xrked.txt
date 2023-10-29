@@ -1,0 +1,9 @@
+video-alkwo split 5198 extract 3093 shuffle 2262 classify 64525 E2E 75334
+video-lntje split 2769 extract 2858 shuffle 2140 classify 61048 E2E 69073
+video-jwvgk split 2792 extract 2647 shuffle 2090 classify 63595 E2E 71389
+video-uygub split 2745 extract 2610 shuffle 2118 classify 61725 E2E 69465
+video-awszb split 2777 extract 2867 shuffle 2256 classify 60593 E2E 68729
+video-slbfp split 2735 extract 2922 shuffle 2090 classify 68071 E2E 76047
+video-ptrnr split 3108 extract 2917 shuffle 2327 classify 64146 E2E 72736
+video-qopro split 2704 extract 2929 shuffle 2001 classify 57539 E2E 65446
+video-mgwzi split 2757 extract 3986 shuffle 2123 classify 60748 E2E 69866

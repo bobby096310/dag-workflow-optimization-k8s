@@ -1,0 +1,9 @@
+video-sfzoz split 2805 extract 183 shuffle 10 classify 16712 E2E 24781
+video-eahlc split 2837 extract 244 shuffle 9 classify 16116 E2E 28621
+video-kghqf split 2746 extract 2514 shuffle 2159 classify 15827 E2E 34016
+video-snlbk split 2643 extract 208 shuffle 12 classify 15034 E2E 28772
+video-josss split 2662 extract 2558 shuffle 2205 classify 13609 E2E 31325
+video-iklqr split 2904 extract 2370 shuffle 2137 classify 14925 E2E 33195
+video-kcies split 2636 extract 234 shuffle 9 classify 15953 E2E 28538
+video-zfbfb split 2681 extract 304 shuffle 11 classify 18050 E2E 29488
+video-ojpvg split 2876 extract 2307 shuffle 2009 classify 17106 E2E 35497

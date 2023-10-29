@@ -1,0 +1,9 @@
+video-llfuo split 2917 extract 434 shuffle 9 classify 22106 E2E 30954
+video-dyiiv split 2967 extract 239 shuffle 9 classify 20977 E2E 33081
+video-shrui split 2604 extract 240 shuffle 9 classify 19856 E2E 32854
+video-xsjaf split 2662 extract 351 shuffle 9 classify 24468 E2E 36684
+video-rimlj split 3162 extract 233 shuffle 9 classify 16564 E2E 29937
+video-fwcou split 3026 extract 234 shuffle 9 classify 16065 E2E 29458
+video-gjqqr split 2729 extract 273 shuffle 9 classify 25638 E2E 39717
+video-mucvn split 2903 extract 251 shuffle 10 classify 22432 E2E 34521
+video-dewmt split 2927 extract 265 shuffle 10 classify 16929 E2E 32697

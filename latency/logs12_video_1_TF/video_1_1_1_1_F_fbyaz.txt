@@ -1,0 +1,9 @@
+video-ypqcl split 2823 extract 2672 shuffle 2122 classify 21335 E2E 29156
+video-rriag split 2719 extract 2844 shuffle 2026 classify 22356 E2E 30126
+video-frsas split 2701 extract 2760 shuffle 2365 classify 20083 E2E 28020
+video-qssdk split 2684 extract 2555 shuffle 2245 classify 21127 E2E 28778
+video-kzeae split 2686 extract 2623 shuffle 1997 classify 21238 E2E 28763
+video-osngr split 2738 extract 2557 shuffle 2081 classify 22050 E2E 29628
+video-zfgoq split 2737 extract 2515 shuffle 2188 classify 18058 E2E 25691
+video-xjtcs split 2807 extract 2507 shuffle 2257 classify 18384 E2E 26152
+video-grbvv split 2845 extract 2763 shuffle 2016 classify 21425 E2E 29210

@@ -1,0 +1,9 @@
+video-roxjm split 2703 extract 3365 shuffle 2466 classify 53102 E2E 62067
+video-gyltf split 2712 extract 2988 shuffle 2152 classify 46734 E2E 54973
+video-jksfs split 2714 extract 3599 shuffle 2264 classify 52831 E2E 61777
+video-xlovo split 2692 extract 3371 shuffle 2305 classify 57492 E2E 66256
+video-zhbbl split 2698 extract 2786 shuffle 2613 classify 35256 E2E 43806
+video-uwhuo split 2672 extract 3377 shuffle 2325 classify 61090 E2E 69886
+video-vclog split 2728 extract 3490 shuffle 2142 classify 53773 E2E 62580
+video-bierh split 2776 extract 2843 shuffle 2539 classify 35610 E2E 44141
+video-shthv split 2707 extract 3114 shuffle 2567 classify 58833 E2E 67607

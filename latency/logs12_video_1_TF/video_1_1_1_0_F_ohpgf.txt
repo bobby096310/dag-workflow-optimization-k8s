@@ -1,0 +1,9 @@
+video-wsbsd split 2717 extract 2872 shuffle 2300 classify 55426 E2E 63534
+video-jquoy split 4222 extract 2886 shuffle 2469 classify 55740 E2E 65589
+video-xseii split 2764 extract 3563 shuffle 2235 classify 48932 E2E 57755
+video-cinva split 2811 extract 3120 shuffle 2181 classify 59710 E2E 68085
+video-ysdbz split 2730 extract 3958 shuffle 2269 classify 60902 E2E 70132
+video-emspj split 2738 extract 3113 shuffle 2753 classify 40979 E2E 49823
+video-xbwho split 2734 extract 3946 shuffle 2171 classify 58023 E2E 67116
+video-vkovs split 2704 extract 3210 shuffle 2218 classify 44083 E2E 52512
+video-mtyjs split 2725 extract 3219 shuffle 2547 classify 56207 E2E 64969

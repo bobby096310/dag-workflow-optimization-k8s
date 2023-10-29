@@ -1,0 +1,9 @@
+video-cdmnq split 2774 extract 2666 shuffle 2385 classify 19464 E2E 27364
+video-hzqiv split 2664 extract 2704 shuffle 2060 classify 19577 E2E 27075
+video-wwcdx split 2664 extract 2613 shuffle 2359 classify 30076 E2E 37796
+video-lowtv split 2690 extract 3028 shuffle 2014 classify 21980 E2E 29789
+video-putuw split 2680 extract 2600 shuffle 1979 classify 19807 E2E 27131
+video-skeqt split 2660 extract 2561 shuffle 1995 classify 20183 E2E 27466
+video-tdvgn split 2690 extract 2495 shuffle 2029 classify 21126 E2E 28416
+video-wybdu split 2694 extract 2796 shuffle 2061 classify 20591 E2E 28196
+video-skati split 2712 extract 2580 shuffle 2017 classify 19359 E2E 26743

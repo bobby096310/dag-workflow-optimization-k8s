@@ -60,6 +60,8 @@ def update_and_run(workflow_name, config, times, pre_warm):
     update_function(workflow_functions[workflow_name][function_index], spec)
     if workflow_name == 'video' :
         inp = {"src_name": "00", "DOP": bundle[workflow_name][bundle_index], "detect_prob": 2}
+    if workflow_name == 'ml' :
+        inp = {"bundle_size": bundle[workflow_name][bundle_index], "key1": "300"}
     result = run_workflows(workflow_name, filename, times, inp, pre_warm, log_file_name)
     final = log_file_name[:-4] + " " +  analyze_result(list(result.values()), 7)
     #get_n_latency(list(result.values()), 95)

@@ -1,0 +1,9 @@
+video-oantr split 2751 extract 135 shuffle 13 classify 23061 E2E 32957
+video-bincp split 2457 extract 2662 shuffle 10 classify 17338 E2E 32661
+video-cerru split 3000 extract 2603 shuffle 2121 classify 16099 E2E 34943
+video-qzhjd split 2808 extract 2451 shuffle 2073 classify 17783 E2E 36785
+video-qwzfc split 2839 extract 166 shuffle 14 classify 17903 E2E 32731
+video-gboki split 2728 extract 2614 shuffle 2004 classify 19591 E2E 38013
+video-gvuma split 2799 extract 2545 shuffle 2174 classify 17685 E2E 35894
+video-hxuvq split 2932 extract 2387 shuffle 2109 classify 12801 E2E 31002
+video-mviql split 2745 extract 2538 shuffle 2077 classify 17839 E2E 36802

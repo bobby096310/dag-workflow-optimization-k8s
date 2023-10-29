@@ -1,0 +1,9 @@
+video-dqrkb split 2818 extract 2827 shuffle 2278 classify 58279 E2E 66583
+video-rayoi split 2675 extract 2924 shuffle 2074 classify 23359 E2E 31356
+video-pjhta split 2690 extract 2509 shuffle 2256 classify 20308 E2E 28103
+video-tzzoz split 2641 extract 2409 shuffle 2519 classify 18323 E2E 26245
+video-dhlwz split 2722 extract 2590 shuffle 1978 classify 18443 E2E 26071
+video-gewec split 2716 extract 2730 shuffle 1994 classify 23454 E2E 31270
+video-eczfx split 2724 extract 2482 shuffle 2336 classify 17292 E2E 25190
+video-hziqi split 2731 extract 2516 shuffle 2021 classify 20289 E2E 27874
+video-whcph split 2752 extract 2510 shuffle 2125 classify 22596 E2E 30333

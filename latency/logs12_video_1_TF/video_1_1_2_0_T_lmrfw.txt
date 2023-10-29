@@ -1,0 +1,9 @@
+video-uynkd split 2765 extract 2530 shuffle 2284 classify 63422 E2E 71411
+video-kobbm split 2698 extract 3506 shuffle 2048 classify 59235 E2E 67921
+video-bqmad split 2841 extract 3536 shuffle 2039 classify 62064 E2E 70918
+video-lxajk split 2696 extract 3149 shuffle 2106 classify 64710 E2E 73032
+video-ndpfi split 2713 extract 3003 shuffle 2080 classify 61326 E2E 69545
+video-fxews split 2693 extract 3162 shuffle 2224 classify 60363 E2E 68838
+video-jsmpv split 2682 extract 2836 shuffle 2204 classify 59418 E2E 67544
+video-kewxo split 2692 extract 3555 shuffle 2069 classify 64056 E2E 72784
+video-mrcdb split 2768 extract 3212 shuffle 2296 classify 60671 E2E 69344

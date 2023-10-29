@@ -1,0 +1,9 @@
+video-zdxwv split 2637 extract 2617 shuffle 2130 classify 17227 E2E 24713
+video-zegme split 2766 extract 2866 shuffle 2150 classify 18941 E2E 26808
+video-ggfdo split 2663 extract 2593 shuffle 2068 classify 19083 E2E 26504
+video-ijkwe split 2646 extract 2739 shuffle 2077 classify 20735 E2E 28291
+video-scosf split 2705 extract 2627 shuffle 2379 classify 20573 E2E 28381
+video-jrkfe split 2695 extract 2636 shuffle 2140 classify 18681 E2E 26242
+video-kqlgl split 2658 extract 2548 shuffle 2131 classify 20880 E2E 28317
+video-ajbba split 2684 extract 2858 shuffle 2078 classify 19377 E2E 27068
+video-yvyes split 2755 extract 2624 shuffle 2108 classify 18316 E2E 25866

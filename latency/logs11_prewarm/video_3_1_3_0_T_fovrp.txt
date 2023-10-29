@@ -1,0 +1,9 @@
+video-sxvke split 2780 extract 2318 shuffle 2502 classify 22862 E2E 31459
+video-nntyq split 2685 extract 2468 shuffle 2785 classify 22309 E2E 30918
+video-sgymn split 2958 extract 2436 shuffle 2029 classify 22432 E2E 30492
+video-mtefx split 2695 extract 2438 shuffle 3520 classify 23309 E2E 32712
+video-bhvlg split 2669 extract 2511 shuffle 2168 classify 23748 E2E 31821
+video-ayxde split 2719 extract 2367 shuffle 2048 classify 22228 E2E 30074
+video-uxbjk split 2685 extract 2374 shuffle 2185 classify 23333 E2E 31302
+video-qkhqe split 2735 extract 2372 shuffle 1982 classify 24192 E2E 31978
+video-lrkfm split 2695 extract 2436 shuffle 2009 classify 25324 E2E 33152

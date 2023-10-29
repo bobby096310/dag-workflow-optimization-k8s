@@ -1,0 +1,10 @@
+video-pcvnr split 2728 extract 2476 shuffle 2080 classify 19336 E2E 26850
+video-bryrw split 2763 extract 2433 shuffle 2007 classify 20240 E2E 27697
+video-rhnxi split 2691 extract 2398 shuffle 2001 classify 19636 E2E 26957
+video-qcplr split 2672 extract 2326 shuffle 2174 classify 17955 E2E 25347
+video-eyyhk split 2807 extract 2450 shuffle 1968 classify 18051 E2E 25529
+video-gvlhp split 2734 extract 2515 shuffle 2022 classify 21101 E2E 28627
+video-gwzoh split 2663 extract 2398 shuffle 2066 classify 19375 E2E 26749
+video-xcacn split 2706 extract 2399 shuffle 1991 classify 22048 E2E 29389
+video-aufpf split 2724 extract 2437 shuffle 2119 classify 20107 E2E 27634
+video-acyth split 2743 extract 2428 shuffle 1979 classify 18935 E2E 26312

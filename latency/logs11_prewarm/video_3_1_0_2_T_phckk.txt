@@ -1,0 +1,9 @@
+video-cobcu split 2708 extract 2451 shuffle 2045 classify 21075 E2E 28540
+video-mwaco split 2702 extract 2394 shuffle 2120 classify 19970 E2E 27424
+video-xeskv split 2695 extract 2436 shuffle 2013 classify 20976 E2E 28375
+video-fhucz split 2737 extract 2495 shuffle 2080 classify 19669 E2E 27210
+video-xdsur split 2707 extract 2384 shuffle 1987 classify 18637 E2E 25933
+video-uvxxo split 2711 extract 2360 shuffle 2035 classify 19777 E2E 27110
+video-xfztk split 2713 extract 3624 shuffle 2049 classify 19599 E2E 28233
+video-yxyes split 2727 extract 2314 shuffle 2033 classify 19057 E2E 26359
+video-vynam split 2710 extract 2381 shuffle 2013 classify 19535 E2E 26855

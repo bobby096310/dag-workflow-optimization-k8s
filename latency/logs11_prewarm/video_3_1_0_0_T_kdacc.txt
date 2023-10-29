@@ -1,0 +1,9 @@
+video-allbk split 3025 extract 2568 shuffle 2033 classify 20811 E2E 29100
+video-fnbbe split 3377 extract 2918 shuffle 2039 classify 19588 E2E 28444
+video-ovolw split 3184 extract 2641 shuffle 3598 classify 20316 E2E 30442
+video-gbtkh split 2879 extract 2766 shuffle 2143 classify 20848 E2E 29322
+video-bivco split 3125 extract 2621 shuffle 2217 classify 20298 E2E 28966
+video-dlvhl split 2737 extract 2670 shuffle 2274 classify 23064 E2E 31329
+video-nnmou split 3369 extract 2372 shuffle 2298 classify 21086 E2E 29812
+video-ziamu split 2739 extract 3541 shuffle 2015 classify 21082 E2E 30110
+video-qhhhx split 2743 extract 2673 shuffle 2275 classify 20664 E2E 28964
