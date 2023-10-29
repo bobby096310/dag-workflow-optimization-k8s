@@ -6,3 +6,4 @@ video-jgddl split 2658 extract 2721 shuffle 995 classify 19530 E2E 26325
 video-ththh split 2702 extract 2674 shuffle 586 classify 14733 E2E 21223
 video-gjkct split 2614 extract 2491 shuffle 402 classify 17830 E2E 23745
 video-crevg split 2735 extract 2825 shuffle 265 classify 14953 E2E 21115
+video-lnajo split 2664 extract 2652 shuffle 893 classify 18680 E2E 25280
