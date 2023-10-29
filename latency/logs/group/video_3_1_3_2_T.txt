@@ -4,3 +4,7 @@ video-pbdop split 2707 extract 2732 shuffle 10 classify 25289 E2E 31031
 video-ufhcu split 2690 extract 3191 shuffle 8 classify 17747 E2E 23889
 video-dufis split 2670 extract 2675 shuffle 9 classify 17521 E2E 23202
 video-pvxhp split 2720 extract 2999 shuffle 10 classify 17404 E2E 23395
+video-vtydr split 2910 extract 2844 shuffle 404 classify 16898 E2E 23378
+video-qjfio split 2747 extract 2883 shuffle 794 classify 16207 E2E 22944
+video-pdrua split 2787 extract 2768 shuffle 8503 classify 19447 E2E 33789
+video-ypege split 2981 extract 4593 shuffle 1035 classify 14400 E2E 23319

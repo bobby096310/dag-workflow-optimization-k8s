@@ -7,4 +7,3 @@ video-vcrpv split 3707 extract 3213 shuffle 12 classify 23737 E2E 31374
 video-xfpzt split 4995 extract 3073 shuffle 225 classify 21416 E2E 30496
 video-kjusf split 2765 extract 3097 shuffle 91 classify 20274 E2E 27077
 video-mltnk split 2814 extract 3532 shuffle 222 classify 22539 E2E 29800
-video-inpcs split 2667 extract 2767 shuffle 359 classify 20205 E2E 26797

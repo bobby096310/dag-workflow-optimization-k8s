@@ -6,4 +6,3 @@ video-umgsj split 3295 extract 4020 shuffle 6706 classify 16359 E2E 31045
 video-klbzc split 2578 extract 5448 shuffle 5419 classify 15380 E2E 29501
 video-mexyb split 3090 extract 4333 shuffle 122 classify 18109 E2E 26375
 video-utact split 3004 extract 2598 shuffle 1232 classify 16915 E2E 24312
-video-nphqp split 2850 extract 2586 shuffle 13 classify 18022 E2E 24225

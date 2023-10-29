@@ -7,4 +7,3 @@ video-utvfb split 2786 extract 2413 shuffle 155 classify 19471 E2E 25348
 video-jowvi split 2754 extract 3161 shuffle 556 classify 14521 E2E 21411
 video-nfzmg split 2711 extract 2359 shuffle 1159 classify 18801 E2E 25388
 video-tnreu split 2616 extract 2738 shuffle 231 classify 18174 E2E 24130
-video-lmoey split 3433 extract 2365 shuffle 774 classify 19647 E2E 26597

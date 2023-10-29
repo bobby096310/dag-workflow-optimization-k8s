@@ -7,4 +7,3 @@ video-nmxzi split 2736 extract 2495 shuffle 2575 classify 21709 E2E 29854
 video-jbdaf split 2880 extract 2625 shuffle 2952 classify 19877 E2E 28652
 video-ogstr split 2651 extract 2912 shuffle 2614 classify 21455 E2E 29918
 video-agfzr split 2741 extract 2658 shuffle 2788 classify 18539 E2E 27174
-video-qvank split 2833 extract 2490 shuffle 2549 classify 19673 E2E 27897

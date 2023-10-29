@@ -1,4 +1,3 @@
-video-zvegi split 2709 extract 2408 shuffle 2265 classify 20169 E2E 27689
 video-iuhlb split 4205 extract 3032 shuffle 2454 classify 21554 E2E 31489
 video-oumoo split 3284 extract 2345 shuffle 2281 classify 19039 E2E 27094
 video-udaxp split 2655 extract 2348 shuffle 2769 classify 19572 E2E 27602

@@ -1,4 +1,3 @@
-video-yqesw split 3848 extract 3131 shuffle 10 classify 20887 E2E 28271
 video-nooki split 2970 extract 3005 shuffle 13 classify 19354 E2E 25822
 video-xziqw split 2763 extract 3116 shuffle 818 classify 17055 E2E 24078
 video-wumuk split 2729 extract 3068 shuffle 478 classify 18790 E2E 25539

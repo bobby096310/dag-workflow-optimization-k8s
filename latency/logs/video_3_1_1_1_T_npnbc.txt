@@ -1,4 +1,3 @@
-video-zuvla split 3327 extract 2822 shuffle 10 classify 19938 E2E 26508
 video-qegic split 2930 extract 4755 shuffle 6752 classify 17221 E2E 32089
 video-fhnti split 2683 extract 2740 shuffle 241 classify 19618 E2E 25722
 video-kcsxd split 2947 extract 2747 shuffle 745 classify 17991 E2E 24782

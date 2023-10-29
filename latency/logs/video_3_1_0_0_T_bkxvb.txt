@@ -7,4 +7,3 @@ video-tmucf split 3507 extract 3700 shuffle 6801 classify 17046 E2E 32002
 video-nvdol split 2812 extract 4314 shuffle 15 classify 21713 E2E 29580
 video-rkoax split 2818 extract 2784 shuffle 316 classify 24716 E2E 31356
 video-vqgil split 3109 extract 3576 shuffle 14 classify 32610 E2E 40007
-video-kwhcl split 3277 extract 4100 shuffle 12 classify 19369 E2E 27621
