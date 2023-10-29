@@ -7,4 +7,3 @@ video-iqidx split 2674 extract 2475 shuffle 2237 classify 20171 E2E 27768
 video-ibayu split 2738 extract 2482 shuffle 3007 classify 23031 E2E 31430
 video-wljzj split 3782 extract 2438 shuffle 2625 classify 20163 E2E 29209
 video-cyrww split 2642 extract 2423 shuffle 2509 classify 21232 E2E 29008
-video-kiolq split 3269 extract 2390 shuffle 2537 classify 20588 E2E 28957
