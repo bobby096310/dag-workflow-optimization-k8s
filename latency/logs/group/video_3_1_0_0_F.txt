@@ -1,1 +1,9 @@
 video-hdrjn split 2801 extract 2766 shuffle 1998 classify 23411 E2E 31376
+video-vusfo split 2863 extract 2501 shuffle 2975 classify 21930 E2E 30534
+video-qmczz split 3766 extract 2580 shuffle 2931 classify 20410 E2E 30091
+video-zglzi split 3009 extract 2440 shuffle 2176 classify 23512 E2E 31484
+video-ckfho split 3229 extract 2753 shuffle 3342 classify 21091 E2E 30602
+video-sbwae split 2661 extract 2709 shuffle 2370 classify 21003 E2E 29161
+video-thcml split 3121 extract 2396 shuffle 2201 classify 21866 E2E 30072
+video-qpvdv split 2717 extract 2468 shuffle 2948 classify 23167 E2E 31694
+video-opqch split 2936 extract 3005 shuffle 2508 classify 23011 E2E 31743

@@ -4,4 +4,7 @@ video-xdcye split 2630 extract 2363 shuffle 2187 classify 20080 E2E 27525
 video-ntddx split 2645 extract 2328 shuffle 2522 classify 19846 E2E 27557
 video-yqxaw split 2695 extract 3086 shuffle 2878 classify 18404 E2E 27218
 video-gesgx split 2579 extract 2304 shuffle 3008 classify 19852 E2E 27955
+video-losmp split 2636 extract 2394 shuffle 2261 classify 18559 E2E 26042
+video-euehx split 2807 extract 2450 shuffle 3224 classify 20596 E2E 29357
+video-lpwvv split 2750 extract 2397 shuffle 10539 classify 20478 E2E 36367
 video-qrqgf split 2760 extract 2601 shuffle 3061 classify 20467 E2E 29016
