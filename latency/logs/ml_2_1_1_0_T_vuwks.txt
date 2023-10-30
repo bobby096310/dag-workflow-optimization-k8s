@@ -4,3 +4,6 @@ ml-rwpvo pca 9975 param-tune 37130 combine 2058 E2E 49376
 ml-bndyg pca 10250 param-tune 29186 combine 2049 E2E 41716
 ml-kdfxo pca 10026 param-tune 59330 combine 2239 E2E 71808
 ml-srtuo pca 10671 param-tune 35737 combine 2128 E2E 48709
+ml-dbvnm pca 10438 param-tune 29997 combine 2106 E2E 42725
+ml-odcfu pca 10981 param-tune 55901 combine 2106 E2E 69227
+ml-slfic pca 10205 param-tune 43866 combine 2118 E2E 56395
