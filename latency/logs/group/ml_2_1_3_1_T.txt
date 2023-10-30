@@ -5,4 +5,6 @@ ml-qhlpm pca 10889 param-tune 39414 combine 2307 E2E 52762
 ml-rdfhw pca 10145 param-tune 59816 combine 3167 E2E 73260
 ml-xtduc pca 9917 param-tune 35762 combine 2638 E2E 48459
 ml-knnvy pca 10247 param-tune 39213 combine 2337 E2E 51935
+ml-mzavb pca 10432 param-tune 36218 combine 4553 E2E 51385
+ml-lgpky pca 11188 param-tune 36870 combine 2865 E2E 51064
 ml-mlwbs pca 10103 param-tune 36663 combine 1963 E2E 48886
