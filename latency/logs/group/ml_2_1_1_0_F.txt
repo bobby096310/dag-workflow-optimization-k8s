@@ -1,2 +1,6 @@
 ml-hnfto pca 10641 param-tune 39948 combine 2110 E2E 52808
 ml-nhmhf pca 11464 param-tune 22737 combine 2066 E2E 36339
+ml-dfsei pca 10480 param-tune 31934 combine 2053 E2E 44536
+ml-gkres pca 10230 param-tune 38314 combine 2341 E2E 50974
+ml-qiwxl pca 10384 param-tune 29624 combine 2133 E2E 42226
+ml-phhmf pca 10324 param-tune 30706 combine 2178 E2E 43279
