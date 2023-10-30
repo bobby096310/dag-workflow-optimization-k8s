@@ -1,3 +1,7 @@
 ml-pthdb pca 10469 param-tune 36136 combine 13730 E2E 60513
 ml-vsdhj pca 10143 param-tune 36666 combine 2387 E2E 49360
 ml-glimt pca 10945 param-tune 36588 combine 5661 E2E 53359
+ml-qhlpm pca 10889 param-tune 39414 combine 2307 E2E 52762
+ml-rdfhw pca 10145 param-tune 59816 combine 3167 E2E 73260
+ml-xtduc pca 9917 param-tune 35762 combine 2638 E2E 48459
+ml-knnvy pca 10247 param-tune 39213 combine 2337 E2E 51935
