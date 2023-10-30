@@ -1,2 +1,7 @@
 video-ttrhq split 2674 extract 2778 shuffle 18 classify 21332 E2E 27142
 video-kbjgf split 2618 extract 3573 shuffle 10 classify 26136 E2E 32614
+video-hvtkf split 3428 extract 3126 shuffle 8 classify 21768 E2E 28656
+video-komsz split 2709 extract 3408 shuffle 620 classify 17351 E2E 24368
+video-sprqo split 2845 extract 3018 shuffle 559 classify 17031 E2E 23743
+video-xleeh split 2769 extract 4059 shuffle 116 classify 15275 E2E 22550
+video-gthis split 2912 extract 3611 shuffle 73 classify 28246 E2E 35125
