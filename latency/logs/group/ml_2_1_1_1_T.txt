@@ -2,4 +2,6 @@ ml-ifsqm pca 11014 param-tune 35837 combine 2186 E2E 49183
 ml-rogel pca 10625 param-tune 37902 combine 2097 E2E 50770
 ml-ozdyx pca 10078 param-tune 38602 combine 2029 E2E 50902
 ml-syejk pca 10253 param-tune 38639 combine 1981 E2E 51010
+ml-nbkli pca 10238 param-tune 36382 combine 2177 E2E 48928
+ml-nnmjw pca 11061 param-tune 38163 combine 2034 E2E 51446
 ml-bwzxi pca 9785 param-tune 36251 combine 1966 E2E 48155
