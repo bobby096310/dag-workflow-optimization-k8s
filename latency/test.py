@@ -23,19 +23,12 @@ def create_random_name(n):
 # Call the runner to run the workflow based on name
 def run_workflows(workflow_name, filename, times, inp, pre_warm, log_file_name):
     results = {}
-    if pre_warm == 'T':
-        pre_warm_value = True
-    elif pre_warm == 'F':
-        pre_warm_value = False
-    else:
-        print("Pre_warm string invalid.")
-        return
     for i in range(int(times)):
         run_name = workflow_name + "-" + create_random_name(5)
         if workflow_name == "video":
-            results[run_name] = run_video(inp, pre_warm_value)
+            results[run_name] = run_video(inp, pre_warm)
         elif workflow_name == 'ml':
-            results[run_name] = run_ml(inp, pre_warm_value)
+            results[run_name] = run_ml(inp, pre_warm)
         else:
             return "Workflow not found!"
         with open("logs/" + log_file_name, 'a') as file:
@@ -76,7 +69,7 @@ def init(workflow_name, func_index, conc, resources, bundling):
     current_list = [r.split(" ")[0] for r in get_P50()]
     for r in range(len(resources)):
         for b in range(len(bundling)):
-            for pre_warm in ['T', 'F']:
+            for pre_warm in ['T', 'F', 'S']:
                 entry = workflow_name + "_" + str(func_index) + "_" + str(conc) + "_" + str(r) + "_" + str(b) +  "_" + pre_warm
                 if entry not in current_list:
                     print("run " + entry)

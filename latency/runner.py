@@ -78,19 +78,26 @@ def run_video(inp, prewarm):
     latencies.append("split")
     re1, lat1 = run_step('vi-split', inp)
     
-    if prewarm:
+    if prewarm == "T":
         pre_warm('vi-extract', width)
         pre_warm('vi-shuffle', 1)
         pre_warm('vi-classify', width)
+        
+    if prewarm == "S":
+        pre_warm('vi-extract', width)
     
     latencies.append(str(lat1))
 
     latencies.append("extract")
     re2, lat2 = run_step('vi-extract', re1)
+    if prewarm == "S":
+        pre_warm('vi-shuffle', 1)
     latencies.append(str(lat2))
 
     latencies.append("shuffle")
     re3, lat3 = run_step('vi-shuffle', re2)
+    if prewarm == "S":
+        pre_warm('vi-classify', width)
     latencies.append(str(lat3))
 
     latencies.append("classify")
@@ -108,13 +115,17 @@ def run_ml(inp, prewarm):
 
     latencies.append("pca")
     re1, lat1 = run_step('ml-pca', inp)
-    if prewarm:
+    if prewarm == "T":
         pre_warm('ml-param-tune', width)
         pre_warm('ml-combine', 1)
+    if prewarm == "S":
+        pre_warm('ml-param-tune', width)
     latencies.append(str(lat1))
 
     latencies.append("param-tune")
     re2, lat2 = run_step('ml-param-tune', re1)
+    if prewarm == "S":
+        pre_warm('ml-combine', 1)
     latencies.append(str(lat2))
 
     latencies.append("combine")
