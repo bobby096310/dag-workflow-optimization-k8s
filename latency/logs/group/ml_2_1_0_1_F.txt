@@ -6,3 +6,6 @@ ml-pwgod pca 13148 param-tune 39274 combine 2144 E2E 54617
 ml-hpoyn pca 11724 param-tune 36270 combine 1999 E2E 50043
 ml-cvxpt pca 10082 param-tune 35808 combine 2117 E2E 48050
 ml-vrknl pca 10070 param-tune 35895 combine 2125 E2E 48138
+ml-mckda pca 10066 param-tune 36366 combine 2197 E2E 48680
+ml-vanjp pca 14289 param-tune 36708 combine 2086 E2E 53122
+ml-kortb pca 10948 param-tune 36110 combine 2079 E2E 49187
