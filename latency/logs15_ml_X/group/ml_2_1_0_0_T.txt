@@ -8,4 +8,6 @@ ml-xhgdu pca 11812 param-tune 44554 combine 2070 E2E 58691
 ml-houen pca 10106 param-tune 22669 combine 2130 E2E 35133
 ml-nbflr pca 10320 param-tune 50343 combine 2535 E2E 63383
 ml-npnim pca 10410 param-tune 36069 combine 2325 E2E 48988
+ml-cifha pca 17346 param-tune 117765 combine 3084 E2E 138368
+ml-lqymh pca 11334 param-tune 77311 combine 2082 E2E 90904
 ml-zhxqx pca 11262 param-tune 34418 combine 2095 E2E 47997
