@@ -1,3 +1,2 @@
-video-bsivh split 2625 extract 2329 shuffle 10679 classify 20682 E2E 36438
 video-jmsol split 2857 extract 2483 shuffle 2316 classify 20198 E2E 27959
 video-icavy split 2714 extract 2339 shuffle 10566 classify 19767 E2E 35550

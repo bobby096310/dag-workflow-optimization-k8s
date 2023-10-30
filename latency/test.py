@@ -72,14 +72,15 @@ def update_and_run(workflow_name, config, times, pre_warm):
     #pprint(run('video', [3, 1, 0, 1], 10, False))
 
 # Run each possible spec once
-def init(workflow_name, func_index, conc, resources, bundling, pre_warm):
+def init(workflow_name, func_index, conc, resources, bundling):
     current_list = [r.split(" ")[0] for r in get_P50()]
     for r in range(len(resources)):
         for b in range(len(bundling)):
-            entry = workflow_name + "_" + str(func_index) + "_" + str(conc) + "_" + str(r) + "_" + str(b) +  "_" + pre_warm
-            if entry not in current_list:
-                print("run " + entry)
-                update_and_run(workflow_name, [func_index, 1, r, b], 1, pre_warm)
+            for pre_warm in ['T', 'F']:
+                entry = workflow_name + "_" + str(func_index) + "_" + str(conc) + "_" + str(r) + "_" + str(b) +  "_" + pre_warm
+                if entry not in current_list:
+                    print("run " + entry)
+                    update_and_run(workflow_name, [func_index, 1, r, b], 1, pre_warm)
                 #time.sleep(90)
 
 # Run workflows until target is met for the level
@@ -135,9 +136,9 @@ def find_best_config(workflow_name, func_index, pre_warm):
         level += 1
     print(get_best_config())
 
-def run_all(workflow_name, func_index, rounds, pre_warm):
+def run_all(workflow_name, func_index, rounds, ):
     conc = 1
-    init(workflow_name, func_index, conc, cpu, bundle[workflow_name], pre_warm)
+    init(workflow_name, func_index, conc, cpu, bundle[workflow_name])
     batch = get_P50()
     level = 0
     while level < int(rounds):
@@ -171,12 +172,11 @@ def main():
         #python3 test2.py run video 3 1 - 0 F 10
     elif code == "run_all":
         if len(args) < 4:
-            print("Please enter workflow name, function index, pre_warm, and rounds")
+            print("Please enter workflow name, function index, and rounds")
         workflow_name = args[1]
         func_index = args[2]
-        pre_warm = args[3]
-        rounds = args[4]
-        run_all(workflow_name, func_index, rounds, pre_warm)
+        rounds = args[3]
+        run_all(workflow_name, func_index, rounds)
         # python3 test.py run_all video 3 T 1 
 
 

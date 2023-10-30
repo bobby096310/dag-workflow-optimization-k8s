@@ -3,3 +3,7 @@ video-qnegk split 2788 extract 2390 shuffle 2701 classify 19512 E2E 27518
 video-gbkan split 2632 extract 2735 shuffle 2913 classify 19426 E2E 27871
 video-pobbw split 2731 extract 2387 shuffle 2870 classify 27557 E2E 35681
 video-kahoe split 2944 extract 2396 shuffle 2541 classify 20057 E2E 28106
+video-usndo split 2796 extract 2596 shuffle 2881 classify 23161 E2E 31569
+video-wlded split 2798 extract 2452 shuffle 10521 classify 19072 E2E 34991
+video-hwsqq split 2960 extract 2710 shuffle 2270 classify 19068 E2E 27112
+video-dramc split 2803 extract 2475 shuffle 2194 classify 19196 E2E 26834
