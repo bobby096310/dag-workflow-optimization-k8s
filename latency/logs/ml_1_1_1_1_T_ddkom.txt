@@ -1,4 +1,2 @@
 ml-agvvq pca 12781 param-tune 41514 combine 2137 E2E 56572
 ml-rgaef pca 16855 param-tune 39517 combine 2147 E2E 58628
-ml-vxhet pca 11350 param-tune 38953 combine 10 E2E 50447
-ml-ftpmy pca 11530 param-tune 37345 combine 11 E2E 48993
