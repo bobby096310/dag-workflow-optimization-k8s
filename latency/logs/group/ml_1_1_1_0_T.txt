@@ -4,3 +4,4 @@ ml-zigoh pca 11495 param-tune 57056 combine 9 E2E 68745
 ml-gsmmt pca 10958 param-tune 57551 combine 9 E2E 68684
 ml-smzxw pca 10619 param-tune 77921 combine 2078 E2E 90786
 ml-eydrg pca 11166 param-tune 29601 combine 9224 E2E 50132
+ml-igscy pca 18837 param-tune 113271 combine 2193 E2E 134416
