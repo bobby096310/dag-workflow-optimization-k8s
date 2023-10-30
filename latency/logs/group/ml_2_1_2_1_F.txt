@@ -6,4 +6,5 @@ ml-vkomp pca 10563 param-tune 35529 combine 2144 E2E 48291
 ml-xjuwp pca 10122 param-tune 37095 combine 2195 E2E 49470
 ml-szhze pca 10444 param-tune 36396 combine 2119 E2E 49003
 ml-rjzrn pca 15230 param-tune 41408 combine 2315 E2E 58999
+ml-barpr pca 10542 param-tune 36699 combine 2275 E2E 49580
 ml-djjfu pca 10208 param-tune 35894 combine 2119 E2E 48280
