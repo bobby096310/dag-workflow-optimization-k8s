@@ -5,3 +5,5 @@ ml-jqbma pca 10813 param-tune 29744 combine 9 E2E 40702
 ml-dmhaj pca 18393 param-tune 20992 combine 9 E2E 39570
 ml-plzbs pca 11950 param-tune 28508 combine 11 E2E 40644
 ml-sdraq pca 18479 param-tune 32994 combine 9 E2E 51619
+ml-svpdm pca 18344 param-tune 20938 combine 8 E2E 39455
+ml-voyka pca 13558 param-tune 28033 combine 10 E2E 41744
