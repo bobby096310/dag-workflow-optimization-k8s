@@ -2,3 +2,9 @@ ml-cteeu pca 16769 param-tune 40918 combine 2162 E2E 59898
 ml-sbqgf pca 11957 param-tune 39944 combine 2107 E2E 54058
 ml-mosec pca 10749 param-tune 39906 combine 2215 E2E 52918
 ml-jjums pca 12095 param-tune 37549 combine 2102 E2E 51792
+ml-bgzgz pca 18111 param-tune 37669 combine 2141 E2E 57961
+ml-exmnb pca 11431 param-tune 37694 combine 2062 E2E 51231
+ml-jmwfz pca 12037 param-tune 38392 combine 2170 E2E 52641
+ml-gbhad pca 10608 param-tune 41881 combine 2184 E2E 54748
+ml-vafbv pca 10965 param-tune 41759 combine 2173 E2E 54964
+ml-gpvzp pca 11603 param-tune 40960 combine 2131 E2E 54738
