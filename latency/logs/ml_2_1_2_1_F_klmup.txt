@@ -1,2 +1,6 @@
 ml-hfwrt pca 10642 param-tune 41569 combine 2172 E2E 54440
 ml-pjbxh pca 11167 param-tune 35554 combine 2226 E2E 48995
+ml-biwiq pca 10786 param-tune 36970 combine 2116 E2E 49937
+ml-nlegk pca 10383 param-tune 35615 combine 2193 E2E 48239
+ml-vkomp pca 10563 param-tune 35529 combine 2144 E2E 48291
+ml-xjuwp pca 10122 param-tune 37095 combine 2195 E2E 49470
