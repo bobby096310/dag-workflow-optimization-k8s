@@ -6,3 +6,4 @@ ml-zorvb pca 10612 param-tune 76576 combine 2030 E2E 89398
 ml-tednx pca 10246 param-tune 42840 combine 9 E2E 53288
 ml-ynxuf pca 10514 param-tune 182548 combine 2071 E2E 195318
 ml-vukiz pca 11989 param-tune 54718 combine 8 E2E 66897
+ml-mupla pca 10529 param-tune 34827 combine 9 E2E 45514
