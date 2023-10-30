@@ -1,2 +1,9 @@
 ml-dqnev pca 10840 param-tune 28763 combine 2113 E2E 41928
 ml-jfvmq pca 10321 param-tune 31385 combine 2096 E2E 44005
+ml-dlfug pca 10121 param-tune 28177 combine 2113 E2E 40617
+ml-jovos pca 10202 param-tune 24914 combine 2142 E2E 37413
+ml-sbsji pca 10120 param-tune 23967 combine 1937 E2E 36214
+ml-mbdyl pca 9976 param-tune 41459 combine 2107 E2E 53739
+ml-lupba pca 10162 param-tune 30416 combine 2029 E2E 42774
+ml-ptuby pca 11379 param-tune 32898 combine 2061 E2E 46559
+ml-scmtr pca 10563 param-tune 42211 combine 2081 E2E 55048
