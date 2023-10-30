@@ -33,7 +33,7 @@ def run_workflows(workflow_name, filename, times, inp, pre_warm, log_file_name):
             return "Workflow not found!"
         with open("logs/" + log_file_name, 'a') as file:
             file.write(run_name + " " + results[run_name] + "\n")
-        time.sleep(40)
+        time.sleep(60)
         #os.system("kubectl delete pods --all")
     return results
 
