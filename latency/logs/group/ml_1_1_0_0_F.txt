@@ -7,4 +7,3 @@ ml-mpykf pca 11616 param-tune 42186 combine 2411 E2E 56280
 ml-zeoky pca 10664 param-tune 37037 combine 2150 E2E 49917
 ml-jiojb pca 11136 param-tune 29722 combine 2913 E2E 43867
 ml-zqpfw pca 11009 param-tune 33698 combine 2056 E2E 46853
-ml-jzayr pca 10573 param-tune 22822 combine 2081 E2E 35538
