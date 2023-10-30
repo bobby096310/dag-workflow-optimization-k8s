@@ -3,3 +3,6 @@ ml-dfsei pca 10480 param-tune 31934 combine 2053 E2E 44536
 ml-gkres pca 10230 param-tune 38314 combine 2341 E2E 50974
 ml-qiwxl pca 10384 param-tune 29624 combine 2133 E2E 42226
 ml-phhmf pca 10324 param-tune 30706 combine 2178 E2E 43279
+ml-mfuvu pca 10498 param-tune 24534 combine 2107 E2E 37263
+ml-wtpib pca 10158 param-tune 22231 combine 2107 E2E 34563
+ml-zhopx pca 10281 param-tune 38853 combine 2226 E2E 51473
