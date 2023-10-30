@@ -1,2 +1,7 @@
 ml-xecpc pca 12749 param-tune 41730 combine 8 E2E 54622
+ml-acwwc pca 11515 param-tune 34137 combine 8 E2E 45787
+ml-sicdl pca 12249 param-tune 36134 combine 8 E2E 48533
+ml-crdpu pca 11003 param-tune 34515 combine 8 E2E 45646
+ml-nvzvw pca 11820 param-tune 35518 combine 9 E2E 47448
+ml-tpydb pca 10139 param-tune 34750 combine 8 E2E 45007
 ml-lpbox pca 11987 param-tune 34633 combine 10 E2E 46746
