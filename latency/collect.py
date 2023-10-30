@@ -4,7 +4,7 @@ from pdf_cdf import *
 
 root_dir = "logs/"
 group_dir = root_dir + "group/"
-data_index = 10
+data_index = 8
 
 def transferlog(filename, limit):
     with open(filename, 'r') as file:
