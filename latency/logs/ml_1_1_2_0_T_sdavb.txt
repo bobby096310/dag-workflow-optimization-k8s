@@ -1,9 +1,7 @@
 ml-pxbno pca 10638 param-tune 32673 combine 11 E2E 43463
-ml-vngle pca 11057 param-tune 114938 combine 2048 E2E 128250
 ml-augze pca 18482 param-tune 85106 combine 2287 E2E 106068
 ml-sldks pca 10943 param-tune 52683 combine 9 E2E 63830
 ml-zorvb pca 10612 param-tune 76576 combine 2030 E2E 89398
 ml-tednx pca 10246 param-tune 42840 combine 9 E2E 53288
-ml-ynxuf pca 10514 param-tune 182548 combine 2071 E2E 195318
 ml-vukiz pca 11989 param-tune 54718 combine 8 E2E 66897
 ml-mupla pca 10529 param-tune 34827 combine 9 E2E 45514
