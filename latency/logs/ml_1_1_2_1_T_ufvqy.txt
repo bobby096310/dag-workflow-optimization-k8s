@@ -3,3 +3,7 @@ ml-ftdtg pca 10602 param-tune 39853 combine 10 E2E 50602
 ml-stumv pca 11476 param-tune 37303 combine 9 E2E 48912
 ml-vpnne pca 10419 param-tune 37482 combine 9 E2E 48080
 ml-ywhsh pca 11364 param-tune 39227 combine 9 E2E 50766
+ml-lszmu pca 11064 param-tune 38857 combine 10 E2E 50060
+ml-jfawx pca 10960 param-tune 37850 combine 10 E2E 48999
+ml-eptxd pca 10848 param-tune 37323 combine 10 E2E 48314
+ml-gclpr pca 11446 param-tune 38760 combine 9 E2E 50378
