@@ -1,0 +1,8 @@
+ml-rymwe pca 11345 param-tune 37527 combine 2128 E2E 51061
+ml-bacgh pca 10515 param-tune 34617 combine 2116 E2E 47301
+ml-fwubo pca 10793 param-tune 23392 combine 2189 E2E 36431
+ml-pbpvm pca 10428 param-tune 24440 combine 2179 E2E 37145
+ml-ubpow pca 10442 param-tune 28169 combine 2139 E2E 40811
+ml-ynyzr pca 11932 param-tune 29717 combine 2052 E2E 43756
+ml-dskhy pca 10372 param-tune 24985 combine 2078 E2E 37500
+ml-kictu pca 10727 param-tune 34724 combine 2084 E2E 47601

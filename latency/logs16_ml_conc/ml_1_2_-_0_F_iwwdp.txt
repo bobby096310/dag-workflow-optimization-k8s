@@ -1,0 +1,10 @@
+ml-ptclp pca 11440 param-tune 29913 combine 2291 E2E 43705
+ml-mzvee pca 11051 param-tune 38444 combine 2103 E2E 51665
+ml-agsxj pca 10649 param-tune 29997 combine 2163 E2E 42875
+ml-nqvhr pca 10596 param-tune 38299 combine 2136 E2E 51082
+ml-omnbr pca 11500 param-tune 39110 combine 2127 E2E 52783
+ml-hkofj pca 10728 param-tune 40683 combine 2067 E2E 53530
+ml-oynei pca 11127 param-tune 34358 combine 2124 E2E 47661
+ml-vgxim pca 11226 param-tune 37148 combine 2068 E2E 50495
+ml-bzobg pca 11249 param-tune 35255 combine 2112 E2E 48692
+ml-pivto pca 11107 param-tune 37385 combine 2124 E2E 50678

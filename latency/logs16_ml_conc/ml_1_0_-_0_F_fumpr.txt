@@ -1,0 +1,10 @@
+ml-oiuxd pca 11462 param-tune 84427 combine 2116 E2E 98069
+ml-tqcqv pca 11101 param-tune 73614 combine 9301 E2E 94084
+ml-njowq pca 14958 param-tune 79250 combine 2056 E2E 96325
+ml-lnocz pca 10619 param-tune 77289 combine 2032 E2E 89999
+ml-fmaws pca 10842 param-tune 75420 combine 2106 E2E 88426
+ml-nzfmz pca 10654 param-tune 75687 combine 2070 E2E 88483
+ml-pprpg pca 10543 param-tune 73460 combine 2156 E2E 86224
+ml-uxmdd pca 11544 param-tune 77678 combine 2098 E2E 91385
+ml-egngj pca 10622 param-tune 73885 combine 2115 E2E 86708
+ml-rpysv pca 11180 param-tune 79456 combine 2057 E2E 92747

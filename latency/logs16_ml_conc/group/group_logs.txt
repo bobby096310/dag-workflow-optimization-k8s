@@ -1,0 +1,12 @@
+Sort by Mean:
+ml_1_1_-_0_F Mean 2139.35 P50 2128.0 P95 2250.0 Count 20
+ml_1_2_-_0_F Mean 2186.8 P50 2112.0 P95 2291.0 Count 20
+ml_1_0_-_0_F Mean 2509.0 P50 2116.0 P95 2347.0 Count 20
+Sort by P50:
+ml_1_2_-_0_F Mean 2186.8 P50 2112.0 P95 2291.0 Count 20
+ml_1_0_-_0_F Mean 2509.0 P50 2116.0 P95 2347.0 Count 20
+ml_1_1_-_0_F Mean 2139.35 P50 2128.0 P95 2250.0 Count 20
+Sort by P95:
+ml_1_1_-_0_F Mean 2139.35 P50 2128.0 P95 2250.0 Count 20
+ml_1_2_-_0_F Mean 2186.8 P50 2112.0 P95 2291.0 Count 20
+ml_1_0_-_0_F Mean 2509.0 P50 2116.0 P95 2347.0 Count 20
