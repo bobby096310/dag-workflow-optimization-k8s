@@ -2,3 +2,7 @@ ml-tdbvq pca 10040 param-tune 35469 combine 2040 E2E 47610
 ml-pcqpc pca 11506 param-tune 37247 combine 2082 E2E 50892
 ml-imiod pca 10155 param-tune 35869 combine 2313 E2E 48380
 ml-exxad pca 11259 param-tune 36457 combine 2068 E2E 49832
+ml-szmpx pca 10267 param-tune 36360 combine 2100 E2E 48783
+ml-probv pca 10767 param-tune 36234 combine 2142 E2E 49188
+ml-dicxo pca 10137 param-tune 35981 combine 2218 E2E 48402
+ml-vpqrl pca 10427 param-tune 36189 combine 2129 E2E 48803
