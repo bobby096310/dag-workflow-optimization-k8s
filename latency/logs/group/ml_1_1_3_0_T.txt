@@ -1,4 +1,8 @@
 ml-lrifv pca 10784 param-tune 27082 combine 2161 E2E 40179
+ml-mwfqt pca 10601 param-tune 74601 combine 2065 E2E 87372
+ml-ncdzr pca 10933 param-tune 116590 combine 2142 E2E 129849
+ml-njmkq pca 11484 param-tune 68394 combine 2007 E2E 82075
+ml-gvukv pca 11796 param-tune 85945 combine 2084 E2E 100019
 ml-pquam pca 13556 param-tune 36393 combine 10 E2E 50138
 ml-wpinr pca 10474 param-tune 57590 combine 9 E2E 68261
 ml-yvkyc pca 11075 param-tune 28391 combine 10 E2E 39653
