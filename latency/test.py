@@ -13,7 +13,7 @@ conc = [0, 1, 2, 5, 10]
 #cpu = [['-', '-'], ['1', '-'], ['1', '2'], ['1500m', '-'], ['2', '-'], ['2', '3'], ['3', '-']]
 #cpu = [['-', '-'], ['500m', '500m'], ['1', '1'], ['1500m', '1500m'], ['2', '2'], ['2500m', '2500m'], ['3', '3']]
 cpu = [['-', '-'], ['1', '1'], ['2', '2'], ['3', '3']]
-bundle = {"ml": ["2", "4", "8"], "video": ["15", "5", "3"]}
+bundle = {"ml": ["4", "8"], "video": ["15", "5", "3"]}
 
 def create_random_name(n):
     letters = string.ascii_lowercase
@@ -61,7 +61,7 @@ def update_and_run(workflow_name, config, times, pre_warm):
     if workflow_name == 'video' :
         inp = {"src_name": "00", "DOP": bundle[workflow_name][bundle_index], "detect_prob": 2}
     if workflow_name == 'ml' :
-        inp = {"bundle_size": bundle[workflow_name][bundle_index], "key1": "300"}
+        inp = {"bundle_size": int(bundle[workflow_name][bundle_index]), "key1": "300"}
     result = run_workflows(workflow_name, filename, times, inp, pre_warm, log_file_name)
     final = log_file_name[:-4] + " " +  analyze_result(list(result.values()), 7)
     #get_n_latency(list(result.values()), 95)
