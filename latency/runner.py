@@ -76,7 +76,6 @@ def run_video(inp, prewarm):
     width = int(inp['DOP'])
 
     latencies.append("split")
-    re1, lat1 = run_step('vi-split', inp)
     
     if prewarm == "T":
         pre_warm('vi-extract', width)
@@ -86,18 +85,19 @@ def run_video(inp, prewarm):
     if prewarm == "S":
         pre_warm('vi-extract', width)
     
+    re1, lat1 = run_step('vi-split', inp)
     latencies.append(str(lat1))
 
     latencies.append("extract")
-    re2, lat2 = run_step('vi-extract', re1)
     if prewarm == "S":
         pre_warm('vi-shuffle', 1)
+    re2, lat2 = run_step('vi-extract', re1)
     latencies.append(str(lat2))
 
     latencies.append("shuffle")
-    re3, lat3 = run_step('vi-shuffle', re2)
     if prewarm == "S":
         pre_warm('vi-classify', width)
+    re3, lat3 = run_step('vi-shuffle', re2)
     latencies.append(str(lat3))
 
     latencies.append("classify")
@@ -114,18 +114,18 @@ def run_ml(inp, prewarm):
     width = 16 / int(inp['bundle_size'])
 
     latencies.append("pca")
-    re1, lat1 = run_step('ml-pca', inp)
     if prewarm == "T":
         pre_warm('ml-param-tune', width)
         pre_warm('ml-combine', 1)
     if prewarm == "S":
         pre_warm('ml-param-tune', width)
+    re1, lat1 = run_step('ml-pca', inp)
     latencies.append(str(lat1))
 
     latencies.append("param-tune")
-    re2, lat2 = run_step('ml-param-tune', re1)
     if prewarm == "S":
         pre_warm('ml-combine', 1)
+    re2, lat2 = run_step('ml-param-tune', re1)
     latencies.append(str(lat2))
 
     latencies.append("combine")
