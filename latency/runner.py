@@ -67,7 +67,7 @@ def run_step(func, data):
         return execute(func, data)
 
 def pre_warm(func, width):
-    dummy = {"detail":{"indeces":["{'dummy': 1}" for i in range(width)]}}
+    dummy = {"detail":{"indeces":["{'dummy': 1}" for i in range(int(width))]}}
     run_step(func, dummy)
 
 def run_video(inp, prewarm):
@@ -126,8 +126,8 @@ def run_ml(inp, prewarm):
     return (" ".join(latencies))
 
 def main():
-    inp = {"src_name": "00", "DOP": "15", "detect_prob": 2}
-    print(run_video(inp, True))
+    inp = {"bundle_size": 4, "key1": "300"}
+    print(run_ml(inp, True))
 
 if __name__ == "__main__":
     main()
