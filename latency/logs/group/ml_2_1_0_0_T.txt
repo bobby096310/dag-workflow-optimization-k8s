@@ -6,4 +6,5 @@ ml-ravpi pca 10330 param-tune 23500 combine 2099 E2E 36123
 ml-tdwfa pca 9895 param-tune 37320 combine 2187 E2E 49614
 ml-xhgdu pca 11812 param-tune 44554 combine 2070 E2E 58691
 ml-houen pca 10106 param-tune 22669 combine 2130 E2E 35133
+ml-nbflr pca 10320 param-tune 50343 combine 2535 E2E 63383
 ml-zhxqx pca 11262 param-tune 34418 combine 2095 E2E 47997
