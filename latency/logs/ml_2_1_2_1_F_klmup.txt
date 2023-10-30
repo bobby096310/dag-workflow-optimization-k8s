@@ -4,3 +4,5 @@ ml-biwiq pca 10786 param-tune 36970 combine 2116 E2E 49937
 ml-nlegk pca 10383 param-tune 35615 combine 2193 E2E 48239
 ml-vkomp pca 10563 param-tune 35529 combine 2144 E2E 48291
 ml-xjuwp pca 10122 param-tune 37095 combine 2195 E2E 49470
+ml-szhze pca 10444 param-tune 36396 combine 2119 E2E 49003
+ml-rjzrn pca 15230 param-tune 41408 combine 2315 E2E 58999
