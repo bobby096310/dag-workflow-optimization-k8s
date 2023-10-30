@@ -4,4 +4,7 @@ video-txwho split 2637 extract 2637 shuffle 102 classify 25360 E2E 31038
 video-agqai split 2946 extract 2704 shuffle 1849 classify 24850 E2E 32644
 video-tvzdc split 2670 extract 2979 shuffle 484 classify 25236 E2E 31656
 video-ajmjx split 2675 extract 2834 shuffle 9 classify 19050 E2E 24858
+video-ytasw split 2640 extract 3275 shuffle 583 classify 23814 E2E 30632
+video-svxjc split 3052 extract 2503 shuffle 778 classify 24246 E2E 30898
+video-olpfl split 2891 extract 3348 shuffle 293 classify 18409 E2E 25340
 video-niyrw split 2792 extract 4448 shuffle 9 classify 26544 E2E 34071
