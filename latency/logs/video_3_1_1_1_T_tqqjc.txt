@@ -1,4 +1,3 @@
-video-furki split 4659 extract 383 shuffle 9 classify 13569 E2E 18938
 video-qkybo split 3769 extract 249 shuffle 256 classify 18904 E2E 23671
 video-exgyy split 4139 extract 280 shuffle 11 classify 14288 E2E 19017
 video-bhzcv split 3247 extract 196 shuffle 13 classify 16155 E2E 20080
