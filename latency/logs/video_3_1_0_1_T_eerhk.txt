@@ -6,4 +6,3 @@ video-evuye split 4794 extract 201 shuffle 11 classify 17058 E2E 22575
 video-kjiaj split 5056 extract 277 shuffle 17 classify 15363 E2E 21071
 video-vipjc split 4082 extract 281 shuffle 11 classify 16923 E2E 21628
 video-sbfup split 4867 extract 214 shuffle 9 classify 16661 E2E 22092
-video-spswb split 6095 extract 391 shuffle 11 classify 18708 E2E 25541
