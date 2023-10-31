@@ -1,4 +1,7 @@
 video-xkvtq split 4783 extract 393 shuffle 32 classify 21323 E2E 26865
-video-zofwi split 11512 extract 28492 shuffle 3570 classify 21225 E2E 65184
-video-lhbxm split 12368 extract 28534 shuffle 3147 classify 20777 E2E 65246
 video-prxbk split 3636 extract 236 shuffle 126 classify 19443 E2E 23847
+video-udjbj split 4076 extract 238 shuffle 356 classify 16740 E2E 21771
+video-zxtql split 3771 extract 260 shuffle 14 classify 20740 E2E 25202
+video-hzalc split 5126 extract 273 shuffle 12 classify 16714 E2E 22474
+video-szzko split 4068 extract 237 shuffle 10 classify 14448 E2E 19116
+video-ahbmz split 5260 extract 218 shuffle 10 classify 17475 E2E 23289

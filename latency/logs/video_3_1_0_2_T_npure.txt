@@ -1,3 +1,2 @@
-video-tgitv split 4952 extract 468 shuffle 10 classify 18118 E2E 23834
 video-cgrjt split 4966 extract 719 shuffle 9 classify 21512 E2E 27500
 video-agiih split 3820 extract 361 shuffle 11 classify 20721 E2E 25171
