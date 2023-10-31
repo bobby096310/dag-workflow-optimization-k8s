@@ -1,4 +1,3 @@
-video-eaepg split 4011 extract 244 shuffle 10 classify 19109 E2E 23777
 video-suqpk split 5778 extract 211 shuffle 10 classify 22035 E2E 28460
 video-eobqy split 4147 extract 972 shuffle 9 classify 16285 E2E 21712
 video-hjqmt split 5000 extract 213 shuffle 10 classify 18210 E2E 23815

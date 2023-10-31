@@ -1,6 +1,4 @@
-video-zwyiq split 4666 extract 271 shuffle 15 classify 74257 E2E 80032
 video-ftpkc split 4301 extract 266 shuffle 38 classify 18492 E2E 23791
-video-lcgjy split 11401 extract 28138 shuffle 2377 classify 41594 E2E 84358
 video-cmiyk split 4261 extract 400 shuffle 13 classify 17139 E2E 22473
 video-vdyqm split 4158 extract 312 shuffle 47 classify 18510 E2E 23640
 video-tykeu split 5018 extract 143 shuffle 177 classify 21106 E2E 27263
