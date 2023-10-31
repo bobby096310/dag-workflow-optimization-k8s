@@ -1,4 +1,3 @@
-video-hkxxf split 3675 extract 189 shuffle 1639 classify 18764 E2E 24692
 video-mmccm split 3674 extract 193 shuffle 1829 classify 23381 E2E 29407
 video-lnahe split 3678 extract 1028 shuffle 1623 classify 24230 E2E 30878
 video-yqcvt split 3390 extract 700 shuffle 9668 classify 18081 E2E 32243
