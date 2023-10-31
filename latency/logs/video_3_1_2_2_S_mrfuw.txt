@@ -1,2 +1,1 @@
-video-loduc split 2924 extract 247 shuffle 1679 classify 18148 E2E 23330
 video-mijrf split 3657 extract 373 shuffle 2486 classify 18391 E2E 25164

@@ -1,2 +1,9 @@
 video-cgrjt split 4966 extract 719 shuffle 9 classify 21512 E2E 27500
 video-agiih split 3820 extract 361 shuffle 11 classify 20721 E2E 25171
+video-xjkfe split 4930 extract 432 shuffle 12 classify 16686 E2E 22328
+video-bhlqg split 4306 extract 268 shuffle 12 classify 19460 E2E 24368
+video-stdgp split 4511 extract 341 shuffle 9 classify 24071 E2E 29245
+video-inrfu split 4007 extract 289 shuffle 11 classify 15149 E2E 19718
+video-qrcpf split 5997 extract 253 shuffle 10 classify 15351 E2E 21872
+video-ydvus split 4899 extract 237 shuffle 11 classify 20003 E2E 25450
+video-jikxo split 4806 extract 866 shuffle 21 classify 15988 E2E 21997
