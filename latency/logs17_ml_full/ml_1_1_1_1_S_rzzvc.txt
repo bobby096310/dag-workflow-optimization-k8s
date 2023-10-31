@@ -1,0 +1,5 @@
+ml-wtenz pca 11938 param-tune 38188 combine 10 E2E 50255
+ml-wmayd pca 11824 param-tune 38771 combine 10 E2E 50742
+ml-oewow pca 11705 param-tune 33483 combine 10 E2E 45301
+ml-hpynw pca 11701 param-tune 38246 combine 10 E2E 50086
+ml-ivkps pca 11127 param-tune 45341 combine 16 E2E 56641

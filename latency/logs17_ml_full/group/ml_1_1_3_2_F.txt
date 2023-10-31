@@ -1,0 +1,10 @@
+ml-bfvjg pca 11369 param-tune 38701 combine 2030 E2E 52140
+ml-ltwjp pca 12089 param-tune 38740 combine 2056 E2E 52924
+ml-ekpop pca 10975 param-tune 39654 combine 3556 E2E 54228
+ml-bvvhh pca 10902 param-tune 39660 combine 2011 E2E 52618
+ml-ovetb pca 10774 param-tune 44526 combine 2014 E2E 57347
+ml-abanu pca 10417 param-tune 39054 combine 3066 E2E 52577
+ml-nyqar pca 10541 param-tune 39388 combine 2653 E2E 52618
+ml-dvkuv pca 12087 param-tune 39072 combine 2086 E2E 53285
+ml-qzwkb pca 11014 param-tune 40451 combine 2073 E2E 53578
+ml-xvfde pca 10963 param-tune 39170 combine 2356 E2E 52523

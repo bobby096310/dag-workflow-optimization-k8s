@@ -1,0 +1,9 @@
+ml-pquam pca 13556 param-tune 36393 combine 10 E2E 50138
+ml-wpinr pca 10474 param-tune 57590 combine 9 E2E 68261
+ml-yvkyc pca 11075 param-tune 28391 combine 10 E2E 39653
+ml-tydbp pca 11860 param-tune 62621 combine 2244 E2E 76927
+ml-plueo pca 12117 param-tune 48675 combine 1941 E2E 62881
+ml-cojjk pca 9712 param-tune 48229 combine 11 E2E 58108
+ml-kebpm pca 13484 param-tune 21557 combine 11 E2E 35189
+ml-oppxe pca 11471 param-tune 24592 combine 12 E2E 36227
+ml-txeih pca 11704 param-tune 81774 combine 2268 E2E 95894

@@ -1,0 +1,9 @@
+ml-apwaq pca 10474 param-tune 37358 combine 9 E2E 47997
+ml-bjeou pca 14567 param-tune 38717 combine 9 E2E 53432
+ml-buwws pca 13429 param-tune 39376 combine 9 E2E 52965
+ml-irpho pca 10399 param-tune 35275 combine 10 E2E 45803
+ml-aggyr pca 12096 param-tune 39462 combine 9 E2E 51705
+ml-cxgrc pca 11109 param-tune 38464 combine 9 E2E 49703
+ml-bgqdp pca 10765 param-tune 36957 combine 9 E2E 47856
+ml-nxsmi pca 10389 param-tune 35279 combine 9 E2E 45819
+ml-bpjkx pca 11739 param-tune 34736 combine 9 E2E 46623

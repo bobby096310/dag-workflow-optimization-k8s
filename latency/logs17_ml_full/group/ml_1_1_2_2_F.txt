@@ -1,0 +1,10 @@
+ml-rtowa pca 10687 param-tune 44490 combine 2167 E2E 57396
+ml-zicnx pca 10918 param-tune 40499 combine 2091 E2E 53548
+ml-yyouz pca 10378 param-tune 40906 combine 1963 E2E 53291
+ml-nbvdo pca 9831 param-tune 38040 combine 1941 E2E 49857
+ml-gvigo pca 11056 param-tune 38063 combine 1940 E2E 51109
+ml-doeuc pca 11189 param-tune 39343 combine 1932 E2E 52501
+ml-ovgvh pca 11615 param-tune 39119 combine 2235 E2E 53017
+ml-iffql pca 11111 param-tune 36627 combine 1961 E2E 49745
+ml-nyihr pca 10810 param-tune 39028 combine 1963 E2E 51849
+ml-qcgyq pca 12164 param-tune 38203 combine 1948 E2E 52356

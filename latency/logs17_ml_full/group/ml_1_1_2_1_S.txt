@@ -1,0 +1,10 @@
+ml-ujexo pca 11975 param-tune 36980 combine 8 E2E 49056
+ml-zkfhl pca 13625 param-tune 38094 combine 12 E2E 51876
+ml-bdtke pca 13412 param-tune 42807 combine 9 E2E 56348
+ml-zxrgl pca 10230 param-tune 35312 combine 9 E2E 45689
+ml-bmwfj pca 13096 param-tune 37083 combine 11 E2E 50336
+ml-xfxku pca 12119 param-tune 35639 combine 10 E2E 47883
+ml-zjbal pca 10758 param-tune 40520 combine 10 E2E 51427
+ml-swkds pca 11270 param-tune 40003 combine 8 E2E 51449
+ml-jglcp pca 11376 param-tune 37797 combine 9 E2E 49309
+ml-kcasj pca 10943 param-tune 39020 combine 9 E2E 50130

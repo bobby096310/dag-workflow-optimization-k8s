@@ -1,0 +1,10 @@
+ml-fecfx pca 18897 param-tune 39591 combine 2272 E2E 60793
+ml-qsrrv pca 11024 param-tune 38476 combine 2146 E2E 51696
+ml-vtikh pca 11055 param-tune 39037 combine 2065 E2E 52198
+ml-adzvr pca 10628 param-tune 39005 combine 2122 E2E 51797
+ml-jwikx pca 10846 param-tune 43582 combine 2104 E2E 56582
+ml-zcwiv pca 11620 param-tune 39100 combine 2119 E2E 52882
+ml-mcbwg pca 12143 param-tune 36407 combine 2141 E2E 50733
+ml-fpjsl pca 11309 param-tune 38247 combine 2078 E2E 51676
+ml-igcii pca 11294 param-tune 38506 combine 2304 E2E 52140
+ml-icoqx pca 11542 param-tune 38032 combine 2147 E2E 51760

@@ -1,0 +1,9 @@
+ml-jcrtj pca 12724 param-tune 39029 combine 16 E2E 51870
+ml-kkfqn pca 12018 param-tune 38730 combine 9 E2E 50857
+ml-kysdl pca 9944 param-tune 40951 combine 10 E2E 51015
+ml-rpvig pca 10002 param-tune 35309 combine 10 E2E 45448
+ml-lofsr pca 10285 param-tune 39976 combine 9 E2E 50377
+ml-gzlzk pca 9421 param-tune 39090 combine 9 E2E 48626
+ml-rrmci pca 11979 param-tune 36188 combine 10 E2E 48302
+ml-aotlc pca 9757 param-tune 36811 combine 10 E2E 46698
+ml-jkqiz pca 9627 param-tune 36615 combine 11 E2E 46372
