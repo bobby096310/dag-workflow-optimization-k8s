@@ -6,3 +6,5 @@ video-dpmzt split 3941 extract 252 shuffle 1750 classify 27648 E2E 33886
 video-meehl split 4105 extract 236 shuffle 2238 classify 18980 E2E 25835
 video-erfzm split 3757 extract 236 shuffle 1813 classify 26657 E2E 32747
 video-xohyo split 3929 extract 252 shuffle 2249 classify 18415 E2E 25114
+video-jaqzp split 3781 extract 240 shuffle 2187 classify 19739 E2E 26255
+video-uqwmj split 4756 extract 271 shuffle 2308 classify 18296 E2E 25871
