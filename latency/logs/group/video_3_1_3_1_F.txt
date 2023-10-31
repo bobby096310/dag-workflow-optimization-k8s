@@ -1,4 +1,10 @@
 video-fobqm split 2771 extract 2557 shuffle 2128 classify 19503 E2E 27195
 video-ylwht split 2694 extract 2567 shuffle 2145 classify 21389 E2E 29015
 video-mmsge split 2775 extract 3516 shuffle 2159 classify 19532 E2E 28204
+video-uijan split 2737 extract 10947 shuffle 2085 classify 20294 E2E 36343
+video-neogb split 2644 extract 2570 shuffle 2093 classify 19065 E2E 26650
+video-zkmdf split 2843 extract 2606 shuffle 2136 classify 22815 E2E 30608
+video-lncbz split 2875 extract 2565 shuffle 2161 classify 21045 E2E 28860
+video-lhgmh split 2858 extract 2578 shuffle 2062 classify 23967 E2E 31723
+video-tsnsi split 2730 extract 2638 shuffle 2074 classify 20023 E2E 27665
 video-dumqx split 2722 extract 2532 shuffle 2077 classify 18855 E2E 26418

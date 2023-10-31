@@ -1,2 +1,1 @@
 video-cugdo split 3653 extract 261 shuffle 2072 classify 18054 E2E 24353
-video-jyzod split 3112 extract 270 shuffle 2102 classify 18878 E2E 24617
