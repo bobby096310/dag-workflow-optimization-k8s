@@ -1,4 +1,3 @@
-video-oeoop split 2704 extract 2472 shuffle 2138 classify 17115 E2E 24652
 video-gwekv split 3751 extract 2465 shuffle 2149 classify 23252 E2E 31846
 video-edejr split 2738 extract 2732 shuffle 2184 classify 20865 E2E 28736
 video-qroui split 2725 extract 3516 shuffle 2143 classify 19884 E2E 28439

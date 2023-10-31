@@ -3,3 +3,7 @@ video-jbzjd split 3903 extract 264 shuffle 11 classify 24111 E2E 28558
 video-xgclg split 4070 extract 274 shuffle 93 classify 21105 E2E 25779
 video-odptn split 4104 extract 245 shuffle 11 classify 23018 E2E 27653
 video-cvrug split 5087 extract 243 shuffle 10 classify 16707 E2E 22319
+video-pjhsn split 3565 extract 257 shuffle 10 classify 24734 E2E 28810
+video-jzucr split 3972 extract 226 shuffle 137 classify 18100 E2E 22768
+video-szkoo split 3866 extract 273 shuffle 10 classify 18025 E2E 22430
+video-vmduc split 4649 extract 257 shuffle 10 classify 23515 E2E 28705
