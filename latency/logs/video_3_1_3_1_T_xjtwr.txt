@@ -1,6 +1,8 @@
 video-suqpk split 5778 extract 211 shuffle 10 classify 22035 E2E 28460
 video-eobqy split 4147 extract 972 shuffle 9 classify 16285 E2E 21712
 video-hjqmt split 5000 extract 213 shuffle 10 classify 18210 E2E 23815
-video-xunga split 11896 extract 199 shuffle 28628 classify 40910 E2E 82032
 video-mxbqh split 4456 extract 244 shuffle 9 classify 18238 E2E 23292
 video-wktme split 4267 extract 368 shuffle 45 classify 19355 E2E 24400
+video-hmquy split 5128 extract 191 shuffle 10 classify 14536 E2E 20169
+video-fqrit split 3881 extract 402 shuffle 172 classify 16739 E2E 21550
+video-samhh split 3752 extract 260 shuffle 1130 classify 15826 E2E 21328
