@@ -1,2 +1,8 @@
 video-loduc split 2924 extract 247 shuffle 1679 classify 18148 E2E 23330
 video-mijrf split 3657 extract 373 shuffle 2486 classify 18391 E2E 25164
+video-xayti split 4444 extract 248 shuffle 1840 classify 21330 E2E 28228
+video-begqq split 3862 extract 252 shuffle 2280 classify 18825 E2E 25477
+video-dpmzt split 3941 extract 252 shuffle 1750 classify 27648 E2E 33886
+video-meehl split 4105 extract 236 shuffle 2238 classify 18980 E2E 25835
+video-erfzm split 3757 extract 236 shuffle 1813 classify 26657 E2E 32747
+video-xohyo split 3929 extract 252 shuffle 2249 classify 18415 E2E 25114
