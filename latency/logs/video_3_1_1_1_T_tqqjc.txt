@@ -5,3 +5,5 @@ video-sxilh split 5605 extract 233 shuffle 36 classify 17461 E2E 23750
 video-wjbgp split 4722 extract 245 shuffle 12 classify 20666 E2E 26038
 video-peree split 4327 extract 207 shuffle 15 classify 17966 E2E 22936
 video-befpt split 4149 extract 276 shuffle 10 classify 13137 E2E 17952
+video-aettz split 4104 extract 258 shuffle 10 classify 17989 E2E 22681
+video-orsvt split 4925 extract 369 shuffle 11 classify 17853 E2E 23489

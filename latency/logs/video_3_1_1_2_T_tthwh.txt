@@ -1,4 +1,3 @@
-video-jhdzz split 4030 extract 244 shuffle 9 classify 16126 E2E 20656
 video-zvzno split 5867 extract 229 shuffle 11 classify 23171 E2E 29536
 video-jbzjd split 3903 extract 264 shuffle 11 classify 24111 E2E 28558
 video-xgclg split 4070 extract 274 shuffle 93 classify 21105 E2E 25779
