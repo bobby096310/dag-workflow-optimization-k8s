@@ -1,2 +1,9 @@
 video-cugdo split 3653 extract 261 shuffle 2072 classify 18054 E2E 24353
+video-svmtd split 2959 extract 7835 shuffle 15 classify 20491 E2E 31600
+video-ktgcb split 3977 extract 265 shuffle 2808 classify 17193 E2E 24508
+video-cypdd split 3019 extract 249 shuffle 2291 classify 17413 E2E 23266
+video-ppxhp split 3000 extract 247 shuffle 2219 classify 18043 E2E 23772
+video-ycacq split 3681 extract 253 shuffle 1922 classify 18314 E2E 24533
+video-tzsfq split 3864 extract 252 shuffle 2452 classify 26331 E2E 33278
+video-pqagy split 4523 extract 259 shuffle 1799 classify 19146 E2E 26006
 video-jyzod split 3112 extract 270 shuffle 2102 classify 18878 E2E 24617
