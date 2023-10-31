@@ -5,4 +5,3 @@ video-tvhkw split 3024 extract 7632 shuffle 11 classify 20143 E2E 31655
 video-pkfsz split 3941 extract 252 shuffle 2085 classify 21150 E2E 28160
 video-wxvcr split 3371 extract 901 shuffle 1359 classify 21435 E2E 27606
 video-vwaie split 4011 extract 142 shuffle 1947 classify 21746 E2E 28642
-video-ubcao split 4485 extract 138 shuffle 1751 classify 17462 E2E 24803
