@@ -1,3 +1,2 @@
-video-bmtzy split 3789 extract 143 shuffle 12 classify 18635 E2E 23517
 video-zwyiq split 4666 extract 271 shuffle 15 classify 74257 E2E 80032
 video-ftpkc split 4301 extract 266 shuffle 38 classify 18492 E2E 23791

@@ -3,4 +3,8 @@ video-ukkkx split 5881 extract 241 shuffle 10 classify 23375 E2E 29812
 video-wwxxc split 3672 extract 279 shuffle 9 classify 16543 E2E 20811
 video-fnfhd split 4809 extract 235 shuffle 12 classify 26406 E2E 31747
 video-esobd split 4150 extract 249 shuffle 11 classify 17590 E2E 22239
+video-ylcgq split 4059 extract 333 shuffle 177 classify 25268 E2E 30161
+video-ccere split 4324 extract 263 shuffle 10 classify 14520 E2E 19365
+video-hgkam split 4580 extract 283 shuffle 10 classify 16257 E2E 21423
+video-fpjyf split 3552 extract 239 shuffle 1407 classify 26524 E2E 32071
 video-ceptp split 3991 extract 246 shuffle 130 classify 18380 E2E 23012
