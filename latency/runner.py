@@ -112,6 +112,7 @@ def run_ml(inp, prewarm):
     latencies = []
     start_time = datetime.now()
     width = 16 / int(inp['bundle_size'])
+    print("Width: " + width)
 
     latencies.append("pca")
     if prewarm == "T":
