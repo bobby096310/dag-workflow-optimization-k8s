@@ -5,3 +5,6 @@ video-udkca split 5319 extract 5923 shuffle 10 classify 13973 E2E 25732
 video-qdswi split 5418 extract 6901 shuffle 9 classify 14270 E2E 27049
 video-vmhqs split 4710 extract 6371 shuffle 10 classify 14931 E2E 26482
 video-gjumx split 5593 extract 326 shuffle 12 classify 13933 E2E 20458
+video-vftjv split 5381 extract 6224 shuffle 30038 classify 38794 E2E 81029
+video-zpsky split 5959 extract 4952 shuffle 19 classify 18804 E2E 30247
+video-jrork split 5828 extract 5171 shuffle 10 classify 16650 E2E 28219

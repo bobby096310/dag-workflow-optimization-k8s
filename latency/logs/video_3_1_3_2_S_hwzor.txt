@@ -1,4 +1,3 @@
 video-yyqbo split 2922 extract 261 shuffle 2458 classify 19199 E2E 25107
 video-pzgaa split 4459 extract 241 shuffle 2708 classify 17220 E2E 24874
 video-hhaow split 2931 extract 8284 shuffle 10 classify 20074 E2E 31597
-video-xmyvt split 2865 extract 737 shuffle 1183 classify 27962 E2E 33092
