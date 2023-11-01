@@ -7,3 +7,4 @@ ml-pzuac pca 10751 param-tune 27252 combine 2085 E2E 40178
 ml-ffsun pca 10756 param-tune 23608 combine 2155 E2E 36608
 ml-xptfk pca 11124 param-tune 23969 combine 2199 E2E 37372
 ml-ytqsq pca 10974 param-tune 23817 combine 2149 E2E 37030
+ml-quasw pca 11023 param-tune 22653 combine 2118 E2E 35869
