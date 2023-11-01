@@ -3,3 +3,7 @@ ml-uxhyb pca 12888 param-tune 21933 combine 10 E2E 35010
 ml-bqhxc pca 10687 param-tune 22122 combine 9 E2E 33035
 ml-ofcjk pca 12003 param-tune 23985 combine 14 E2E 36172
 ml-xqufy pca 11979 param-tune 29176 combine 9 E2E 41371
+ml-jggtk pca 10574 param-tune 25912 combine 10 E2E 36689
+ml-ytlwo pca 11061 param-tune 20930 combine 9 E2E 32183
+ml-vziae pca 10783 param-tune 21674 combine 10 E2E 32666
+ml-ladnn pca 10606 param-tune 21425 combine 9 E2E 32188
