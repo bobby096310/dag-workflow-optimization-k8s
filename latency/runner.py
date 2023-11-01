@@ -22,15 +22,15 @@ def execute(func, data):
     else:
         start_time = datetime.now()
         resp = requests.post(url, headers=headers, json=data)
-    while (not resp.ok):
-        print("Retry")
-        time.sleep(0.5)
-        resp = requests.post(url, headers=headers, json=data)
-    end_time = datetime.now()
-    lat = int((end_time-start_time).total_seconds()*1000)
-    result = resp.json()['Result']
-    pprint(result)
-    return result, lat
+        while (not resp.ok):
+            print("Retry")
+            time.sleep(0.5)
+            resp = requests.post(url, headers=headers, json=data)
+        end_time = datetime.now()
+        lat = int((end_time-start_time).total_seconds()*1000)
+        result = resp.json()['Result']
+        pprint(result)
+        return result, lat
 
 def execute_map(func, data, out_list, lat_list):
     exec_result, lat = execute(func, data)
@@ -48,17 +48,18 @@ def map(func, input_raw, timeout=None):
             fire_and_forget(url, inp, func)
         return
 
-    for inp in in_list:
-        ths.append((Process(target=execute_map,  args=(func, inp, out_list, lat_list)), inp))
-    for t in ths:
-        (p, a) = t
-        p.start()
-    for t in ths:
-        (p, a) = t
-        p.join()
-    if (len(out_list) == 0):
-        return
-    return list(out_list), max(list(lat_list))
+    else:
+        for inp in in_list:
+            ths.append((Process(target=execute_map,  args=(func, inp, out_list, lat_list)), inp))
+        for t in ths:
+            (p, a) = t
+            p.start()
+        for t in ths:
+            (p, a) = t
+            p.join()
+        if (len(out_list) == 0):
+            return
+        return list(out_list), max(list(lat_list))
     
 def run_step(func, data):
     if 'detail' in data:
@@ -111,8 +112,8 @@ def run_video(inp, prewarm):
 def run_ml(inp, prewarm):
     latencies = []
     start_time = datetime.now()
-    width = 16 / int(inp['bundle_size'])
-    print("Width: " + width)
+    width = int(16 / int(inp['bundle_size']))
+    print("Width: " + str(width))
 
     latencies.append("pca")
     if prewarm == "T":
@@ -126,6 +127,7 @@ def run_ml(inp, prewarm):
     latencies.append("param-tune")
     if prewarm == "S":
         pre_warm('ml-combine', 1)
+    print("Re1: " + str(re1))
     re2, lat2 = run_step('ml-param-tune', re1)
     latencies.append(str(lat2))
 
