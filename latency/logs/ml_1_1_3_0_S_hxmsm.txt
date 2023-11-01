@@ -6,3 +6,4 @@ ml-idpbf pca 11307 param-tune 22559 combine 10 E2E 34082
 ml-fizhr pca 10958 param-tune 21782 combine 9 E2E 32935
 ml-ergjl pca 12010 param-tune 21858 combine 10 E2E 34089
 ml-scdwe pca 13264 param-tune 25851 combine 9 E2E 39313
+ml-dimmf pca 11359 param-tune 20789 combine 9 E2E 32323
