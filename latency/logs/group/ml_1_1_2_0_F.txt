@@ -3,3 +3,8 @@ ml-pquce pca 11214 param-tune 28128 combine 2128 E2E 41537
 ml-lkiui pca 10818 param-tune 25755 combine 2059 E2E 38731
 ml-sbeql pca 15783 param-tune 28667 combine 2202 E2E 46743
 ml-ggdsf pca 10579 param-tune 25381 combine 2062 E2E 38110
+ml-kuxvz pca 10421 param-tune 26963 combine 2095 E2E 39549
+ml-wrfoj pca 10657 param-tune 24769 combine 2090 E2E 37612
+ml-deprg pca 10640 param-tune 25399 combine 2131 E2E 38258
+ml-jxqbw pca 10556 param-tune 27067 combine 2154 E2E 39856
+ml-pgpfu pca 11144 param-tune 25855 combine 2184 E2E 39262
