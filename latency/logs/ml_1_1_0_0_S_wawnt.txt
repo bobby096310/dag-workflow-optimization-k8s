@@ -5,3 +5,5 @@ ml-pcfkl pca 12742 param-tune 20822 combine 9 E2E 33763
 ml-kuhdu pca 10774 param-tune 19638 combine 14 E2E 30600
 ml-zlzcc pca 10405 param-tune 25658 combine 9 E2E 36258
 ml-gwadr pca 12115 param-tune 22582 combine 10 E2E 34931
+ml-vvmzo pca 12325 param-tune 20910 combine 10 E2E 33411
+ml-fypnm pca 11861 param-tune 27750 combine 9 E2E 39790
