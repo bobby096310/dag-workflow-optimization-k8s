@@ -6,3 +6,4 @@ ml-iwxsx pca 12089 param-tune 22232 combine 12 E2E 34488
 ml-rruru pca 12089 param-tune 21710 combine 11 E2E 33964
 ml-dehnw pca 11096 param-tune 21622 combine 11 E2E 32884
 ml-lghfq pca 11431 param-tune 21170 combine 11 E2E 32833
+ml-fdtyt pca 12846 param-tune 22105 combine 10 E2E 35112
