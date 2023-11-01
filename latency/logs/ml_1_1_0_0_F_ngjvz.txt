@@ -3,3 +3,7 @@ ml-domyh pca 11474 param-tune 22674 combine 2139 E2E 36365
 ml-wthwl pca 10490 param-tune 24932 combine 2122 E2E 37616
 ml-camcl pca 10697 param-tune 26578 combine 2192 E2E 39566
 ml-iytob pca 10515 param-tune 23279 combine 2142 E2E 36000
+ml-hlkfg pca 10323 param-tune 23992 combine 2136 E2E 36510
+ml-idlba pca 11336 param-tune 24128 combine 2123 E2E 37663
+ml-swmtz pca 10701 param-tune 26620 combine 2093 E2E 39483
+ml-wmukn pca 10436 param-tune 25366 combine 2130 E2E 38011
