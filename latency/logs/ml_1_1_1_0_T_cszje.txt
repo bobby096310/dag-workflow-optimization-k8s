@@ -5,3 +5,5 @@ ml-holvv pca 10853 param-tune 22135 combine 10 E2E 33147
 ml-gcxyb pca 11160 param-tune 21412 combine 10 E2E 32749
 ml-emhxs pca 10621 param-tune 21485 combine 10 E2E 32281
 ml-qusfy pca 11775 param-tune 23979 combine 10 E2E 35916
+ml-lzshz pca 11162 param-tune 28034 combine 10 E2E 39366
+ml-mfbtc pca 13858 param-tune 22316 combine 10 E2E 36347
