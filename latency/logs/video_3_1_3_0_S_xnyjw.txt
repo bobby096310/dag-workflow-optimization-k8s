@@ -1,4 +1,3 @@
-video-vrgdb split 3094 extract 163 shuffle 1540 classify 23900 E2E 29657
 video-zzwpw split 2863 extract 1465 shuffle 556 classify 22953 E2E 28427
 video-ddsnb split 3034 extract 113 shuffle 2616 classify 22322 E2E 29054
 video-wnahq split 3252 extract 149 shuffle 2549 classify 20614 E2E 27547

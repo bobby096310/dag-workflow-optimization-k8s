@@ -4,3 +4,6 @@ video-otwtx split 2757 extract 3347 shuffle 2127 classify 21315 E2E 30065
 video-kjqgn split 2775 extract 2655 shuffle 2090 classify 23780 E2E 31732
 video-yvjbh split 2730 extract 2651 shuffle 2232 classify 23195 E2E 31276
 video-benvl split 2796 extract 2807 shuffle 2092 classify 23542 E2E 31752
+video-btlro split 2800 extract 2747 shuffle 2120 classify 21797 E2E 29947
+video-qbeob split 2750 extract 2809 shuffle 2076 classify 23369 E2E 31425
+video-dlrwx split 2669 extract 2884 shuffle 2041 classify 26756 E2E 34800
