@@ -7,3 +7,4 @@ video-wjjeg split 4880 extract 6181 shuffle 29406 classify 40103 E2E 81317
 video-jtyce split 5401 extract 298 shuffle 10 classify 17562 E2E 23906
 video-fnijf split 3628 extract 167 shuffle 20 classify 18970 E2E 23809
 video-dczyc split 8279 extract 396 shuffle 14 classify 24261 E2E 33435
+video-sssbx split 3567 extract 227 shuffle 12 classify 20826 E2E 25588

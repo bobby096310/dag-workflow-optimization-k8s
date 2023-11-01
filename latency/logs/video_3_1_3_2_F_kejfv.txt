@@ -5,3 +5,5 @@ video-bwknc split 2764 extract 4273 shuffle 2216 classify 20433 E2E 29815
 video-kyjdn split 2735 extract 2627 shuffle 2293 classify 26589 E2E 34400
 video-flzya split 2778 extract 2749 shuffle 2106 classify 18960 E2E 26721
 video-ulbdb split 2734 extract 2639 shuffle 2133 classify 18396 E2E 26058
+video-yxwae split 2741 extract 2618 shuffle 2235 classify 27790 E2E 35513
+video-btmtx split 2688 extract 2744 shuffle 2141 classify 21117 E2E 28820
