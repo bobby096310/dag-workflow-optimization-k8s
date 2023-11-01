@@ -1,8 +1,4 @@
 ml-wbtgl pca 11077 param-tune 55263 combine 2095 E2E 68506
 ml-dfobk pca 10443 param-tune 67238 combine 2196 E2E 79939
 ml-bqgyc pca 10907 param-tune 28703 combine 2126 E2E 41802
-ml-wcoog pca 12202 param-tune 69559 combine 2613 E2E 84445
-ml-zboav pca 11308 param-tune 64916 combine 2239 E2E 78516
-ml-eqnym pca 10859 param-tune 28827 combine 2132 E2E 41874
 ml-vnvrj pca 10826 param-tune 25879 combine 2045 E2E 38821
-ml-bisme pca 11922 param-tune 79915 combine 2113 E2E 94056

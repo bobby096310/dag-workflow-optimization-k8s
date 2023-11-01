@@ -5,3 +5,5 @@ ml-bigyb pca 11564 param-tune 25226 combine 2118 E2E 38977
 ml-zukty pca 10903 param-tune 24488 combine 2104 E2E 37564
 ml-ecasn pca 10788 param-tune 26011 combine 2120 E2E 38992
 ml-otfhv pca 10897 param-tune 25166 combine 2186 E2E 38318
+ml-nztqd pca 11372 param-tune 26115 combine 2233 E2E 39789
+ml-ruffw pca 11526 param-tune 24970 combine 2245 E2E 38814
