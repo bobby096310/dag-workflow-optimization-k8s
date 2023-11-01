@@ -128,7 +128,6 @@ def run_ml(inp, prewarm):
     latencies.append("param-tune")
     if prewarm == "S":
         pre_warm('ml-combine', 1)
-    print("Re1: " + str(re1))
     re2, lat2 = run_step('ml-param-tune', re1)
     latencies.append(str(lat2))
 
