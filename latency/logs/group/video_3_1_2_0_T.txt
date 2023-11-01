@@ -1,2 +1,8 @@
-video-blcfy split 5149 extract 135 shuffle 10 classify 59685 E2E 65703
+video-jprun split 3677 extract 167 shuffle 340 classify 18014 E2E 23054
+video-gqced split 4019 extract 199 shuffle 393 classify 18413 E2E 23721
+video-jaauc split 4107 extract 234 shuffle 19 classify 18399 E2E 23514
+video-myluk split 3859 extract 388 shuffle 634 classify 18655 E2E 24283
+video-sehas split 3792 extract 681 shuffle 11 classify 15238 E2E 20293
+video-wjjeg split 4880 extract 6181 shuffle 29406 classify 40103 E2E 81317
+video-jtyce split 5401 extract 298 shuffle 10 classify 17562 E2E 23906
 video-dczyc split 8279 extract 396 shuffle 14 classify 24261 E2E 33435
