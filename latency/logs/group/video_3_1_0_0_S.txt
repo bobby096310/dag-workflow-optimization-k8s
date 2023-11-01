@@ -1,4 +1,6 @@
 video-rffsk split 3647 extract 408 shuffle 2184 classify 16588 E2E 23260
+video-knwcv split 2623 extract 190 shuffle 2374 classify 20695 E2E 26362
+video-jnekm split 3135 extract 993 shuffle 1143 classify 306564 E2E 312300
 video-jafyb split 3692 extract 166 shuffle 2116 classify 20750 E2E 27607
 video-skulz split 4465 extract 137 shuffle 2325 classify 23375 E2E 31250
 video-fhetr split 4207 extract 327 shuffle 4981 classify 18231 E2E 28251
