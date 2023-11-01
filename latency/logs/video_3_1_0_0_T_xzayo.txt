@@ -1,4 +1,3 @@
-video-snrjw split 4641 extract 5537 shuffle 555 classify 26988 E2E 38280
 video-vgimy split 4011 extract 462 shuffle 646 classify 21131 E2E 26944
 video-bnnzd split 4788 extract 502 shuffle 14 classify 22326 E2E 28315
 video-udkca split 5319 extract 5923 shuffle 10 classify 13973 E2E 25732
