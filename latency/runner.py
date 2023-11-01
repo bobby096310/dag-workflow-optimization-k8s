@@ -44,6 +44,7 @@ def map(func, input_raw, timeout=None):
     ths=[]
     in_list = input_raw['detail']['indeces']
     if 'dummy' in in_list[0]:
+        print("pre_warm: ", len(in_list))
         for inp in in_list:
             fire_and_forget(url, inp, func)
         return
