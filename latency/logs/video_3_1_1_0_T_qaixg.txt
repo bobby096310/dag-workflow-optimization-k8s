@@ -1,4 +1,3 @@
-video-aeyqy split 5453 extract 5655 shuffle 10 classify 21158 E2E 32844
 video-lbitj split 4611 extract 212 shuffle 13 classify 36035 E2E 41591
 video-nxlgz split 4289 extract 418 shuffle 21 classify 18716 E2E 24203
 video-xsymb split 4009 extract 231 shuffle 22 classify 15778 E2E 20809

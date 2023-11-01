@@ -3,3 +3,7 @@ video-ubero split 3006 extract 199 shuffle 1796 classify 16828 E2E 22224
 video-eujqg split 4923 extract 356 shuffle 1585 classify 16383 E2E 23588
 video-lysoo split 3071 extract 276 shuffle 1734 classify 18777 E2E 24210
 video-msuoq split 2936 extract 215 shuffle 1734 classify 19318 E2E 24606
+video-uwahs split 2766 extract 779 shuffle 1203 classify 20483 E2E 25579
+video-qrlev split 3102 extract 237 shuffle 1710 classify 23891 E2E 29308
+video-wikcz split 4645 extract 270 shuffle 1981 classify 19205 E2E 26465
+video-cxbjn split 3102 extract 220 shuffle 1765 classify 24509 E2E 29948
