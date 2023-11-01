@@ -7,3 +7,4 @@ video-dviqs split 4111 extract 225 shuffle 1139 classify 14928 E2E 21301
 video-eyhqc split 3708 extract 229 shuffle 298 classify 21795 E2E 26748
 video-wcglr split 3758 extract 569 shuffle 18 classify 20283 E2E 25477
 video-lvsps split 4646 extract 269 shuffle 29 classify 14436 E2E 20053
+video-odazp split 4695 extract 1139 shuffle 9 classify 33573 E2E 39927
