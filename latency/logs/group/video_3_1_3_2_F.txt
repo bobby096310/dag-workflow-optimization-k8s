@@ -1,2 +1,8 @@
 video-igexi split 2781 extract 2604 shuffle 2301 classify 28137 E2E 35973
 video-kifzz split 2915 extract 2640 shuffle 2244 classify 18459 E2E 26397
+video-jrtwr split 2887 extract 2621 shuffle 2227 classify 20568 E2E 28454
+video-scmxu split 2803 extract 2804 shuffle 2203 classify 21543 E2E 29506
+video-bwknc split 2764 extract 4273 shuffle 2216 classify 20433 E2E 29815
+video-kyjdn split 2735 extract 2627 shuffle 2293 classify 26589 E2E 34400
+video-flzya split 2778 extract 2749 shuffle 2106 classify 18960 E2E 26721
+video-ulbdb split 2734 extract 2639 shuffle 2133 classify 18396 E2E 26058
