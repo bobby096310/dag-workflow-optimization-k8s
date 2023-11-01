@@ -6,3 +6,5 @@ video-xmgmq split 3438 extract 1169 shuffle 2399 classify 21095 E2E 28640
 video-ynyiz split 2712 extract 924 shuffle 1302 classify 33171 E2E 38653
 video-cymja split 3418 extract 268 shuffle 1727 classify 22501 E2E 28564
 video-fhetr split 4207 extract 327 shuffle 4981 classify 18231 E2E 28251
+video-mjryp split 6029 extract 327 shuffle 4035 classify 23096 E2E 33968
+video-ktuuh split 3717 extract 324 shuffle 1854 classify 23608 E2E 30212
