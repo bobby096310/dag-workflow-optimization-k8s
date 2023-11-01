@@ -1,1 +1,8 @@
 video-tzpuu split 3609 extract 3862 shuffle 2315 classify 20282 E2E 30219
+video-kvtxe split 2813 extract 2551 shuffle 2133 classify 20810 E2E 28474
+video-kutal split 2745 extract 2562 shuffle 2115 classify 19093 E2E 26685
+video-qllew split 2742 extract 2623 shuffle 2054 classify 20108 E2E 27661
+video-sussk split 2730 extract 2647 shuffle 2123 classify 20710 E2E 28380
+video-gbusj split 2797 extract 2548 shuffle 2175 classify 19054 E2E 26754
+video-ticbf split 2848 extract 2574 shuffle 2144 classify 20433 E2E 28202
+video-dlttw split 3138 extract 2555 shuffle 2152 classify 20168 E2E 28214

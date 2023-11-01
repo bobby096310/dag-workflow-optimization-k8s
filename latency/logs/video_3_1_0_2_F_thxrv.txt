@@ -7,4 +7,3 @@ video-liwxt split 2734 extract 2572 shuffle 2009 classify 20030 E2E 27414
 video-miavn split 2636 extract 2412 shuffle 2122 classify 24793 E2E 32045
 video-afpzi split 2598 extract 2201 shuffle 1991 classify 21994 E2E 28873
 video-tjrom split 2604 extract 2238 shuffle 1989 classify 19961 E2E 26892
-video-tpmer split 2834 extract 2420 shuffle 2089 classify 20085 E2E 27572

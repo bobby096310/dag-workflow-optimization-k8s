@@ -6,3 +6,5 @@ video-tykeu split 5018 extract 143 shuffle 177 classify 21106 E2E 27263
 video-naekr split 6449 extract 122 shuffle 11 classify 18816 E2E 26104
 video-ntsla split 4950 extract 147 shuffle 36 classify 21119 E2E 26940
 video-lacoo split 5109 extract 377 shuffle 11 classify 18429 E2E 24626
+video-dqkrh split 4574 extract 5411 shuffle 10 classify 23400 E2E 33751
+video-hdiwx split 4923 extract 355 shuffle 8 classify 17686 E2E 23266

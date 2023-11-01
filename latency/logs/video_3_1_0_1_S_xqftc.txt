@@ -1,4 +1,3 @@
-video-qtxma split 2853 extract 208 shuffle 2105 classify 19776 E2E 25371
 video-tqwju split 2935 extract 330 shuffle 2245 classify 17469 E2E 23184
 video-qzyvk split 2574 extract 200 shuffle 1976 classify 19718 E2E 24651
 video-tjknz split 2665 extract 232 shuffle 1653 classify 21491 E2E 26233

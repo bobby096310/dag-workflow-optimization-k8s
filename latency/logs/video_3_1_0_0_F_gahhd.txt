@@ -1,4 +1,3 @@
-video-qwrou split 4222 extract 2668 shuffle 4280 classify 20216 E2E 31759
 video-gscwn split 2586 extract 2360 shuffle 2034 classify 22306 E2E 29513
 video-fdgwm split 4157 extract 2654 shuffle 2376 classify 19250 E2E 28716
 video-xpfly split 2575 extract 2368 shuffle 1959 classify 21420 E2E 28534

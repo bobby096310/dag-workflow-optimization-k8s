@@ -7,4 +7,3 @@ video-yuqaa split 2787 extract 241 shuffle 9 classify 19456 E2E 22646
 video-lihdl split 2961 extract 254 shuffle 617 classify 16506 E2E 20501
 video-dxnik split 2789 extract 288 shuffle 111 classify 17017 E2E 20363
 video-jkpzi split 2757 extract 373 shuffle 719 classify 17908 E2E 21931
-video-hlczg split 4252 extract 258 shuffle 11 classify 20049 E2E 24800

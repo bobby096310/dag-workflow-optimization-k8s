@@ -7,4 +7,3 @@ video-ejqow split 2578 extract 2415 shuffle 1960 classify 18932 E2E 25980
 video-fwnhz split 2593 extract 2477 shuffle 1997 classify 20037 E2E 27210
 video-jvgjx split 2597 extract 2461 shuffle 1932 classify 19914 E2E 27007
 video-wwuzj split 2574 extract 2407 shuffle 2032 classify 18857 E2E 25979
-video-yhern split 2749 extract 2815 shuffle 2021 classify 20590 E2E 28353
