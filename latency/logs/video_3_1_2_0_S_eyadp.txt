@@ -4,4 +4,3 @@ video-ujnwv split 2948 extract 145 shuffle 1593 classify 19906 E2E 25680
 video-hfjll split 4425 extract 343 shuffle 1790 classify 21677 E2E 28973
 video-ivjfa split 2918 extract 152 shuffle 1550 classify 21491 E2E 26943
 video-edvpy split 4056 extract 141 shuffle 1604 classify 18917 E2E 25563
-video-voexj split 4501 extract 135 shuffle 1568 classify 21338 E2E 28510

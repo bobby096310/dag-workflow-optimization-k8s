@@ -6,3 +6,4 @@ video-zxxbr split 2767 extract 2578 shuffle 2013 classify 20708 E2E 28271
 video-wujrt split 4223 extract 2531 shuffle 2051 classify 21153 E2E 30141
 video-ltciv split 2712 extract 2523 shuffle 2022 classify 20243 E2E 27724
 video-eytgv split 2684 extract 2560 shuffle 2177 classify 20364 E2E 27966
+video-hwnal split 2701 extract 2567 shuffle 2116 classify 21772 E2E 29407
