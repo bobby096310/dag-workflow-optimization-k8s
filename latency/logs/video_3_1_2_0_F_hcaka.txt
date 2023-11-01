@@ -6,3 +6,4 @@ video-rricy split 2751 extract 4196 shuffle 2098 classify 24354 E2E 33880
 video-fsdcf split 2709 extract 2737 shuffle 2090 classify 21409 E2E 29413
 video-dvggb split 2801 extract 2806 shuffle 2089 classify 22343 E2E 30530
 video-gcliz split 2679 extract 2699 shuffle 2047 classify 22167 E2E 30055
+video-evpio split 2699 extract 2850 shuffle 2079 classify 22184 E2E 30341

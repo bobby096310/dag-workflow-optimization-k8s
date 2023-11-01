@@ -1,4 +1,3 @@
-video-cyfsq split 2731 extract 2700 shuffle 1969 classify 23698 E2E 31572
 video-mabxw split 2767 extract 2763 shuffle 1944 classify 24946 E2E 32935
 video-gtyip split 2688 extract 2826 shuffle 2094 classify 21884 E2E 29927
 video-otwtx split 2757 extract 3347 shuffle 2127 classify 21315 E2E 30065
