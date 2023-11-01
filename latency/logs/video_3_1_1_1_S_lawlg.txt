@@ -2,3 +2,8 @@ video-fdjxj split 3162 extract 331 shuffle 1612 classify 18733 E2E 24226
 video-lzrjq split 2898 extract 1208 shuffle 986 classify 21896 E2E 27383
 video-nquyy split 3060 extract 874 shuffle 1378 classify 18414 E2E 24110
 video-iurgr split 3785 extract 229 shuffle 1908 classify 22401 E2E 28744
+video-rmkjc split 4668 extract 199 shuffle 1693 classify 20165 E2E 27110
+video-xpzpb split 2900 extract 886 shuffle 1038 classify 26703 E2E 31962
+video-tzpfl split 3097 extract 186 shuffle 1687 classify 22826 E2E 28137
+video-qafkp split 4720 extract 237 shuffle 1732 classify 18898 E2E 25993
+video-yyrpb split 3042 extract 224 shuffle 1638 classify 22090 E2E 27395

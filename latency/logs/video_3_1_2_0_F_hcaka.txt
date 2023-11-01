@@ -1,3 +1,2 @@
-video-boetm split 2934 extract 3677 shuffle 1997 classify 22611 E2E 31696
 video-wmhor split 3169 extract 2681 shuffle 2332 classify 21990 E2E 30429
 video-pijff split 2716 extract 2719 shuffle 2083 classify 18038 E2E 25990
