@@ -3,4 +3,8 @@ ml-wqjps pca 10919 param-tune 37688 combine 9 E2E 48744
 ml-euhcr pca 11171 param-tune 36259 combine 10 E2E 47548
 ml-ldbdr pca 12363 param-tune 35930 combine 10 E2E 48422
 ml-mvxvi pca 11075 param-tune 36352 combine 10 E2E 47540
+ml-awdsv pca 10959 param-tune 36385 combine 10 E2E 47484
+ml-fmvch pca 11645 param-tune 42997 combine 11 E2E 54785
+ml-ngxen pca 10989 param-tune 36446 combine 11 E2E 47575
+ml-tqtvq pca 12089 param-tune 36938 combine 11 E2E 49141
 ml-kedrk pca 10243 param-tune 36519 combine 10 E2E 46866
