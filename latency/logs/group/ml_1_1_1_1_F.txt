@@ -2,4 +2,9 @@ ml-gyiri pca 10942 param-tune 35922 combine 2248 E2E 49155
 ml-tasjm pca 10801 param-tune 43032 combine 2065 E2E 55940
 ml-bpwij pca 12947 param-tune 41839 combine 2133 E2E 56967
 ml-lfuwo pca 13209 param-tune 40217 combine 2078 E2E 55543
+ml-qsodb pca 10961 param-tune 37702 combine 2134 E2E 50857
+ml-blugf pca 10700 param-tune 42374 combine 2026 E2E 55142
+ml-gupjd pca 10705 param-tune 41716 combine 2074 E2E 54540
+ml-avzbq pca 11026 param-tune 41106 combine 2100 E2E 54275
+ml-eneed pca 10656 param-tune 39713 combine 1994 E2E 52431
 ml-jclaf pca 10556 param-tune 39978 combine 2178 E2E 52768
