@@ -4,3 +4,6 @@ video-ebgzk split 5397 extract 227 shuffle 2178 classify 16233 E2E 24339
 video-invwp split 3281 extract 200 shuffle 2367 classify 16911 E2E 23090
 video-ymmug split 3383 extract 253 shuffle 1967 classify 16110 E2E 22099
 video-vybge split 4008 extract 227 shuffle 1856 classify 18301 E2E 24829
+video-invuq split 3663 extract 189 shuffle 1926 classify 16885 E2E 23067
+video-klcjq split 2964 extract 1816 shuffle 357 classify 21914 E2E 27389
+video-cavkd split 3091 extract 255 shuffle 2021 classify 17195 E2E 22932
