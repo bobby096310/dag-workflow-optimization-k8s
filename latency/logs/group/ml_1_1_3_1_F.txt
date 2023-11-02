@@ -6,3 +6,5 @@ ml-idfpt pca 10089 param-tune 37881 combine 2153 E2E 50164
 ml-kxdph pca 10270 param-tune 42313 combine 2029 E2E 54653
 ml-vbdza pca 11316 param-tune 45589 combine 2156 E2E 59107
 ml-hopfa pca 11558 param-tune 37275 combine 2061 E2E 50963
+ml-kcyge pca 10987 param-tune 39280 combine 2043 E2E 52353
+ml-qvruf pca 10517 param-tune 39728 combine 2174 E2E 52462
