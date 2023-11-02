@@ -4,3 +4,7 @@ video-mzbkx split 4139 extract 271 shuffle 11 classify 16731 E2E 21398
 video-nlgxt split 4113 extract 245 shuffle 12 classify 15229 E2E 19870
 video-rnrvb split 5097 extract 245 shuffle 12 classify 16867 E2E 22515
 video-jnfqr split 4580 extract 249 shuffle 9 classify 18490 E2E 23641
+video-zykrz split 4274 extract 282 shuffle 10 classify 17482 E2E 22355
+video-jmdgo split 5250 extract 264 shuffle 13 classify 17723 E2E 23501
+video-sndlk split 3937 extract 275 shuffle 11 classify 17467 E2E 21905
+video-nohry split 4161 extract 251 shuffle 10 classify 19805 E2E 24544

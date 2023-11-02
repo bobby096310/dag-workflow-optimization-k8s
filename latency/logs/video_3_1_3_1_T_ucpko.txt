@@ -1,3 +1,2 @@
 video-tbhll split 3604 extract 247 shuffle 10 classify 21340 E2E 25674
 video-rzdnt split 5510 extract 212 shuffle 11 classify 14898 E2E 20992
-video-utprj split 3769 extract 261 shuffle 13 classify 17970 E2E 22310
