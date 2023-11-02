@@ -6,4 +6,5 @@ ml-lsaiq pca 9431 param-tune 57434 combine 2199 E2E 69098
 ml-ovdyt pca 11247 param-tune 58175 combine 2098 E2E 71555
 ml-oqcjp pca 10724 param-tune 57114 combine 2067 E2E 69943
 ml-jwmjq pca 10373 param-tune 58804 combine 2040 E2E 71251
+ml-fjute pca 9985 param-tune 58323 combine 2107 E2E 70449
 ml-isuvj pca 10322 param-tune 38993 combine 2091 E2E 51450
