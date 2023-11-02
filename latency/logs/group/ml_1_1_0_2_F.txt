@@ -3,4 +3,8 @@ ml-oabpe pca 11380 param-tune 55282 combine 2130 E2E 68829
 ml-qjaof pca 10491 param-tune 54867 combine 2066 E2E 67465
 ml-bmmsc pca 10631 param-tune 53234 combine 2105 E2E 66013
 ml-govab pca 10967 param-tune 64557 combine 2058 E2E 77622
+ml-wswzq pca 11471 param-tune 55518 combine 2111 E2E 69135
+ml-vonaq pca 10989 param-tune 54725 combine 2106 E2E 67860
+ml-dtcab pca 10773 param-tune 55576 combine 2053 E2E 68440
+ml-kmbyh pca 10630 param-tune 54941 combine 2452 E2E 68065
 ml-kxpgw pca 11011 param-tune 38155 combine 2082 E2E 51288
