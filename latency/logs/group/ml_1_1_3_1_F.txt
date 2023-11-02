@@ -1,3 +1,8 @@
 ml-ujadv pca 10770 param-tune 41760 combine 2289 E2E 54869
 ml-rjnfs pca 10515 param-tune 38192 combine 2042 E2E 50794
 ml-kflor pca 10806 param-tune 38417 combine 2054 E2E 51321
+ml-haunm pca 10059 param-tune 37994 combine 2097 E2E 50194
+ml-idfpt pca 10089 param-tune 37881 combine 2153 E2E 50164
+ml-kxdph pca 10270 param-tune 42313 combine 2029 E2E 54653
+ml-vbdza pca 11316 param-tune 45589 combine 2156 E2E 59107
+ml-hopfa pca 11558 param-tune 37275 combine 2061 E2E 50963
