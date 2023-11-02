@@ -1,4 +1,8 @@
 ml-rtyga pca 11051 param-tune 37805 combine 2190 E2E 51104
 ml-zdgqw pca 10753 param-tune 40602 combine 2162 E2E 53555
 ml-hhfis pca 10323 param-tune 38602 combine 2114 E2E 51080
+ml-jxnld pca 11122 param-tune 40182 combine 2116 E2E 53462
+ml-rsfun pca 10645 param-tune 41282 combine 2363 E2E 54332
+ml-ccfzw pca 11005 param-tune 37745 combine 2107 E2E 50903
+ml-gtntc pca 10352 param-tune 37677 combine 2042 E2E 50116
 ml-wpdjl pca 10861 param-tune 39863 combine 2115 E2E 52893
