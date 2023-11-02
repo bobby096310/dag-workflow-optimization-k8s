@@ -1,1 +1,7 @@
 video-izyrw split 4763 extract 253 shuffle 11 classify 19049 E2E 24393
+video-druap split 3287 extract 2240 shuffle 10 classify 15467 E2E 21288
+video-qspoy split 4530 extract 393 shuffle 12 classify 14473 E2E 19643
+video-gsqul split 3627 extract 250 shuffle 15 classify 18041 E2E 22268
+video-fmyqo split 4041 extract 311 shuffle 10 classify 16508 E2E 21135
+video-atizu split 4152 extract 256 shuffle 1381 classify 15484 E2E 21584
+video-zrlts split 4097 extract 272 shuffle 11 classify 17500 E2E 22133
