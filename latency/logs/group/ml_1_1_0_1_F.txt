@@ -5,3 +5,6 @@ ml-ddcep pca 11191 param-tune 38143 combine 3325 E2E 52715
 ml-fvaof pca 11731 param-tune 38305 combine 2119 E2E 52208
 ml-zidzl pca 10254 param-tune 39474 combine 2067 E2E 51831
 ml-nfwmm pca 11811 param-tune 40350 combine 2114 E2E 54319
+ml-hyzjs pca 10794 param-tune 40962 combine 2063 E2E 53858
+ml-zqorc pca 11139 param-tune 37296 combine 2143 E2E 50641
+ml-vujpv pca 10231 param-tune 36751 combine 2065 E2E 49087
