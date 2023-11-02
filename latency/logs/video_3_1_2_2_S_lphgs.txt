@@ -1,2 +1,7 @@
 video-embzh split 3594 extract 676 shuffle 1814 classify 23730 E2E 30113
 video-umnev split 4070 extract 268 shuffle 1868 classify 21228 E2E 27701
+video-eesoo split 3770 extract 284 shuffle 2344 classify 19612 E2E 26266
+video-zntgc split 3927 extract 285 shuffle 2662 classify 20787 E2E 27955
+video-gcnlo split 3621 extract 792 shuffle 9750 classify 15883 E2E 30304
+video-goxsv split 4001 extract 257 shuffle 2782 classify 20613 E2E 27904
+video-eyufs split 2842 extract 257 shuffle 2358 classify 20055 E2E 25765
