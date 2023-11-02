@@ -4,3 +4,6 @@ ml-kzroo pca 9960 param-tune 36165 combine 8 E2E 46237
 ml-cogai pca 10377 param-tune 36880 combine 8 E2E 47367
 ml-jdelj pca 11099 param-tune 38377 combine 9 E2E 49602
 ml-ogcsy pca 11600 param-tune 34819 combine 9 E2E 46575
+ml-lblpa pca 11065 param-tune 36742 combine 10 E2E 47940
+ml-wyrzb pca 11350 param-tune 36453 combine 9 E2E 47945
+ml-oogts pca 11655 param-tune 38695 combine 7 E2E 50485
