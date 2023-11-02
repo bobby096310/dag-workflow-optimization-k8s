@@ -2,4 +2,3 @@ ml-lrdjp pca 11568 param-tune 36646 combine 9 E2E 48343
 ml-auilp pca 10775 param-tune 39830 combine 9 E2E 50743
 ml-ikyqu pca 11030 param-tune 43020 combine 8 E2E 54181
 ml-ekyyh pca 11185 param-tune 36145 combine 8 E2E 47458
-ml-nnpai pca 10917 param-tune 40959 combine 10 E2E 52023
