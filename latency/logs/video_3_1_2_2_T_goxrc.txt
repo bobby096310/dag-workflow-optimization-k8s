@@ -1,4 +1,3 @@
-video-zmqms split 3313 extract 250 shuffle 15 classify 16275 E2E 20170
 video-hafae split 3139 extract 259 shuffle 11 classify 17917 E2E 21712
 video-exmcs split 3310 extract 267 shuffle 8 classify 16713 E2E 20565
 video-panqw split 2937 extract 242 shuffle 10 classify 21249 E2E 24663

@@ -4,3 +4,6 @@ video-sapdo split 3224 extract 222 shuffle 11 classify 14447 E2E 18285
 video-aqdef split 3880 extract 206 shuffle 9 classify 17495 E2E 21928
 video-hkgpm split 3452 extract 400 shuffle 13 classify 16097 E2E 20417
 video-zlzqe split 3874 extract 220 shuffle 14 classify 20946 E2E 25564
+video-smmmc split 2988 extract 389 shuffle 15 classify 14950 E2E 18658
+video-wndkh split 3723 extract 245 shuffle 10 classify 19248 E2E 23567
+video-bkauu split 3315 extract 251 shuffle 10 classify 16082 E2E 20036
