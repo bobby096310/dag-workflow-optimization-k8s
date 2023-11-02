@@ -3,3 +3,8 @@ video-ytqqp split 3567 extract 164 shuffle 2283 classify 19839 E2E 26677
 video-yyxdc split 2923 extract 134 shuffle 2105 classify 22532 E2E 28588
 video-obpev split 4440 extract 122 shuffle 1546 classify 21688 E2E 28874
 video-gkszd split 3869 extract 144 shuffle 2724 classify 20409 E2E 28075
+video-olqtu split 3966 extract 135 shuffle 1759 classify 20375 E2E 27071
+video-lyuxb split 3191 extract 841 shuffle 1498 classify 22874 E2E 29055
+video-jxyvz split 4645 extract 132 shuffle 2079 classify 18700 E2E 26265
+video-uszjt split 3545 extract 136 shuffle 2618 classify 22231 E2E 29601
+video-nwzmd split 3623 extract 131 shuffle 2160 classify 20574 E2E 27471
