@@ -1,3 +1,2 @@
-video-zotqs split 2784 extract 230 shuffle 1743 classify 20562 E2E 25665
 video-xndef split 3770 extract 834 shuffle 2801 classify 25949 E2E 33650
 video-kginp split 3147 extract 264 shuffle 2270 classify 20970 E2E 26898
