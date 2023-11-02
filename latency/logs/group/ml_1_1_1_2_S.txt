@@ -4,3 +4,7 @@ ml-gfgpm pca 10484 param-tune 55851 combine 9 E2E 66435
 ml-bvmha pca 11614 param-tune 54240 combine 8 E2E 65968
 ml-jnylw pca 10021 param-tune 57605 combine 8 E2E 67730
 ml-hntuw pca 9516 param-tune 55394 combine 9 E2E 65017
+ml-idnln pca 10241 param-tune 57779 combine 8 E2E 68125
+ml-ysccz pca 9906 param-tune 55233 combine 9 E2E 65249
+ml-jmcms pca 10953 param-tune 59720 combine 9 E2E 70780
+ml-vbdqy pca 9685 param-tune 58287 combine 10 E2E 68108
