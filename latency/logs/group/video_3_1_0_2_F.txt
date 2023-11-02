@@ -3,3 +3,8 @@ video-knsrs split 3624 extract 3898 shuffle 2125 classify 21480 E2E 31273
 video-gzlno split 2880 extract 2512 shuffle 2259 classify 22040 E2E 29887
 video-mqgtr split 3796 extract 2652 shuffle 2128 classify 20204 E2E 28925
 video-iaxak split 2724 extract 2482 shuffle 2162 classify 19983 E2E 27481
+video-alxcq split 3255 extract 2495 shuffle 2175 classify 19674 E2E 27709
+video-xobya split 2880 extract 2615 shuffle 2241 classify 21882 E2E 29755
+video-xtzrd split 3607 extract 2630 shuffle 2144 classify 20695 E2E 29229
+video-nwkdz split 2806 extract 2529 shuffle 2249 classify 21734 E2E 29471
+video-dtxoy split 2944 extract 2521 shuffle 2255 classify 20121 E2E 27986
