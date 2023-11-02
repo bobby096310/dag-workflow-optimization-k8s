@@ -2,3 +2,7 @@ ml-wcpsr pca 11639 param-tune 55988 combine 2080 E2E 69741
 ml-mtjyu pca 10928 param-tune 61531 combine 2301 E2E 74820
 ml-relsf pca 10334 param-tune 61693 combine 2061 E2E 74128
 ml-ildiz pca 10092 param-tune 64481 combine 2154 E2E 76760
+ml-lsaiq pca 9431 param-tune 57434 combine 2199 E2E 69098
+ml-ovdyt pca 11247 param-tune 58175 combine 2098 E2E 71555
+ml-oqcjp pca 10724 param-tune 57114 combine 2067 E2E 69943
+ml-jwmjq pca 10373 param-tune 58804 combine 2040 E2E 71251
