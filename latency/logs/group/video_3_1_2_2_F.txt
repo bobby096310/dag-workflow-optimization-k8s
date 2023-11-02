@@ -5,3 +5,6 @@ video-akfkf split 2822 extract 2613 shuffle 2324 classify 18985 E2E 26898
 video-ritpg split 2859 extract 2489 shuffle 2174 classify 19419 E2E 27089
 video-nnymy split 2889 extract 2587 shuffle 2173 classify 19787 E2E 27566
 video-rwuhg split 2937 extract 3195 shuffle 2317 classify 22567 E2E 31138
+video-qvycv split 4400 extract 2560 shuffle 2219 classify 19359 E2E 28646
+video-qjbdt split 4392 extract 2494 shuffle 2252 classify 27269 E2E 36571
+video-fjvzh split 2933 extract 2505 shuffle 2155 classify 21379 E2E 29091

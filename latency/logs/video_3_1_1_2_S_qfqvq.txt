@@ -1,3 +1,2 @@
-video-uafdk split 3387 extract 249 shuffle 1720 classify 21631 E2E 27311
 video-dhcaz split 3653 extract 243 shuffle 1860 classify 19196 E2E 25282
 video-tdvbt split 3829 extract 237 shuffle 2876 classify 19610 E2E 26854
