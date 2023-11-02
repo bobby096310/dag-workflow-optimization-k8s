@@ -5,3 +5,5 @@ video-gsqul split 3627 extract 250 shuffle 15 classify 18041 E2E 22268
 video-fmyqo split 4041 extract 311 shuffle 10 classify 16508 E2E 21135
 video-atizu split 4152 extract 256 shuffle 1381 classify 15484 E2E 21584
 video-zrlts split 4097 extract 272 shuffle 11 classify 17500 E2E 22133
+video-nwuov split 5918 extract 267 shuffle 9 classify 17929 E2E 24365
+video-xfzmg split 3595 extract 263 shuffle 11 classify 17324 E2E 21439
