@@ -1,2 +1,1 @@
-video-ylxqi split 3002 extract 257 shuffle 10 classify 18343 E2E 21868
 video-izyrw split 4763 extract 253 shuffle 11 classify 19049 E2E 24393
