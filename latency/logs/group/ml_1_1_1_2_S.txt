@@ -1,2 +1,6 @@
 ml-sczwn pca 10592 param-tune 38869 combine 9 E2E 49597
 ml-drrvv pca 12268 param-tune 55215 combine 9 E2E 67609
+ml-gfgpm pca 10484 param-tune 55851 combine 9 E2E 66435
+ml-bvmha pca 11614 param-tune 54240 combine 8 E2E 65968
+ml-jnylw pca 10021 param-tune 57605 combine 8 E2E 67730
+ml-hntuw pca 9516 param-tune 55394 combine 9 E2E 65017
