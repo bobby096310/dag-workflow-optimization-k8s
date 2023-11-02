@@ -1,4 +1,3 @@
-video-byeqt split 3391 extract 1316 shuffle 9 classify 17773 E2E 22718
 video-ckxox split 4855 extract 323 shuffle 12 classify 25104 E2E 30520
 video-mzbkx split 4139 extract 271 shuffle 11 classify 16731 E2E 21398
 video-nlgxt split 4113 extract 245 shuffle 12 classify 15229 E2E 19870
