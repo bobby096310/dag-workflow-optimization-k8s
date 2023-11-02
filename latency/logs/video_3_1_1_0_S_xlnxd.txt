@@ -1,3 +1,8 @@
 video-tcgwv split 3299 extract 154 shuffle 1813 classify 19717 E2E 25858
 video-zqlfa split 3657 extract 131 shuffle 1738 classify 17717 E2E 24066
 video-zzxou split 3492 extract 104 shuffle 3087 classify 20502 E2E 28082
+video-khyqi split 4004 extract 123 shuffle 3197 classify 18217 E2E 26414
+video-vjczx split 3719 extract 164 shuffle 2694 classify 19217 E2E 26717
+video-fecvn split 2868 extract 112 shuffle 2205 classify 20441 E2E 26616
+video-itfct split 3806 extract 174 shuffle 1965 classify 18474 E2E 25288
+video-coafu split 3583 extract 165 shuffle 2671 classify 20409 E2E 27871
