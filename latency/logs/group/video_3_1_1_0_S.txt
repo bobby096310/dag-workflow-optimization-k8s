@@ -6,4 +6,5 @@ video-vjczx split 3719 extract 164 shuffle 2694 classify 19217 E2E 26717
 video-fecvn split 2868 extract 112 shuffle 2205 classify 20441 E2E 26616
 video-itfct split 3806 extract 174 shuffle 1965 classify 18474 E2E 25288
 video-coafu split 3583 extract 165 shuffle 2671 classify 20409 E2E 27871
+video-ucpup split 4044 extract 110 shuffle 1660 classify 19579 E2E 26354
 video-xhiia split 3908 extract 177 shuffle 1845 classify 20272 E2E 27044
