@@ -1,3 +1,7 @@
 ml-wuicr pca 11384 param-tune 57051 combine 2051 E2E 70521
 ml-pvmte pca 11206 param-tune 61416 combine 2165 E2E 74823
 ml-uehdt pca 10478 param-tune 58135 combine 2055 E2E 70705
+ml-oxchy pca 10687 param-tune 58088 combine 2027 E2E 70841
+ml-gjtnt pca 10452 param-tune 57471 combine 2440 E2E 70401
+ml-waeev pca 10088 param-tune 56770 combine 2153 E2E 69050
+ml-ppung pca 10920 param-tune 60959 combine 2212 E2E 74133
