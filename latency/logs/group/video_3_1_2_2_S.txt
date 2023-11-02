@@ -6,3 +6,5 @@ video-zntgc split 3927 extract 285 shuffle 2662 classify 20787 E2E 27955
 video-gcnlo split 3621 extract 792 shuffle 9750 classify 15883 E2E 30304
 video-goxsv split 4001 extract 257 shuffle 2782 classify 20613 E2E 27904
 video-eyufs split 2842 extract 257 shuffle 2358 classify 20055 E2E 25765
+video-kgllr split 4482 extract 6365 shuffle 12 classify 28556 E2E 39720
+video-tdrje split 4182 extract 253 shuffle 2898 classify 19630 E2E 27221

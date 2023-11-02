@@ -1,4 +1,3 @@
-video-fxkzs split 3621 extract 2430 shuffle 2160 classify 19937 E2E 28305
 video-knsrs split 3624 extract 3898 shuffle 2125 classify 21480 E2E 31273
 video-gzlno split 2880 extract 2512 shuffle 2259 classify 22040 E2E 29887
 video-mqgtr split 3796 extract 2652 shuffle 2128 classify 20204 E2E 28925
