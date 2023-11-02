@@ -1,3 +1,9 @@
 Sort by Mean:
+video_3_1_0_0_T Mean 21806.0 P50 21807.0 P95 21807.0 Count 1
+video_3_1_0_0_F Mean 22440.0 P50 22441.0 P95 22441.0 Count 1
 Sort by P50:
+video_3_1_0_0_T Mean 21806.0 P50 21807.0 P95 21807.0 Count 1
+video_3_1_0_0_F Mean 22440.0 P50 22441.0 P95 22441.0 Count 1
 Sort by P95:
+video_3_1_0_0_T Mean 21806.0 P50 21807.0 P95 21807.0 Count 1
+video_3_1_0_0_F Mean 22440.0 P50 22441.0 P95 22441.0 Count 1
