@@ -1,2 +1,7 @@
 ml-awims pca 10246 param-tune 38874 combine 2101 E2E 51266
 ml-pqvbh pca 12485 param-tune 41092 combine 2462 E2E 56081
+ml-smgot pca 11127 param-tune 37616 combine 2043 E2E 50824
+ml-ddcep pca 11191 param-tune 38143 combine 3325 E2E 52715
+ml-fvaof pca 11731 param-tune 38305 combine 2119 E2E 52208
+ml-zidzl pca 10254 param-tune 39474 combine 2067 E2E 51831
+ml-nfwmm pca 11811 param-tune 40350 combine 2114 E2E 54319
