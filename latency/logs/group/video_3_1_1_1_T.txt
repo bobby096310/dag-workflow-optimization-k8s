@@ -1,4 +1,10 @@
 video-otvqd split 3335 extract 230 shuffle 12 classify 20413 E2E 24416
 video-wbqqf split 3214 extract 216 shuffle 11 classify 15871 E2E 19627
 video-rnupz split 3151 extract 362 shuffle 9 classify 17618 E2E 21524
+video-mpglx split 3589 extract 250 shuffle 12 classify 15725 E2E 19914
+video-drgij split 4370 extract 343 shuffle 16 classify 13313 E2E 18405
+video-cgmvi split 3264 extract 209 shuffle 10 classify 13309 E2E 17201
+video-obxmv split 3242 extract 226 shuffle 14 classify 21106 E2E 24991
+video-rlubx split 3733 extract 211 shuffle 9 classify 21083 E2E 25427
+video-hzebw split 3333 extract 230 shuffle 15 classify 22736 E2E 26649
 video-iqzpp split 4796 extract 194 shuffle 124 classify 14042 E2E 19469
