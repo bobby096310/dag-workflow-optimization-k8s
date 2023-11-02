@@ -1,3 +1,9 @@
 video-urlli split 3628 extract 251 shuffle 9 classify 21636 E2E 25844
 video-tmzdp split 4004 extract 368 shuffle 13 classify 18380 E2E 23048
+video-uoqoa split 3630 extract 255 shuffle 9 classify 20309 E2E 24440
+video-fwqic split 3562 extract 245 shuffle 10 classify 18177 E2E 22317
+video-tlnqr split 4331 extract 268 shuffle 13 classify 17999 E2E 22925
+video-irumd split 3928 extract 252 shuffle 12 classify 18284 E2E 22761
+video-cmlcv split 5442 extract 248 shuffle 10 classify 16910 E2E 22885
+video-zyxsk split 3901 extract 267 shuffle 12 classify 16925 E2E 21392
 video-lqenp split 4772 extract 251 shuffle 14 classify 17273 E2E 22634
