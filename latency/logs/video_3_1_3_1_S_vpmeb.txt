@@ -1,3 +1,9 @@
 video-yilxz split 3568 extract 212 shuffle 1814 classify 18115 E2E 24108
 video-cpbkn split 3824 extract 225 shuffle 2276 classify 21186 E2E 27914
 video-pwgtm split 5278 extract 189 shuffle 2097 classify 15760 E2E 23703
+video-kzofl split 3875 extract 223 shuffle 2929 classify 15006 E2E 22398
+video-mifwl split 3446 extract 265 shuffle 2284 classify 21348 E2E 27700
+video-novuw split 4317 extract 654 shuffle 2294 classify 18429 E2E 26082
+video-wiosl split 3117 extract 207 shuffle 2209 classify 20007 E2E 25897
+video-wijot split 3751 extract 201 shuffle 2406 classify 15202 E2E 21909
+video-qrntr split 3876 extract 205 shuffle 2028 classify 19995 E2E 26458
