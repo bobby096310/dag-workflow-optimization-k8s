@@ -1,4 +1,3 @@
-video-ancfk split 2700 extract 629 shuffle 1238 classify 20177 E2E 25088
 video-guyjv split 3591 extract 214 shuffle 1879 classify 21459 E2E 27557
 video-cthtl split 2985 extract 558 shuffle 9939 classify 16742 E2E 30635
 video-ebgzk split 5397 extract 227 shuffle 2178 classify 16233 E2E 24339
