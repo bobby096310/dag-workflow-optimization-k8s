@@ -4,3 +4,6 @@ video-yyjot split 4140 extract 176 shuffle 2601 classify 20365 E2E 28175
 video-lcqnf split 4969 extract 157 shuffle 2596 classify 20093 E2E 28527
 video-wwhms split 2928 extract 1816 shuffle 251 classify 20752 E2E 26269
 video-axdpc split 4715 extract 200 shuffle 2952 classify 18632 E2E 27193
+video-tvlny split 11149 extract 28973 shuffle 12837 classify 17143 E2E 70666
+video-qovqu split 5177 extract 129 shuffle 3090 classify 19435 E2E 28538
+video-dphmm split 3764 extract 124 shuffle 2216 classify 19108 E2E 25834
