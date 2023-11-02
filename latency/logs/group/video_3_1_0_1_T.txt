@@ -5,3 +5,6 @@ video-wgelz split 4301 extract 259 shuffle 12 classify 15706 E2E 20589
 video-pcpjp split 5617 extract 316 shuffle 10 classify 20108 E2E 26354
 video-wpuox split 4505 extract 205 shuffle 10 classify 16574 E2E 21656
 video-evhnn split 12486 extract 214 shuffle 10 classify 16593 E2E 29591
+video-wxpbt split 3655 extract 290 shuffle 10 classify 16082 E2E 20330
+video-ndaev split 3305 extract 231 shuffle 12 classify 21878 E2E 25832
+video-nprlz split 4958 extract 246 shuffle 11 classify 14393 E2E 19998
