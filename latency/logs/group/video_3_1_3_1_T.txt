@@ -6,4 +6,5 @@ video-hkizf split 4909 extract 229 shuffle 11 classify 14603 E2E 20107
 video-shnba split 5025 extract 341 shuffle 11 classify 18629 E2E 24352
 video-fyvvy split 5063 extract 228 shuffle 11 classify 14274 E2E 19946
 video-pgnma split 3391 extract 1085 shuffle 9 classify 17362 E2E 22258
+video-jnioi split 4074 extract 712 shuffle 9 classify 14951 E2E 20066
 video-utprj split 3769 extract 261 shuffle 13 classify 17970 E2E 22310
