@@ -1,3 +1,7 @@
 ml-kqtnx pca 11836 param-tune 53854 combine 11 E2E 65815
 ml-cusmm pca 11924 param-tune 54549 combine 9 E2E 66580
+ml-umcwh pca 10910 param-tune 55765 combine 8 E2E 66769
+ml-sglig pca 11379 param-tune 60262 combine 8 E2E 71760
+ml-jyblv pca 11949 param-tune 54548 combine 10 E2E 66603
+ml-vyzbk pca 10815 param-tune 61103 combine 8 E2E 72016
 ml-sixpb pca 11996 param-tune 39066 combine 9 E2E 51192
