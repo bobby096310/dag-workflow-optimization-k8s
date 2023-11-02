@@ -5,3 +5,5 @@ video-cblje split 3819 extract 292 shuffle 2907 classify 18071 E2E 25338
 video-ftizb split 2863 extract 1188 shuffle 1706 classify 22610 E2E 28715
 video-lwktz split 2804 extract 976 shuffle 1591 classify 23120 E2E 28744
 video-efsus split 3415 extract 255 shuffle 3619 classify 19289 E2E 26852
+video-odqlh split 4398 extract 267 shuffle 2544 classify 17883 E2E 25375
+video-lmjsa split 3730 extract 263 shuffle 2102 classify 17398 E2E 23765

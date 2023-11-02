@@ -1,4 +1,3 @@
-video-jrtep split 2764 extract 153 shuffle 1613 classify 20711 E2E 26136
 video-ytqqp split 3567 extract 164 shuffle 2283 classify 19839 E2E 26677
 video-yyxdc split 2923 extract 134 shuffle 2105 classify 22532 E2E 28588
 video-obpev split 4440 extract 122 shuffle 1546 classify 21688 E2E 28874
