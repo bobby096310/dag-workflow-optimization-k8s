@@ -1,2 +1,7 @@
 video-xndef split 3770 extract 834 shuffle 2801 classify 25949 E2E 33650
 video-kginp split 3147 extract 264 shuffle 2270 classify 20970 E2E 26898
+video-xnhdm split 4559 extract 246 shuffle 2176 classify 20933 E2E 28217
+video-cblje split 3819 extract 292 shuffle 2907 classify 18071 E2E 25338
+video-ftizb split 2863 extract 1188 shuffle 1706 classify 22610 E2E 28715
+video-lwktz split 2804 extract 976 shuffle 1591 classify 23120 E2E 28744
+video-efsus split 3415 extract 255 shuffle 3619 classify 19289 E2E 26852
