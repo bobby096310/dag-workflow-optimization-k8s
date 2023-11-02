@@ -1,2 +1,8 @@
 video-tbhll split 3604 extract 247 shuffle 10 classify 21340 E2E 25674
 video-rzdnt split 5510 extract 212 shuffle 11 classify 14898 E2E 20992
+video-tlfda split 4488 extract 239 shuffle 11 classify 17048 E2E 22088
+video-vqaba split 3689 extract 1196 shuffle 8 classify 16762 E2E 21967
+video-hkizf split 4909 extract 229 shuffle 11 classify 14603 E2E 20107
+video-shnba split 5025 extract 341 shuffle 11 classify 18629 E2E 24352
+video-fyvvy split 5063 extract 228 shuffle 11 classify 14274 E2E 19946
+video-pgnma split 3391 extract 1085 shuffle 9 classify 17362 E2E 22258
