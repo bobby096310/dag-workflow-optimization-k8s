@@ -2,3 +2,8 @@ video-iqlfe split 4151 extract 255 shuffle 2056 classify 21697 E2E 28532
 video-hbbir split 2925 extract 1051 shuffle 2601 classify 18544 E2E 25463
 video-skzls split 2882 extract 1065 shuffle 1672 classify 16177 E2E 22193
 video-wbrrs split 2821 extract 1253 shuffle 9873 classify 12323 E2E 26616
+video-frqio split 2825 extract 225 shuffle 2489 classify 19847 E2E 25783
+video-xgpwc split 2802 extract 217 shuffle 1848 classify 18387 E2E 23624
+video-lhvwx split 2818 extract 242 shuffle 2293 classify 15447 E2E 21179
+video-mcumr split 2807 extract 210 shuffle 2404 classify 20509 E2E 26258
+video-rtidz split 2803 extract 241 shuffle 2405 classify 17356 E2E 23185
