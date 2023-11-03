@@ -1,0 +1,3 @@
+video-iuaek split 4124 extract 461 shuffle 1872 classify 21256 E2E 27995
+video-jjqkf split 4689 extract 275 shuffle 1782 classify 20200 E2E 27225
+video-qpgkf split 3787 extract 296 shuffle 2035 classify 18218 E2E 24608
