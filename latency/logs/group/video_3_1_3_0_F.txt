@@ -6,3 +6,5 @@ video-gzcue split 2663 extract 2468 shuffle 2504 classify 24017 E2E 32099
 video-nygfj split 2718 extract 2472 shuffle 2608 classify 23505 E2E 31734
 video-jblmo split 2785 extract 2561 shuffle 2264 classify 25939 E2E 33977
 video-mcnkk split 2749 extract 2569 shuffle 2260 classify 25148 E2E 33202
+video-pasej split 2847 extract 4140 shuffle 2407 classify 23250 E2E 33041
+video-bnylv split 2830 extract 3084 shuffle 2235 classify 24582 E2E 33198

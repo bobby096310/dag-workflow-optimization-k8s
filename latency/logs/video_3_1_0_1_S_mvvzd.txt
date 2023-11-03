@@ -1,4 +1,3 @@
-video-uvgkd split 2736 extract 469 shuffle 1440 classify 23093 E2E 28062
 video-iqlfe split 4151 extract 255 shuffle 2056 classify 21697 E2E 28532
 video-hbbir split 2925 extract 1051 shuffle 2601 classify 18544 E2E 25463
 video-skzls split 2882 extract 1065 shuffle 1672 classify 16177 E2E 22193
