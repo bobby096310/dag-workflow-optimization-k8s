@@ -1,4 +1,3 @@
-video-xtwda split 2664 extract 2433 shuffle 1991 classify 22192 E2E 29411
 video-dioix split 2838 extract 2475 shuffle 2425 classify 21356 E2E 29291
 video-kgxqx split 4553 extract 2506 shuffle 2194 classify 19831 E2E 29220
 video-jxezv split 2688 extract 2401 shuffle 2242 classify 21436 E2E 28900

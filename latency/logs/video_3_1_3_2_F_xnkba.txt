@@ -6,3 +6,4 @@ video-hettf split 2744 extract 2466 shuffle 2363 classify 20283 E2E 27948
 video-nzgzs split 2647 extract 2580 shuffle 2109 classify 19691 E2E 27161
 video-bfmxx split 2785 extract 2379 shuffle 2166 classify 20279 E2E 27788
 video-qbviw split 2783 extract 2506 shuffle 2272 classify 21564 E2E 29273
+video-plzxr split 2703 extract 2462 shuffle 2226 classify 19466 E2E 26968
