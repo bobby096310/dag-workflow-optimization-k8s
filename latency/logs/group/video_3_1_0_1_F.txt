@@ -1,2 +1,8 @@
 video-zvftx split 3025 extract 2404 shuffle 2134 classify 20976 E2E 28764
+video-yvlhl split 3166 extract 2505 shuffle 2470 classify 25244 E2E 33629
+video-wdciu split 2644 extract 2594 shuffle 2875 classify 22140 E2E 30401
+video-kavvx split 2962 extract 2494 shuffle 2590 classify 19587 E2E 27909
+video-vicfx split 2738 extract 2506 shuffle 2146 classify 18330 E2E 25841
+video-pvuvb split 2718 extract 2456 shuffle 2290 classify 17514 E2E 25142
+video-lopze split 2728 extract 2781 shuffle 2119 classify 20937 E2E 28782
 video-ufjwx split 2675 extract 3897 shuffle 2027 classify 24738 E2E 33569
