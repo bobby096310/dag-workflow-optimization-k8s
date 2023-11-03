@@ -2,4 +2,9 @@ video-zdlev split 2743 extract 2658 shuffle 2169 classify 20513 E2E 28373
 video-lufpv split 2794 extract 2606 shuffle 2551 classify 20606 E2E 28868
 video-bqmwi split 3024 extract 2724 shuffle 2131 classify 20453 E2E 28756
 video-zpmze split 2990 extract 2394 shuffle 2400 classify 22547 E2E 30832
+video-xbkgg split 2790 extract 2507 shuffle 2566 classify 22027 E2E 30442
+video-tizbm split 2729 extract 2463 shuffle 2368 classify 20313 E2E 28274
+video-ehwoi split 2712 extract 2496 shuffle 3017 classify 23077 E2E 31782
+video-kktbt split 2814 extract 2545 shuffle 2227 classify 23802 E2E 31861
+video-kewiu split 2734 extract 2843 shuffle 2211 classify 23485 E2E 31740
 video-xiztd split 2740 extract 2578 shuffle 2125 classify 22440 E2E 30365
