@@ -2,4 +2,3 @@ video-qqdsc split 3879 extract 229 shuffle 2250 classify 19666 E2E 26360
 video-duchy split 4352 extract 250 shuffle 2151 classify 16562 E2E 23667
 video-byxgu split 3171 extract 250 shuffle 2191 classify 21541 E2E 27473
 video-ojnqp split 3080 extract 228 shuffle 1916 classify 18517 E2E 24090
-video-gkbhu split 3018 extract 1212 shuffle 785 classify 21786 E2E 27143
