@@ -1,4 +1,9 @@
 video-gbvyi split 2719 extract 2649 shuffle 2269 classify 23749 E2E 31539
 video-cuqri split 2761 extract 2437 shuffle 2312 classify 23373 E2E 31001
 video-kklcd split 2789 extract 2518 shuffle 2346 classify 19780 E2E 27560
+video-zzcxd split 2694 extract 4114 shuffle 2295 classify 21760 E2E 30980
+video-hettf split 2744 extract 2466 shuffle 2363 classify 20283 E2E 27948
+video-nzgzs split 2647 extract 2580 shuffle 2109 classify 19691 E2E 27161
+video-bfmxx split 2785 extract 2379 shuffle 2166 classify 20279 E2E 27788
+video-qbviw split 2783 extract 2506 shuffle 2272 classify 21564 E2E 29273
 video-owhfu split 2709 extract 2404 shuffle 2255 classify 22141 E2E 29676
