@@ -1,3 +1,4 @@
+video-mimck split 7454 extract 350 shuffle 12 classify 24014 E2E 32256
 video-dwtiy split 3923 extract 197 shuffle 14 classify 19909 E2E 24983
 video-yxrou split 4091 extract 177 shuffle 11 classify 25145 E2E 30057
 video-nyity split 5219 extract 189 shuffle 10 classify 21380 E2E 27373
