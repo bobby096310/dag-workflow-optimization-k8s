@@ -4,3 +4,6 @@ video-ipjgt split 2747 extract 2391 shuffle 2263 classify 23495 E2E 31057
 video-hshap split 3360 extract 2427 shuffle 2376 classify 21751 E2E 30117
 video-zxagl split 2843 extract 2414 shuffle 2539 classify 23199 E2E 31207
 video-lsfgt split 2782 extract 2888 shuffle 2215 classify 18549 E2E 26586
+video-pdyse split 4334 extract 2447 shuffle 2231 classify 21935 E2E 31094
+video-excpy split 2648 extract 2441 shuffle 2218 classify 23293 E2E 30791
+video-pcclw split 2687 extract 2764 shuffle 2693 classify 23975 E2E 32284
