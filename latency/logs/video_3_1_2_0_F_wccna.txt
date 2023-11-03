@@ -1,4 +1,3 @@
-video-ovegn split 4983 extract 4882 shuffle 3581 classify 25554 E2E 39311
 video-qpmrx split 4418 extract 2534 shuffle 2234 classify 19999 E2E 29498
 video-fscxu split 2704 extract 3071 shuffle 2783 classify 20647 E2E 29614
 video-yleze split 2783 extract 2483 shuffle 2487 classify 22780 E2E 31115
