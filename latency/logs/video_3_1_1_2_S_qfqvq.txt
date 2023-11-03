@@ -1,2 +1,5 @@
 video-dhcaz split 3653 extract 243 shuffle 1860 classify 19196 E2E 25282
 video-tdvbt split 3829 extract 237 shuffle 2876 classify 19610 E2E 26854
+video-teahn split 4141 extract 275 shuffle 2078 classify 19380 E2E 26137
+video-mpayv split 2878 extract 790 shuffle 1618 classify 20204 E2E 25763
+video-oxvaz split 3818 extract 251 shuffle 1860 classify 17630 E2E 23907
