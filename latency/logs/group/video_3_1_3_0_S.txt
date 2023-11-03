@@ -4,3 +4,7 @@ video-kxdnz split 2800 extract 158 shuffle 2068 classify 24399 E2E 30198
 video-xpisz split 2918 extract 146 shuffle 2355 classify 23079 E2E 29678
 video-odjab split 3069 extract 159 shuffle 2005 classify 25627 E2E 31977
 video-ramqj split 3624 extract 149 shuffle 3646 classify 18745 E2E 26986
+video-burys split 3006 extract 158 shuffle 2176 classify 27979 E2E 34283
+video-msnms split 4549 extract 238 shuffle 2903 classify 22920 E2E 31370
+video-fwpha split 2915 extract 116 shuffle 2445 classify 23771 E2E 30181
+video-ymjod split 3345 extract 1444 shuffle 8935 classify 21862 E2E 36274
