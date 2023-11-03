@@ -1,4 +1,3 @@
-video-bnoac split 3110 extract 158 shuffle 1642 classify 26636 E2E 32274
 video-aipga split 3620 extract 171 shuffle 4274 classify 22968 E2E 31911
 video-kxdnz split 2800 extract 158 shuffle 2068 classify 24399 E2E 30198
 video-xpisz split 2918 extract 146 shuffle 2355 classify 23079 E2E 29678
