@@ -1,3 +1,8 @@
 video-eiish split 2946 extract 2543 shuffle 3928 classify 22919 E2E 32766
 video-mbsxs split 3081 extract 2547 shuffle 2377 classify 22652 E2E 31125
 video-rzwme split 2743 extract 2517 shuffle 2211 classify 28182 E2E 36073
+video-xmqcg split 2817 extract 2641 shuffle 2575 classify 25153 E2E 33546
+video-gzcue split 2663 extract 2468 shuffle 2504 classify 24017 E2E 32099
+video-nygfj split 2718 extract 2472 shuffle 2608 classify 23505 E2E 31734
+video-jblmo split 2785 extract 2561 shuffle 2264 classify 25939 E2E 33977
+video-mcnkk split 2749 extract 2569 shuffle 2260 classify 25148 E2E 33202
