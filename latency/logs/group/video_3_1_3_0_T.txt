@@ -5,3 +5,5 @@ video-mreyd split 4172 extract 254 shuffle 9 classify 22298 E2E 27441
 video-lqjhr split 3769 extract 138 shuffle 13 classify 21681 E2E 26411
 video-fnlan split 3433 extract 128 shuffle 14 classify 21833 E2E 26319
 video-yctpc split 3938 extract 236 shuffle 61 classify 23770 E2E 28662
+video-ffjge split 3843 extract 314 shuffle 12 classify 22968 E2E 27874
+video-wtrtp split 3599 extract 230 shuffle 14 classify 19925 E2E 24852
