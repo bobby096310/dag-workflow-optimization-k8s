@@ -2,3 +2,8 @@ video-qqdsc split 3879 extract 229 shuffle 2250 classify 19666 E2E 26360
 video-duchy split 4352 extract 250 shuffle 2151 classify 16562 E2E 23667
 video-byxgu split 3171 extract 250 shuffle 2191 classify 21541 E2E 27473
 video-ojnqp split 3080 extract 228 shuffle 1916 classify 18517 E2E 24090
+video-vuenr split 2820 extract 242 shuffle 2319 classify 16731 E2E 22453
+video-sbttx split 2968 extract 228 shuffle 1739 classify 17585 E2E 22870
+video-dxpfn split 2934 extract 217 shuffle 2307 classify 18680 E2E 24472
+video-hdfcg split 3008 extract 227 shuffle 2059 classify 18661 E2E 24341
+video-rcmwi split 3457 extract 226 shuffle 2123 classify 19172 E2E 25354
