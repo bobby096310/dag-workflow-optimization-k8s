@@ -4,4 +4,3 @@ video-ztrct split 3426 extract 264 shuffle 20 classify 19042 E2E 23658
 video-uvfqk split 3666 extract 163 shuffle 16 classify 17681 E2E 22464
 video-kusbk split 3855 extract 279 shuffle 16 classify 21181 E2E 26186
 video-izzvh split 3288 extract 160 shuffle 16 classify 19402 E2E 23851
-video-nhufm split 4780 extract 8561 shuffle 11 classify 21806 E2E 35736
