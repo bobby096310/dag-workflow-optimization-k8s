@@ -1,4 +1,3 @@
-video-loegx split 2963 extract 7704 shuffle 2013 classify 23768 E2E 36652
 video-vdsfj split 2703 extract 2433 shuffle 3097 classify 23649 E2E 32062
 video-jvdvs split 2712 extract 2716 shuffle 2406 classify 18737 E2E 26759
 video-ebtaq split 2903 extract 2612 shuffle 2166 classify 24506 E2E 32421

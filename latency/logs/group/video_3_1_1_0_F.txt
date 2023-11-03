@@ -4,4 +4,7 @@ video-nvikn split 2716 extract 2655 shuffle 2419 classify 18041 E2E 26285
 video-ylieh split 2927 extract 2497 shuffle 3728 classify 22591 E2E 32209
 video-lwiih split 4462 extract 2430 shuffle 2126 classify 20872 E2E 30352
 video-dohsw split 2797 extract 2607 shuffle 2267 classify 21964 E2E 30130
+video-djeld split 2919 extract 2585 shuffle 10589 classify 22126 E2E 38680
+video-wmfxv split 2765 extract 2581 shuffle 2278 classify 21177 E2E 29181
+video-ymdpp split 2783 extract 2451 shuffle 2162 classify 21878 E2E 29757
 video-tpvji split 2838 extract 2493 shuffle 2054 classify 23431 E2E 31290
