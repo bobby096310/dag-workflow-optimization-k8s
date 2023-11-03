@@ -5,3 +5,5 @@ video-dtzjg split 5071 extract 122 shuffle 10 classify 14183 E2E 20074
 video-ftnsx split 4171 extract 507 shuffle 10 classify 17137 E2E 22588
 video-neejd split 6241 extract 197 shuffle 12 classify 13058 E2E 20245
 video-hnzvv split 4896 extract 220 shuffle 14 classify 17337 E2E 23139
+video-zebgy split 4034 extract 509 shuffle 12 classify 16316 E2E 21804
+video-iyvhz split 3511 extract 134 shuffle 922 classify 14693 E2E 20207
