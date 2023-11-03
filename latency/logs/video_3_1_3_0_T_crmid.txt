@@ -1,2 +1,7 @@
 video-dwtiy split 3923 extract 197 shuffle 14 classify 19909 E2E 24983
 video-yxrou split 4091 extract 177 shuffle 11 classify 25145 E2E 30057
+video-nyity split 5219 extract 189 shuffle 10 classify 21380 E2E 27373
+video-mreyd split 4172 extract 254 shuffle 9 classify 22298 E2E 27441
+video-lqjhr split 3769 extract 138 shuffle 13 classify 21681 E2E 26411
+video-fnlan split 3433 extract 128 shuffle 14 classify 21833 E2E 26319
+video-yctpc split 3938 extract 236 shuffle 61 classify 23770 E2E 28662
