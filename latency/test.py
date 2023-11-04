@@ -129,9 +129,19 @@ def find_best_config(workflow_name, func_index, pre_warm):
         level += 1
     print(get_best_config())
 
-def run_all(workflow_name, func_index, rounds, ):
+def run_all(workflow_name, func_index, rounds):
     conc = 1
     init(workflow_name, func_index, conc, cpu, bundle[workflow_name])
+    batch = get_P50()
+    level = 0
+    while level < int(rounds):
+        print("level: ", level)
+        run_level(batch, level * 10)
+        level += 1
+    print(get_best_config())
+
+def continue_run(workflow_name, func_index, rounds):
+    conc = 1
     batch = get_P50()
     level = 0
     while level < int(rounds):
@@ -171,7 +181,13 @@ def main():
         rounds = args[3]
         run_all(workflow_name, func_index, rounds)
         # python3 test.py run_all video 3 T 1 
-
+    elif code == "continue":
+        if len(args) < 4:
+            print("Please enter workflow name, function index, and rounds")
+        workflow_name = args[1]
+        func_index = args[2]
+        rounds = args[3]
+        continue_run(workflow_name, func_index, rounds)
 
 if __name__ == "__main__":
     main()
