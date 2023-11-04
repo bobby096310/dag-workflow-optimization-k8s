@@ -1,3 +1,2 @@
-ml-tugpl pca 11199 param-tune 40265 combine 9 E2E 51752
 ml-fvztu pca 10853 param-tune 36435 combine 9 E2E 47541
 ml-edbdi pca 11205 param-tune 63977 combine 11 E2E 75468
