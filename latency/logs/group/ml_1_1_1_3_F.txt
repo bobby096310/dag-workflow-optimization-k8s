@@ -7,3 +7,4 @@ ml-thkjr pca 10142 param-tune 43749 combine 2051 E2E 56068
 ml-rakwo pca 10298 param-tune 48123 combine 2105 E2E 60684
 ml-xgnki pca 10863 param-tune 43812 combine 2025 E2E 56835
 ml-qntxa pca 10581 param-tune 41406 combine 2070 E2E 54181
+ml-nfvmx pca 10804 param-tune 33277 combine 2299 E2E 46473
