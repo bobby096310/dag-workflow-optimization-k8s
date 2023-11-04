@@ -6,3 +6,4 @@ ml-kcbix pca 11192 param-tune 42924 combine 2175 E2E 56418
 ml-thkjr pca 10142 param-tune 43749 combine 2051 E2E 56068
 ml-rakwo pca 10298 param-tune 48123 combine 2105 E2E 60684
 ml-xgnki pca 10863 param-tune 43812 combine 2025 E2E 56835
+ml-qntxa pca 10581 param-tune 41406 combine 2070 E2E 54181
