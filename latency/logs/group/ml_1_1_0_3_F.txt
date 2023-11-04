@@ -7,3 +7,4 @@ ml-iaahd pca 10329 param-tune 32793 combine 2121 E2E 45375
 ml-tsrav pca 10373 param-tune 29937 combine 2093 E2E 42523
 ml-rtlen pca 10280 param-tune 28109 combine 2137 E2E 40638
 ml-ndnxo pca 10855 param-tune 26543 combine 2082 E2E 39602
+ml-ovyxc pca 11242 param-tune 34251 combine 2120 E2E 47729
