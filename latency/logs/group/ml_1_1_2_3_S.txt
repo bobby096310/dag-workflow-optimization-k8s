@@ -3,3 +3,4 @@ ml-fvztu pca 10853 param-tune 36435 combine 9 E2E 47541
 ml-nvzwm pca 11002 param-tune 31992 combine 9 E2E 43225
 ml-isyly pca 10967 param-tune 35358 combine 13 E2E 46538
 ml-wmjid pca 10777 param-tune 31912 combine 12 E2E 42927
+ml-xfuip pca 12938 param-tune 25982 combine 9 E2E 39196
