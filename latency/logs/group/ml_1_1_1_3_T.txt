@@ -1,0 +1,8 @@
+ml-kykev pca 11784 param-tune 34361 combine 10 E2E 46366
+ml-ldkie pca 12547 param-tune 37055 combine 10 E2E 49794
+ml-qudaj pca 12789 param-tune 47989 combine 10 E2E 61003
+ml-coclu pca 11589 param-tune 37127 combine 9 E2E 48899
+ml-xbtnl pca 13040 param-tune 47217 combine 10 E2E 60446
+ml-jdwkj pca 12614 param-tune 35987 combine 13 E2E 48769
+ml-vwmoi pca 13187 param-tune 38597 combine 14 E2E 51999
+ml-vvfej pca 10853 param-tune 37207 combine 9 E2E 48222

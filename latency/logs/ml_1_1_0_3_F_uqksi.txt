@@ -1,0 +1,10 @@
+ml-uxnxs pca 31339 param-tune 36395 combine 7082 E2E 74931
+ml-cgbhu pca 17391 param-tune 26756 combine 2075 E2E 46350
+ml-qixsm pca 10281 param-tune 23135 combine 2029 E2E 35582
+ml-hupoe pca 10352 param-tune 26255 combine 5306 E2E 42036
+ml-mgygd pca 11370 param-tune 24133 combine 2039 E2E 37671
+ml-xuwph pca 10334 param-tune 23332 combine 2084 E2E 35879
+ml-iaahd pca 10329 param-tune 32793 combine 2121 E2E 45375
+ml-tsrav pca 10373 param-tune 29937 combine 2093 E2E 42523
+ml-rtlen pca 10280 param-tune 28109 combine 2137 E2E 40638
+ml-ndnxo pca 10855 param-tune 26543 combine 2082 E2E 39602

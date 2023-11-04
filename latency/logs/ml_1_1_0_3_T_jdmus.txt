@@ -1,0 +1,10 @@
+ml-iysie pca 11673 param-tune 27728 combine 10 E2E 39619
+ml-hjioc pca 10962 param-tune 22179 combine 10 E2E 33357
+ml-antbu pca 11048 param-tune 25213 combine 10 E2E 36475
+ml-bvqyg pca 10321 param-tune 24615 combine 10 E2E 35172
+ml-nrsyi pca 11220 param-tune 22409 combine 10 E2E 33935
+ml-nnycs pca 10447 param-tune 22098 combine 10 E2E 32801
+ml-etegr pca 10739 param-tune 28356 combine 10 E2E 39316
+ml-ekjas pca 10662 param-tune 20758 combine 13 E2E 31728
+ml-vrjqp pca 12299 param-tune 21492 combine 10 E2E 34020
+ml-naqds pca 11315 param-tune 23824 combine 9 E2E 35384

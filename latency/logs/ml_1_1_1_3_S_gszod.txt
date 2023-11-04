@@ -1,0 +1,8 @@
+ml-lvwtq pca 19120 param-tune 28296 combine 9 E2E 47706
+ml-ktwii pca 10345 param-tune 42702 combine 9 E2E 53320
+ml-xjbpg pca 11060 param-tune 34131 combine 9 E2E 45435
+ml-wjpwg pca 11107 param-tune 28528 combine 9 E2E 39913
+ml-nunfs pca 10990 param-tune 25829 combine 9 E2E 37083
+ml-lugvc pca 10923 param-tune 39011 combine 9 E2E 50214
+ml-cxkts pca 10855 param-tune 30743 combine 9 E2E 41859
+ml-fkuxg pca 10710 param-tune 32363 combine 9 E2E 43311

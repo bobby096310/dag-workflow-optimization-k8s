@@ -1,0 +1,10 @@
+ml-ljokp pca 11335 param-tune 22588 combine 9 E2E 34237
+ml-luixa pca 10686 param-tune 36957 combine 10 E2E 47908
+ml-oejbs pca 10832 param-tune 34870 combine 9 E2E 45954
+ml-bdzjg pca 10549 param-tune 30375 combine 10 E2E 41195
+ml-kqfdc pca 11488 param-tune 20506 combine 11 E2E 32254
+ml-fjsdo pca 11524 param-tune 30724 combine 9 E2E 42521
+ml-ksyam pca 10944 param-tune 20546 combine 12 E2E 31754
+ml-yafug pca 10725 param-tune 21557 combine 9 E2E 32568
+ml-dzand pca 10828 param-tune 29729 combine 9 E2E 40822
+ml-slxdn pca 15549 param-tune 26382 combine 11 E2E 42197
