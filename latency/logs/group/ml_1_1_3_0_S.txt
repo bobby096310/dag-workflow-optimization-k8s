@@ -8,3 +8,8 @@ ml-iubed pca 10296 param-tune 37874 combine 8 E2E 48335
 ml-tbadq pca 10878 param-tune 37206 combine 8 E2E 48237
 ml-kuxlh pca 10046 param-tune 38581 combine 9 E2E 48785
 ml-htnbz pca 10254 param-tune 38856 combine 8 E2E 49271
+ml-iczky pca 10530 param-tune 22372 combine 8 E2E 33056
+ml-ptcar pca 10351 param-tune 20920 combine 12 E2E 31452
+ml-koolc pca 10028 param-tune 21188 combine 9 E2E 31399
+ml-hhhax pca 11048 param-tune 46767 combine 9 E2E 57998
+ml-vxtqb pca 10483 param-tune 20669 combine 10 E2E 31353
