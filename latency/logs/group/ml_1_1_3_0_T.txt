@@ -5,3 +5,6 @@ ml-mlydq pca 10347 param-tune 39176 combine 10 E2E 49684
 ml-pwnrk pca 11070 param-tune 32287 combine 11 E2E 43508
 ml-vmfdr pca 11611 param-tune 50105 combine 12 E2E 61859
 ml-ejfrq pca 11955 param-tune 45438 combine 9 E2E 57540
+ml-mrhps pca 10701 param-tune 35814 combine 9 E2E 46701
+ml-mkwsr pca 11225 param-tune 47135 combine 11 E2E 58566
+ml-wxrjg pca 10297 param-tune 38297 combine 11 E2E 48767
