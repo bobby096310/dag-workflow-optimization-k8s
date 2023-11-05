@@ -1,0 +1,4 @@
+ml-dvqsl pca 10522 param-tune 23663 combine 2176 E2E 36429
+ml-uvaba pca 10214 param-tune 24962 combine 1990 E2E 37231
+ml-bfxld pca 9918 param-tune 23899 combine 1994 E2E 35868
+ml-hgpjd pca 9980 param-tune 26418 combine 2128 E2E 38592
