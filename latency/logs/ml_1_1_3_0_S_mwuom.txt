@@ -1,0 +1,10 @@
+ml-suydx pca 10829 param-tune 36883 combine 11 E2E 47908
+ml-pplrq pca 10890 param-tune 34673 combine 8 E2E 45740
+ml-givhj pca 11257 param-tune 45347 combine 8 E2E 56788
+ml-msbcm pca 10785 param-tune 41958 combine 9 E2E 52901
+ml-twfhq pca 10157 param-tune 42514 combine 9 E2E 52835
+ml-ardcc pca 10234 param-tune 42090 combine 8 E2E 52484
+ml-iubed pca 10296 param-tune 37874 combine 8 E2E 48335
+ml-tbadq pca 10878 param-tune 37206 combine 8 E2E 48237
+ml-kuxlh pca 10046 param-tune 38581 combine 9 E2E 48785
+ml-htnbz pca 10254 param-tune 38856 combine 8 E2E 49271
